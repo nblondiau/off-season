@@ -235,7 +235,7 @@ input {
 .country-filter-dialog {
   width: min(32rem, calc(100vw - 4rem));
   max-height: min(42rem, calc(100vh - 4rem));
-  overflow: auto;
+  overflow: hidden;
   display: grid;
   gap: 0.9rem;
   padding: 1.25rem;
@@ -263,6 +263,13 @@ input {
   padding: 0.45rem 0.85rem;
   background: rgba(23, 53, 77, 0.08);
   color: #17354d;
+}
+
+.country-filter-dialog .checkbox-list {
+  min-height: 20rem;
+  max-height: min(20rem, calc(100vh - 16rem));
+  overflow: auto;
+  padding-right: 0.2rem;
 }
 
 .calendar-toolbar {
