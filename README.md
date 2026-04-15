@@ -57,6 +57,7 @@ Deployment flow:
 - pushes to `main` run tests and build the static site
 - the generated `dist/` artifact is published to GitHub Pages
 - the custom domain is kept by shipping `public/CNAME` in the build output
+- a scheduled GitHub Actions workflow runs every Monday at `05:00 UTC`, refreshes the generated holiday data, runs tests, and commits changed generated files back to `main`
 
 ## Repository layout
 
