@@ -2,11 +2,19 @@ import { render, screen } from "@testing-library/react";
 import { DayPanel } from "./DayPanel";
 import type { DatasetBundle, HolidayCoverageRecord } from "../types";
 import { buildHolidayCoverageKey, type HolidayOnDay } from "../lib/dataset";
+import { TEST_YEAR, isoDate } from "../test/date-helpers";
+
+const SUMMER_DATE = isoDate(TEST_YEAR, 7, 21);
+const SPRING_DATE = isoDate(TEST_YEAR, 4, 14);
+const WINTER_START = isoDate(TEST_YEAR, 12, 20);
+const WINTER_ALT_START = isoDate(TEST_YEAR, 12, 19);
+const WINTER_END = isoDate(TEST_YEAR + 1, 1, 3);
+const WINTER_DATE = isoDate(TEST_YEAR, 12, 25);
 
 const DATASET: DatasetBundle = {
-  generatedAt: "2026-04-14",
-  windowStart: "2025-09-01",
-  windowEnd: "2027-06-30",
+  generatedAt: SPRING_DATE,
+  windowStart: isoDate(TEST_YEAR - 1, 9, 1),
+  windowEnd: isoDate(TEST_YEAR + 1, 6, 30),
   countries: [
     { countryCode: "BE", label: "Belgium" },
     { countryCode: "FR", label: "France" }
@@ -24,8 +32,8 @@ const DATASET: DatasetBundle = {
     sourceUrl: "https://openholidaysapi.org",
     sourceKind: "aggregated_open_data",
     coverage: "BE",
-    lastCheckedAt: "2026-04-14",
-    lastChangedAt: "2026-04-14"
+    lastCheckedAt: SPRING_DATE,
+    lastChangedAt: SPRING_DATE
   }],
   holidays: [],
   holidayCoverage: [],
@@ -41,8 +49,8 @@ function makeHoliday(overrides: Partial<HolidayOnDay> = {}): HolidayOnDay {
     scope: "national",
     holidayType: "public",
     name: "National Day",
-    startDate: "2026-07-21",
-    endDate: "2026-07-21",
+    startDate: SUMMER_DATE,
+    endDate: SUMMER_DATE,
     sourceId: "s1",
     sourceLabel: "OpenHolidays API",
     sourceKind: "aggregated_open_data",
@@ -75,30 +83,30 @@ function makeCoverage(overrides: Partial<HolidayCoverageRecord> = {}): HolidayCo
 
 describe("DayPanel", () => {
   it("does not render the Selected day title", () => {
-    render(<DayPanel dataset={DATASET} date="2026-04-14" holidays={[]} />);
+    render(<DayPanel dataset={DATASET} date={SPRING_DATE} holidays={[]} />);
     expect(screen.queryByText("Selected day")).not.toBeInTheDocument();
   });
 
   it("shows the selected date", () => {
-    render(<DayPanel dataset={DATASET} date="2026-04-14" holidays={[]} />);
-    expect(screen.getByRole("heading", { name: "2026-04-14" })).toBeInTheDocument();
+    render(<DayPanel dataset={DATASET} date={SPRING_DATE} holidays={[]} />);
+    expect(screen.getByRole("heading", { name: SPRING_DATE })).toBeInTheDocument();
   });
 
   it("shows empty message when no holidays match", () => {
-    render(<DayPanel dataset={DATASET} date="2026-04-14" holidays={[]} />);
+    render(<DayPanel dataset={DATASET} date={SPRING_DATE} holidays={[]} />);
     expect(screen.getByText(/No holidays match/i)).toBeInTheDocument();
   });
 
   it("renders holiday name and type pill", () => {
     const holidays = [makeHoliday()];
-    render(<DayPanel dataset={DATASET} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByText("National Day")).toBeInTheDocument();
     expect(screen.getByText("public")).toBeInTheDocument();
   });
 
   it("groups holidays under a country heading", () => {
     const holidays = [makeHoliday({ country: "BE", regionLabel: "Belgium" })];
-    render(<DayPanel dataset={DATASET} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByRole("heading", { name: "🇧🇪 Belgium" })).toBeInTheDocument();
   });
 
@@ -123,7 +131,7 @@ describe("DayPanel", () => {
         })
       ]
     };
-    render(<DayPanel dataset={dataset} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByText("1/3 communities · Flanders")).toBeInTheDocument();
   });
 
@@ -157,7 +165,7 @@ describe("DayPanel", () => {
         })
       ]
     };
-    render(<DayPanel dataset={dataset} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={SUMMER_DATE} holidays={holidays} />);
     expect(
       screen.getByText(
         "5/6 communities · Brussels, Flanders, Flemish community, German-speaking community, Wallonia"
@@ -197,7 +205,7 @@ describe("DayPanel", () => {
         })
       ]
     };
-    render(<DayPanel dataset={dataset} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByText("6/7 communities")).toBeInTheDocument();
     expect(screen.queryByText(/Brussels/)).not.toBeInTheDocument();
   });
@@ -225,7 +233,7 @@ describe("DayPanel", () => {
         }]
       })]
     };
-    render(<DayPanel dataset={dataset} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByText("National")).toBeInTheDocument();
     expect(screen.queryByText(/3\/3 communities/)).not.toBeInTheDocument();
   });
@@ -248,7 +256,7 @@ describe("DayPanel", () => {
         })
       ]
     };
-    render(<DayPanel dataset={dataset} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByText("1/3 communities · Flanders")).toBeInTheDocument();
   });
 
@@ -261,7 +269,7 @@ describe("DayPanel", () => {
       makeHoliday({ id: "h5", country: "BE", regionId: "BE-WAL", regionLabel: "Belgium · Wallonia", scope: "regional" })
     ];
 
-    render(<DayPanel dataset={DATASET} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
     expect(
       screen.getByText("Brussels, Flanders, Flemish community, German-speaking community, Wallonia")
     ).toBeInTheDocument();
@@ -277,7 +285,7 @@ describe("DayPanel", () => {
       makeHoliday({ id: "h6", country: "BE", regionId: "BE-SM", regionLabel: "Belgium · Small region", scope: "regional" })
     ];
 
-    render(<DayPanel dataset={DATASET} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
     expect(
       screen.getByText("Brussels, Flanders, Flemish community, German-speaking community, Small region +1 more")
     ).toBeInTheDocument();
@@ -285,7 +293,7 @@ describe("DayPanel", () => {
 
   it("shows National for country-wide holidays", () => {
     const holidays = [makeHoliday({ country: "BE", regionId: "BE", regionLabel: "Belgium", scope: "national" })];
-    render(<DayPanel dataset={DATASET} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByText("National")).toBeInTheDocument();
     expect(screen.queryByText(/1\/3 communities/)).not.toBeInTheDocument();
   });
@@ -295,20 +303,20 @@ describe("DayPanel", () => {
       makeHoliday({ id: "h1", country: "BE", regionId: "BE", regionLabel: "Belgium", scope: "national" }),
       makeHoliday({ id: "h2", country: "FR", regionId: "FR", regionLabel: "France", scope: "national", name: "Bastille Day" })
     ];
-    render(<DayPanel dataset={DATASET} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByRole("heading", { name: "🇧🇪 Belgium" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "🇫🇷 France" })).toBeInTheDocument();
   });
 
   it("renders holiday notes when present", () => {
     const holidays = [makeHoliday({ notes: "Only in Flanders" })];
-    render(<DayPanel dataset={DATASET} date="2026-07-21" holidays={holidays} />);
+    render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
     expect(screen.getByText("Only in Flanders")).toBeInTheDocument();
   });
 
   it("does not render notes paragraph when notes are absent", () => {
     const holidays = [makeHoliday({ notes: undefined })];
-    const { container } = render(<DayPanel dataset={DATASET} date="2026-07-21" holidays={holidays} />);
+    const { container } = render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
     expect(container.querySelector(".holiday-notes")).toBeNull();
   });
 
@@ -322,8 +330,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Christmas Holidays",
-        startDate: "2026-12-20",
-        endDate: "2027-01-03"
+        startDate: WINTER_START,
+        endDate: WINTER_END
       }),
       makeHoliday({
         id: "fr-2",
@@ -333,8 +341,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Christmas Holidays",
-        startDate: "2026-12-20",
-        endDate: "2027-01-03"
+        startDate: WINTER_START,
+        endDate: WINTER_END
       })
     ];
     const dataset = {
@@ -345,8 +353,8 @@ describe("DayPanel", () => {
           country: "FR",
           holidayType: "school",
           name: "Christmas Holidays",
-          startDate: "2026-12-20",
-          endDate: "2027-01-03",
+          startDate: WINTER_START,
+          endDate: WINTER_END,
           segments: [
             {
               model: "zone",
@@ -361,7 +369,7 @@ describe("DayPanel", () => {
         })
       ]
     };
-    render(<DayPanel dataset={dataset} date="2026-12-25" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={WINTER_DATE} holidays={holidays} />);
     expect(screen.getByText("1/3 zones · Zone A")).toBeInTheDocument();
     expect(screen.queryByText(/Auvergne-Rhône-Alpes/)).not.toBeInTheDocument();
   });
@@ -376,8 +384,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Spring Holidays",
-        startDate: "2026-04-06",
-        endDate: "2026-04-18"
+        startDate: isoDate(TEST_YEAR, 4, 6),
+        endDate: isoDate(TEST_YEAR, 4, 18)
       }),
       makeHoliday({
         id: "be-nl-spring",
@@ -387,8 +395,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Spring Holidays",
-        startDate: "2026-04-06",
-        endDate: "2026-04-19"
+        startDate: isoDate(TEST_YEAR, 4, 6),
+        endDate: isoDate(TEST_YEAR, 4, 19)
       })
     ];
     const dataset = {
@@ -399,8 +407,8 @@ describe("DayPanel", () => {
           country: "BE",
           holidayType: "school",
           name: "Spring Holidays",
-          startDate: "2026-04-06",
-          endDate: "2026-04-18",
+          startDate: isoDate(TEST_YEAR, 4, 6),
+          endDate: isoDate(TEST_YEAR, 4, 18),
           segments: [{
             model: "geographic_group",
             normalizedScope: "regional",
@@ -416,8 +424,8 @@ describe("DayPanel", () => {
           country: "BE",
           holidayType: "school",
           name: "Spring Holidays",
-          startDate: "2026-04-06",
-          endDate: "2026-04-19",
+          startDate: isoDate(TEST_YEAR, 4, 6),
+          endDate: isoDate(TEST_YEAR, 4, 19),
           segments: [{
             model: "geographic_group",
             normalizedScope: "regional",
@@ -430,7 +438,7 @@ describe("DayPanel", () => {
         })
       ]
     };
-    render(<DayPanel dataset={dataset} date="2026-04-14" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={SPRING_DATE} holidays={holidays} />);
     expect(screen.getByText("2/3 communities · Flemish community, German-speaking community")).toBeInTheDocument();
     expect(screen.getAllByText("Spring Holidays")).toHaveLength(1);
   });
@@ -445,8 +453,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Spring Holidays",
-        startDate: "2026-04-06",
-        endDate: "2026-04-18"
+        startDate: isoDate(TEST_YEAR, 4, 6),
+        endDate: isoDate(TEST_YEAR, 4, 18)
       }),
       makeHoliday({
         id: "be-nl-spring",
@@ -456,8 +464,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Spring Holidays",
-        startDate: "2026-04-06",
-        endDate: "2026-04-19"
+        startDate: isoDate(TEST_YEAR, 4, 6),
+        endDate: isoDate(TEST_YEAR, 4, 19)
       }),
       makeHoliday({
         id: "be-fr-spring",
@@ -467,8 +475,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Spring Holidays",
-        startDate: "2026-04-06",
-        endDate: "2026-04-20"
+        startDate: isoDate(TEST_YEAR, 4, 6),
+        endDate: isoDate(TEST_YEAR, 4, 20)
       })
     ];
     const dataset = {
@@ -479,8 +487,8 @@ describe("DayPanel", () => {
           country: "BE",
           holidayType: "school",
           name: "Spring Holidays",
-          startDate: "2026-04-06",
-          endDate: "2026-04-18",
+          startDate: isoDate(TEST_YEAR, 4, 6),
+          endDate: isoDate(TEST_YEAR, 4, 18),
           segments: [{
             model: "geographic_group",
             normalizedScope: "regional",
@@ -496,8 +504,8 @@ describe("DayPanel", () => {
           country: "BE",
           holidayType: "school",
           name: "Spring Holidays",
-          startDate: "2026-04-06",
-          endDate: "2026-04-19",
+          startDate: isoDate(TEST_YEAR, 4, 6),
+          endDate: isoDate(TEST_YEAR, 4, 19),
           segments: [{
             model: "geographic_group",
             normalizedScope: "regional",
@@ -513,8 +521,8 @@ describe("DayPanel", () => {
           country: "BE",
           holidayType: "school",
           name: "Spring Holidays",
-          startDate: "2026-04-06",
-          endDate: "2026-04-20",
+          startDate: isoDate(TEST_YEAR, 4, 6),
+          endDate: isoDate(TEST_YEAR, 4, 20),
           segments: [{
             model: "geographic_group",
             normalizedScope: "regional",
@@ -527,7 +535,7 @@ describe("DayPanel", () => {
         })
       ]
     };
-    render(<DayPanel dataset={dataset} date="2026-04-14" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={SPRING_DATE} holidays={holidays} />);
     expect(screen.getByText("National")).toBeInTheDocument();
     expect(screen.queryByText(/3\/3 communities/)).not.toBeInTheDocument();
     expect(screen.getAllByText("Spring Holidays")).toHaveLength(1);
@@ -543,8 +551,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Christmas Holidays",
-        startDate: "2026-12-19",
-        endDate: "2027-01-03"
+        startDate: WINTER_ALT_START,
+        endDate: WINTER_END
       }),
       makeHoliday({
         id: "nl-2",
@@ -554,8 +562,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Christmas Holidays",
-        startDate: "2026-12-19",
-        endDate: "2027-01-03"
+        startDate: WINTER_ALT_START,
+        endDate: WINTER_END
       }),
       makeHoliday({
         id: "nl-3",
@@ -565,8 +573,8 @@ describe("DayPanel", () => {
         scope: "regional",
         holidayType: "school",
         name: "Christmas Holidays",
-        startDate: "2026-12-19",
-        endDate: "2027-01-03"
+        startDate: WINTER_ALT_START,
+        endDate: WINTER_END
       })
     ];
     const dataset = {
@@ -578,8 +586,8 @@ describe("DayPanel", () => {
           country: "NL",
           holidayType: "school",
           name: "Christmas Holidays",
-          startDate: "2026-12-19",
-          endDate: "2027-01-03",
+          startDate: WINTER_ALT_START,
+          endDate: WINTER_END,
           segments: [{
             model: "geographic_group",
             normalizedScope: "national",
@@ -591,7 +599,7 @@ describe("DayPanel", () => {
         })
       ]
     };
-    render(<DayPanel dataset={dataset} date="2026-12-25" holidays={holidays} />);
+    render(<DayPanel dataset={dataset} date={WINTER_DATE} holidays={holidays} />);
     expect(screen.getByRole("heading", { name: "🇳🇱 Netherlands (the)" })).toBeInTheDocument();
     expect(screen.getByText("National")).toBeInTheDocument();
   });

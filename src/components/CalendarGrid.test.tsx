@@ -2,6 +2,16 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { CalendarGrid } from "./CalendarGrid";
 import type { HolidayOnDay } from "../lib/dataset";
+import { TEST_YEAR, buildMonthGrid, isoDate } from "../test/date-helpers";
+
+const TEST_MONTH = 4;
+const TEST_MONTH_INDEX = TEST_MONTH - 1;
+const TEST_GRID_DAYS = buildMonthGrid(TEST_YEAR, TEST_MONTH);
+const PREVIOUS_MONTH_DAY = TEST_GRID_DAYS.find((date) => !date.startsWith(`${TEST_YEAR}-${String(TEST_MONTH).padStart(2, "0")}`));
+
+if (!PREVIOUS_MONTH_DAY) {
+  throw new Error("Expected overflow day in synthetic calendar grid.");
+}
 
 function makeHoliday(overrides: Partial<HolidayOnDay> = {}): HolidayOnDay {
   return {
@@ -12,8 +22,8 @@ function makeHoliday(overrides: Partial<HolidayOnDay> = {}): HolidayOnDay {
     scope: "national",
     holidayType: "public",
     name: "Test Holiday",
-    startDate: "2026-04-01",
-    endDate: "2026-04-01",
+    startDate: isoDate(TEST_YEAR, TEST_MONTH, 1),
+    endDate: isoDate(TEST_YEAR, TEST_MONTH, 1),
     sourceId: "s1",
     sourceLabel: "Test Source",
     sourceKind: "aggregated_open_data",
@@ -21,21 +31,15 @@ function makeHoliday(overrides: Partial<HolidayOnDay> = {}): HolidayOnDay {
   };
 }
 
-// April 2026 grid: 42 days starting from Monday 2026-03-30
-const APRIL_2026_DAYS = Array.from({ length: 42 }, (_, i) => {
-  const d = new Date(Date.UTC(2026, 2, 30 + i));
-  return d.toISOString().slice(0, 10);
-});
-
 describe("CalendarGrid", () => {
   it("renders 42 day cells", () => {
     const holidaysByDate = new Map<string, HolidayOnDay[]>();
     render(
       <CalendarGrid
-        activeDate="2026-04-01"
-        currentMonth={3}
-        currentYear={2026}
-        days={APRIL_2026_DAYS}
+        activeDate={isoDate(TEST_YEAR, TEST_MONTH, 1)}
+        currentMonth={TEST_MONTH_INDEX}
+        currentYear={TEST_YEAR}
+        days={TEST_GRID_DAYS}
         holidaysByDate={holidaysByDate}
         onStepMonth={vi.fn()}
         onSelectDate={vi.fn()}
@@ -47,69 +51,72 @@ describe("CalendarGrid", () => {
   });
 
   it("applies public holiday class when day has a public holiday", () => {
+    const publicDate = isoDate(TEST_YEAR, TEST_MONTH, 1);
     const holidaysByDate = new Map<string, HolidayOnDay[]>([
-      ["2026-04-01", [makeHoliday({ holidayType: "public" })]]
+      [publicDate, [makeHoliday({ holidayType: "public", startDate: publicDate, endDate: publicDate })]]
     ]);
 
     render(
       <CalendarGrid
-        activeDate="2026-04-14"
-        currentMonth={3}
-        currentYear={2026}
-        days={APRIL_2026_DAYS}
+        activeDate={isoDate(TEST_YEAR, TEST_MONTH, 14)}
+        currentMonth={TEST_MONTH_INDEX}
+        currentYear={TEST_YEAR}
+        days={TEST_GRID_DAYS}
         holidaysByDate={holidaysByDate}
         onStepMonth={vi.fn()}
         onSelectDate={vi.fn()}
       />
     );
 
-    const cell = screen.getByRole("button", { name: "2026-04-01" });
+    const cell = screen.getByRole("button", { name: publicDate });
     expect(cell.className).toContain("day-cell-public");
     expect(cell.className).not.toContain("day-cell-school");
   });
 
   it("applies school holiday class when day has a school holiday", () => {
+    const schoolDate = isoDate(TEST_YEAR, TEST_MONTH, 6);
     const holidaysByDate = new Map<string, HolidayOnDay[]>([
-      ["2026-04-06", [makeHoliday({ holidayType: "school" })]]
+      [schoolDate, [makeHoliday({ holidayType: "school", startDate: schoolDate, endDate: schoolDate })]]
     ]);
 
     render(
       <CalendarGrid
-        activeDate="2026-04-14"
-        currentMonth={3}
-        currentYear={2026}
-        days={APRIL_2026_DAYS}
+        activeDate={isoDate(TEST_YEAR, TEST_MONTH, 14)}
+        currentMonth={TEST_MONTH_INDEX}
+        currentYear={TEST_YEAR}
+        days={TEST_GRID_DAYS}
         holidaysByDate={holidaysByDate}
         onStepMonth={vi.fn()}
         onSelectDate={vi.fn()}
       />
     );
 
-    const cell = screen.getByRole("button", { name: "2026-04-06" });
+    const cell = screen.getByRole("button", { name: schoolDate });
     expect(cell.className).toContain("day-cell-school");
   });
 
   it("applies mixed class when day has both public and school holidays", () => {
+    const mixedDate = isoDate(TEST_YEAR, TEST_MONTH, 10);
     const holidaysByDate = new Map<string, HolidayOnDay[]>([
-      ["2026-04-10", [
-        makeHoliday({ id: "h1", holidayType: "public" }),
-        makeHoliday({ id: "h2", holidayType: "school" })
+      [mixedDate, [
+        makeHoliday({ id: "h1", holidayType: "public", startDate: mixedDate, endDate: mixedDate }),
+        makeHoliday({ id: "h2", holidayType: "school", startDate: mixedDate, endDate: mixedDate })
       ]]
     ]);
 
     render(
       <CalendarGrid
-        activeDate="2026-04-14"
-        currentMonth={3}
-        currentYear={2026}
-        days={APRIL_2026_DAYS}
+        activeDate={isoDate(TEST_YEAR, TEST_MONTH, 14)}
+        currentMonth={TEST_MONTH_INDEX}
+        currentYear={TEST_YEAR}
+        days={TEST_GRID_DAYS}
         holidaysByDate={holidaysByDate}
         onStepMonth={vi.fn()}
         onSelectDate={vi.fn()}
       />
     );
 
-    const cell = screen.getByRole("button", { name: "2026-04-10" });
+    const cell = screen.getByRole("button", { name: mixedDate });
     expect(cell.className).toContain("day-cell-mixed");
   });
 
@@ -117,71 +124,73 @@ describe("CalendarGrid", () => {
     const holidaysByDate = new Map<string, HolidayOnDay[]>();
     render(
       <CalendarGrid
-        activeDate="2026-04-14"
-        currentMonth={3}
-        currentYear={2026}
-        days={APRIL_2026_DAYS}
+        activeDate={isoDate(TEST_YEAR, TEST_MONTH, 14)}
+        currentMonth={TEST_MONTH_INDEX}
+        currentYear={TEST_YEAR}
+        days={TEST_GRID_DAYS}
         holidaysByDate={holidaysByDate}
         onStepMonth={vi.fn()}
         onSelectDate={vi.fn()}
       />
     );
 
-    // March 30 is outside April
-    const cell = screen.getByRole("button", { name: "2026-03-30" });
+    const cell = screen.getByRole("button", { name: PREVIOUS_MONTH_DAY });
     expect(cell.className).toContain("day-cell-muted");
   });
 
   it("marks the active date", () => {
+    const activeDate = isoDate(TEST_YEAR, TEST_MONTH, 14);
     const holidaysByDate = new Map<string, HolidayOnDay[]>();
     render(
       <CalendarGrid
-        activeDate="2026-04-14"
-        currentMonth={3}
-        currentYear={2026}
-        days={APRIL_2026_DAYS}
+        activeDate={activeDate}
+        currentMonth={TEST_MONTH_INDEX}
+        currentYear={TEST_YEAR}
+        days={TEST_GRID_DAYS}
         holidaysByDate={holidaysByDate}
         onStepMonth={vi.fn()}
         onSelectDate={vi.fn()}
       />
     );
 
-    const cell = screen.getByRole("button", { name: "2026-04-14" });
+    const cell = screen.getByRole("button", { name: activeDate });
     expect(cell.className).toContain("day-cell-active");
   });
 
   it("calls onSelectDate when a day is clicked", async () => {
     const user = userEvent.setup();
+    const selectedDate = isoDate(TEST_YEAR, TEST_MONTH, 20);
     const onSelectDate = vi.fn();
     const holidaysByDate = new Map<string, HolidayOnDay[]>();
 
     render(
       <CalendarGrid
-        activeDate="2026-04-14"
-        currentMonth={3}
-        currentYear={2026}
-        days={APRIL_2026_DAYS}
+        activeDate={isoDate(TEST_YEAR, TEST_MONTH, 14)}
+        currentMonth={TEST_MONTH_INDEX}
+        currentYear={TEST_YEAR}
+        days={TEST_GRID_DAYS}
         holidaysByDate={holidaysByDate}
         onStepMonth={vi.fn()}
         onSelectDate={onSelectDate}
       />
     );
 
-    await user.click(screen.getByRole("button", { name: "2026-04-20" }));
-    expect(onSelectDate).toHaveBeenCalledWith("2026-04-20");
+    await user.click(screen.getByRole("button", { name: selectedDate }));
+    expect(onSelectDate).toHaveBeenCalledWith(selectedDate);
   });
 
   it("steps month on horizontal swipe and suppresses accidental date selection", () => {
+    const selectedDate = isoDate(TEST_YEAR, TEST_MONTH, 20);
     const onStepMonth = vi.fn();
     const onSelectDate = vi.fn();
     const holidaysByDate = new Map<string, HolidayOnDay[]>();
 
     const { container } = render(
       <CalendarGrid
-        activeDate="2026-04-14"
-        currentMonth={3}
-        currentYear={2026}
-        days={APRIL_2026_DAYS}
+        activeDate={isoDate(TEST_YEAR, TEST_MONTH, 14)}
+        currentMonth={TEST_MONTH_INDEX}
+        currentYear={TEST_YEAR}
+        days={TEST_GRID_DAYS}
         holidaysByDate={holidaysByDate}
         onStepMonth={onStepMonth}
         onSelectDate={onSelectDate}
@@ -189,7 +198,7 @@ describe("CalendarGrid", () => {
     );
 
     const shell = container.querySelector(".calendar-shell");
-    const day = screen.getByRole("button", { name: "2026-04-20" });
+    const day = screen.getByRole("button", { name: selectedDate });
     expect(shell).not.toBeNull();
 
     fireEvent.touchStart(shell!, {
