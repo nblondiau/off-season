@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { EUROPEAN_COUNTRY_CODES, WINDOW_END, WINDOW_START, sourceDefaults } from "./source-fixtures.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -610,7 +610,14 @@ async function fetchLiveSnapshot(buildDate) {
   return payload;
 }
 
-function buildDatasetFromPayload(payload, buildDate, source) {
+export function resolveLastCheckedAt(payload, fallbackDate) {
+  return payload.lastCheckedAt ?? payload.generatedAt ?? fallbackDate;
+}
+
+export function buildDatasetFromPayload(payload, buildDate, source) {
+  const lastCheckedAt = resolveLastCheckedAt(payload, buildDate);
+  const lastChangedAt = source.defaultLastChangedAt ?? lastCheckedAt;
+
   const countries = sortRecords(payload.countries, ["label"]).map((country) => ({
     countryCode: country.countryCode,
     label: country.label
@@ -866,8 +873,8 @@ function buildDatasetFromPayload(payload, buildDate, source) {
     sources: [
       {
         ...source,
-        lastCheckedAt: buildDate,
-        lastChangedAt: buildDate
+        lastCheckedAt,
+        lastChangedAt
       }
     ],
     holidays: sortRecords(uniqueHolidays, ["startDate", "country", "regionId", "name"]),
@@ -885,6 +892,7 @@ async function main() {
 
   try {
     payload = await fetchLiveSnapshot(buildDate);
+    payload.lastCheckedAt = buildDate;
     await fs.mkdir(path.dirname(path.join(repoRoot, source.snapshotPath)), { recursive: true });
     await fs.writeFile(path.join(repoRoot, source.snapshotPath), `${JSON.stringify(payload, null, 2)}\n`);
   } catch {
@@ -907,4 +915,6 @@ async function main() {
   );
 }
 
-await main();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  await main();
+}

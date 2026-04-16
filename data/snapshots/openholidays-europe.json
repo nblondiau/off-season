@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15",
+  "generatedAt": "2026-04-16",
   "countries": [
     {
       "countryCode": "AD",
@@ -186225,5 +186225,6 @@
       }
     ],
     "VA": []
-  }
+  },
+  "lastCheckedAt": "2026-04-16"
 }

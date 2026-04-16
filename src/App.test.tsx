@@ -100,7 +100,7 @@ describe("App", () => {
     render(<App />);
 
     expect(await screen.findByRole("link", { name: /OpenHolidays API/i })).toBeInTheDocument();
-    expect(screen.getByText(new RegExp(`last checked ${dataset.generatedAt}`, "i"))).toBeInTheDocument();
+    expect(screen.getByText(new RegExp(`last checked ${dataset.sources[0].lastCheckedAt}`, "i"))).toBeInTheDocument();
   });
 
   it("loads the dataset from the Vite base URL", async () => {
