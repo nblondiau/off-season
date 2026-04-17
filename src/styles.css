@@ -222,19 +222,13 @@ input {
   color: #5c6a76;
 }
 
-.country-filter-modal {
-  position: fixed;
-  inset: 0;
-  z-index: 40;
-  display: grid;
-  place-items: center;
-  padding: 2rem;
-  background: rgba(16, 33, 47, 0.28);
-}
-
 .country-filter-dialog {
+  position: absolute;
+  top: calc(100% + 0.65rem);
+  right: 0;
+  z-index: 30;
   width: min(32rem, calc(100vw - 4rem));
-  max-height: min(42rem, calc(100vh - 4rem));
+  max-height: min(42rem, calc(100vh - 8rem));
   overflow: hidden;
   display: grid;
   gap: 0.9rem;
@@ -472,6 +466,12 @@ input {
   .country-filter-popover {
     position: static;
     width: 100%;
+  }
+
+  .country-filter-dialog {
+    position: static;
+    width: 100%;
+    max-height: none;
   }
 
   .day-cell {

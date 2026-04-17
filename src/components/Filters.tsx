@@ -165,23 +165,14 @@ export function Filters({ countryOptions, filters, mode, onChange }: FiltersProp
       </div>
 
       {open && mode === "desktop" ? (
-        <div className="country-filter-modal" role="presentation" onClick={() => setOpen(false)}>
-          <div
-            aria-label="Country selector"
-            aria-modal="true"
-            className="country-filter-dialog"
-            id={listboxId}
-            role="dialog"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <div className="country-filter-dialog-header">
-              <h3>Choose countries</h3>
-              <button aria-label="Close country selector" type="button" onClick={() => setOpen(false)}>
-                Close
-              </button>
-            </div>
-            {renderPickerContent()}
+        <div aria-label="Country selector" className="country-filter-dialog" id={listboxId} role="dialog">
+          <div className="country-filter-dialog-header">
+            <h3>Choose countries</h3>
+            <button aria-label="Close country selector" type="button" onClick={() => setOpen(false)}>
+              Close
+            </button>
           </div>
+          {renderPickerContent()}
         </div>
       ) : null}
     </div>
