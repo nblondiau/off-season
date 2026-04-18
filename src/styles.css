@@ -4,6 +4,10 @@
   font-weight: 400;
   color: #10212f;
   background: #ffffff;
+  --holiday-public: #d65a43;
+  --holiday-public-soft: #f4cec6;
+  --holiday-school: #f0c75e;
+  --holiday-school-soft: #f8eab8;
 }
 
 * {
@@ -334,17 +338,17 @@ input {
 }
 
 .day-cell-public {
-  background: linear-gradient(180deg, rgba(231, 111, 81, 0.22), rgba(255, 255, 255, 0.94));
+  background: linear-gradient(180deg, rgba(214, 90, 67, 0.24), rgba(255, 255, 255, 0.94));
 }
 
 .day-cell-school {
-  background: linear-gradient(180deg, rgba(42, 157, 143, 0.2), rgba(255, 255, 255, 0.94));
+  background: linear-gradient(180deg, rgba(240, 199, 94, 0.28), rgba(255, 255, 255, 0.94));
 }
 
 .day-cell-mixed {
   background:
-    linear-gradient(180deg, rgba(231, 111, 81, 0.18), transparent),
-    linear-gradient(0deg, rgba(42, 157, 143, 0.16), rgba(255, 255, 255, 0.94));
+    linear-gradient(180deg, rgba(214, 90, 67, 0.2), transparent),
+    linear-gradient(0deg, rgba(240, 199, 94, 0.22), rgba(255, 255, 255, 0.94));
 }
 
 .day-number {
@@ -361,11 +365,11 @@ input {
 }
 
 .pill-public {
-  background: #f7d6cf;
+  background: var(--holiday-public-soft);
 }
 
 .pill-school {
-  background: #cfeee9;
+  background: var(--holiday-school-soft);
 }
 
 .details-header h2 {
