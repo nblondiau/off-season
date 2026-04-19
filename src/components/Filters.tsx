@@ -54,7 +54,9 @@ export function Filters({ countryOptions, filters, mode, onChange }: FiltersProp
       return;
     }
 
-    searchRef.current?.focus();
+    if (mode === "desktop") {
+      searchRef.current?.focus();
+    }
 
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") {
@@ -75,7 +77,7 @@ export function Filters({ countryOptions, filters, mode, onChange }: FiltersProp
       document.removeEventListener("keydown", handleKeyDown);
       document.removeEventListener("pointerdown", handlePointerDown);
     };
-  }, [open]);
+  }, [mode, open]);
 
   useEffect(() => {
     if (!open) {

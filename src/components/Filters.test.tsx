@@ -16,6 +16,13 @@ function renderFilters(filters: FilterState, onChange = vi.fn()) {
   };
 }
 
+function renderMobileFilters(filters: FilterState, onChange = vi.fn()) {
+  return {
+    onChange,
+    ...render(<Filters countryOptions={OPTIONS} filters={filters} mode="mobile" onChange={onChange} />)
+  };
+}
+
 describe("Filters", () => {
   it("does not render the Countries title", () => {
     renderFilters({ countryCodes: ["BE"] });
@@ -53,6 +60,22 @@ describe("Filters", () => {
     expect(screen.getByRole("dialog", { name: /Country selector/i })).toBeInTheDocument();
     expect(screen.getByLabelText(/Belgium/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/France/i)).toBeInTheDocument();
+  });
+
+  it("focuses the search input when the desktop dialog opens", async () => {
+    const user = userEvent.setup();
+    renderFilters({ countryCodes: ["BE"] });
+
+    await user.click(screen.getByRole("button", { name: /1 country selected/i }));
+    expect(screen.getByPlaceholderText(/Type a country name/i)).toHaveFocus();
+  });
+
+  it("does not focus the search input when the mobile popover opens", async () => {
+    const user = userEvent.setup();
+    renderMobileFilters({ countryCodes: ["BE"] });
+
+    await user.click(screen.getByRole("button", { name: /1 country selected/i }));
+    expect(screen.getByPlaceholderText(/Type a country name/i)).not.toHaveFocus();
   });
 
   it("toggles a country on checkbox click", async () => {
