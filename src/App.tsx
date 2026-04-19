@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from "react";
 import type { DatasetBundle } from "./types";
 import { buildHolidayDayMap, getHolidaysForDay, type FilterState } from "./lib/dataset";
 import { formatMonthLabel, listMonthGrid, localToday } from "./lib/date";
-import { countryCodeToFlag } from "./lib/country";
 import { DEFAULT_COUNTRY_CODES, STORAGE_KEY } from "./config";
 import { Filters } from "./components/Filters";
 import { CalendarGrid } from "./components/CalendarGrid";
@@ -129,9 +128,10 @@ export default function App() {
   }, []);
 
   const holidayDayMap = useMemo(() => (dataset ? buildHolidayDayMap(dataset) : new Map()), [dataset]);
-  const countryOptions = useMemo(() => (dataset?.countries ?? []).map((country) => {
-    return { value: country.countryCode, label: `${countryCodeToFlag(country.countryCode)} ${country.label}` };
-  }), [dataset]);
+  const countryOptions = useMemo(() => (dataset?.countries ?? []).map((country) => ({
+    value: country.countryCode,
+    label: country.label
+  })), [dataset]);
   const days = useMemo(() => listMonthGrid(year, month), [year, month]);
 
   const holidaysByDate = useMemo(() => {

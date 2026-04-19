@@ -4,9 +4,9 @@ import { Filters } from "./Filters";
 import type { FilterState } from "../lib/dataset";
 
 const OPTIONS = [
-  { value: "BE", label: "\u{1F1E7}\u{1F1EA} Belgium" },
-  { value: "FR", label: "\u{1F1EB}\u{1F1F7} France" },
-  { value: "NL", label: "\u{1F1F3}\u{1F1F1} Netherlands" }
+  { value: "BE", label: "Belgium" },
+  { value: "FR", label: "France" },
+  { value: "NL", label: "Netherlands" }
 ];
 
 function renderFilters(filters: FilterState, onChange = vi.fn()) {
@@ -27,9 +27,21 @@ describe("Filters", () => {
     expect(screen.getByRole("button", { name: /2 countries selected/i })).toBeInTheDocument();
   });
 
+  it("shows selected countries as flag images in the trigger label", () => {
+    const { container } = renderFilters({ countryCodes: ["BE", "FR"] });
+    const trigger = screen.getByRole("button", { name: /2 countries selected/i });
+    expect(trigger).toBeInTheDocument();
+    expect(container.querySelectorAll(".country-filter-trigger .country-flag")).toHaveLength(2);
+  });
+
   it("shows 'All countries' when every option is selected", () => {
     renderFilters({ countryCodes: ["BE", "FR", "NL"] });
     expect(screen.getByRole("button", { name: /All countries/i })).toBeInTheDocument();
+  });
+
+  it("hides the selected country emoji list when nothing is selected", () => {
+    renderFilters({ countryCodes: [] });
+    expect(screen.getByRole("button", { name: /0 countries selected/i })).toHaveTextContent("0 countries selected");
   });
 
   it("opens the desktop dialog on click and shows checkboxes", async () => {

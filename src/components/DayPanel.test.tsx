@@ -107,7 +107,7 @@ describe("DayPanel", () => {
   it("groups holidays under a country heading", () => {
     const holidays = [makeHoliday({ country: "BE", regionLabel: "Belgium" })];
     render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
-    expect(screen.getByRole("heading", { name: "🇧🇪 Belgium" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Belgium" })).toBeInTheDocument();
   });
 
   it("shows the number of affected regions for grouped holidays", () => {
@@ -304,8 +304,8 @@ describe("DayPanel", () => {
       makeHoliday({ id: "h2", country: "FR", regionId: "FR", regionLabel: "France", scope: "national", name: "Bastille Day" })
     ];
     render(<DayPanel dataset={DATASET} date={SUMMER_DATE} holidays={holidays} />);
-    expect(screen.getByRole("heading", { name: "🇧🇪 Belgium" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "🇫🇷 France" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Belgium" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "France" })).toBeInTheDocument();
   });
 
   it("renders holiday notes when present", () => {
@@ -600,7 +600,7 @@ describe("DayPanel", () => {
       ]
     };
     render(<DayPanel dataset={dataset} date={WINTER_DATE} holidays={holidays} />);
-    expect(screen.getByRole("heading", { name: "🇳🇱 Netherlands (the)" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Netherlands (the)" })).toBeInTheDocument();
     expect(screen.getByText("National")).toBeInTheDocument();
   });
 });

@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import type { FilterState } from "../lib/dataset";
+import { CountryFlag } from "./CountryFlag";
 
 interface FiltersProps {
   countryOptions: Array<{ value: string; label: string }>;
@@ -29,6 +30,12 @@ export function Filters({ countryOptions, filters, mode, onChange }: FiltersProp
 
   const selectedCount = filters.countryCodes.length;
   const summary = buildSummary(selectedCount, countryOptions.length);
+  const selectedCountryFlags = useMemo(() => {
+    const selectedCodes = new Set(filters.countryCodes);
+    return countryOptions
+      .filter((option) => selectedCodes.has(option.value))
+      .map((option) => option.value);
+  }, [countryOptions, filters.countryCodes]);
 
   const filteredOptions = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -131,7 +138,10 @@ export function Filters({ countryOptions, filters, mode, onChange }: FiltersProp
                   checked={checked}
                   onChange={() => toggleCountry(option.value)}
                 />
-                <span>{option.label}</span>
+                <span className="country-option-label">
+                  <CountryFlag countryCode={option.value} />
+                  <span>{option.label}</span>
+                </span>
               </label>
             );
           })}
@@ -148,11 +158,19 @@ export function Filters({ countryOptions, filters, mode, onChange }: FiltersProp
           aria-controls={listboxId}
           aria-expanded={open}
           aria-haspopup="dialog"
+          aria-label={summary}
           className="country-filter-trigger"
           type="button"
           onClick={() => setOpen((value) => !value)}
         >
-          <span>{summary}</span>
+          {selectedCountryFlags.length > 0 ? (
+            <span aria-hidden="true" className="country-filter-selected-flags">
+              {selectedCountryFlags.map((countryCode) => (
+                <CountryFlag key={countryCode} countryCode={countryCode} />
+              ))}
+            </span>
+          ) : null}
+          {selectedCountryFlags.length === 0 ? <span>{summary}</span> : null}
           <span aria-hidden="true" className={`country-filter-chevron${open ? " country-filter-chevron-open" : ""}`}>
             ▾
           </span>

@@ -1,6 +1,6 @@
 import type { DatasetBundle, HolidayCoverageRecord, HolidayCoverageSegment } from "../types";
 import { buildHolidayCoverageKey, type HolidayOnDay } from "../lib/dataset";
-import { countryCodeToFlag } from "../lib/country";
+import { CountryFlag } from "./CountryFlag";
 
 interface DayPanelProps {
   dataset: DatasetBundle;
@@ -183,7 +183,8 @@ export function DayPanel({ dataset, date, holidays }: DayPanelProps) {
             return (
               <section key={countryCode} className="country-group">
                 <h3 className="country-group-title">
-                  {countryCodeToFlag(countryCode)} {countryMap.get(countryCode) ?? countryCode}
+                  <CountryFlag countryCode={countryCode} />
+                  <span>{countryMap.get(countryCode) ?? countryCode}</span>
                 </h3>
                 <ul className="holiday-list">
                   {groupedHolidays.map(([displayKey, { holidayType, names, regionLabels, coverageKeys, notes, hasNational }]) => {

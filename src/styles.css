@@ -139,6 +139,13 @@ input {
   align-items: center;
 }
 
+.country-option-label,
+.country-group-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .checkbox-item input[type="checkbox"] {
   margin: 0;
   flex: 0 0 auto;
@@ -164,9 +171,50 @@ input {
   padding: 0.85rem 1rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
   color: #10212f;
+}
+
+.country-filter-selected-flags {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: flex-start;
+  align-content: flex-start;
+  color: #5c6a76;
+  font-size: 1.05rem;
+  line-height: 1.1;
+}
+
+.country-flag {
+  flex: 0 0 auto;
+  width: 1.25rem;
+  height: 0.9rem;
+  border-radius: 0.15rem;
+  box-shadow: 0 0 0 1px rgba(16, 33, 47, 0.12);
+  object-fit: cover;
+  background: #fff;
+}
+
+.country-flag-fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 1.7rem;
+  height: 0.95rem;
+  padding: 0 0.2rem;
+  border-radius: 0.2rem;
+  border: 1px solid rgba(16, 33, 47, 0.14);
+  background: rgba(23, 53, 77, 0.06);
+  color: #17354d;
+  font-size: 0.56rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
 }
 
 .country-filter-chevron {

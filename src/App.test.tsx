@@ -78,8 +78,8 @@ describe("App", () => {
     await user.click(screen.getByLabelText(/France/i));
     await user.click(screen.getByRole("button", { name: date }));
     expect(screen.getByText(belgiumHoliday.name)).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: /🇧🇪 Belgium/i })).toBeInTheDocument();
-    expect(screen.queryByRole("heading", { name: /🇫🇷 France/i })).not.toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Belgium/i })).toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: /France/i })).not.toBeInTheDocument();
   });
 
   it("keeps the full country list hidden until the selector is opened", async () => {

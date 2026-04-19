@@ -1,5 +1,7 @@
-export function countryCodeToFlag(countryCode: string): string {
-  return countryCode
-    .toUpperCase()
-    .replace(/./g, (character) => String.fromCodePoint(0x1f1e6 - 65 + character.charCodeAt(0)));
+export function normalizeCountryCode(countryCode: string): string {
+  return countryCode.trim().toUpperCase();
+}
+
+export function getCountryFlagAssetPath(countryCode: string): string {
+  return `${import.meta.env.BASE_URL}flags/${normalizeCountryCode(countryCode).toLowerCase()}.svg`;
 }
