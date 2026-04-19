@@ -443,6 +443,42 @@ describe("DayPanel", () => {
     expect(screen.getAllByText("Spring Holidays")).toHaveLength(1);
   });
 
+  it("deduplicates holiday names that differ only by capitalization", () => {
+    const holidays = [
+      makeHoliday({
+        id: "de-1",
+        country: "DE",
+        regionId: "DE",
+        regionLabel: "Germany",
+        scope: "national",
+        holidayType: "school",
+        name: "Christmas holidays",
+        startDate: WINTER_START,
+        endDate: WINTER_END
+      }),
+      makeHoliday({
+        id: "de-2",
+        country: "DE",
+        regionId: "DE",
+        regionLabel: "Germany",
+        scope: "national",
+        holidayType: "school",
+        name: "Christmas Holidays",
+        startDate: WINTER_START,
+        endDate: WINTER_END
+      })
+    ];
+    const dataset = {
+      ...DATASET,
+      countries: [...DATASET.countries, { countryCode: "DE", label: "Germany" }]
+    };
+
+    render(<DayPanel dataset={dataset} date={WINTER_DATE} holidays={holidays} />);
+
+    expect(screen.getAllByText(/Christmas holidays/i)).toHaveLength(1);
+    expect(screen.queryByText("Christmas holidays, Christmas Holidays")).not.toBeInTheDocument();
+  });
+
   it("shows National when merged holidays cover all regions", () => {
     const holidays = [
       makeHoliday({

@@ -10,6 +10,21 @@ interface DayPanelProps {
 
 const MAX_VISIBLE_REGION_LABELS = 5;
 
+function normalizeDisplayValue(value: string) {
+  return value.toLocaleLowerCase();
+}
+
+function addCaseInsensitiveValue(values: Map<string, string>, value: string) {
+  const normalizedValue = normalizeDisplayValue(value);
+  if (!values.has(normalizedValue)) {
+    values.set(normalizedValue, value);
+  }
+}
+
+function sortDisplayValues(values: Iterable<string>) {
+  return Array.from(values).sort((left, right) => left.localeCompare(right));
+}
+
 function stripCountryPrefix(regionLabel: string, countryLabel: string) {
   const prefix = `${countryLabel} · `;
   return regionLabel.startsWith(prefix) ? regionLabel.slice(prefix.length) : regionLabel;
@@ -76,7 +91,11 @@ function mergeCoverageSegments(coverageRecords: HolidayCoverageRecord[]): Holida
       const existing = segmentsByModel.get(segment.model);
       if (existing) {
         for (const label of segment.regionLabels) {
-          existing.regionLabels.add(label);
+          const normalizedLabel = normalizeDisplayValue(label);
+          const existingLabel = Array.from(existing.regionLabels).find((currentLabel) => normalizeDisplayValue(currentLabel) === normalizedLabel);
+          if (!existingLabel) {
+            existing.regionLabels.add(label);
+          }
         }
         if (segment.totalRegionCount) {
           existing.totalRegionCounts.add(segment.totalRegionCount);
@@ -95,7 +114,7 @@ function mergeCoverageSegments(coverageRecords: HolidayCoverageRecord[]): Holida
   }
 
   const segments = Array.from(segmentsByModel.values()).map((merged) => {
-    const regionLabels = Array.from(merged.regionLabels).sort((left, right) => left.localeCompare(right));
+    const regionLabels = sortDisplayValues(merged.regionLabels);
     const regionCount = regionLabels.length;
     const totalRegionCount = merged.totalRegionCounts.size > 0
       ? Array.from(merged.totalRegionCounts).reduce((sum, count) => sum + count, 0)
@@ -153,29 +172,29 @@ export function DayPanel({ dataset, date, holidays }: DayPanelProps) {
                 const key = buildDisplayGroupKey(holiday);
                 const current = holidayGroups.get(key);
                 if (current) {
-                  current.names.add(holiday.name);
-                  current.regionLabels.add(holiday.regionLabel);
+                  addCaseInsensitiveValue(current.names, holiday.name);
+                  addCaseInsensitiveValue(current.regionLabels, holiday.regionLabel);
                   current.coverageKeys.add(buildHolidayCoverageKey(holiday));
-                  if (holiday.notes) current.notes.add(holiday.notes);
+                  if (holiday.notes) addCaseInsensitiveValue(current.notes, holiday.notes);
                   if (holiday.scope === "national") current.hasNational = true;
                   return holidayGroups;
                 }
 
                 holidayGroups.set(key, {
                   holidayType: holiday.holidayType,
-                  names: new Set([holiday.name]),
-                  regionLabels: new Set([holiday.regionLabel]),
+                  names: new Map([[normalizeDisplayValue(holiday.name), holiday.name]]),
+                  regionLabels: new Map([[normalizeDisplayValue(holiday.regionLabel), holiday.regionLabel]]),
                   coverageKeys: new Set([buildHolidayCoverageKey(holiday)]),
-                  notes: new Set(holiday.notes ? [holiday.notes] : []),
+                  notes: new Map(holiday.notes ? [[normalizeDisplayValue(holiday.notes), holiday.notes]] : []),
                   hasNational: holiday.scope === "national"
                 });
                 return holidayGroups;
               }, new Map<string, {
                 holidayType: string;
-                names: Set<string>;
-                regionLabels: Set<string>;
+                names: Map<string, string>;
+                regionLabels: Map<string, string>;
                 coverageKeys: Set<string>;
-                notes: Set<string>;
+                notes: Map<string, string>;
                 hasNational: boolean;
               }>())
             );
@@ -189,8 +208,8 @@ export function DayPanel({ dataset, date, holidays }: DayPanelProps) {
                 <ul className="holiday-list">
                   {groupedHolidays.map(([displayKey, { holidayType, names, regionLabels, coverageKeys, notes, hasNational }]) => {
                     const countryLabel = countryMap.get(countryCode) ?? countryCode;
-                    const nameList = Array.from(names).sort((left, right) => left.localeCompare(right));
-                    const regionLabelList = Array.from(regionLabels).sort((left, right) => left.localeCompare(right));
+                    const nameList = sortDisplayValues(names.values());
+                    const regionLabelList = sortDisplayValues(regionLabels.values());
                     const coverageRecords = Array.from(coverageKeys)
                       .map((key) => holidayCoverageMap.get(key))
                       .filter((record): record is HolidayCoverageRecord => record != null);
@@ -200,7 +219,7 @@ export function DayPanel({ dataset, date, holidays }: DayPanelProps) {
                     const metaLabels = mergedSegments.length > 0
                       ? mergedSegments.map((segment) => formatCoverageSegment(segment, countryLabel))
                       : (hasNational ? ["National"] : [formatLabelMeta(regionLabelList, countryLabel)]);
-                    const noteList = Array.from(notes).sort((left, right) => left.localeCompare(right));
+                    const noteList = sortDisplayValues(notes.values());
                     return (
                       <li key={displayKey} className="holiday-item">
                         <div className="holiday-title-row">
