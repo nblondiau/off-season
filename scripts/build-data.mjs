@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
-import { EUROPEAN_COUNTRY_CODES, WINDOW_END, WINDOW_START, sourceDefaults } from "./source-fixtures.mjs";
+import { EUROPEAN_COUNTRY_CODES, sourceDefaults } from "./source-fixtures.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -19,6 +19,16 @@ function addDays(value, days) {
   const date = fromIsoDate(value);
   date.setUTCDate(date.getUTCDate() + days);
   return toIsoDate(date);
+}
+
+export function getRollingHolidayWindow(buildDate) {
+  const date = fromIsoDate(buildDate);
+  const windowStart = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), 1));
+  const windowEnd = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth() + 25, 0));
+  return {
+    windowStart: toIsoDate(windowStart),
+    windowEnd: toIsoDate(windowEnd)
+  };
 }
 
 function slugify(value) {
@@ -74,8 +84,8 @@ function pickLocalizedText(values, preferredLanguage = "EN") {
   );
 }
 
-function filterWindow(holidays) {
-  return holidays.filter((holiday) => holiday.endDate >= WINDOW_START && holiday.startDate <= WINDOW_END);
+function filterWindow(holidays, window) {
+  return holidays.filter((holiday) => holiday.endDate >= window.windowStart && holiday.startDate <= window.windowEnd);
 }
 
 function sortRecords(records, keys) {
@@ -569,7 +579,36 @@ function mergeCoverageSegments(existingSegments, newSegments) {
   });
 }
 
-async function fetchLiveSnapshot(buildDate) {
+export function resolveDatasetWindow(payload, buildDate) {
+  if (payload.windowStart && payload.windowEnd) {
+    return {
+      windowStart: payload.windowStart,
+      windowEnd: payload.windowEnd
+    };
+  }
+
+  const dates = [];
+  for (const country of payload.countries ?? []) {
+    for (const holiday of payload.publicHolidaysByCountry?.[country.countryCode] ?? []) {
+      dates.push(holiday.startDate, holiday.endDate);
+    }
+    for (const holiday of payload.schoolHolidaysByCountry?.[country.countryCode] ?? []) {
+      dates.push(holiday.startDate, holiday.endDate);
+    }
+  }
+
+  const validDates = dates.filter(Boolean).sort();
+  if (validDates.length > 0) {
+    return {
+      windowStart: validDates[0],
+      windowEnd: validDates[validDates.length - 1]
+    };
+  }
+
+  return getRollingHolidayWindow(buildDate);
+}
+
+export async function fetchLiveSnapshot(buildDate, window = getRollingHolidayWindow(buildDate)) {
   const countriesResponse = await fetchJson("https://openholidaysapi.org/Countries");
   const supportedCountries = countriesResponse.filter((country) => EUROPEAN_COUNTRY_CODES.includes(country.isoCode));
   const countries = supportedCountries.map((country) => ({
@@ -580,6 +619,8 @@ async function fetchLiveSnapshot(buildDate) {
 
   const payload = {
     generatedAt: buildDate,
+    windowStart: window.windowStart,
+    windowEnd: window.windowEnd,
     countries: [],
     subdivisionsByCountry: {},
     groupsByCountry: {},
@@ -593,10 +634,10 @@ async function fetchLiveSnapshot(buildDate) {
       fetchJson(`https://openholidaysapi.org/Subdivisions?countryIsoCode=${country.countryCode}`).catch(() => []),
       fetchJson(`https://openholidaysapi.org/Groups?countryIsoCode=${country.countryCode}`).catch(() => []),
       fetchJson(
-        `https://openholidaysapi.org/PublicHolidays?countryIsoCode=${country.countryCode}&languageIsoCode=${languageIsoCode}&validFrom=${WINDOW_START}&validTo=${WINDOW_END}`
+        `https://openholidaysapi.org/PublicHolidays?countryIsoCode=${country.countryCode}&languageIsoCode=${languageIsoCode}&validFrom=${window.windowStart}&validTo=${window.windowEnd}`
       ).catch(() => []),
       fetchJson(
-        `https://openholidaysapi.org/SchoolHolidays?countryIsoCode=${country.countryCode}&languageIsoCode=${languageIsoCode}&validFrom=${WINDOW_START}&validTo=${WINDOW_END}`
+        `https://openholidaysapi.org/SchoolHolidays?countryIsoCode=${country.countryCode}&languageIsoCode=${languageIsoCode}&validFrom=${window.windowStart}&validTo=${window.windowEnd}`
       ).catch(() => [])
     ]);
 
@@ -614,7 +655,7 @@ export function resolveLastCheckedAt(payload, fallbackDate) {
   return payload.lastCheckedAt ?? payload.generatedAt ?? fallbackDate;
 }
 
-export function buildDatasetFromPayload(payload, buildDate, source) {
+export function buildDatasetFromPayload(payload, buildDate, source, window = resolveDatasetWindow(payload, buildDate)) {
   const lastCheckedAt = resolveLastCheckedAt(payload, buildDate);
   const lastChangedAt = source.defaultLastChangedAt ?? lastCheckedAt;
 
@@ -852,9 +893,9 @@ export function buildDatasetFromPayload(payload, buildDate, source) {
   }
 
   const uniqueRegions = Array.from(new Map(regions.map((region) => [region.id, region])).values());
-  const uniqueHolidays = Array.from(new Map(filterWindow(holidays).map((holiday) => [holiday.id, holiday])).values());
+  const uniqueHolidays = Array.from(new Map(filterWindow(holidays, window).map((holiday) => [holiday.id, holiday])).values());
   const coverageByKey = new Map();
-  for (const coverage of filterWindow(holidayCoverage)) {
+  for (const coverage of filterWindow(holidayCoverage, window)) {
     const existing = coverageByKey.get(coverage.key);
     if (!existing) {
       coverageByKey.set(coverage.key, coverage);
@@ -866,8 +907,8 @@ export function buildDatasetFromPayload(payload, buildDate, source) {
 
   return {
     generatedAt: buildDate,
-    windowStart: WINDOW_START,
-    windowEnd: WINDOW_END,
+    windowStart: window.windowStart,
+    windowEnd: window.windowEnd,
     countries,
     regions: sortRecords(uniqueRegions, ["country", "label", "id"]),
     sources: [
@@ -879,19 +920,20 @@ export function buildDatasetFromPayload(payload, buildDate, source) {
     ],
     holidays: sortRecords(uniqueHolidays, ["startDate", "country", "regionId", "name"]),
     holidayCoverage: sortRecords(uniqueHolidayCoverage, ["startDate", "country", "name"]),
-    offSeasonDays: buildOffSeasonDays(WINDOW_START, WINDOW_END, uniqueHolidays)
+    offSeasonDays: buildOffSeasonDays(window.windowStart, window.windowEnd, uniqueHolidays)
   };
 }
 
 async function main() {
   const buildDate = toIsoDate(new Date());
+  const queryWindow = getRollingHolidayWindow(buildDate);
   const source = sourceDefaults[0];
 
   let payload;
   let mode = "live";
 
   try {
-    payload = await fetchLiveSnapshot(buildDate);
+    payload = await fetchLiveSnapshot(buildDate, queryWindow);
     payload.lastCheckedAt = buildDate;
     await fs.mkdir(path.dirname(path.join(repoRoot, source.snapshotPath)), { recursive: true });
     await fs.writeFile(path.join(repoRoot, source.snapshotPath), `${JSON.stringify(payload, null, 2)}\n`);

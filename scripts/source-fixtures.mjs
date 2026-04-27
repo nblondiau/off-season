@@ -1,6 +1,3 @@
-export const WINDOW_START = "2025-09-01";
-export const WINDOW_END = "2027-06-30";
-
 export const EUROPEAN_COUNTRY_CODES = [
   "AD",
   "AL",
