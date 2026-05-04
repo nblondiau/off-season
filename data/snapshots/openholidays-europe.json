@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-27",
-  "windowStart": "2026-04-01",
-  "windowEnd": "2028-04-30",
+  "generatedAt": "2026-05-04",
+  "windowStart": "2026-05-01",
+  "windowEnd": "2028-05-31",
   "countries": [
     {
       "countryCode": "AD",
@@ -129380,36 +129380,6 @@
   "publicHolidaysByCountry": {
     "AD": [
       {
-        "id": "2c7dd144-af66-496b-95b5-61937b42582c",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "f1d403e7-b133-4d12-9cd2-a02482830211",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "1ab20a92-6c29-4cc9-ad2b-37276dd74146",
         "startDate": "2026-05-01",
         "endDate": "2026-05-01",
@@ -129828,69 +129798,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "5f436301-dda9-449f-84b3-826864431617",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "AL": [
-      {
-        "id": "4d579082-300f-4c77-aeff-3453d05661df",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "56bce240-b976-41e4-8eec-819d59a8c827",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "27ef2514-5d7e-4b93-abbf-96d2d20f38e7",
-        "startDate": "2026-04-12",
-        "endDate": "2026-04-12",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Orthodox Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "14e6aec9-3dcc-49a5-b7f2-e4ab74031294",
-        "startDate": "2026-04-13",
-        "endDate": "2026-04-13",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Orthodox Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "fbbbf380-110a-4622-a18a-12b66e078b85",
         "startDate": "2026-05-01",
@@ -130370,24 +130295,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "AT": [
+      },
       {
-        "id": "7da0e458-e6cd-4ec1-841b-a4a3eab0156a",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
+        "id": "3b9b675d-4eea-4c02-ac23-a6d8508817a4",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Easter Monday"
+            "text": "Labour Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "72779b4f-f2f8-45d2-8354-1ffa53988c51",
+        "startDate": "2028-05-04",
+        "endDate": "2028-05-04",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Eid ul-Adha (Feast of Sacrifice)"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      }
+    ],
+    "AT": [
       {
         "id": "c46e6270-bac3-440d-a9e6-6084fdfec89e",
         "startDate": "2026-05-01",
@@ -130777,39 +130717,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "d755232c-843f-44e0-8cfd-959fe1bb2452",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "85fc8798-0593-4c13-a393-49cac7297359",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "BE": [
-      {
-        "id": "54ce9b56-55bf-4a92-9134-c111bcbd1abf",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "63ef9e69-f2d3-4165-9bc4-6bcf5e32a6a0",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "baa20ef3-b64a-417f-b42d-2cef313b2ef1",
         "startDate": "2026-05-01",
@@ -131169,69 +131109,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "6a0ebaea-7428-4123-9443-17ae7cd4dea1",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "177b7a10-f1c4-4ccf-9f15-e3503a76c443",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "BG": [
-      {
-        "id": "9ce73a35-e70c-43e8-8f57-4e1bc0383ca9",
-        "startDate": "2026-04-10",
-        "endDate": "2026-04-10",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "b7af5e27-dd1a-48ea-a7d1-0677b8689256",
-        "startDate": "2026-04-11",
-        "endDate": "2026-04-11",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Holy Saturday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "797a8384-a560-4fb1-b425-0d0eae1a6b38",
-        "startDate": "2026-04-12",
-        "endDate": "2026-04-12",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "dbcd9ea9-0b0f-4c40-bdd7-057df770db8d",
-        "startDate": "2026-04-13",
-        "endDate": "2026-04-13",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "60257ad3-54ba-45d9-8ca9-05d47bd9904b",
         "startDate": "2026-05-01",
@@ -131696,6 +131606,51 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "978f138e-502e-406b-9c1e-11fe72a23f51",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "c933d88a-3e61-4748-8edd-3867a5f07617",
+        "startDate": "2028-05-06",
+        "endDate": "2028-05-06",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "St. George's Day, and the Bulgarian Army’s Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "76435805-3e6f-4313-a64e-be7fe32c6881",
+        "startDate": "2028-05-24",
+        "endDate": "2028-05-24",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Bulgarian Education and Culture, and Slavic Script Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "BY": [
@@ -131968,337 +131923,54 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "f127fcb7-7433-46e2-ba61-02facda56c1d",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "10f32dba-6a76-43a3-8f31-9cca5156f5fd",
+        "startDate": "2028-05-09",
+        "endDate": "2028-05-09",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Victory Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "d6381420-07ff-4960-b991-ddba9966a7a1",
+        "startDate": "2028-05-14",
+        "endDate": "2028-05-14",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Radunitsa"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "CH": [
-      {
-        "id": "637e6673-4e30-4855-8b16-91d6b56d3ad6",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-LU",
-            "shortName": "LU"
-          },
-          {
-            "code": "CH-AI",
-            "shortName": "AI"
-          },
-          {
-            "code": "CH-BL",
-            "shortName": "BL"
-          },
-          {
-            "code": "CH-GR",
-            "shortName": "GR"
-          },
-          {
-            "code": "CH-SO",
-            "shortName": "SO"
-          },
-          {
-            "code": "CH-GE",
-            "shortName": "GE"
-          },
-          {
-            "code": "CH-FR",
-            "shortName": "FR"
-          },
-          {
-            "code": "CH-SZ",
-            "shortName": "SZ"
-          },
-          {
-            "code": "CH-AR",
-            "shortName": "AR"
-          },
-          {
-            "code": "CH-NW",
-            "shortName": "NW"
-          },
-          {
-            "code": "CH-GL",
-            "shortName": "GL"
-          },
-          {
-            "code": "CH-ZG",
-            "shortName": "ZG"
-          },
-          {
-            "code": "CH-SH",
-            "shortName": "SH"
-          },
-          {
-            "code": "CH-OW",
-            "shortName": "OW"
-          },
-          {
-            "code": "CH-ZH",
-            "shortName": "ZH"
-          },
-          {
-            "code": "CH-NE",
-            "shortName": "NE"
-          },
-          {
-            "code": "CH-VD",
-            "shortName": "VD"
-          },
-          {
-            "code": "CH-SG",
-            "shortName": "SG"
-          },
-          {
-            "code": "CH-TG",
-            "shortName": "TG"
-          },
-          {
-            "code": "CH-BE",
-            "shortName": "BE"
-          },
-          {
-            "code": "CH-JU",
-            "shortName": "JU"
-          },
-          {
-            "code": "CH-UR",
-            "shortName": "UR"
-          },
-          {
-            "code": "CH-AG",
-            "shortName": "AG"
-          },
-          {
-            "code": "CH-BS",
-            "shortName": "BS"
-          }
-        ]
-      },
-      {
-        "id": "f4e848c4-0b8b-4561-91b3-ea8b3d1b2963",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-LU",
-            "shortName": "LU"
-          },
-          {
-            "code": "CH-AI",
-            "shortName": "AI"
-          },
-          {
-            "code": "CH-BL",
-            "shortName": "BL"
-          },
-          {
-            "code": "CH-VS",
-            "shortName": "VS"
-          },
-          {
-            "code": "CH-AG-RF-MA",
-            "shortName": "AG-RF-MA"
-          },
-          {
-            "code": "CH-AG-LB",
-            "shortName": "AG-LB"
-          },
-          {
-            "code": "CH-AG-RF-WA",
-            "shortName": "AG-RF-WA"
-          },
-          {
-            "code": "CH-GR",
-            "shortName": "GR"
-          },
-          {
-            "code": "CH-SO",
-            "shortName": "SO"
-          },
-          {
-            "code": "CH-GE",
-            "shortName": "GE"
-          },
-          {
-            "code": "CH-FR",
-            "shortName": "FR"
-          },
-          {
-            "code": "CH-SZ",
-            "shortName": "SZ"
-          },
-          {
-            "code": "CH-AG-ZF",
-            "shortName": "AG-ZF"
-          },
-          {
-            "code": "CH-AR",
-            "shortName": "AR"
-          },
-          {
-            "code": "CH-NW",
-            "shortName": "NW"
-          },
-          {
-            "code": "CH-GL",
-            "shortName": "GL"
-          },
-          {
-            "code": "CH-ZG",
-            "shortName": "ZG"
-          },
-          {
-            "code": "CH-SH",
-            "shortName": "SH"
-          },
-          {
-            "code": "CH-AG-RF-RF",
-            "shortName": "AG-RF-RF"
-          },
-          {
-            "code": "CH-OW",
-            "shortName": "OW"
-          },
-          {
-            "code": "CH-AG-AA",
-            "shortName": "AG-AA"
-          },
-          {
-            "code": "CH-AG-KU",
-            "shortName": "AG-KU"
-          },
-          {
-            "code": "CH-AG-BA",
-            "shortName": "AG-BA"
-          },
-          {
-            "code": "CH-AG-RF-KA",
-            "shortName": "AG-RF-KA"
-          },
-          {
-            "code": "CH-ZH",
-            "shortName": "ZH"
-          },
-          {
-            "code": "CH-NE",
-            "shortName": "NE"
-          },
-          {
-            "code": "CH-AG-RF-MO",
-            "shortName": "AG-RF-MO"
-          },
-          {
-            "code": "CH-VD",
-            "shortName": "VD"
-          },
-          {
-            "code": "CH-AG-RF-ZU",
-            "shortName": "AG-RF-ZU"
-          },
-          {
-            "code": "CH-SG",
-            "shortName": "SG"
-          },
-          {
-            "code": "CH-TG",
-            "shortName": "TG"
-          },
-          {
-            "code": "CH-BE",
-            "shortName": "BE"
-          },
-          {
-            "code": "CH-JU",
-            "shortName": "JU"
-          },
-          {
-            "code": "CH-AG-RF-OL",
-            "shortName": "AG-RF-OL"
-          },
-          {
-            "code": "CH-UR",
-            "shortName": "UR"
-          },
-          {
-            "code": "CH-AG-BR",
-            "shortName": "AG-BR"
-          },
-          {
-            "code": "CH-AG-RF-ZE",
-            "shortName": "AG-RF-ZE"
-          },
-          {
-            "code": "CH-BS",
-            "shortName": "BS"
-          },
-          {
-            "code": "CH-TI",
-            "shortName": "TI"
-          }
-        ]
-      },
-      {
-        "id": "7a8b2298-9d0e-4c7b-ad40-ece079f92ea3",
-        "startDate": "2026-04-09",
-        "endDate": "2026-04-09",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Näfels Ride"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-GL",
-            "shortName": "GL"
-          }
-        ]
-      },
-      {
-        "id": "1ce03cdc-685c-4636-8761-ae0bc3678c3d",
-        "startDate": "2026-04-20",
-        "endDate": "2026-04-20",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Sechseläuten"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "HalfDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-ZH-ZH-ZH",
-            "shortName": "ZH-ZH-ZH"
-          }
-        ]
-      },
       {
         "id": "40d9e769-20c5-4f2e-982c-eb5102dc1ead",
         "startDate": "2026-05-01",
@@ -136600,39 +136272,189 @@
             "shortName": "ZH-ZH-ZH"
           }
         ]
+      },
+      {
+        "id": "0feb5e2d-f9a8-44c6-8543-b047a8dae960",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "HalfDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-SO-DE",
+            "shortName": "SO-DE"
+          },
+          {
+            "code": "CH-SO-LB",
+            "shortName": "SO-LB"
+          },
+          {
+            "code": "CH-SO-GA",
+            "shortName": "SO-GA"
+          },
+          {
+            "code": "CH-SO-TH-WG",
+            "shortName": "SO-TH-WG"
+          },
+          {
+            "code": "CH-SO-TH-MD",
+            "shortName": "SO-TH-MD"
+          },
+          {
+            "code": "CH-SO-SO",
+            "shortName": "SO-SO"
+          },
+          {
+            "code": "CH-SO-OL",
+            "shortName": "SO-OL"
+          },
+          {
+            "code": "CH-SO-TH-MR",
+            "shortName": "SO-TH-MR"
+          },
+          {
+            "code": "CH-SO-TH-BT",
+            "shortName": "SO-TH-BT"
+          },
+          {
+            "code": "CH-SO-BB",
+            "shortName": "SO-BB"
+          },
+          {
+            "code": "CH-SO-TH-LD",
+            "shortName": "SO-TH-LD"
+          },
+          {
+            "code": "CH-SO-TH-HW",
+            "shortName": "SO-TH-HW"
+          },
+          {
+            "code": "CH-SO-WA",
+            "shortName": "SO-WA"
+          },
+          {
+            "code": "CH-SO-TS",
+            "shortName": "SO-TS"
+          },
+          {
+            "code": "CH-SO-TH-HB",
+            "shortName": "SO-TH-HB"
+          },
+          {
+            "code": "CH-SO-GG",
+            "shortName": "SO-GG"
+          }
+        ],
+        "comment": [
+          {
+            "language": "EN",
+            "text": "from 12:00"
+          }
+        ]
+      },
+      {
+        "id": "68fb1fa2-2611-4eb2-aa12-ede199cf63a6",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Saint Sigismund"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-SZ-SZ-MU",
+            "shortName": "SZ-SZ-MU"
+          }
+        ]
+      },
+      {
+        "id": "d0b78f01-98f0-46af-862e-16a75e9ef2e9",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-BL",
+            "shortName": "BL"
+          },
+          {
+            "code": "CH-SH",
+            "shortName": "SH"
+          },
+          {
+            "code": "CH-ZH",
+            "shortName": "ZH"
+          },
+          {
+            "code": "CH-NE",
+            "shortName": "NE"
+          },
+          {
+            "code": "CH-SO-TH-AD",
+            "shortName": "SO-TH-AD"
+          },
+          {
+            "code": "CH-TG",
+            "shortName": "TG"
+          },
+          {
+            "code": "CH-JU",
+            "shortName": "JU"
+          },
+          {
+            "code": "CH-AG",
+            "shortName": "AG"
+          },
+          {
+            "code": "CH-BS",
+            "shortName": "BS"
+          },
+          {
+            "code": "CH-TI",
+            "shortName": "TI"
+          }
+        ]
+      },
+      {
+        "id": "646394e3-baac-4953-bd12-87bc8a33c3ca",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "CZ": [
-      {
-        "id": "9e271cee-c48b-4c8b-8139-3c8f25dbef31",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "0fb4c9ff-c62e-4487-92be-848c1fdbd691",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "1efe901c-b491-40db-a924-d6aec650d5ad",
         "startDate": "2026-05-01",
@@ -137052,60 +136874,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "fa0ce81b-bff1-4ae5-bb5c-2ba507ceb3e0",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "38af183e-7c84-4f22-8e05-3418c319c8d3",
+        "startDate": "2028-05-08",
+        "endDate": "2028-05-08",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Liberation Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "DE": [
-      {
-        "id": "f80fd9dc-41b4-4203-8fea-2cf36d365fbb",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "ba2b9c3a-e65d-4570-a66e-16452dd0eaaa",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BB",
-            "shortName": "BB"
-          }
-        ]
-      },
-      {
-        "id": "8d8ad831-8d60-429f-ad46-7f842c9fe2d9",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "6f661249-94cb-4a54-a063-20dde86ebde6",
         "startDate": "2026-05-01",
@@ -138005,39 +137806,39 @@
         "regionalScope": "Regional",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "e153c1b9-ef86-4f43-a454-60ea0138ef1e",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "ed0edf81-d59d-4406-9681-372e81b69abc",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "EE": [
-      {
-        "id": "7b9bda14-64c7-49a3-b34e-459bb19be910",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "7bb41794-3df5-447e-8106-66873944c890",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "89c6059d-9f14-4a02-99bb-94a787def5cb",
         "startDate": "2026-05-01",
@@ -138397,200 +138198,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "ES": [
-      {
-        "id": "ea898eb7-58a4-49d8-baec-175885e2056d",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-02",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Maundy Thursday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-RI",
-            "shortName": "RI"
-          },
-          {
-            "code": "ES-ML",
-            "shortName": "ML"
-          },
-          {
-            "code": "ES-EX",
-            "shortName": "EX"
-          },
-          {
-            "code": "ES-CL",
-            "shortName": "CL"
-          },
-          {
-            "code": "ES-AS",
-            "shortName": "AS"
-          },
-          {
-            "code": "ES-PV",
-            "shortName": "PV"
-          },
-          {
-            "code": "ES-AN",
-            "shortName": "AN"
-          },
-          {
-            "code": "ES-AR",
-            "shortName": "AR"
-          },
-          {
-            "code": "ES-CE",
-            "shortName": "CE"
-          },
-          {
-            "code": "ES-MC",
-            "shortName": "MC"
-          },
-          {
-            "code": "ES-CN",
-            "shortName": "CN"
-          },
-          {
-            "code": "ES-CM",
-            "shortName": "CM"
-          },
-          {
-            "code": "ES-NC",
-            "shortName": "NC"
-          },
-          {
-            "code": "ES-GA",
-            "shortName": "GA"
-          },
-          {
-            "code": "ES-MD",
-            "shortName": "MD"
-          },
-          {
-            "code": "ES-IB",
-            "shortName": "IB"
-          },
-          {
-            "code": "ES-CB",
-            "shortName": "CB"
-          }
-        ]
       },
       {
-        "id": "acf0abb8-6f76-41f3-a694-8394b4b3938d",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
+        "id": "a6cd223f-9427-4efa-b3d4-0496a4c01980",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Good Friday"
+            "text": "Spring Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
-      {
-        "id": "ee1a3366-69b6-44d0-b1d0-1f4c053de359",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-RI",
-            "shortName": "RI"
-          },
-          {
-            "code": "ES-PV",
-            "shortName": "PV"
-          },
-          {
-            "code": "ES-VC",
-            "shortName": "VC"
-          },
-          {
-            "code": "ES-CT",
-            "shortName": "CT"
-          },
-          {
-            "code": "ES-CM",
-            "shortName": "CM"
-          },
-          {
-            "code": "ES-NC",
-            "shortName": "NC"
-          },
-          {
-            "code": "ES-IB",
-            "shortName": "IB"
-          },
-          {
-            "code": "ES-CB",
-            "shortName": "CB"
-          }
-        ]
-      },
-      {
-        "id": "a3b02d7c-9cfc-416c-abdf-62e537c9a4eb",
-        "startDate": "2026-04-23",
-        "endDate": "2026-04-23",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Aragon Day"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AR",
-            "shortName": "AR"
-          }
-        ]
-      },
-      {
-        "id": "cfb4534e-e190-4222-981f-8591da638d52",
-        "startDate": "2026-04-23",
-        "endDate": "2026-04-23",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Regional Holiday in Castile and León"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CL",
-            "shortName": "CL"
-          }
-        ]
-      },
+      }
+    ],
+    "ES": [
       {
         "id": "58a20b33-5fde-4ae0-8f53-1812ca7af631",
         "startDate": "2026-05-01",
@@ -139452,71 +139077,6 @@
     ],
     "FR": [
       {
-        "id": "1d72e24a-0bfb-4261-81ca-d75f5e885df9",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-GE-BR",
-            "shortName": "GE-BR"
-          },
-          {
-            "code": "FR-GE-HR",
-            "shortName": "GE-HR"
-          },
-          {
-            "code": "FR-GE-MO",
-            "shortName": "GE-MO"
-          }
-        ]
-      },
-      {
-        "id": "ebe2aaf5-cdb4-4d96-ba43-9f100da69eda",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "584b0723-23b0-49e8-ab38-415f685348cc",
-        "startDate": "2026-04-27",
-        "endDate": "2026-04-27",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Abolition of slavery"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-YT",
-            "shortName": "YT"
-          }
-        ]
-      },
-      {
         "id": "fc010d41-f92e-46c8-a1ff-dd15c7d41c51",
         "startDate": "2026-05-01",
         "endDate": "2026-05-01",
@@ -140221,24 +139781,100 @@
             "shortName": "YT"
           }
         ]
-      }
-    ],
-    "HR": [
+      },
       {
-        "id": "8ba4829e-8378-4e3f-bcdc-cc4992bccc8c",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
+        "id": "0914747b-a983-412e-81ad-307c095f931b",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Easter Monday"
+            "text": "Labour Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "438cd1f0-f94f-401e-9513-3df2c467685f",
+        "startDate": "2028-05-08",
+        "endDate": "2028-05-08",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Victory Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "9805611b-89cb-4dbe-935a-7736f1cea7e4",
+        "startDate": "2028-05-22",
+        "endDate": "2028-05-22",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Abolition of slavery"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "FR-MQ",
+            "shortName": "MQ"
+          }
+        ]
+      },
+      {
+        "id": "4c11f17a-40b1-4790-8a23-6a9b3db7db26",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "e8b155bb-6a45-4dbd-80b1-065bd2064d99",
+        "startDate": "2028-05-27",
+        "endDate": "2028-05-27",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Abolition of slavery"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "FR-MF",
+            "shortName": "MF"
+          },
+          {
+            "code": "FR-GP",
+            "shortName": "GP"
+          }
+        ]
+      }
+    ],
+    "HR": [
       {
         "id": "5a8bece7-73ad-43fa-8060-14a59b2732d0",
         "startDate": "2026-05-01",
@@ -140628,39 +140264,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "78e909d5-4c65-4a30-bd55-1a1e825f8e2d",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "4850018b-81dd-48a1-9e09-e5bdedd0c3ba",
+        "startDate": "2028-05-30",
+        "endDate": "2028-05-30",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Statehood Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "HU": [
-      {
-        "id": "eb5c1046-9050-432c-ab93-ee66e7c800ed",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "1a82d9b3-34ef-4a5f-871c-9cbfca15914c",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "27f33fbe-948a-4f83-b137-780b15275bbc",
         "startDate": "2026-05-01",
@@ -140990,24 +140626,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "IE": [
+      },
       {
-        "id": "190b72cd-c2d3-44e5-a42e-f98485372f4c",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
+        "id": "f11f6036-49e1-4623-ab8b-bbafd65ade65",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Easter Monday"
+            "text": "Labour Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "IE": [
       {
         "id": "257045ce-aef2-497e-8b08-df89f5a48e2f",
         "startDate": "2026-05-04",
@@ -141307,81 +140943,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "7286abce-fc8f-4756-9390-68933d56121d",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "May Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "IT": [
-      {
-        "id": "517e67e4-aa44-4bdd-84d7-311a8906c3cb",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "930c4838-8dbc-4048-8023-358af432c5b4",
-        "startDate": "2026-04-25",
-        "endDate": "2026-04-25",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Liberation Day"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "c365d0b2-c7df-46dc-be7d-f2b281942771",
-        "startDate": "2026-04-25",
-        "endDate": "2026-04-25",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Feast of St Mark"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-VE-VE",
-            "shortName": "VE-VE"
-          }
-        ]
-      },
-      {
-        "id": "feb31a97-787e-42a9-8091-5cb7f5689f0a",
-        "startDate": "2026-04-28",
-        "endDate": "2026-04-28",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Sardinia's Day"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-SA",
-            "shortName": "SA"
-          }
-        ]
-      },
       {
         "id": "4ea07c49-760e-4a67-a7c0-535419242731",
         "startDate": "2026-05-01",
@@ -142231,24 +141810,24 @@
             "shortName": "SA"
           }
         ]
-      }
-    ],
-    "LI": [
+      },
       {
-        "id": "c45517d9-dede-4f4a-8125-f87c400e2942",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
+        "id": "c81e6866-d98b-4a6f-88c5-6658852716ee",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Easter Monday"
+            "text": "Labour Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "LI": [
       {
         "id": "d9a17283-4321-41d0-be0e-24ac6e7e3f6f",
         "startDate": "2026-05-01",
@@ -142638,39 +142217,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "c9c620d4-736e-45e4-8488-f7a357f24360",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "2ca994ef-e713-4e83-bec5-e47e64ebfa18",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "LT": [
-      {
-        "id": "e38f8505-1bbd-4df9-af71-fe64ef32c4cc",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "dfda1f3a-4218-4a38-841c-ca3c6e967083",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "65ef7348-3488-46c9-a759-dbef43cf00d1",
         "startDate": "2026-05-01",
@@ -143090,39 +142669,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "LU": [
-      {
-        "id": "573c2b77-1c05-4582-a204-176465b2c56b",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Bank",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
       },
       {
-        "id": "4396fb20-2c59-405d-9aef-360c7d2b53be",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
+        "id": "a0944da3-8d4f-403a-8ef8-32d30063e099",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Easter Monday"
+            "text": "Labour Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "LU": [
       {
         "id": "24aa82ab-d7b7-4efc-b561-d2e90cfad4a8",
         "startDate": "2026-05-01",
@@ -143482,54 +143046,54 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "73c15655-7066-498e-aa5e-f0b14fd95e42",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Mayday"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "140479dd-8774-4c4c-818d-0ca4103be359",
+        "startDate": "2028-05-09",
+        "endDate": "2028-05-09",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Europe Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "f1529e07-a707-4700-b968-cce7d37e453d",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "LV": [
-      {
-        "id": "8a5399f9-f7bf-455d-81ca-45fac89a9d08",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "75e036a0-324a-4b32-a55f-b8de53b6f1a3",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "1706274d-0e2f-43bb-9069-3b5b6b17bded",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "16f2fbad-6047-44ab-9190-95d98cbc36fb",
         "startDate": "2026-05-01",
@@ -143979,24 +143543,54 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "MC": [
+      },
       {
-        "id": "e63eed19-6319-4243-8581-f85883eaf866",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
+        "id": "b0b45d3f-7d37-4758-ac99-90b160956818",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Easter Monday"
+            "text": "Labour Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "a736cfc2-eb45-4fd7-ad85-00b99cd9ec21",
+        "startDate": "2028-05-04",
+        "endDate": "2028-05-04",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day of the Restoration of Independence"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "541ceb6c-9881-468d-973d-f2e78d572878",
+        "startDate": "2028-05-14",
+        "endDate": "2028-05-14",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Mother's Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      }
+    ],
+    "MC": [
       {
         "id": "ab8c454b-d02b-41b4-95dc-a2b8e9e9bbc4",
         "startDate": "2026-05-01",
@@ -144356,54 +143950,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "9c3fe355-787d-4882-947f-7963772cb684",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "8fe27f12-0680-4444-93d3-628bcbf788f4",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension's Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "MD": [
-      {
-        "id": "24db8278-ca39-4be0-9eea-f464fea9b3f2",
-        "startDate": "2026-04-12",
-        "endDate": "2026-04-12",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Orthodox Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "2a868d02-3d59-4e11-b56c-d57d4bcf8ea6",
-        "startDate": "2026-04-13",
-        "endDate": "2026-04-13",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Orthodox Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "ef1059c1-6414-4570-86ad-0241362be88f",
-        "startDate": "2026-04-20",
-        "endDate": "2026-04-20",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Commemoration Day (Radonitsa)"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "85629eae-2f66-4940-8e4a-70c60b07960a",
         "startDate": "2026-05-01",
@@ -144793,24 +144372,54 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "MT": [
+      },
       {
-        "id": "7a29a163-0390-478d-a2eb-6b3e81175c77",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
+        "id": "d876d54c-2966-4c2d-bea8-8e6365b51cc1",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Good Friday"
+            "text": "Labour Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "28094694-136c-4e98-a24b-080c939b9a8e",
+        "startDate": "2028-05-09",
+        "endDate": "2028-05-09",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Europe Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "cd7f4e0c-8c25-4717-b4a4-ece9163269ff",
+        "startDate": "2028-05-09",
+        "endDate": "2028-05-09",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Victory Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      }
+    ],
+    "MT": [
       {
         "id": "ec89cdaa-b217-48f3-9c90-eeedb6c23d73",
         "startDate": "2026-05-01",
@@ -145230,69 +144839,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "28163e3a-9278-439d-b149-b4ca38b8428b",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Worker's Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "NL": [
-      {
-        "id": "7202ffee-b1a6-4d89-8f62-033fdfba9be9",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "dcb87ceb-ce81-4ea6-81ab-d0545281bd1e",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "26d020f7-d02c-470c-9f8b-c71c791df54e",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "d53575fc-9aab-4487-8e26-f4ed1d709835",
-        "startDate": "2026-04-27",
-        "endDate": "2026-04-27",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "King’s Day"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "abeb6b62-fec1-4fb6-bc0a-9d9984fa49bf",
         "startDate": "2026-05-05",
@@ -145622,39 +145186,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "5a7e82ab-ea1d-439f-bcb5-0fe8f5bfe8b6",
+        "startDate": "2028-05-05",
+        "endDate": "2028-05-05",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Liberation Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "a9cf8aae-56b8-4d4d-950f-497cbcfe57fa",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "PL": [
-      {
-        "id": "4e222eda-0112-412a-a694-4521c5ac4aed",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "2f4711b8-2edd-4136-a6ee-52f46c633a2f",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "9cef5596-5b75-43bc-91a1-264c0b2a6d09",
         "startDate": "2026-05-01",
@@ -146074,386 +145638,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "fafe739a-96dc-4bc1-9030-b75116db134f",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "457aceef-dbfc-44b9-a14c-813d8fb004bb",
+        "startDate": "2028-05-03",
+        "endDate": "2028-05-03",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Constitution Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "PT": [
-      {
-        "id": "4b333acb-0f39-4bde-b59a-ae2d6d6a0158",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-02",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-SA-AP",
-            "shortName": "SA-AP"
-          }
-        ]
-      },
-      {
-        "id": "b795d6b9-c230-4054-bbc7-0b4bbbae1d71",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "af6096ef-ba9c-40d7-ab0f-62e8e21f85c9",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "db92a6ea-e441-4451-9b5d-43f11b3a54a9",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Battle of Atoleiros"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-PA-FR",
-            "shortName": "PA-FR"
-          }
-        ]
-      },
-      {
-        "id": "e120652a-8915-414d-907c-e3094819b2ce",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-PA-CV",
-            "shortName": "PA-CV"
-          },
-          {
-            "code": "PT-PA-CR",
-            "shortName": "PA-CR"
-          },
-          {
-            "code": "PT-PA-CM",
-            "shortName": "PA-CM"
-          },
-          {
-            "code": "PT-SA-CN",
-            "shortName": "SA-CN"
-          },
-          {
-            "code": "PT-SA-MA",
-            "shortName": "SA-MA"
-          },
-          {
-            "code": "PT-VC-CA",
-            "shortName": "VC-CA"
-          },
-          {
-            "code": "PT-EV-RD",
-            "shortName": "EV-RD"
-          },
-          {
-            "code": "PT-PA-PS",
-            "shortName": "PA-PS"
-          },
-          {
-            "code": "PT-EV-BO",
-            "shortName": "EV-BO"
-          },
-          {
-            "code": "PT-PA-SO",
-            "shortName": "PA-SO"
-          },
-          {
-            "code": "PT-CB-PE",
-            "shortName": "CB-PE"
-          },
-          {
-            "code": "PT-AV-IL",
-            "shortName": "AV-IL"
-          },
-          {
-            "code": "PT-BA-FE",
-            "shortName": "BA-FE"
-          },
-          {
-            "code": "PT-BE-CU",
-            "shortName": "BE-CU"
-          },
-          {
-            "code": "PT-PA-NI",
-            "shortName": "PA-NI"
-          },
-          {
-            "code": "PT-EV-PO",
-            "shortName": "EV-PO"
-          },
-          {
-            "code": "PT-EV-MR",
-            "shortName": "EV-MR"
-          }
-        ]
-      },
-      {
-        "id": "bbe25f3d-8e2d-4f91-83c9-42c00628e1bf",
-        "startDate": "2026-04-07",
-        "endDate": "2026-04-07",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-BE-SE",
-            "shortName": "BE-SE"
-          }
-        ]
-      },
-      {
-        "id": "89d396f0-fa88-4f6e-9457-32858463d1c2",
-        "startDate": "2026-04-10",
-        "endDate": "2026-04-10",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CO-PS",
-            "shortName": "CO-PS"
-          },
-          {
-            "code": "PT-CO-TA",
-            "shortName": "CO-TA"
-          }
-        ]
-      },
-      {
-        "id": "534d0eaf-1fbc-4ca4-a1e4-ce955de34ea4",
-        "startDate": "2026-04-11",
-        "endDate": "2026-04-11",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-AC-LG",
-            "shortName": "AC-LG"
-          }
-        ]
-      },
-      {
-        "id": "180e96f6-1437-4f3f-862a-b8005cd25340",
-        "startDate": "2026-04-13",
-        "endDate": "2026-04-13",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Monday after the first Sunday after Easter"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-GU-SA",
-            "shortName": "GU-SA"
-          },
-          {
-            "code": "PT-PA-MO",
-            "shortName": "PA-MO"
-          },
-          {
-            "code": "PT-EV-AL",
-            "shortName": "EV-AL"
-          },
-          {
-            "code": "PT-PA-AV",
-            "shortName": "PA-AV"
-          }
-        ]
-      },
-      {
-        "id": "03ca5f86-a94d-42cc-949d-c105b6469b73",
-        "startDate": "2026-04-20",
-        "endDate": "2026-04-20",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CB-CB",
-            "shortName": "CB-CB"
-          }
-        ]
-      },
-      {
-        "id": "42c17097-36f9-4eeb-83c2-4808a0e2be29",
-        "startDate": "2026-04-20",
-        "endDate": "2026-04-20",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CB-IN",
-            "shortName": "CB-IN"
-          }
-        ]
-      },
-      {
-        "id": "d729fccb-f1da-4d30-9a11-485a75183246",
-        "startDate": "2026-04-22",
-        "endDate": "2026-04-22",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-AC-PD",
-            "shortName": "AC-PD"
-          }
-        ]
-      },
-      {
-        "id": "c2ace560-d63c-4076-a8e3-07dbb2a464d2",
-        "startDate": "2026-04-23",
-        "endDate": "2026-04-23",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St George's Day"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-AC-VE",
-            "shortName": "AC-VE"
-          }
-        ]
-      },
-      {
-        "id": "f30befde-c2c5-4bc8-ba70-492cbcbb7a78",
-        "startDate": "2026-04-25",
-        "endDate": "2026-04-25",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Liberty Day"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "c68e69a4-3464-4e26-8757-1a9643025c4c",
-        "startDate": "2026-04-26",
-        "endDate": "2026-04-26",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CB-BE",
-            "shortName": "CB-BE"
-          }
-        ]
-      },
       {
         "id": "d931fd2b-f291-4547-8712-afbb83367bf1",
         "startDate": "2026-05-01",
@@ -154235,54 +153452,567 @@
             "shortName": "CB-BE"
           }
         ]
+      },
+      {
+        "id": "06b408b6-1f5a-4294-a48b-4bcf2a86dee8",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labor Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "76e8665f-d6e0-49f6-a04b-e0d584fa3f04",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-CB-IN",
+            "shortName": "CB-IN"
+          }
+        ]
+      },
+      {
+        "id": "aa4e61fd-1682-4b8b-8b46-0f29ac92c16e",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-CB-CB",
+            "shortName": "CB-CB"
+          }
+        ]
+      },
+      {
+        "id": "ab399816-afbc-4713-9a29-d4ec90f99150",
+        "startDate": "2028-05-02",
+        "endDate": "2028-05-02",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-AV-AR",
+            "shortName": "AV-AR"
+          }
+        ]
+      },
+      {
+        "id": "0c170d53-5584-47dc-96ec-75c3c9b437be",
+        "startDate": "2028-05-03",
+        "endDate": "2028-05-03",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-BR-BA",
+            "shortName": "BR-BA"
+          },
+          {
+            "code": "PT-VI-SE",
+            "shortName": "VI-SE"
+          }
+        ]
+      },
+      {
+        "id": "455c3852-c87c-4e2e-9185-3c0f1eefdb16",
+        "startDate": "2028-05-04",
+        "endDate": "2028-05-04",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-SE-SS",
+            "shortName": "SE-SS"
+          }
+        ]
+      },
+      {
+        "id": "083c69e9-f8df-4186-b5e0-4c884eae7362",
+        "startDate": "2028-05-08",
+        "endDate": "2028-05-08",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-VR-MU",
+            "shortName": "VR-MU"
+          }
+        ]
+      },
+      {
+        "id": "b0d0a726-874f-4013-a24a-cdb5842ce47b",
+        "startDate": "2028-05-12",
+        "endDate": "2028-05-12",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-AV-AV",
+            "shortName": "AV-AV"
+          }
+        ]
+      },
+      {
+        "id": "71d60e85-1018-4a91-8c38-cde3bbc0a332",
+        "startDate": "2028-05-13",
+        "endDate": "2028-05-13",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-FA-VS",
+            "shortName": "FA-VS"
+          }
+        ]
+      },
+      {
+        "id": "c16fa0f9-ed75-41ad-b7d9-69087fba2914",
+        "startDate": "2028-05-14",
+        "endDate": "2028-05-14",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day of St Giles of Santarém"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-VI-VO",
+            "shortName": "VI-VO"
+          }
+        ]
+      },
+      {
+        "id": "164c39b5-4c48-4ef5-ac34-b77ab4871659",
+        "startDate": "2028-05-15",
+        "endDate": "2028-05-15",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-LE-CR",
+            "shortName": "LE-CR"
+          }
+        ]
+      },
+      {
+        "id": "9acd3bc9-21ff-4a16-8ab1-36a293349f34",
+        "startDate": "2028-05-16",
+        "endDate": "2028-05-16",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-BR-FA",
+            "shortName": "BR-FA"
+          }
+        ]
+      },
+      {
+        "id": "dcab0ba4-dd8d-408f-b515-df863e28b9b9",
+        "startDate": "2028-05-17",
+        "endDate": "2028-05-17",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-SA-TN",
+            "shortName": "SA-TN"
+          },
+          {
+            "code": "PT-AV-AN",
+            "shortName": "AV-AN"
+          },
+          {
+            "code": "PT-LI-VX",
+            "shortName": "LI-VX"
+          },
+          {
+            "code": "PT-LE-MG",
+            "shortName": "LE-MG"
+          },
+          {
+            "code": "PT-BE-BE",
+            "shortName": "BE-BE"
+          }
+        ]
+      },
+      {
+        "id": "d02d95ff-21ba-4d95-a0b0-36e676e55b81",
+        "startDate": "2028-05-20",
+        "endDate": "2028-05-20",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-BA-VN",
+            "shortName": "BA-VN"
+          }
+        ]
+      },
+      {
+        "id": "1f5a4228-7918-4247-a848-9f3663e92947",
+        "startDate": "2028-05-21",
+        "endDate": "2028-05-21",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-GU-VF",
+            "shortName": "GU-VF"
+          }
+        ]
+      },
+      {
+        "id": "e227c4dc-d155-4f5d-b3c5-70a3e58b6341",
+        "startDate": "2028-05-22",
+        "endDate": "2028-05-22",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-LE-LE",
+            "shortName": "LE-LE"
+          }
+        ]
+      },
+      {
+        "id": "35a54049-05f7-4413-9127-922345ad4b22",
+        "startDate": "2028-05-23",
+        "endDate": "2028-05-23",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Birthday of Sacadura Cabral"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-GU-CB",
+            "shortName": "GU-CB"
+          }
+        ]
+      },
+      {
+        "id": "518b074c-c0e3-4693-a2a4-939e9cc01afc",
+        "startDate": "2028-05-23",
+        "endDate": "2028-05-23",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-PA-PA",
+            "shortName": "PA-PA"
+          }
+        ]
+      },
+      {
+        "id": "3f5b0815-4951-4f8b-92b7-f597befd6110",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-MA-SA",
+            "shortName": "MA-SA"
+          },
+          {
+            "code": "PT-BE-VI",
+            "shortName": "BE-VI"
+          },
+          {
+            "code": "PT-EV-AR",
+            "shortName": "EV-AR"
+          },
+          {
+            "code": "PT-BE-AV",
+            "shortName": "BE-AV"
+          },
+          {
+            "code": "PT-VI-SC",
+            "shortName": "VI-SC"
+          },
+          {
+            "code": "PT-SA-AM",
+            "shortName": "SA-AM"
+          },
+          {
+            "code": "PT-AV-OB",
+            "shortName": "AV-OB"
+          },
+          {
+            "code": "PT-AV-ME",
+            "shortName": "AV-ME"
+          },
+          {
+            "code": "PT-LI-SM",
+            "shortName": "LI-SM"
+          },
+          {
+            "code": "PT-LE-AN",
+            "shortName": "LE-AN"
+          },
+          {
+            "code": "PT-BA-MI",
+            "shortName": "BA-MI"
+          },
+          {
+            "code": "PT-FA-MO",
+            "shortName": "FA-MO"
+          },
+          {
+            "code": "PT-SA-TN",
+            "shortName": "SA-TN"
+          },
+          {
+            "code": "PT-AV-AN",
+            "shortName": "AV-AN"
+          },
+          {
+            "code": "PT-SA-SM",
+            "shortName": "SA-SM"
+          },
+          {
+            "code": "PT-LI-VX",
+            "shortName": "LI-VX"
+          },
+          {
+            "code": "PT-SA-CH",
+            "shortName": "SA-CH"
+          },
+          {
+            "code": "PT-SA-BE",
+            "shortName": "SA-BE"
+          },
+          {
+            "code": "PT-VI-MR",
+            "shortName": "VI-MR"
+          },
+          {
+            "code": "PT-LE-MG",
+            "shortName": "LE-MG"
+          },
+          {
+            "code": "PT-LI-AV",
+            "shortName": "LI-AV"
+          },
+          {
+            "code": "PT-SA-GO",
+            "shortName": "SA-GO"
+          },
+          {
+            "code": "PT-LI-MA",
+            "shortName": "LI-MA"
+          },
+          {
+            "code": "PT-SA-CA",
+            "shortName": "SA-CA"
+          },
+          {
+            "code": "PT-FA-LO",
+            "shortName": "FA-LO"
+          },
+          {
+            "code": "PT-SA-AC",
+            "shortName": "SA-AC"
+          },
+          {
+            "code": "PT-LI-AZ",
+            "shortName": "LI-AZ"
+          },
+          {
+            "code": "PT-EV-ES",
+            "shortName": "EV-ES"
+          },
+          {
+            "code": "PT-LI-AL",
+            "shortName": "LI-AL"
+          },
+          {
+            "code": "PT-BE-BE",
+            "shortName": "BE-BE"
+          },
+          {
+            "code": "PT-VC-ME",
+            "shortName": "VC-ME"
+          },
+          {
+            "code": "PT-PA-AC",
+            "shortName": "PA-AC"
+          }
+        ]
+      },
+      {
+        "id": "fdb1da69-bf17-4505-8274-6d6ef545ddaa",
+        "startDate": "2028-05-29",
+        "endDate": "2028-05-29",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-GU-TR",
+            "shortName": "GU-TR"
+          }
+        ]
       }
     ],
     "RO": [
-      {
-        "id": "2b73b7cc-6fb2-428b-a781-2e4cd27f414b",
-        "startDate": "2026-04-10",
-        "endDate": "2026-04-10",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Orthodox Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "521ef66a-4069-4f99-bb21-ae90e505e95c",
-        "startDate": "2026-04-12",
-        "endDate": "2026-04-12",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Orthodox Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "787cfad3-d467-4563-b2ed-f20698d68174",
-        "startDate": "2026-04-13",
-        "endDate": "2026-04-13",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Orthodox Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "b8a2a7eb-a8f8-48df-ae1b-0d7ac79cde93",
         "startDate": "2026-05-01",
@@ -154762,69 +154492,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "7b2e47c0-c885-4286-ad22-040a39edb822",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "RS": [
-      {
-        "id": "73233841-003f-4e5f-b325-9c8775d7768a",
-        "startDate": "2026-04-10",
-        "endDate": "2026-04-10",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday (Orthodox)"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "6c750288-7723-45ee-be00-490ed03db007",
-        "startDate": "2026-04-11",
-        "endDate": "2026-04-11",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Saturday (Orthodox)"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "37497a3d-c32a-4cb1-8b4d-98565a695af7",
-        "startDate": "2026-04-12",
-        "endDate": "2026-04-12",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday (Orthodox)"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "2abef0a5-fcea-478b-b6ae-0a136107028b",
-        "startDate": "2026-04-13",
-        "endDate": "2026-04-13",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday (Orthodox)"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "bb7ea2aa-26e9-4e9d-9206-ea4ad9db612d",
         "startDate": "2026-05-01",
@@ -155094,54 +154779,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "78709ad2-36ba-4198-a168-dc8cf7d7bbc2",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-02",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "SE": [
-      {
-        "id": "cf363fbc-55df-465c-a322-c146a660522e",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "ba6d376a-201d-4d0d-abfe-2ecd321f2571",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "ffb9746f-9740-42d2-a846-34e33ff9aac8",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "92cd3125-9b09-4f80-ab3d-719fc041a1b8",
         "startDate": "2026-05-01",
@@ -155531,54 +155186,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "40de8852-de19-46ce-a3b8-4be6130f3f8c",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "26e5bf51-25b7-4f24-8625-c19d43f07fcf",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-25",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "SI": [
-      {
-        "id": "71e5ff25-7965-493c-8e2c-74cfa7d486a5",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "b7fb301f-af0f-434f-bbe7-8415c7902795",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "63e9f924-879b-4c65-8c6f-ebbc60f7f273",
-        "startDate": "2026-04-27",
-        "endDate": "2026-04-27",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Day of Uprising Against the Occupation"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "97e91c00-f97e-467f-bfdb-e8948147afe9",
         "startDate": "2026-05-01",
@@ -155998,39 +155638,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "c6c88c8e-5b35-437b-8bdc-6568b9aaaea6",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "6136cd9b-60ca-4a1d-8738-5b7ec61d3e4d",
+        "startDate": "2028-05-02",
+        "endDate": "2028-05-02",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "SK": [
-      {
-        "id": "8d2b2b55-f7d4-4977-bd66-668e91881e11",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "b41fcc98-755a-4d8e-a73c-671a5183cccf",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "6496b8b9-9b8f-436f-9854-2c5d4335ccfa",
         "startDate": "2026-05-01",
@@ -156450,54 +156090,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "37fbed06-0759-43a2-bbc4-8019503e6ad7",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "f3f0829b-64f6-4f63-83a5-7e2bba6d0d6c",
+        "startDate": "2028-05-08",
+        "endDate": "2028-05-08",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day of Victory over fascism"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "SM": [
-      {
-        "id": "7b5136cb-43f0-4061-b347-21ba56b88d83",
-        "startDate": "2026-04-01",
-        "endDate": "2026-04-01",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Investiture of the Captains Regent (Heads of State)"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "8f2f4dbd-4e08-4a7f-9f58-4f4dae41386a",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "6dd806c6-ca79-4cd2-bb35-057cd967cbf9",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "bff7a86a-a334-487c-b55a-3d0b243540b9",
         "startDate": "2026-05-01",
@@ -157037,99 +156662,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "1bc4c55c-80b4-4001-8710-29e93af564bd",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Labour Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "VA": [
-      {
-        "id": "152d1467-c8b4-408a-be26-bf33cba6781e",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-02",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Maundy Thursday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "8c0a7ae0-baee-4363-be0c-6b186b91446e",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Good Friday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "4be625eb-9db9-45b7-a3d4-a02477b1b042",
-        "startDate": "2026-04-04",
-        "endDate": "2026-04-04",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Saturday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "142819b1-0654-47e0-aef2-42af6b31e800",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Sunday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "260d7d4c-9b62-4fb4-91ab-f364b4491106",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Monday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "ac9c73c1-d2bc-44f3-9f33-4a34747202f5",
-        "startDate": "2026-04-07",
-        "endDate": "2026-04-07",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Tuesday"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "6c54789e-3ada-44aa-8b04-c0bd87393c10",
         "startDate": "2026-05-01",
@@ -157909,26 +157459,41 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ]
-  },
-  "schoolHolidaysByCountry": {
-    "AD": [
+      },
       {
-        "id": "6d10ed38-fd22-4ab3-89ea-1f1c864ecfda",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-10",
-        "type": "School",
+        "id": "adf458b2-fb44-4b6a-a5ef-af5a7403296a",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-01",
+        "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Easter holidays"
+            "text": "Saint Joseph the Worker"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "119fbb7b-2c57-4483-80fe-7332829c33bd",
+        "startDate": "2028-05-08",
+        "endDate": "2028-05-08",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Anniversary of the election of Pope Leo XIV"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      }
+    ]
+  },
+  "schoolHolidaysByCountry": {
+    "AD": [
       {
         "id": "d7bcf9f6-b7a8-43a8-b69c-7012e2fbb7a4",
         "startDate": "2026-05-25",
@@ -158052,21 +157617,6 @@
     ],
     "AL": [
       {
-        "id": "af6073d1-98ec-4242-9a93-165d2ea98fe1",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-03",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "34e50e69-e4ca-4fa1-93e4-dc9c56102c23",
         "startDate": "2026-06-13",
         "endDate": "2026-06-13",
@@ -158083,21 +157633,6 @@
       }
     ],
     "AT": [
-      {
-        "id": "fd7ada74-ef0e-4713-b8d3-3227d1372061",
-        "startDate": "2026-03-28",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "77cfee64-73bb-4ab7-ab03-bcc73f4e6fe2",
         "startDate": "2026-05-04",
@@ -158727,51 +158262,30 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "81d30666-2069-4c93-af1e-1de1a5a94197",
+        "startDate": "2028-05-04",
+        "endDate": "2028-05-04",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Saint Florian's Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "AT-OÖ",
+            "shortName": "OÖ"
+          }
+        ]
       }
     ],
     "BE": [
-      {
-        "id": "3b35acc8-1d1f-4291-a07f-3f181852afd2",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "groups": [
-          {
-            "code": "BE-NL",
-            "shortName": "NL"
-          }
-        ]
-      },
-      {
-        "id": "d76adc18-3e8f-4a6d-ac9e-2a9b0e4db5f8",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "groups": [
-          {
-            "code": "BE-DE",
-            "shortName": "DE"
-          }
-        ]
-      },
       {
         "id": "7d2ac181-f590-4d26-9d6d-97090b7be7f4",
         "startDate": "2026-04-27",
@@ -159153,48 +158667,6 @@
     ],
     "BG": [
       {
-        "id": "0bdd8fb8-61bf-4d2a-bc38-fcaf8714e6e8",
-        "startDate": "2026-04-04",
-        "endDate": "2026-04-13",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true,
-        "comment": [
-          {
-            "language": "EN",
-            "text": "Grade 1-11"
-          }
-        ]
-      },
-      {
-        "id": "622a5305-a82d-4eca-bc87-90d06ea9377b",
-        "startDate": "2026-04-08",
-        "endDate": "2026-04-13",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true,
-        "comment": [
-          {
-            "language": "EN",
-            "text": "Grade 12"
-          }
-        ]
-      },
-      {
         "id": "342cf0b0-e3a1-4fa9-a329-f76e4d57b561",
         "startDate": "2026-05-16",
         "endDate": "2026-09-14",
@@ -159318,647 +158790,6 @@
       }
     ],
     "CH": [
-      {
-        "id": "47579d1b-ef3f-441a-b600-8189d2b84e6e",
-        "startDate": "2026-03-28",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BS",
-            "shortName": "BS"
-          }
-        ]
-      },
-      {
-        "id": "83873ebf-eaa0-439b-b418-ad16e8a7288e",
-        "startDate": "2026-03-28",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BL",
-            "shortName": "BL"
-          }
-        ]
-      },
-      {
-        "id": "01fadc62-f9aa-4c16-a8e7-16765871005d",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-AI",
-            "shortName": "AI"
-          }
-        ]
-      },
-      {
-        "id": "145b3a26-566f-43b2-85df-b91e0be88393",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-LU",
-            "shortName": "LU"
-          }
-        ]
-      },
-      {
-        "id": "17654155-6aeb-41aa-a466-51ed47695216",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-JU",
-            "shortName": "JU"
-          }
-        ]
-      },
-      {
-        "id": "4831b62a-264e-431d-b0af-cc0508dbde89",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BE",
-            "shortName": "BE"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-BE-EO",
-            "shortName": "BE-EO"
-          }
-        ]
-      },
-      {
-        "id": "49db4392-7f22-4301-9ecf-d51fd92b129a",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-TG",
-            "shortName": "TG"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Volksschulen"
-          }
-        ]
-      },
-      {
-        "id": "4dce5bf7-4a4d-4231-915c-4bf51b0d5e08",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-VD",
-            "shortName": "VD"
-          }
-        ]
-      },
-      {
-        "id": "667012be-3237-4ac4-bc3d-4b4348cfc1fa",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-AR",
-            "shortName": "AR"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-AR-VS",
-            "shortName": "AR-VS"
-          }
-        ]
-      },
-      {
-        "id": "67e2b06b-5bca-4364-9d38-0da71639d5d3",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-OW",
-            "shortName": "OW"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Ausnahmeregelung für Gemeinde Engelberg"
-          }
-        ]
-      },
-      {
-        "id": "86e10b68-6c09-402b-abc8-d63e21549fc4",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-OW",
-            "shortName": "OW"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Alle Schulen ausser Engelberg"
-          }
-        ]
-      },
-      {
-        "id": "88fac81e-72d9-4dc6-bcf7-fb8be6ae153c",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-GL",
-            "shortName": "GL"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Alle Schulen"
-          }
-        ]
-      },
-      {
-        "id": "8a50b883-a98b-42e8-92cc-70367444655f",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-NE",
-            "shortName": "NE"
-          }
-        ],
-        "comment": [
-          {
-            "language": "FR",
-            "text": "École obligatoire"
-          }
-        ]
-      },
-      {
-        "id": "8c8976c1-6f8e-496a-8017-2c557e2c1a0d",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-FR",
-            "shortName": "FR"
-          }
-        ],
-        "comment": [
-          {
-            "language": "FR",
-            "text": "Écoles primaires (ville), Écoles sec. II"
-          }
-        ]
-      },
-      {
-        "id": "9aeb6a67-eb6c-419d-97ea-2ebd782a45e4",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-TI",
-            "shortName": "TI"
-          }
-        ]
-      },
-      {
-        "id": "a751cd88-e7c4-457c-8f3b-7b019305e2c5",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-ZH",
-            "shortName": "ZH"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-ZH-VS",
-            "shortName": "ZH-VS"
-          }
-        ],
-        "tags": [
-          "Recommended"
-        ]
-      },
-      {
-        "id": "d505865c-62b0-443c-84b5-87e7b058b4ac",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-ZH",
-            "shortName": "ZH"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-ZH-BS",
-            "shortName": "ZH-BS"
-          },
-          {
-            "code": "CH-ZH-MS",
-            "shortName": "ZH-MS"
-          }
-        ]
-      },
-      {
-        "id": "ecac62ba-abc6-404a-9b1b-4146c882c027",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-VS",
-            "shortName": "VS"
-          }
-        ],
-        "comment": [
-          {
-            "language": "EN",
-            "text": "French-speaking"
-          }
-        ]
-      },
-      {
-        "id": "f6ece8b4-38a9-43df-98db-cfb810a7b8fa",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-GE",
-            "shortName": "GE"
-          }
-        ]
-      },
-      {
-        "id": "f8c994ff-cd43-4353-9ea1-4f0834155cef",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-NW",
-            "shortName": "NW"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Volksschulen und Mittelschulen"
-          }
-        ]
-      },
-      {
-        "id": "fb84d55a-1d57-4a4b-94bb-c0e54e10c83a",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BE",
-            "shortName": "BE"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-BE-VS",
-            "shortName": "BE-VS"
-          }
-        ]
-      },
-      {
-        "id": "6f307fe8-491b-40c9-9fe0-d6aedce73b58",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-SG",
-            "shortName": "SG"
-          }
-        ]
-      },
-      {
-        "id": "602b7062-b5c0-46b4-9a0f-004b698e06c0",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-SO",
-            "shortName": "SO"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-SO-BS",
-            "shortName": "SO-BS"
-          },
-          {
-            "code": "CH-SO-MS",
-            "shortName": "SO-MS"
-          }
-        ]
-      },
-      {
-        "id": "f4dfdf40-b8a7-4c59-a184-9226796b62df",
-        "startDate": "2026-04-07",
-        "endDate": "2026-04-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-AG",
-            "shortName": "AG"
-          }
-        ]
-      },
-      {
-        "id": "3fa907f2-83b0-4cb0-9340-8a6eb49b76e1",
-        "startDate": "2026-04-11",
-        "endDate": "2026-04-26",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-SH",
-            "shortName": "SH"
-          }
-        ]
-      },
-      {
-        "id": "f89f814b-5261-40a3-b625-f69be128ad2c",
-        "startDate": "2026-04-11",
-        "endDate": "2026-04-26",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-ZG",
-            "shortName": "ZG"
-          }
-        ]
-      },
       {
         "id": "4fde682c-7f2c-4131-8215-7f8d0248ef77",
         "startDate": "2026-04-20",
@@ -165518,24 +164349,103 @@
             "shortName": "ZH-MS"
           }
         ]
-      }
-    ],
-    "CZ": [
+      },
       {
-        "id": "2a57ea10-dd71-4d95-94a5-15f74302cc91",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-02",
+        "id": "9c86da86-7309-4534-8809-92b56865c2c8",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-26",
         "type": "School",
         "name": [
           {
             "language": "EN",
-            "text": "Easter holidays"
+            "text": "Ascension Bridge"
           }
         ],
-        "regionalScope": "National",
+        "regionalScope": "Regional",
         "temporalScope": "FullDay",
-        "nationwide": true
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-GE",
+            "shortName": "GE"
+          }
+        ]
       },
+      {
+        "id": "cb1fa839-ab38-4469-a884-33d2d87745e8",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-JU",
+            "shortName": "JU"
+          }
+        ]
+      },
+      {
+        "id": "ef9e4f7c-0784-4922-b8cd-26821a262216",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-28",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Day holidays"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-ZG",
+            "shortName": "ZG"
+          }
+        ]
+      },
+      {
+        "id": "f2da0cc9-03b9-47de-901c-d1f1787a8819",
+        "startDate": "2028-05-25",
+        "endDate": "2028-05-27",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension Bridge"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-ZH",
+            "shortName": "ZH"
+          }
+        ],
+        "groups": [
+          {
+            "code": "CH-ZH-BS",
+            "shortName": "ZH-BS"
+          },
+          {
+            "code": "CH-ZH-MS",
+            "shortName": "ZH-MS"
+          }
+        ]
+      }
+    ],
+    "CZ": [
       {
         "id": "b6e030c7-ad9f-4e79-b382-4a44ff10db59",
         "startDate": "2026-07-01",
@@ -166608,354 +165518,6 @@
       }
     ],
     "DE": [
-      {
-        "id": "3df2322a-8fbd-49bb-a390-a41451dddc33",
-        "startDate": "2026-03-23",
-        "endDate": "2026-04-07",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-NI",
-            "shortName": "NI"
-          }
-        ]
-      },
-      {
-        "id": "4bd18e30-2d33-4409-b3cb-f0dfbc486dc5",
-        "startDate": "2026-03-23",
-        "endDate": "2026-04-07",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-HB",
-            "shortName": "HB"
-          }
-        ]
-      },
-      {
-        "id": "6c743d0a-dc28-4cc7-9ff6-296839145178",
-        "startDate": "2026-03-26",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-SH",
-            "shortName": "SH"
-          }
-        ]
-      },
-      {
-        "id": "4000e69a-d391-412c-b0df-72dc3b72f12d",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BY",
-            "shortName": "BY"
-          }
-        ]
-      },
-      {
-        "id": "a7f8913a-5455-4683-a61b-73a59bda0af9",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-08",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-MV",
-            "shortName": "MV"
-          }
-        ],
-        "groups": [
-          {
-            "code": "DE-MV-ABS",
-            "shortName": "MV-ABS"
-          }
-        ]
-      },
-      {
-        "id": "af270df7-839c-46b2-b771-29eb74774300",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BE",
-            "shortName": "BE"
-          }
-        ]
-      },
-      {
-        "id": "b9e54171-09c0-498a-b47f-bdcaf2ed57fb",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-MV",
-            "shortName": "MV"
-          }
-        ],
-        "groups": [
-          {
-            "code": "DE-MV-BBS",
-            "shortName": "MV-BBS"
-          }
-        ]
-      },
-      {
-        "id": "ca1e92cf-dcdc-478f-845a-61d86862fad5",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-04",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-ST",
-            "shortName": "ST"
-          }
-        ]
-      },
-      {
-        "id": "d94a97e5-9f96-451a-82f8-9ebb77887db8",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-NW",
-            "shortName": "NW"
-          }
-        ]
-      },
-      {
-        "id": "e16abd5a-58c9-4641-8b58-f7d9f5b85863",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BW",
-            "shortName": "BW"
-          }
-        ]
-      },
-      {
-        "id": "e30bc500-8927-4523-baae-02bf00e56ecf",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-HE",
-            "shortName": "HE"
-          }
-        ]
-      },
-      {
-        "id": "f27e854e-e9f7-48d0-ac48-7675a327f29d",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BB",
-            "shortName": "BB"
-          }
-        ]
-      },
-      {
-        "id": "fbf6ce5c-85cc-44ab-84ea-4fe732936dd5",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-RP",
-            "shortName": "RP"
-          }
-        ]
-      },
-      {
-        "id": "b7b5a510-b827-415e-97aa-57c5895ce8f2",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-SN",
-            "shortName": "SN"
-          }
-        ]
-      },
-      {
-        "id": "6931a493-7fbf-437d-95fa-7ad87655cf96",
-        "startDate": "2026-04-07",
-        "endDate": "2026-04-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-SL",
-            "shortName": "SL"
-          }
-        ]
-      },
-      {
-        "id": "d394c68a-55d1-4e33-b695-5185e3784e19",
-        "startDate": "2026-04-07",
-        "endDate": "2026-04-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-TH",
-            "shortName": "TH"
-          }
-        ]
-      },
       {
         "id": "c66cd8e1-3006-4faa-acfd-2ea530c4f509",
         "startDate": "2026-05-11",
@@ -171674,24 +170236,208 @@
             "shortName": "BW"
           }
         ]
-      }
-    ],
-    "EE": [
+      },
       {
-        "id": "8e17ba31-9a41-4270-8a10-591aadab7a7d",
-        "startDate": "2026-04-13",
-        "endDate": "2026-04-19",
+        "id": "edce0c14-fd96-4674-a1d3-8d777bfd1e53",
+        "startDate": "2028-05-22",
+        "endDate": "2028-05-26",
         "type": "School",
         "name": [
           {
             "language": "EN",
-            "text": "Spring Holidays"
+            "text": "Pentecost Holidays"
           }
         ],
-        "regionalScope": "National",
+        "regionalScope": "Regional",
         "temporalScope": "FullDay",
-        "nationwide": true
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-HH",
+            "shortName": "HH"
+          }
+        ]
       },
+      {
+        "id": "0a592f56-9e46-4b30-8391-70c224408d14",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day off from school"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-TH",
+            "shortName": "TH"
+          }
+        ]
+      },
+      {
+        "id": "51b14e22-3c1b-4eb7-bdec-a3d147f0160e",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day off"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-SN",
+            "shortName": "SN"
+          }
+        ]
+      },
+      {
+        "id": "538c97bc-87e2-4e16-96c3-665fcee47b3a",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day after Ascension"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-NI",
+            "shortName": "NI"
+          }
+        ]
+      },
+      {
+        "id": "5774e099-8873-4e9a-a744-19a2664f325d",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Ascension"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-SH",
+            "shortName": "SH"
+          }
+        ]
+      },
+      {
+        "id": "6e2a0909-650d-43fe-869d-e2cbaa2bf9e3",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Additional holiday"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-MV",
+            "shortName": "MV"
+          }
+        ],
+        "groups": [
+          {
+            "code": "DE-MV-ABS",
+            "shortName": "MV-ABS"
+          },
+          {
+            "code": "DE-MV-BBS",
+            "shortName": "MV-BBS"
+          }
+        ]
+      },
+      {
+        "id": "a120d29f-e8ba-467e-93da-f0fd5cc22c28",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day off"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-BE",
+            "shortName": "BE"
+          }
+        ]
+      },
+      {
+        "id": "ac864ecd-2694-491c-8516-37ffbe348de3",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Variable holiday"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-BB",
+            "shortName": "BB"
+          }
+        ]
+      },
+      {
+        "id": "e0f1d14c-d03b-4d03-9669-bde7190ec765",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day after Ascension"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-HB",
+            "shortName": "HB"
+          }
+        ]
+      }
+    ],
+    "EE": [
       {
         "id": "7d6a4dfd-b184-4586-a68f-e28f09a6167f",
         "startDate": "2026-06-17",
@@ -171784,615 +170530,6 @@
       }
     ],
     "ES": [
-      {
-        "id": "ba7d25a0-a870-499a-9144-4da833851517",
-        "startDate": "2026-03-26",
-        "endDate": "2026-04-07",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CL",
-            "shortName": "CL"
-          }
-        ]
-      },
-      {
-        "id": "54b487e7-f6fe-46b2-9de7-8e30b6caa6f0",
-        "startDate": "2026-03-28",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CT",
-            "shortName": "CT"
-          }
-        ]
-      },
-      {
-        "id": "b2960ee7-8c04-42b7-9c23-8e843f5bb87c",
-        "startDate": "2026-03-28",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-MD",
-            "shortName": "MD"
-          }
-        ]
-      },
-      {
-        "id": "00926bf2-640c-469a-98e5-264dc47cd004",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-01",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-ML",
-            "shortName": "ML"
-          }
-        ]
-      },
-      {
-        "id": "0541b412-b4be-4db5-a7fc-99563695266b",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CN",
-            "shortName": "CN"
-          }
-        ]
-      },
-      {
-        "id": "05cd8e91-1032-4a68-8a8b-e022455c4565",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AN-GR",
-            "shortName": "AN-GR"
-          }
-        ]
-      },
-      {
-        "id": "0ba86119-ce47-4541-ad07-2e5a5f7b4a78",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AN-SE",
-            "shortName": "AN-SE"
-          }
-        ]
-      },
-      {
-        "id": "0eaa5ab0-64e3-4a2b-859a-ee86518fe781",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AS",
-            "shortName": "AS"
-          }
-        ]
-      },
-      {
-        "id": "16ed25c5-e627-455e-b9e0-7ce728b33fcd",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-GA",
-            "shortName": "GA"
-          }
-        ]
-      },
-      {
-        "id": "401016f8-d2a0-4edd-b3c3-a19ef2445078",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AN-AL",
-            "shortName": "AN-AL"
-          }
-        ]
-      },
-      {
-        "id": "56dbf882-7e01-4b6d-a03a-bae8d43bc94a",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AN-JA",
-            "shortName": "AN-JA"
-          }
-        ]
-      },
-      {
-        "id": "588d7971-f0f8-4b3d-93eb-053499e284d5",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AN-CO",
-            "shortName": "AN-CO"
-          }
-        ]
-      },
-      {
-        "id": "647b1b84-f315-4c11-ad94-77af19d24379",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-03",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CE",
-            "shortName": "CE"
-          }
-        ]
-      },
-      {
-        "id": "6e35315c-ca03-4d99-8c34-7cb52c0c8482",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-01",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AN-MA",
-            "shortName": "AN-MA"
-          }
-        ]
-      },
-      {
-        "id": "7f56fc2a-d79a-4c95-ab3e-719a809ed83b",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AR",
-            "shortName": "AR"
-          }
-        ]
-      },
-      {
-        "id": "93229488-6110-470f-9d1e-52fec52340c0",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-MC",
-            "shortName": "MC"
-          }
-        ]
-      },
-      {
-        "id": "94616ab8-2477-4dd0-87a4-37993babc232",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-RI",
-            "shortName": "RI"
-          }
-        ]
-      },
-      {
-        "id": "9702e0cb-ebf2-4c48-a7ff-296435a1472d",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-01",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "No lessons"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CB",
-            "shortName": "CB"
-          }
-        ]
-      },
-      {
-        "id": "b59b42db-bf7f-4306-984a-94fa67280209",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-01",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AN-HL",
-            "shortName": "AN-HL"
-          }
-        ]
-      },
-      {
-        "id": "cd4fc853-d886-497f-9991-32a3dd673640",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-EX",
-            "shortName": "EX"
-          }
-        ]
-      },
-      {
-        "id": "e96128c6-8273-472e-8594-23ec5541251d",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter break"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CM",
-            "shortName": "CM"
-          }
-        ]
-      },
-      {
-        "id": "f6f274f5-249f-4323-88f8-2093941ab972",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-05",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AN-CA",
-            "shortName": "AN-CA"
-          }
-        ]
-      },
-      {
-        "id": "033dc4ff-2c95-4602-8f7d-30ae7ca2813a",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-PV",
-            "shortName": "PV"
-          }
-        ]
-      },
-      {
-        "id": "9206be7e-7400-4130-b436-8086fb475439",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-NC",
-            "shortName": "NC"
-          }
-        ]
-      },
-      {
-        "id": "a351d059-bfbf-40b4-a6cd-c06fe46b786d",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-IB",
-            "shortName": "IB"
-          }
-        ]
-      },
-      {
-        "id": "f6bbd887-210e-4eb6-9187-1ef32d4e817b",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-13",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-VC",
-            "shortName": "VC"
-          }
-        ]
-      },
-      {
-        "id": "c39fcccc-9f12-439a-9377-9082885d8c66",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Non-teaching day"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-MD",
-            "shortName": "MD"
-          }
-        ]
-      },
-      {
-        "id": "4b6ec3d8-ba18-41a9-9531-0e8b668a1370",
-        "startDate": "2026-04-24",
-        "endDate": "2026-04-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Non-teaching day"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CL",
-            "shortName": "CL"
-          }
-        ]
-      },
-      {
-        "id": "f625b66b-d228-493b-858f-70a773af2d3d",
-        "startDate": "2026-04-24",
-        "endDate": "2026-04-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Non-teaching day"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-AR-ZG",
-            "shortName": "AR-ZG"
-          }
-        ]
-      },
       {
         "id": "a71b08e7-aa80-4bfb-aded-f26cf2655dc2",
         "startDate": "2026-05-02",
@@ -173088,180 +171225,6 @@
       }
     ],
     "FR": [
-      {
-        "id": "9c0b1813-6eb9-4dd1-b513-50968c8f52d1",
-        "startDate": "2026-03-28",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-MQ",
-            "shortName": "MQ"
-          }
-        ]
-      },
-      {
-        "id": "d9a5529c-fe98-458a-8dde-7aea67d4e16c",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-15",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-GY",
-            "shortName": "GY"
-          }
-        ]
-      },
-      {
-        "id": "280bc9e5-939e-4100-b35f-4ba1737c8ffe",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-MF",
-            "shortName": "MF"
-          },
-          {
-            "code": "FR-BL",
-            "shortName": "BL"
-          },
-          {
-            "code": "FR-GP",
-            "shortName": "GP"
-          }
-        ]
-      },
-      {
-        "id": "9353034c-7df8-4d95-902f-c51002bde552",
-        "startDate": "2026-04-05",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-BF",
-            "shortName": "BF"
-          },
-          {
-            "code": "FR-NA",
-            "shortName": "NA"
-          },
-          {
-            "code": "FR-AR",
-            "shortName": "AR"
-          },
-          {
-            "code": "FR-ZA",
-            "shortName": "ZA"
-          }
-        ]
-      },
-      {
-        "id": "717ae719-7db5-499c-a666-9bec72101f8f",
-        "startDate": "2026-04-12",
-        "endDate": "2026-04-26",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-CO",
-            "shortName": "CO"
-          }
-        ]
-      },
-      {
-        "id": "d9baa9e2-93dd-4b56-9e95-7658952ed1a1",
-        "startDate": "2026-04-12",
-        "endDate": "2026-04-26",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-NO",
-            "shortName": "NO"
-          },
-          {
-            "code": "FR-PC",
-            "shortName": "PC"
-          },
-          {
-            "code": "FR-GE",
-            "shortName": "GE"
-          },
-          {
-            "code": "FR-BT",
-            "shortName": "BT"
-          },
-          {
-            "code": "FR-CV",
-            "shortName": "CV"
-          },
-          {
-            "code": "FR-PL",
-            "shortName": "PL"
-          },
-          {
-            "code": "FR-HF",
-            "shortName": "HF"
-          },
-          {
-            "code": "FR-ZB",
-            "shortName": "ZB"
-          }
-        ]
-      },
       {
         "id": "e0c1d64e-3010-4a5d-a489-1eb4cc8eea3d",
         "startDate": "2026-04-18",
@@ -174295,21 +172258,6 @@
     ],
     "HR": [
       {
-        "id": "a7322c0a-5616-48fd-9e5e-1e86cf956506",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-06",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "59c608ae-6510-4acf-bbe5-e91ea7e704a6",
         "startDate": "2026-06-15",
         "endDate": "2026-08-31",
@@ -174327,21 +172275,6 @@
     ],
     "HU": [
       {
-        "id": "8f8ebbd2-7c67-4073-a288-1b06f449dae0",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "452e9fa6-aea5-43eb-8430-3f89995f2a65",
         "startDate": "2026-06-20",
         "endDate": "2026-08-31",
@@ -174357,184 +172290,8 @@
         "nationwide": true
       }
     ],
-    "IE": [
-      {
-        "id": "803e90b4-d8b9-434b-84b9-94ce779d41f9",
-        "startDate": "2026-03-27",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      }
-    ],
+    "IE": [],
     "IT": [
-      {
-        "id": "581aabbd-4b82-4415-b16b-f01902380333",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-08",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-TR-BZ",
-            "shortName": "TR-BZ"
-          },
-          {
-            "code": "IT-TR-TN",
-            "shortName": "TR-TN"
-          }
-        ]
-      },
-      {
-        "id": "7f1f6ced-7779-4059-8f2c-ac63dc1047ce",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-07",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-CM",
-            "shortName": "CM"
-          },
-          {
-            "code": "IT-CL",
-            "shortName": "CL"
-          },
-          {
-            "code": "IT-PI",
-            "shortName": "PI"
-          },
-          {
-            "code": "IT-MO",
-            "shortName": "MO"
-          },
-          {
-            "code": "IT-SI",
-            "shortName": "SI"
-          },
-          {
-            "code": "IT-BA",
-            "shortName": "BA"
-          },
-          {
-            "code": "IT-PU",
-            "shortName": "PU"
-          },
-          {
-            "code": "IT-AB",
-            "shortName": "AB"
-          },
-          {
-            "code": "IT-LA",
-            "shortName": "LA"
-          },
-          {
-            "code": "IT-SA",
-            "shortName": "SA"
-          },
-          {
-            "code": "IT-FV",
-            "shortName": "FV"
-          },
-          {
-            "code": "IT-LI",
-            "shortName": "LI"
-          },
-          {
-            "code": "IT-LO",
-            "shortName": "LO"
-          },
-          {
-            "code": "IT-UM",
-            "shortName": "UM"
-          },
-          {
-            "code": "IT-VA",
-            "shortName": "VA"
-          },
-          {
-            "code": "IT-ER",
-            "shortName": "ER"
-          },
-          {
-            "code": "IT-TO",
-            "shortName": "TO"
-          },
-          {
-            "code": "IT-MA",
-            "shortName": "MA"
-          },
-          {
-            "code": "IT-VE",
-            "shortName": "VE"
-          }
-        ]
-      },
-      {
-        "id": "9094543d-4b4c-4330-aa16-d9cbb8814dde",
-        "startDate": "2026-04-24",
-        "endDate": "2026-04-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "floating holiday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-TR-TN",
-            "shortName": "TR-TN"
-          }
-        ]
-      },
-      {
-        "id": "3d8a8f4f-f53d-4374-8501-db636553a620",
-        "startDate": "2026-04-28",
-        "endDate": "2026-04-28",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "floating holiday"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-SA",
-            "shortName": "SA"
-          }
-        ]
-      },
       {
         "id": "0e10acd9-7b64-4662-807b-f7cde62331d8",
         "startDate": "2026-05-02",
@@ -174862,42 +172619,6 @@
     ],
     "LI": [
       {
-        "id": "6a23cc8a-7d0a-410e-a878-debecd16c062",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-02",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "No lessons"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "HalfDay",
-        "nationwide": true,
-        "comment": [
-          {
-            "language": "EN",
-            "text": "From noon"
-          }
-        ]
-      },
-      {
-        "id": "00eaf60b-71a1-4c4b-90ae-c61bf9f3fc36",
-        "startDate": "2026-04-03",
-        "endDate": "2026-04-19",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "8b94dde8-fc93-42bc-acaf-9fb345d28d38",
         "startDate": "2026-05-15",
         "endDate": "2026-05-15",
@@ -174992,27 +172713,6 @@
           {
             "language": "EN",
             "text": "Primary and secondary education"
-          }
-        ]
-      },
-      {
-        "id": "3ca6fef7-5ab2-4061-8eb2-63503fc075e2",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring Holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true,
-        "comment": [
-          {
-            "language": "EN",
-            "text": "secondary school programme"
           }
         ]
       },
@@ -175135,21 +172835,6 @@
       }
     ],
     "LU": [
-      {
-        "id": "4a313b71-0e0c-4a12-bc92-9b854069e319",
-        "startDate": "2026-03-28",
-        "endDate": "2026-04-12",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter Holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "f2c93ae1-14c8-460f-a694-598b2574e62a",
         "startDate": "2026-05-23",
@@ -175274,21 +172959,6 @@
     "LV": [],
     "MC": [
       {
-        "id": "4bc8ab5c-27d6-4ae2-8606-d8642c263d25",
-        "startDate": "2026-04-11",
-        "endDate": "2026-04-26",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring half-term-holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "f58d47c5-aa5e-4bfd-8b82-f07c14cbf8f3",
         "startDate": "2026-05-21",
         "endDate": "2026-05-25",
@@ -175321,21 +172991,6 @@
     ],
     "MD": [
       {
-        "id": "f16c1765-6d92-4c2e-9dcb-0d1ba7ae8fb3",
-        "startDate": "2026-04-11",
-        "endDate": "2026-04-20",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "0605a543-bd17-4b36-a76b-fff3a7149dfa",
         "startDate": "2026-05-30",
         "endDate": "2026-08-31",
@@ -175352,36 +173007,6 @@
       }
     ],
     "MT": [
-      {
-        "id": "33014867-d4eb-4129-b6d4-9fb426d6482a",
-        "startDate": "2026-04-01",
-        "endDate": "2026-04-08",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "329b840c-98e0-4b66-8297-ac58a9e24738",
-        "startDate": "2026-04-09",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Compensation for holidays at weekends"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "2e4cc5be-d094-40ab-ba97-3b1f4804d701",
         "startDate": "2026-07-01",
@@ -185263,87 +182888,6 @@
     ],
     "PL": [
       {
-        "id": "3beac5c5-9e58-44f8-a728-f0044989b4e2",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-07",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring Break"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PL-SL",
-            "shortName": "SL"
-          },
-          {
-            "code": "PL-SK",
-            "shortName": "SK"
-          },
-          {
-            "code": "PL-LU",
-            "shortName": "LU"
-          },
-          {
-            "code": "PL-WP",
-            "shortName": "WP"
-          },
-          {
-            "code": "PL-PD",
-            "shortName": "PD"
-          },
-          {
-            "code": "PL-WN",
-            "shortName": "WN"
-          },
-          {
-            "code": "PL-ZP",
-            "shortName": "ZP"
-          },
-          {
-            "code": "PL-PK",
-            "shortName": "PK"
-          },
-          {
-            "code": "PL-DS",
-            "shortName": "DS"
-          },
-          {
-            "code": "PL-MA",
-            "shortName": "MA"
-          },
-          {
-            "code": "PL-MZ",
-            "shortName": "MZ"
-          },
-          {
-            "code": "PL-LB",
-            "shortName": "LB"
-          },
-          {
-            "code": "PL-PM",
-            "shortName": "PM"
-          },
-          {
-            "code": "PL-OP",
-            "shortName": "OP"
-          },
-          {
-            "code": "PL-LD",
-            "shortName": "LD"
-          },
-          {
-            "code": "PL-KP",
-            "shortName": "KP"
-          }
-        ]
-      },
-      {
         "id": "123916df-17df-4b03-9ddf-c8a68a6896e7",
         "startDate": "2026-06-27",
         "endDate": "2026-08-31",
@@ -185537,21 +183081,6 @@
       }
     ],
     "PT": [
-      {
-        "id": "31e7ca3f-80b1-4f5c-8267-bdef875c141d",
-        "startDate": "2026-03-30",
-        "endDate": "2026-04-10",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "58d5990c-fe9d-4c18-a0c5-bd795f9f5eea",
         "startDate": "2026-06-06",
@@ -185771,21 +183300,6 @@
     ],
     "RO": [
       {
-        "id": "3aac2d5c-ac70-4d98-9196-bee3040c3cec",
-        "startDate": "2026-04-04",
-        "endDate": "2026-04-14",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "33211819-537b-4146-87b7-f5acea44fd7e",
         "startDate": "2026-06-20",
         "endDate": "2026-09-06",
@@ -185802,21 +183316,6 @@
       }
     ],
     "RS": [
-      {
-        "id": "ec3531ef-ec5b-48bb-b491-c0ff92e5c94c",
-        "startDate": "2026-04-10",
-        "endDate": "2026-04-14",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spring holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "b0d6f1b2-d0e3-4b86-b838-2bad47cfabaa",
         "startDate": "2026-06-15",
@@ -185884,27 +183383,6 @@
         ]
       },
       {
-        "id": "9c2ab2b0-daec-43f1-837f-21002b8b5178",
-        "startDate": "2026-04-28",
-        "endDate": "2026-04-30",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Maydays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true,
-        "comment": [
-          {
-            "language": "EN",
-            "text": "Secondary schools"
-          }
-        ]
-      },
-      {
         "id": "5a3966d7-1158-483a-b67f-6ff85eaf3683",
         "startDate": "2026-06-26",
         "endDate": "2026-08-31",
@@ -185921,55 +183399,6 @@
       }
     ],
     "SK": [
-      {
-        "id": "bd2353b1-71ca-4437-9839-25127a48bdc9",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-07",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Easter holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "SK-KI",
-            "shortName": "KI"
-          },
-          {
-            "code": "SK-TA",
-            "shortName": "TA"
-          },
-          {
-            "code": "SK-ZI",
-            "shortName": "ZI"
-          },
-          {
-            "code": "SK-BC",
-            "shortName": "BC"
-          },
-          {
-            "code": "SK-NI",
-            "shortName": "NI"
-          },
-          {
-            "code": "SK-PV",
-            "shortName": "PV"
-          },
-          {
-            "code": "SK-TC",
-            "shortName": "TC"
-          },
-          {
-            "code": "SK-BL",
-            "shortName": "BL"
-          }
-        ]
-      },
       {
         "id": "b35b3003-65a6-4f6d-8f4d-4b7d7df2230f",
         "startDate": "2026-07-01",
@@ -186531,21 +183960,6 @@
     ],
     "SM": [
       {
-        "id": "2a7da015-e7ee-49bb-b162-b1bc70815b8c",
-        "startDate": "2026-04-02",
-        "endDate": "2026-04-07",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Eastern Holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "3d9f8169-164a-4534-8749-7b31b14b6fb5",
         "startDate": "2026-06-17",
         "endDate": "2026-06-17",
@@ -186563,5 +183977,5 @@
     ],
     "VA": []
   },
-  "lastCheckedAt": "2026-04-27"
+  "lastCheckedAt": "2026-05-04"
 }
