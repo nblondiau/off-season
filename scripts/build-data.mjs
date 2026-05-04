@@ -920,7 +920,6 @@ export function buildDatasetFromPayload(payload, buildDate, source, window = res
     ],
     holidays: sortRecords(uniqueHolidays, ["startDate", "country", "regionId", "name"]),
     holidayCoverage: sortRecords(uniqueHolidayCoverage, ["startDate", "country", "name"]),
-    offSeasonDays: buildOffSeasonDays(window.windowStart, window.windowEnd, uniqueHolidays)
   };
 }
 
@@ -950,10 +949,14 @@ async function main() {
   await fs.mkdir(path.join(repoRoot, "src", "generated"), { recursive: true });
   await fs.mkdir(path.join(repoRoot, "public", "generated"), { recursive: true });
   await fs.writeFile(path.join(repoRoot, "src", "generated", "dataset.json"), `${JSON.stringify(dataset, null, 2)}\n`);
-  await fs.writeFile(path.join(repoRoot, "public", "generated", "dataset.json"), `${JSON.stringify(dataset, null, 2)}\n`);
+  await fs.writeFile(path.join(repoRoot, "public", "generated", "dataset.json"), `${JSON.stringify(dataset)}\n`);
   await fs.writeFile(
     path.join(repoRoot, "src", "generated", "source-review.json"),
     `${JSON.stringify({ generatedAt: buildDate, reviews: [{ sourceId: source.sourceId, status: mode }] }, null, 2)}\n`
+  );
+  await fs.writeFile(
+    path.join(repoRoot, "public", "generated", "source-review.json"),
+    `${JSON.stringify({ generatedAt: buildDate, reviews: [{ sourceId: source.sourceId, status: mode }] })}\n`
   );
 }
 

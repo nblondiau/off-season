@@ -45,6 +45,7 @@ jobs:
           if git diff --quiet -- \
             data/snapshots/openholidays-europe.json \
             public/generated/dataset.json \
+            public/generated/source-review.json \
             src/generated/dataset.json \
             src/generated/source-review.json; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
@@ -64,6 +65,7 @@ jobs:
           git add \
             data/snapshots/openholidays-europe.json \
             public/generated/dataset.json \
+            public/generated/source-review.json \
             src/generated/dataset.json \
             src/generated/source-review.json
           git commit -m "chore(data): weekly holiday data refresh"

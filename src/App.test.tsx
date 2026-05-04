@@ -128,6 +128,63 @@ describe("App", () => {
     expect(globalThis.fetch).toHaveBeenCalledWith("/generated/dataset.json");
   });
 
+  it("loads dataset from localStorage cache on repeat visit", async () => {
+    const cachedData = JSON.stringify(dataset);
+    vi.stubGlobal("localStorage", {
+      getItem: vi.fn((key: string) => {
+        if (key === "dataset-generated-at") return dataset.generatedAt;
+        if (key === "dataset") return cachedData;
+        return null;
+      }),
+      setItem: vi.fn(),
+      removeItem: vi.fn(),
+      clear: vi.fn()
+    });
+
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    expect(globalThis.fetch).toHaveBeenCalledTimes(1);
+    expect(globalThis.fetch).toHaveBeenCalledWith("/generated/source-review.json");
+  });
+
+  it("fetches fresh dataset when cached data is stale", async () => {
+    const cachedData = JSON.stringify(dataset);
+    vi.stubGlobal("localStorage", {
+      getItem: vi.fn((key: string) => {
+        if (key === "dataset-generated-at") return "2020-01-01";
+        if (key === "dataset") return cachedData;
+        return null;
+      }),
+      setItem: vi.fn(),
+      removeItem: vi.fn(),
+      clear: vi.fn()
+    });
+
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    expect(globalThis.fetch).toHaveBeenCalledWith("/generated/dataset.json");
+  });
+
+  it("falls back to network when localStorage cache is corrupted", async () => {
+    vi.stubGlobal("localStorage", {
+      getItem: vi.fn((key: string) => {
+        if (key === "dataset-generated-at") return dataset.generatedAt;
+        if (key === "dataset") return "{{{not valid json}}";
+        return null;
+      }),
+      setItem: vi.fn(),
+      removeItem: vi.fn(),
+      clear: vi.fn()
+    });
+
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    expect(globalThis.fetch).toHaveBeenCalledWith("/generated/dataset.json");
+  });
+
   it("prevents navigation outside the dataset month window", async () => {
     const user = userEvent.setup();
     render(<App />);

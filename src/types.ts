@@ -68,12 +68,6 @@ export interface HolidayCoverageRecord {
   segments: HolidayCoverageSegment[];
 }
 
-export interface OffSeasonDay {
-  date: string;
-  offSeason: boolean;
-  holidayIds: string[];
-}
-
 export interface DatasetBundle {
   generatedAt: string;
   windowStart: string;
@@ -83,5 +77,4 @@ export interface DatasetBundle {
   sources: SourceRecord[];
   holidays: HolidayRecord[];
   holidayCoverage: HolidayCoverageRecord[];
-  offSeasonDays: OffSeasonDay[];
 }

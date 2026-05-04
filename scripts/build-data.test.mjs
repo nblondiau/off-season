@@ -101,7 +101,7 @@ describe("build-data holiday window", () => {
     });
   });
 
-  it("uses the payload window for generated metadata, filtering, and off-season days", () => {
+  it("uses the payload window for generated metadata and filtering", () => {
     const payload = createCountryPayload({
       windowStart: `${TEST_YEAR}-04-01`,
       windowEnd: `${TEST_YEAR}-04-30`,
@@ -119,8 +119,6 @@ describe("build-data holiday window", () => {
     expect(dataset.windowEnd).toBe(`${TEST_YEAR}-04-30`);
     expect(dataset.holidays).toHaveLength(1);
     expect(dataset.holidays[0].startDate).toBe(`${TEST_YEAR}-04-10`);
-    expect(dataset.offSeasonDays[0].date).toBe(`${TEST_YEAR}-04-01`);
-    expect(dataset.offSeasonDays.at(-1)?.date).toBe(`${TEST_YEAR}-04-30`);
   });
 
   it("uses stored snapshot window bounds when available", () => {

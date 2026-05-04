@@ -83,6 +83,10 @@ function getDatasetUrl() {
   return `${import.meta.env.BASE_URL}generated/dataset.json`;
 }
 
+function getMetaUrl() {
+  return `${import.meta.env.BASE_URL}generated/source-review.json`;
+}
+
 export default function App() {
   const [dataset, setDataset] = useState<DatasetBundle | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -97,12 +101,7 @@ export default function App() {
 
     async function loadDataset() {
       try {
-        const response = await fetch(getDatasetUrl());
-        if (!response.ok) {
-          throw new Error(`Failed to load dataset: ${response.status}`);
-        }
-
-        const nextDataset = (await response.json()) as DatasetBundle;
+        const nextDataset = await tryLoadFromCache(getMetaUrl()) ?? await fetchDataset();
         if (cancelled) {
           return;
         }
@@ -118,6 +117,56 @@ export default function App() {
           setLoadError(error instanceof Error ? error.message : "Unknown dataset load failure");
         }
       }
+    }
+
+    async function tryLoadFromCache(metaUrl: string): Promise<DatasetBundle | null> {
+      let cachedGeneratedAt: string | null = null;
+      try {
+        cachedGeneratedAt = localStorage.getItem("dataset-generated-at");
+      } catch {
+        return null;
+      }
+      if (!cachedGeneratedAt) {
+        return null;
+      }
+
+      try {
+        const metaResponse = await fetch(metaUrl);
+        if (!metaResponse.ok) {
+          return null;
+        }
+        const meta = (await metaResponse.json()) as { generatedAt: string };
+        if (meta.generatedAt !== cachedGeneratedAt) {
+          return null;
+        }
+
+        const cachedData = localStorage.getItem("dataset");
+        if (!cachedData) {
+          return null;
+        }
+
+        return JSON.parse(cachedData) as DatasetBundle;
+      } catch {
+        return null;
+      }
+    }
+
+    async function fetchDataset(): Promise<DatasetBundle> {
+      const response = await fetch(getDatasetUrl());
+      if (!response.ok) {
+        throw new Error(`Failed to load dataset: ${response.status}`);
+      }
+
+      const nextDataset = (await response.json()) as DatasetBundle;
+
+      try {
+        localStorage.setItem("dataset", JSON.stringify(nextDataset));
+        localStorage.setItem("dataset-generated-at", nextDataset.generatedAt);
+      } catch {
+        // Storage full or unavailable — continue without caching
+      }
+
+      return nextDataset;
     }
 
     void loadDataset();
