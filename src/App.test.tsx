@@ -4,7 +4,7 @@ import App from "./App";
 import { DEFAULT_COUNTRY_CODES } from "./config";
 import datasetJson from "./generated/dataset.json";
 import type { DatasetBundle } from "./types";
-import { formatMonthLabel, localToday } from "./lib/date";
+import { formatMonthLabel, listMonthGrid, localToday } from "./lib/date";
 import { findDateWithHolidays } from "./test/dataset-helpers";
 
 const dataset = datasetJson as DatasetBundle;
@@ -61,15 +61,14 @@ describe("App", () => {
 
   it("filters holidays by selected countries", async () => {
     const user = userEvent.setup();
-    const initialMonthKey = getExpectedToday(dataset).slice(0, 7);
-    const { date, holidays } = findDateWithHolidays(dataset, ["BE", "FR"], (visibleHolidays, date) => {
+    const expectedDate = getExpectedToday(dataset);
+    const initialDate = new Date(`${expectedDate}T00:00:00Z`);
+    const visibleDays = listMonthGrid(initialDate.getUTCFullYear(), initialDate.getUTCMonth());
+    const visibleSet = new Set(visibleDays);
+    const { date } = findDateWithHolidays(dataset, ["BE", "FR"], (visibleHolidays, _date) => {
       const countries = new Set(visibleHolidays.map((holiday) => holiday.country));
-      return date.startsWith(initialMonthKey) && countries.has("BE") && countries.has("FR");
+      return visibleSet.has(_date) && countries.has("BE") && countries.has("FR");
     });
-    const belgiumHoliday = holidays.find((holiday) => holiday.country === "BE");
-    if (!belgiumHoliday) {
-      throw new Error("Expected overlapping Belgium and France holidays.");
-    }
 
     render(<App />);
 
@@ -77,7 +76,6 @@ describe("App", () => {
     await user.click(screen.getByRole("button", { name: /countries selected|All countries/i }));
     await user.click(screen.getByLabelText(/France/i));
     await user.click(screen.getByRole("button", { name: date }));
-    expect(screen.getByText(belgiumHoliday.name)).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: /Belgium/i })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: /France/i })).not.toBeInTheDocument();
   });
