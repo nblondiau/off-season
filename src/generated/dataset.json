@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-29",
-  "windowStart": "2026-06-01",
-  "windowEnd": "2028-06-30",
+  "generatedAt": "2026-07-06",
+  "windowStart": "2026-07-01",
+  "windowEnd": "2028-07-31",
   "countries": [
     {
       "countryCode": "AL",
@@ -3044,9 +3044,9 @@
       "sourceKind": "aggregated_open_data",
       "coverage": "Europe public holidays and school holidays",
       "snapshotPath": "data/snapshots/openholidays-europe.json",
-      "defaultLastChangedAt": "2026-06-29",
-      "lastCheckedAt": "2026-06-29",
-      "lastChangedAt": "2026-06-29"
+      "defaultLastChangedAt": "2026-07-06",
+      "lastCheckedAt": "2026-07-06",
+      "lastChangedAt": "2026-07-06"
     }
   ],
   "holidays": [
@@ -3060,30 +3060,6 @@
       "name": "Summer holidays",
       "startDate": "2026-05-16",
       "endDate": "2026-09-14",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-bw-pentecost-holidays-2026-05-26",
-      "country": "DE",
-      "regionId": "DE-BW",
-      "regionLabel": "Germany · Baden-Württemberg",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Pentecost Holidays",
-      "startDate": "2026-05-26",
-      "endDate": "2026-06-05",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-by-pentecost-holidays-2026-05-26",
-      "country": "DE",
-      "regionId": "DE-BY",
-      "regionLabel": "Germany · Bavaria",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Pentecost Holidays",
-      "startDate": "2026-05-26",
-      "endDate": "2026-06-05",
       "sourceId": "openholidays-api"
     },
     {
@@ -3123,678 +3099,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "ie-public-ie-nat-june-holiday-2026-06-01",
-      "country": "IE",
-      "regionId": "IE-NAT",
-      "regionLabel": "Ireland",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "June Holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-ab-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-AB",
-      "regionLabel": "Italy · Abruzzo",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-ba-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-BA",
-      "regionLabel": "Italy · Basilicata",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-fv-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-FV",
-      "regionLabel": "Italy · Friuli Venezia Giulia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-li-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-LI",
-      "regionLabel": "Italy · Liguria",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-ma-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-MA",
-      "regionLabel": "Italy · Marche",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-mo-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-MO",
-      "regionLabel": "Italy · Molise",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-pi-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-PI",
-      "regionLabel": "Italy · Piedmont",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-pu-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-PU",
-      "regionLabel": "Italy · Apulia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-tr-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-TR",
-      "regionLabel": "Italy · Trentino-Alto Adige",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-um-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-UM",
-      "regionLabel": "Italy · Umbria",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-va-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-VA",
-      "regionLabel": "Italy · Aosta Valley",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-ve-floating-holiday-2026-06-01",
-      "country": "IT",
-      "regionId": "IT-VE",
-      "regionLabel": "Italy · Veneto",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "md-public-md-nat-children-s-day-2026-06-01",
-      "country": "MD",
-      "regionId": "MD-NAT",
-      "regionLabel": "Moldova",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Children's Day",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-co-birthday-of-jose-falcao-2026-06-01",
-      "country": "PT",
-      "regionId": "PT-CO",
-      "regionLabel": "Portugal · Coimbra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Birthday of José Falcão",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-fa-municipal-holiday-2026-06-01",
-      "country": "PT",
-      "regionId": "PT-FA",
-      "regionLabel": "Portugal · Faro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-se-municipal-holiday-2026-06-01",
-      "country": "PT",
-      "regionId": "PT-SE",
-      "regionLabel": "Portugal · Setúbal",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ro-public-ro-nat-children-s-day-2026-06-01",
-      "country": "RO",
-      "regionId": "RO-NAT",
-      "regionLabel": "Romania",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Children's Day",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ro-public-ro-nat-orthodox-pentecost-monday-2026-06-01",
-      "country": "RO",
-      "regionId": "RO-NAT",
-      "regionLabel": "Romania",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Orthodox Pentecost Monday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-public-it-nat-republic-day-2026-06-02",
-      "country": "IT",
-      "regionId": "IT-NAT",
-      "regionLabel": "Italy",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Republic Day",
-      "startDate": "2026-06-02",
-      "endDate": "2026-06-02",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "at-public-at-nat-corpus-christi-2026-06-04",
-      "country": "AT",
-      "regionId": "AT-NAT",
-      "regionLabel": "Austria",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ag-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-AG",
-      "regionLabel": "Switzerland · Aargau",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ai-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-AI",
-      "regionLabel": "Switzerland · Appenzell Innerrhoden",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-fr-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-FR",
-      "regionLabel": "Switzerland · Fribourg",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ju-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-JU",
-      "regionLabel": "Switzerland · Jura",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-lu-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-LU",
-      "regionLabel": "Switzerland · Lucerne",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ne-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-NE",
-      "regionLabel": "Switzerland · Neuchâtel",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-nw-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-NW",
-      "regionLabel": "Switzerland · Nidwalden",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ow-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-OW",
-      "regionLabel": "Switzerland · Obwalden",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-so-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-SO",
-      "regionLabel": "Switzerland · Solothurn",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-sz-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-SZ",
-      "regionLabel": "Switzerland · Schwyz",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ti-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-TI",
-      "regionLabel": "Switzerland · Ticino",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ur-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-UR",
-      "regionLabel": "Switzerland · Uri",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-vs-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-VS",
-      "regionLabel": "Switzerland · Valais",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-zg-corpus-christi-2026-06-04",
-      "country": "CH",
-      "regionId": "CH-ZG",
-      "regionLabel": "Switzerland · Zug",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-bw-corpus-christi-2026-06-04",
-      "country": "DE",
-      "regionId": "DE-BW",
-      "regionLabel": "Germany · Baden-Württemberg",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-by-corpus-christi-2026-06-04",
-      "country": "DE",
-      "regionId": "DE-BY",
-      "regionLabel": "Germany · Bavaria",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-he-corpus-christi-2026-06-04",
-      "country": "DE",
-      "regionId": "DE-HE",
-      "regionLabel": "Germany · Hesse",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-nw-corpus-christi-2026-06-04",
-      "country": "DE",
-      "regionId": "DE-NW",
-      "regionLabel": "Germany · North Rhine-Westphalia",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-rp-corpus-christi-2026-06-04",
-      "country": "DE",
-      "regionId": "DE-RP",
-      "regionLabel": "Germany · Rhineland-Palatinate",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-sl-corpus-christi-2026-06-04",
-      "country": "DE",
-      "regionId": "DE-SL",
-      "regionLabel": "Germany · Saarland",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-cm-corpus-christi-2026-06-04",
-      "country": "ES",
-      "regionId": "ES-CM",
-      "regionLabel": "Spain · Castilla-La Mancha",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "hr-public-hr-nat-corpus-christi-2026-06-04",
-      "country": "HR",
-      "regionId": "HR-NAT",
-      "regionLabel": "Croatia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "li-public-li-nat-corpus-christi-2026-06-04",
-      "country": "LI",
-      "regionId": "LI-NAT",
-      "regionLabel": "Liechtenstein",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "mc-public-mc-nat-corpus-christi-2026-06-04",
-      "country": "MC",
-      "regionId": "MC-NAT",
-      "regionLabel": "Monaco",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pl-public-pl-nat-corpus-christi-2026-06-04",
-      "country": "PL",
-      "regionId": "PL-NAT",
-      "regionLabel": "Poland",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-av-municipal-holiday-2026-06-04",
-      "country": "PT",
-      "regionId": "PT-AV",
-      "regionLabel": "Portugal · Aveiro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-nat-corpus-christi-2026-06-04",
-      "country": "PT",
-      "regionId": "PT-NAT",
-      "regionLabel": "Portugal",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sm-public-sm-nat-corpus-christi-2026-06-04",
-      "country": "SM",
-      "regionId": "SM-NAT",
-      "regionLabel": "San Marino",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-an-non-teaching-day-2026-06-05",
-      "country": "ES",
-      "regionId": "ES-AN",
-      "regionLabel": "Spain · Andalusia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Non-teaching day",
-      "startDate": "2026-06-05",
-      "endDate": "2026-06-05",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "li-school-li-nat-no-lessons-2026-06-05",
-      "country": "LI",
-      "regionId": "LI-NAT",
-      "regionLabel": "Liechtenstein",
-      "scope": "national",
-      "holidayType": "school",
-      "name": "No lessons",
-      "startDate": "2026-06-05",
-      "endDate": "2026-06-05",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ac-municipal-holiday-2026-06-05",
-      "country": "PT",
-      "regionId": "PT-AC",
-      "regionLabel": "Portugal · Azores",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-05",
-      "endDate": "2026-06-05",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-cm-end-of-lessons-2026-06-06",
-      "country": "IT",
-      "regionId": "IT-CM",
-      "regionLabel": "Italy · Campania",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-06",
-      "endDate": "2026-06-06",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-er-end-of-lessons-2026-06-06",
-      "country": "IT",
-      "regionId": "IT-ER",
-      "regionLabel": "Italy · Emilia-Romagna",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-06",
-      "endDate": "2026-06-06",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-ma-end-of-lessons-2026-06-06",
-      "country": "IT",
-      "regionId": "IT-MA",
-      "regionLabel": "Italy · Marche",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-06",
-      "endDate": "2026-06-06",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-ve-end-of-lessons-2026-06-06",
-      "country": "IT",
-      "regionId": "IT-VE",
-      "regionLabel": "Italy · Veneto",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-06",
-      "endDate": "2026-06-06",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "pt-school-pt-nat-summer-holidays-2026-06-06",
       "country": "PT",
       "regionId": "PT-NAT",
@@ -3804,318 +3108,6 @@
       "name": "Summer holidays",
       "startDate": "2026-06-06",
       "endDate": "2026-09-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "se-public-se-nat-national-day-2026-06-06",
-      "country": "SE",
-      "regionId": "SE-NAT",
-      "regionLabel": "Sweden",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-06-06",
-      "endDate": "2026-06-06",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "mt-public-mt-nat-sette-giugno-2026-06-07",
-      "country": "MT",
-      "regionId": "MT-NAT",
-      "regionLabel": "Malta",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "​Sette Giugno",
-      "startDate": "2026-06-07",
-      "endDate": "2026-06-07",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-li-municipal-holiday-2026-06-07",
-      "country": "PT",
-      "regionId": "PT-LI",
-      "regionLabel": "Portugal · Lisbon",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-07",
-      "endDate": "2026-06-07",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-ri-non-teaching-day-2026-06-08",
-      "country": "ES",
-      "regionId": "ES-RI",
-      "regionLabel": "Spain · La Rioja",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Non-teaching day",
-      "startDate": "2026-06-08",
-      "endDate": "2026-06-08",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-cl-end-of-lessons-2026-06-08",
-      "country": "IT",
-      "regionId": "IT-CL",
-      "regionLabel": "Italy · Calabria",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-08",
-      "endDate": "2026-06-08",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-la-end-of-lessons-2026-06-08",
-      "country": "IT",
-      "regionId": "IT-LA",
-      "regionLabel": "Italy · Lazio",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-08",
-      "endDate": "2026-06-08",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-lo-end-of-lessons-2026-06-08",
-      "country": "IT",
-      "regionId": "IT-LO",
-      "regionLabel": "Italy · Lombardy",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-08",
-      "endDate": "2026-06-08",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-sa-end-of-lessons-2026-06-08",
-      "country": "IT",
-      "regionId": "IT-SA",
-      "regionLabel": "Italy · Sardinia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-08",
-      "endDate": "2026-06-08",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-mc-regional-holiday-in-murcia-2026-06-09",
-      "country": "ES",
-      "regionId": "ES-MC",
-      "regionLabel": "Spain · Region of Murcia",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Regional Holiday in Murcia",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-ri-regional-holiday-in-la-rioja-2026-06-09",
-      "country": "ES",
-      "regionId": "ES-RI",
-      "regionLabel": "Spain · La Rioja",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Regional Holiday in La Rioja ",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-ab-end-of-lessons-2026-06-09",
-      "country": "IT",
-      "regionId": "IT-AB",
-      "regionLabel": "Italy · Abruzzo",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-fv-end-of-lessons-2026-06-09",
-      "country": "IT",
-      "regionId": "IT-FV",
-      "regionLabel": "Italy · Friuli Venezia Giulia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-mo-end-of-lessons-2026-06-09",
-      "country": "IT",
-      "regionId": "IT-MO",
-      "regionLabel": "Italy · Molise",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-pu-end-of-lessons-2026-06-09",
-      "country": "IT",
-      "regionId": "IT-PU",
-      "regionLabel": "Italy · Apulia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-si-end-of-lessons-2026-06-09",
-      "country": "IT",
-      "regionId": "IT-SI",
-      "regionLabel": "Italy · Sicily",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-um-end-of-lessons-2026-06-09",
-      "country": "IT",
-      "regionId": "IT-UM",
-      "regionLabel": "Italy · Umbria",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vr-municipal-holiday-2026-06-09",
-      "country": "PT",
-      "regionId": "PT-VR",
-      "regionLabel": "Portugal · Vila Real",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-public-fr-gy-abolition-of-slavery-2026-06-10",
-      "country": "FR",
-      "regionId": "FR-GY",
-      "regionLabel": "France · Guyana",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Abolition of slavery",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-ba-end-of-lessons-2026-06-10",
-      "country": "IT",
-      "regionId": "IT-BA",
-      "regionLabel": "Italy · Basilicata",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-pi-end-of-lessons-2026-06-10",
-      "country": "IT",
-      "regionId": "IT-PI",
-      "regionLabel": "Italy · Piedmont",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-to-end-of-lessons-2026-06-10",
-      "country": "IT",
-      "regionId": "IT-TO",
-      "regionLabel": "Italy · Tuscany",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-tr-end-of-lessons-2026-06-10",
-      "country": "IT",
-      "regionId": "IT-TR",
-      "regionLabel": "Italy · Trentino-Alto Adige",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-va-end-of-lessons-2026-06-10",
-      "country": "IT",
-      "regionId": "IT-VA",
-      "regionLabel": "Italy · Aosta Valley",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-nat-portugal-day-2026-06-10",
-      "country": "PT",
-      "regionId": "PT-NAT",
-      "regionLabel": "Portugal",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Portugal Day",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-school-it-li-end-of-lessons-2026-06-11",
-      "country": "IT",
-      "regionId": "IT-LI",
-      "regionLabel": "Italy · Liguria",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-11",
-      "endDate": "2026-06-11",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "al-school-al-nat-end-of-lessons-2026-06-13",
-      "country": "AL",
-      "regionId": "AL-NAT",
-      "regionLabel": "Albania",
-      "scope": "national",
-      "holidayType": "school",
-      "name": "End of lessons\"",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
       "sourceId": "openholidays-api"
     },
     {
@@ -4131,102 +3123,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "es-public-es-ce-st-anthony-2026-06-13",
-      "country": "ES",
-      "regionId": "ES-CE",
-      "regionLabel": "Spain · Ceuta",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-av-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-AV",
-      "regionLabel": "Portugal · Aveiro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-be-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-BE",
-      "regionLabel": "Portugal · Beja",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-br-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-BR",
-      "regionLabel": "Portugal · Braga",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-cb-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-CB",
-      "regionLabel": "Portugal · Castelo Branco",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ev-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-EV",
-      "regionLabel": "Portugal · Évora",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-le-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-LE",
-      "regionLabel": "Portugal · Leiria",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-li-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-LI",
-      "regionLabel": "Portugal · Lisbon",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "pt-school-pt-nat-summer-holidays-2026-06-13",
       "country": "PT",
       "regionId": "PT-NAT",
@@ -4236,42 +3132,6 @@
       "name": "Summer holidays",
       "startDate": "2026-06-13",
       "endDate": "2026-09-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-sa-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-SA",
-      "regionLabel": "Portugal · Santarém",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vr-st-anthony-s-day-2026-06-13",
-      "country": "PT",
-      "regionId": "PT-VR",
-      "regionLabel": "Portugal · Vila Real",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-sa-municipal-holiday-2026-06-14",
-      "country": "PT",
-      "regionId": "PT-SA",
-      "regionLabel": "Portugal · Santarém",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-14",
-      "endDate": "2026-06-14",
       "sourceId": "openholidays-api"
     },
     {
@@ -4299,42 +3159,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "it-school-it-tr-end-of-lessons-2026-06-16",
-      "country": "IT",
-      "regionId": "IT-TR",
-      "regionLabel": "Italy · Trentino-Alto Adige",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-16",
-      "endDate": "2026-06-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-av-municipal-holiday-2026-06-16",
-      "country": "PT",
-      "regionId": "PT-AV",
-      "regionLabel": "Portugal · Aveiro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-16",
-      "endDate": "2026-06-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-fa-municipal-holiday-2026-06-16",
-      "country": "PT",
-      "regionId": "PT-FA",
-      "regionLabel": "Portugal · Faro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-16",
-      "endDate": "2026-06-16",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "ee-school-ee-nat-summer-holidays-2026-06-17",
       "country": "EE",
       "regionId": "EE-NAT",
@@ -4344,30 +3168,6 @@
       "name": "Summer Holidays",
       "startDate": "2026-06-17",
       "endDate": "2026-08-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-cm-end-of-lessons-2026-06-17",
-      "country": "ES",
-      "regionId": "ES-CM",
-      "regionLabel": "Spain · Castilla-La Mancha",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-17",
-      "endDate": "2026-06-17",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sm-school-sm-nat-end-of-lessons-2026-06-17",
-      "country": "SM",
-      "regionId": "SM-NAT",
-      "regionLabel": "San Marino",
-      "scope": "national",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-17",
-      "endDate": "2026-06-17",
       "sourceId": "openholidays-api"
     },
     {
@@ -4383,150 +3183,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "es-school-es-ar-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-AR",
-      "regionLabel": "Spain · Aragon",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-as-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-AS",
-      "regionLabel": "Spain · Asturias",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-cm-corpus-christi-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-CM",
-      "regionLabel": "Spain · Castilla-La Mancha",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-cn-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-CN",
-      "regionLabel": "Spain · Canary Islands",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-ct-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-CT",
-      "regionLabel": "Spain · Catalonia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-ga-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-GA",
-      "regionLabel": "Spain · Galicia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-ib-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-IB",
-      "regionLabel": "Spain · Balearic Islands",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-md-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-MD",
-      "regionLabel": "Spain · Community of Madrid",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-ml-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-ML",
-      "regionLabel": "Spain · Melilla",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-nc-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-NC",
-      "regionLabel": "Spain · Navarra",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-pv-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-PV",
-      "regionLabel": "Spain · Basque Country",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-vc-end-of-lessons-2026-06-19",
-      "country": "ES",
-      "regionId": "ES-VC",
-      "regionLabel": "Spain · Valencian Community",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "hu-school-hu-nat-summer-holidays-2026-06-20",
       "country": "HU",
       "regionId": "HU-NAT",
@@ -4536,30 +3192,6 @@
       "name": "Summer holidays",
       "startDate": "2026-06-20",
       "endDate": "2026-08-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ac-municipal-holiday-2026-06-20",
-      "country": "PT",
-      "regionId": "PT-AC",
-      "regionLabel": "Portugal · Azores",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-20",
-      "endDate": "2026-06-20",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-sa-municipal-holiday-2026-06-20",
-      "country": "PT",
-      "regionId": "PT-SA",
-      "regionLabel": "Portugal · Santarém",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-20",
-      "endDate": "2026-06-20",
       "sourceId": "openholidays-api"
     },
     {
@@ -4575,90 +3207,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "se-public-se-nat-midsummer-day-2026-06-20",
-      "country": "SE",
-      "regionId": "SE-NAT",
-      "regionLabel": "Sweden",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Midsummer Day",
-      "startDate": "2026-06-20",
-      "endDate": "2026-06-20",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-an-end-of-lessons-2026-06-22",
-      "country": "ES",
-      "regionId": "ES-AN",
-      "regionLabel": "Spain · Andalusia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-cb-end-of-lessons-2026-06-22",
-      "country": "ES",
-      "regionId": "ES-CB",
-      "regionLabel": "Spain · Cantabria",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-mc-end-of-lessons-2026-06-22",
-      "country": "ES",
-      "regionId": "ES-MC",
-      "regionLabel": "Spain · Region of Murcia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-ri-end-of-lessons-2026-06-22",
-      "country": "ES",
-      "regionId": "ES-RI",
-      "regionLabel": "Spain · La Rioja",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "hr-public-hr-nat-anti-fascist-struggle-day-2026-06-22",
-      "country": "HR",
-      "regionId": "HR-NAT",
-      "regionLabel": "Croatia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Anti-Fascist Struggle Day",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vr-municipal-holiday-2026-06-22",
-      "country": "PT",
-      "regionId": "PT-VR",
-      "regionLabel": "Portugal · Vila Real",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "rs-school-rs-nat-summer-holidays-2026-06-22",
       "country": "RS",
       "regionId": "RS-NAT",
@@ -4668,390 +3216,6 @@
       "name": "Summer holidays",
       "startDate": "2026-06-22",
       "endDate": "2026-08-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ju-celebration-of-independence-2026-06-23",
-      "country": "CH",
-      "regionId": "CH-JU",
-      "regionLabel": "Switzerland · Jura",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Celebration of independence",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ee-public-ee-nat-victory-day-2026-06-23",
-      "country": "EE",
-      "regionId": "EE-NAT",
-      "regionLabel": "Estonia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Victory Day",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-an-end-of-lessons-2026-06-23",
-      "country": "ES",
-      "regionId": "ES-AN",
-      "regionLabel": "Spain · Andalusia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-ce-end-of-lessons-2026-06-23",
-      "country": "ES",
-      "regionId": "ES-CE",
-      "regionLabel": "Spain · Ceuta",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "lu-public-lu-nat-grand-duke-s-birthday-2026-06-23",
-      "country": "LU",
-      "regionId": "LU-NAT",
-      "regionLabel": "Luxembourg",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Grand Duke's Birthday",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "lv-public-lv-nat-midsummer-s-eve-2026-06-23",
-      "country": "LV",
-      "regionId": "LV-NAT",
-      "regionLabel": "Latvia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Midsummer's Eve",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ee-public-ee-nat-midsummer-day-2026-06-24",
-      "country": "EE",
-      "regionId": "EE-NAT",
-      "regionLabel": "Estonia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Midsummer Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-cl-end-of-lessons-2026-06-24",
-      "country": "ES",
-      "regionId": "ES-CL",
-      "regionLabel": "Spain · Castile and León",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-ct-st-john-s-day-2026-06-24",
-      "country": "ES",
-      "regionId": "ES-CT",
-      "regionLabel": "Spain · Catalonia",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-ga-st-john-s-day-2026-06-24",
-      "country": "ES",
-      "regionId": "ES-GA",
-      "regionLabel": "Spain · Galicia",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-vc-st-john-s-day-2026-06-24",
-      "country": "ES",
-      "regionId": "ES-VC",
-      "regionLabel": "Spain · Valencian Community",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-public-it-li-st-john-the-baptist-2026-06-24",
-      "country": "IT",
-      "regionId": "IT-LI",
-      "regionLabel": "Italy · Liguria",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St. John the Baptist",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-public-it-pi-st-john-the-baptist-2026-06-24",
-      "country": "IT",
-      "regionId": "IT-PI",
-      "regionLabel": "Italy · Piedmont",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St. John the Baptist",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-public-it-to-st-john-the-baptist-2026-06-24",
-      "country": "IT",
-      "regionId": "IT-TO",
-      "regionLabel": "Italy · Tuscany",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St. John the Baptist",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "lt-public-lt-nat-midsummer-day-2026-06-24",
-      "country": "LT",
-      "regionId": "LT-NAT",
-      "regionLabel": "Lithuania",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Midsummer Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "lv-public-lv-nat-midsummer-day-2026-06-24",
-      "country": "LV",
-      "regionId": "LV-NAT",
-      "regionLabel": "Latvia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Midsummer Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ac-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-AC",
-      "regionLabel": "Portugal · Azores",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-av-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-AV",
-      "regionLabel": "Portugal · Aveiro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-be-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-BE",
-      "regionLabel": "Portugal · Beja",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-br-battle-of-sao-mamede-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-BR",
-      "regionLabel": "Portugal · Braga",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Battle of São Mamede",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-br-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-BR",
-      "regionLabel": "Portugal · Braga",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-cb-st-day-of-nuno-de-santa-maria-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-CB",
-      "regionLabel": "Portugal · Castelo Branco",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Day of Nuno de Santa Maria",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-co-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-CO",
-      "regionLabel": "Portugal · Coimbra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-fa-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-FA",
-      "regionLabel": "Portugal · Faro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-le-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-LE",
-      "regionLabel": "Portugal · Leiria",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-li-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-LI",
-      "regionLabel": "Portugal · Lisbon",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ma-municipal-holiday-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-MA",
-      "regionLabel": "Portugal · Madeira",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-pa-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-PA",
-      "regionLabel": "Portugal · Portalegre",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-po-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-PO",
-      "regionLabel": "Portugal · Porto",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-se-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-SE",
-      "regionLabel": "Portugal · Setúbal",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vi-st-john-s-day-2026-06-24",
-      "country": "PT",
-      "regionId": "PT-VI",
-      "regionLabel": "Portugal · Viseu",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "si-public-si-nat-statehood-day-2026-06-25",
-      "country": "SI",
-      "regionId": "SI-NAT",
-      "regionLabel": "Slovenia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Statehood Day",
-      "startDate": "2026-06-25",
-      "endDate": "2026-06-25",
       "sourceId": "openholidays-api"
     },
     {
@@ -5343,18 +3507,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "pt-public-pt-se-municipal-holiday-2026-06-28",
-      "country": "PT",
-      "regionId": "PT-SE",
-      "regionLabel": "Portugal · Setúbal",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-28",
-      "endDate": "2026-06-28",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "ch-school-ch-ge-summer-holidays-2026-06-29",
       "country": "CH",
       "regionId": "CH-GE",
@@ -5364,18 +3516,6 @@
       "name": "Summer holidays",
       "startDate": "2026-06-29",
       "endDate": "2026-08-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-ti-saints-peter-and-paul-2026-06-29",
-      "country": "CH",
-      "regionId": "CH-TI",
-      "regionLabel": "Switzerland · Ticino",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Saints Peter and Paul",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
       "sourceId": "openholidays-api"
     },
     {
@@ -5412,186 +3552,6 @@
       "name": "Summer Holidays",
       "startDate": "2026-06-29",
       "endDate": "2026-08-07",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-public-it-la-saints-peter-and-paul-2026-06-29",
-      "country": "IT",
-      "regionId": "IT-LA",
-      "regionLabel": "Italy · Lazio",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Saints Peter and Paul",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "mt-public-mt-nat-feast-of-st-peter-and-st-paul-2026-06-29",
-      "country": "MT",
-      "regionId": "MT-NAT",
-      "regionLabel": "Malta",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "​​​Feast of St.Peter and St.Paul",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ac-municipal-holiday-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-AC",
-      "regionLabel": "Portugal · Azores",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ac-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-AC",
-      "regionLabel": "Portugal · Azores",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ba-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-BA",
-      "regionLabel": "Portugal · Bragança",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-be-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-BE",
-      "regionLabel": "Portugal · Beja",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-br-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-BR",
-      "regionLabel": "Portugal · Braga",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ev-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-EV",
-      "regionLabel": "Portugal · Évora",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-le-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-LE",
-      "regionLabel": "Portugal · Leiria",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-li-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-LI",
-      "regionLabel": "Portugal · Lisbon",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ma-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-MA",
-      "regionLabel": "Portugal · Madeira",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-po-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-PO",
-      "regionLabel": "Portugal · Porto",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-se-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-SE",
-      "regionLabel": "Portugal · Setúbal",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vi-st-peter-s-day-2026-06-29",
-      "country": "PT",
-      "regionId": "PT-VI",
-      "regionLabel": "Portugal · Viseu",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "va-public-va-nat-saints-peter-and-paul-2026-06-29",
-      "country": "VA",
-      "regionId": "VA-NAT",
-      "regionLabel": "Vatican City",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Saints Peter and Paul",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
       "sourceId": "openholidays-api"
     },
     {
@@ -41593,6 +39553,1266 @@
       "startDate": "2028-06-30",
       "endDate": "2028-06-30",
       "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-bl-summer-holidays-2028-07-01",
+      "country": "AT",
+      "regionId": "AT-BL",
+      "regionLabel": "Austria · Burgenland",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-no-summer-holidays-2028-07-01",
+      "country": "AT",
+      "regionId": "AT-NÖ",
+      "regionLabel": "Austria · Lower Austria",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-wi-summer-holidays-2028-07-01",
+      "country": "AT",
+      "regionId": "AT-WI",
+      "regionLabel": "Austria · Vienna",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "be-school-be-nl-summer-holidays-2028-07-01",
+      "country": "BE",
+      "regionId": "BE-NL",
+      "regionLabel": "Belgium · Flemish community",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-08-31",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-ai-summer-holidays-2028-07-01",
+      "country": "CH",
+      "regionId": "CH-AI",
+      "regionLabel": "Switzerland · Appenzell Innerrhoden",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-bl-summer-holidays-2028-07-01",
+      "country": "CH",
+      "regionId": "CH-BL",
+      "regionLabel": "Switzerland · Basel-Landschaft",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-bs-summer-holidays-2028-07-01",
+      "country": "CH",
+      "regionId": "CH-BS",
+      "regionLabel": "Switzerland · Basel-Stadt",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "cz-school-cz-nat-summer-holidays-2028-07-01",
+      "country": "CZ",
+      "regionId": "CZ-NAT",
+      "regionLabel": "Czechia",
+      "scope": "national",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-be-summer-holidays-2028-07-01",
+      "country": "DE",
+      "regionId": "DE-BE",
+      "regionLabel": "Germany · Berlin",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-08-12",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ma-madeira-day-2028-07-01",
+      "country": "PT",
+      "regionId": "PT-MA",
+      "regionLabel": "Portugal · Madeira",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Madeira Day",
+      "startDate": "2028-07-01",
+      "endDate": "2028-07-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-gu-battle-of-the-coa-2028-07-02",
+      "country": "PT",
+      "regionId": "PT-GU",
+      "regionLabel": "Portugal · Guarda",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Battle of the Côa",
+      "startDate": "2028-07-02",
+      "endDate": "2028-07-02",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "by-public-by-nat-day-of-the-republic-2028-07-03",
+      "country": "BY",
+      "regionId": "BY-NAT",
+      "regionLabel": "Belarus",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Day of the Republic",
+      "startDate": "2028-07-03",
+      "endDate": "2028-07-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-ge-summer-holidays-2028-07-03",
+      "country": "CH",
+      "regionId": "CH-GE",
+      "regionLabel": "Switzerland · Geneva",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-23",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-ju-summer-holidays-2028-07-03",
+      "country": "CH",
+      "regionId": "CH-JU",
+      "regionLabel": "Switzerland · Jura",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-18",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-he-summer-holidays-2028-07-03",
+      "country": "DE",
+      "regionId": "DE-HE",
+      "regionLabel": "Germany · Hesse",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-hh-summer-holidays-2028-07-03",
+      "country": "DE",
+      "regionId": "DE-HH",
+      "regionLabel": "Germany · Hamburg",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-rp-summer-holidays-2028-07-03",
+      "country": "DE",
+      "regionId": "DE-RP",
+      "regionLabel": "Germany · Rhineland-Palatinate",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-sl-summer-holidays-2028-07-03",
+      "country": "DE",
+      "regionId": "DE-SL",
+      "regionLabel": "Germany · Saarland",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-gu-municipal-holiday-2028-07-03",
+      "country": "PT",
+      "regionId": "PT-GU",
+      "regionLabel": "Portugal · Guarda",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-03",
+      "endDate": "2028-07-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-school-sk-bc-summer-holidays-2028-07-03",
+      "country": "SK",
+      "regionId": "SK-BC",
+      "regionLabel": "Slovakia · Banská Bystrica Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-school-sk-bl-summer-holidays-2028-07-03",
+      "country": "SK",
+      "regionId": "SK-BL",
+      "regionLabel": "Slovakia · Bratislava Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-school-sk-ki-summer-holidays-2028-07-03",
+      "country": "SK",
+      "regionId": "SK-KI",
+      "regionLabel": "Slovakia · Košice Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-school-sk-ni-summer-holidays-2028-07-03",
+      "country": "SK",
+      "regionId": "SK-NI",
+      "regionLabel": "Slovakia · Nitra Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-school-sk-pv-summer-holidays-2028-07-03",
+      "country": "SK",
+      "regionId": "SK-PV",
+      "regionLabel": "Slovakia · Prešov Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-school-sk-ta-summer-holidays-2028-07-03",
+      "country": "SK",
+      "regionId": "SK-TA",
+      "regionLabel": "Slovakia · Trnava Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-school-sk-tc-summer-holidays-2028-07-03",
+      "country": "SK",
+      "regionId": "SK-TC",
+      "regionLabel": "Slovakia · Trenčín Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-school-sk-zi-summer-holidays-2028-07-03",
+      "country": "SK",
+      "regionId": "SK-ZI",
+      "regionLabel": "Slovakia · Žilina Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-co-municipal-holiday-2028-07-04",
+      "country": "PT",
+      "regionId": "PT-CO",
+      "regionLabel": "Portugal · Coimbra",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-04",
+      "endDate": "2028-07-04",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-le-municipal-holiday-2028-07-04",
+      "country": "PT",
+      "regionId": "PT-LE",
+      "regionLabel": "Portugal · Leiria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-04",
+      "endDate": "2028-07-04",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "cz-public-cz-nat-st-cyril-and-methodius-day-2028-07-05",
+      "country": "CZ",
+      "regionId": "CZ-NAT",
+      "regionLabel": "Czechia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "St. Cyril and Methodius Day",
+      "startDate": "2028-07-05",
+      "endDate": "2028-07-05",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-public-sk-nat-st-cyril-and-methodius-day-2028-07-05",
+      "country": "SK",
+      "regionId": "SK-NAT",
+      "regionLabel": "Slovakia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "St. Cyril and Methodius Day",
+      "startDate": "2028-07-05",
+      "endDate": "2028-07-05",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "cz-public-cz-nat-day-of-the-burning-of-jan-hus-2028-07-06",
+      "country": "CZ",
+      "regionId": "CZ-NAT",
+      "regionLabel": "Czechia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Day of the Burning of Jan Hus",
+      "startDate": "2028-07-06",
+      "endDate": "2028-07-06",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "lt-public-lt-nat-national-day-2028-07-06",
+      "country": "LT",
+      "regionId": "LT-NAT",
+      "regionLabel": "Lithuania",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "National Day",
+      "startDate": "2028-07-06",
+      "endDate": "2028-07-06",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-gu-battle-of-salgadela-2028-07-07",
+      "country": "PT",
+      "regionId": "PT-GU",
+      "regionLabel": "Portugal · Guarda",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Battle of Salgadela",
+      "startDate": "2028-07-07",
+      "endDate": "2028-07-07",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-ka-summer-holidays-2028-07-08",
+      "country": "AT",
+      "regionId": "AT-KÄ",
+      "regionLabel": "Austria · Carinthia",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-09-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-oo-summer-holidays-2028-07-08",
+      "country": "AT",
+      "regionId": "AT-OÖ",
+      "regionLabel": "Austria · Upper Austria",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-09-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-sb-summer-holidays-2028-07-08",
+      "country": "AT",
+      "regionId": "AT-SB",
+      "regionLabel": "Austria · Salzburg",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-09-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-sm-summer-holidays-2028-07-08",
+      "country": "AT",
+      "regionId": "AT-SM",
+      "regionLabel": "Austria · Styria",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-09-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-ti-summer-holidays-2028-07-08",
+      "country": "AT",
+      "regionId": "AT-TI",
+      "regionLabel": "Austria · Tyrol",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-09-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-va-summer-holidays-2028-07-08",
+      "country": "AT",
+      "regionId": "AT-VA",
+      "regionLabel": "Austria · Vorarlberg",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-09-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-ai-summer-holidays-2028-07-08",
+      "country": "CH",
+      "regionId": "CH-AI",
+      "regionLabel": "Switzerland · Appenzell Innerrhoden",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-bl-summer-holidays-2028-07-08",
+      "country": "CH",
+      "regionId": "CH-BL",
+      "regionLabel": "Switzerland · Basel-Landschaft",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-lu-summer-holidays-2028-07-08",
+      "country": "CH",
+      "regionId": "CH-LU",
+      "regionLabel": "Switzerland · Lucerne",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-zg-summer-holidays-2028-07-08",
+      "country": "CH",
+      "regionId": "CH-ZG",
+      "regionLabel": "Switzerland · Zug",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-fl-nl-mi-summer-holidays-2028-07-08",
+      "country": "NL",
+      "regionId": "NL-FL::NL-MI",
+      "regionLabel": "Netherlands (the) · Flevoland · Central Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-ge-nl-mi-summer-holidays-2028-07-08",
+      "country": "NL",
+      "regionId": "NL-GE::NL-MI",
+      "regionLabel": "Netherlands (the) · Gelderland · Central Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-nb-nl-mi-summer-holidays-2028-07-08",
+      "country": "NL",
+      "regionId": "NL-NB::NL-MI",
+      "regionLabel": "Netherlands (the) · North Brabant · Central Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-ut-nl-mi-summer-holidays-2028-07-08",
+      "country": "NL",
+      "regionId": "NL-UT::NL-MI",
+      "regionLabel": "Netherlands (the) · Utrecht · Central Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-zh-nl-mi-summer-holidays-2028-07-08",
+      "country": "NL",
+      "regionId": "NL-ZH::NL-MI",
+      "regionLabel": "Netherlands (the) · South Holland · Central Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-po-municipal-holiday-2028-07-08",
+      "country": "PT",
+      "regionId": "PT-PO",
+      "regionLabel": "Portugal · Porto",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-08",
+      "endDate": "2028-07-08",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vr-municipal-holiday-2028-07-08",
+      "country": "PT",
+      "regionId": "PT-VR",
+      "regionLabel": "Portugal · Vila Real",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-08",
+      "endDate": "2028-07-08",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-sg-summer-holidays-2028-07-09",
+      "country": "CH",
+      "regionId": "CH-SG",
+      "regionLabel": "Switzerland · St. Gallen",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-09",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-ar-ch-ar-vs-summer-holidays-2028-07-10",
+      "country": "CH",
+      "regionId": "CH-AR::CH-AR-VS",
+      "regionLabel": "Switzerland · Appenzell Ausserrhoden · Primary Schools",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-10",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-so-ch-so-bs-summer-holidays-2028-07-10",
+      "country": "CH",
+      "regionId": "CH-SO::CH-SO-BS",
+      "regionLabel": "Switzerland · Solothurn · Vocational Schools",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-10",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-so-ch-so-ms-summer-holidays-2028-07-10",
+      "country": "CH",
+      "regionId": "CH-SO::CH-SO-MS",
+      "regionLabel": "Switzerland · Solothurn · Secondary Schools",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-10",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-nw-summer-holidays-2028-07-10",
+      "country": "DE",
+      "regionId": "DE-NW",
+      "regionLabel": "Germany · North Rhine-Westphalia",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-10",
+      "endDate": "2028-08-22",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ba-municipal-holiday-2028-07-10",
+      "country": "PT",
+      "regionId": "PT-BA",
+      "regionLabel": "Portugal · Bragança",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-10",
+      "endDate": "2028-07-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-po-municipal-holiday-2028-07-10",
+      "country": "PT",
+      "regionId": "PT-PO",
+      "regionLabel": "Portugal · Porto",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-10",
+      "endDate": "2028-07-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vc-municipal-holiday-2028-07-10",
+      "country": "PT",
+      "regionId": "PT-VC",
+      "regionLabel": "Portugal · Viana do Castelo",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-10",
+      "endDate": "2028-07-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-po-day-of-benedict-of-nursia-2028-07-11",
+      "country": "PT",
+      "regionId": "PT-PO",
+      "regionLabel": "Portugal · Porto",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Day of Benedict of Nursia",
+      "startDate": "2028-07-11",
+      "endDate": "2028-07-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "fr-public-fr-nat-national-day-2028-07-14",
+      "country": "FR",
+      "regionId": "FR-NAT",
+      "regionLabel": "France",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "National Day",
+      "startDate": "2028-07-14",
+      "endDate": "2028-07-14",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "it-public-it-si-saint-rosalia-2028-07-15",
+      "country": "IT",
+      "regionId": "IT-SI",
+      "regionLabel": "Italy · Sicily",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Saint Rosalia",
+      "startDate": "2028-07-15",
+      "endDate": "2028-07-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-dr-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-DR::NL-NO",
+      "regionLabel": "Netherlands (the) · Drenthe · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-fl-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-FL::NL-NO",
+      "regionLabel": "Netherlands (the) · Flevoland · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-fr-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-FR::NL-NO",
+      "regionLabel": "Netherlands (the) · Friesland · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-ge-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-GE::NL-NO",
+      "regionLabel": "Netherlands (the) · Gelderland · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-gr-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-GR::NL-NO",
+      "regionLabel": "Netherlands (the) · Groningen · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-nh-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-NH::NL-NO",
+      "regionLabel": "Netherlands (the) · North Holland · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-ov-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-OV::NL-NO",
+      "regionLabel": "Netherlands (the) · Overijssel · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-ut-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-UT::NL-NO",
+      "regionLabel": "Netherlands (the) · Utrecht · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-zh-nl-no-summer-holidays-2028-07-15",
+      "country": "NL",
+      "regionId": "NL-ZH::NL-NO",
+      "regionLabel": "Netherlands (the) · South Holland · North Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-zh-ch-zh-vs-summer-holidays-2028-07-17",
+      "country": "CH",
+      "regionId": "CH-ZH::CH-ZH-VS",
+      "regionLabel": "Switzerland · Zürich · Primary Schools",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-17",
+      "endDate": "2028-08-19",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-mv-de-mv-bbs-summer-holidays-2028-07-17",
+      "country": "DE",
+      "regionId": "DE-MV::DE-MV-BBS",
+      "regionLabel": "Germany · Mecklenburg-Western Pomerania · Vocational Schools",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-17",
+      "endDate": "2028-09-02",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ac-municipal-holiday-2028-07-17",
+      "country": "PT",
+      "regionId": "PT-AC",
+      "regionLabel": "Portugal · Azores",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-17",
+      "endDate": "2028-07-17",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-co-birthday-of-antonio-jose-de-almeid-2028-07-17",
+      "country": "PT",
+      "regionId": "PT-CO",
+      "regionLabel": "Portugal · Coimbra",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Birthday of António José de Almeid",
+      "startDate": "2028-07-17",
+      "endDate": "2028-07-17",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-po-municipal-holiday-2028-07-17",
+      "country": "PT",
+      "regionId": "PT-PO",
+      "regionLabel": "Portugal · Porto",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-17",
+      "endDate": "2028-07-17",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vi-municipal-holiday-2028-07-17",
+      "country": "PT",
+      "regionId": "PT-VI",
+      "regionLabel": "Portugal · Viseu",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-17",
+      "endDate": "2028-07-17",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ac-municipal-holiday-2028-07-18",
+      "country": "PT",
+      "regionId": "PT-AC",
+      "regionLabel": "Portugal · Azores",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-18",
+      "endDate": "2028-07-18",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-hb-summer-holidays-2028-07-20",
+      "country": "DE",
+      "regionId": "DE-HB",
+      "regionLabel": "Germany · Bremen",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-20",
+      "endDate": "2028-08-30",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-ni-summer-holidays-2028-07-20",
+      "country": "DE",
+      "regionId": "DE-NI",
+      "regionLabel": "Germany · Lower Saxony",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-20",
+      "endDate": "2028-08-30",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "be-public-be-nat-national-day-2028-07-21",
+      "country": "BE",
+      "regionId": "BE-NAT",
+      "regionLabel": "Belgium",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "National Day",
+      "startDate": "2028-07-21",
+      "endDate": "2028-07-21",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-sn-summer-holidays-2028-07-22",
+      "country": "DE",
+      "regionId": "DE-SN",
+      "regionLabel": "Germany · Saxony",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-st-summer-holidays-2028-07-22",
+      "country": "DE",
+      "regionId": "DE-ST",
+      "regionLabel": "Germany · Saxony-Anhalt",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-th-summer-holidays-2028-07-22",
+      "country": "DE",
+      "regionId": "DE-TH",
+      "regionLabel": "Germany · Thuringia",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-ge-nl-zu-summer-holidays-2028-07-22",
+      "country": "NL",
+      "regionId": "NL-GE::NL-ZU",
+      "regionLabel": "Netherlands (the) · Gelderland · South Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-li-nl-zu-summer-holidays-2028-07-22",
+      "country": "NL",
+      "regionId": "NL-LI::NL-ZU",
+      "regionLabel": "Netherlands (the) · Limburg · South Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-nb-nl-zu-summer-holidays-2028-07-22",
+      "country": "NL",
+      "regionId": "NL-NB::NL-ZU",
+      "regionLabel": "Netherlands (the) · North Brabant · South Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-ze-nl-zu-summer-holidays-2028-07-22",
+      "country": "NL",
+      "regionId": "NL-ZE::NL-ZU",
+      "regionLabel": "Netherlands (the) · Zeeland · South Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "nl-school-nl-zh-nl-zu-summer-holidays-2028-07-22",
+      "country": "NL",
+      "regionId": "NL-ZH::NL-ZU",
+      "regionLabel": "Netherlands (the) · South Holland · South Region",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ac-st-mary-magdalene-s-day-2028-07-22",
+      "country": "PT",
+      "regionId": "PT-AC",
+      "regionLabel": "Portugal · Azores",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Mary Magdalene's Day",
+      "startDate": "2028-07-22",
+      "endDate": "2028-07-22",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ma-st-mary-magdalene-s-day-2028-07-22",
+      "country": "PT",
+      "regionId": "PT-MA",
+      "regionLabel": "Portugal · Madeira",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Mary Magdalene's Day",
+      "startDate": "2028-07-22",
+      "endDate": "2028-07-22",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-ag-summer-holidays-2028-07-24",
+      "country": "CH",
+      "regionId": "CH-AG",
+      "regionLabel": "Switzerland · Aargau",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-24",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-co-st-christina-s-day-2028-07-24",
+      "country": "PT",
+      "regionId": "PT-CO",
+      "regionLabel": "Portugal · Coimbra",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Christina's Day",
+      "startDate": "2028-07-24",
+      "endDate": "2028-07-24",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-le-municipal-holiday-2028-07-24",
+      "country": "PT",
+      "regionId": "PT-LE",
+      "regionLabel": "Portugal · Leiria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-24",
+      "endDate": "2028-07-24",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-av-st-christopher-s-day-2028-07-25",
+      "country": "PT",
+      "regionId": "PT-AV",
+      "regionLabel": "Portugal · Aveiro",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Christopher's Day",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-br-st-james-day-2028-07-25",
+      "country": "PT",
+      "regionId": "PT-BR",
+      "regionLabel": "Portugal · Braga",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St James' Day",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-co-day-of-st-thomas-of-mira-2028-07-25",
+      "country": "PT",
+      "regionId": "PT-CO",
+      "regionLabel": "Portugal · Coimbra",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Day of St Thomas of Mira",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-co-st-james-day-2028-07-25",
+      "country": "PT",
+      "regionId": "PT-CO",
+      "regionLabel": "Portugal · Coimbra",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St James' Day",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-se-st-james-day-2028-07-25",
+      "country": "PT",
+      "regionId": "PT-SE",
+      "regionLabel": "Portugal · Setúbal",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St James' Day",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vr-st-james-day-2028-07-25",
+      "country": "PT",
+      "regionId": "PT-VR",
+      "regionLabel": "Portugal · Vila Real",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St James' Day",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-li-municipal-holiday-2028-07-26",
+      "country": "PT",
+      "regionId": "PT-LI",
+      "regionLabel": "Portugal · Lisbon",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-26",
+      "endDate": "2028-07-26",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-bw-summer-holidays-2028-07-27",
+      "country": "DE",
+      "regionId": "DE-BW",
+      "regionLabel": "Germany · Baden-Württemberg",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-27",
+      "endDate": "2028-09-09",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sm-public-sm-nat-anniversary-of-the-fall-of-fascism-and-day-of-freedom-2028-07-28",
+      "country": "SM",
+      "regionId": "SM-NAT",
+      "regionLabel": "San Marino",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Anniversary of the Fall of Fascism and Day of Freedom",
+      "startDate": "2028-07-28",
+      "endDate": "2028-07-28",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-by-summer-holidays-2028-07-31",
+      "country": "DE",
+      "regionId": "DE-BY",
+      "regionLabel": "Germany · Bavaria",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-31",
+      "endDate": "2028-09-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-po-municipal-holiday-2028-07-31",
+      "country": "PT",
+      "regionId": "PT-PO",
+      "regionLabel": "Portugal · Porto",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-31",
+      "endDate": "2028-07-31",
+      "sourceId": "openholidays-api"
     }
   ],
   "holidayCoverage": [
@@ -41613,29 +40833,6 @@
             "Bulgaria"
           ],
           "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "DE::pentecost holidays::school::openholidays-api::2026-05-26::2026-06-05::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Pentecost Holidays",
-      "startDate": "2026-05-26",
-      "endDate": "2026-06-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Baden-Württemberg",
-            "Germany · Bavaria"
-          ],
-          "regionCount": 2,
-          "countLabel": "states",
-          "totalRegionCount": 8
         }
       ]
     },
@@ -41700,514 +40897,6 @@
       ]
     },
     {
-      "key": "IE::june holiday::public::openholidays-api::2026-06-01::2026-06-01::",
-      "country": "IE",
-      "holidayType": "public",
-      "name": "June Holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Ireland"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "IT::floating holiday::school::openholidays-api::2026-06-01::2026-06-01::",
-      "country": "IT",
-      "holidayType": "school",
-      "name": "floating holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Italy · Abruzzo",
-            "Italy · Aosta Valley",
-            "Italy · Apulia",
-            "Italy · Basilicata",
-            "Italy · Friuli Venezia Giulia",
-            "Italy · Liguria",
-            "Italy · Marche",
-            "Italy · Molise",
-            "Italy · Piedmont",
-            "Italy · Trentino-Alto Adige",
-            "Italy · Umbria",
-            "Italy · Veneto"
-          ],
-          "regionCount": 12,
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "MD::children's day::public::openholidays-api::2026-06-01::2026-06-01::",
-      "country": "MD",
-      "holidayType": "public",
-      "name": "Children's Day",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Moldova"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::birthday of josé falcão::public::openholidays-api::2026-06-01::2026-06-01::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Birthday of José Falcão",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Coimbra"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-01::2026-06-01::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Faro",
-            "Portugal · Setúbal"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "RO::children's day::public::openholidays-api::2026-06-01::2026-06-01::",
-      "country": "RO",
-      "holidayType": "public",
-      "name": "Children's Day",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Romania"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "RO::orthodox pentecost monday::public::openholidays-api::2026-06-01::2026-06-01::",
-      "country": "RO",
-      "holidayType": "public",
-      "name": "Orthodox Pentecost Monday",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Romania"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "IT::republic day::public::openholidays-api::2026-06-02::2026-06-02::",
-      "country": "IT",
-      "holidayType": "public",
-      "name": "Republic Day",
-      "startDate": "2026-06-02",
-      "endDate": "2026-06-02",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Italy"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "AT::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "AT",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Austria"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "CH::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "CH",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Switzerland · Aargau",
-            "Switzerland · Appenzell Innerrhoden",
-            "Switzerland · Fribourg",
-            "Switzerland · Jura",
-            "Switzerland · Lucerne",
-            "Switzerland · Neuchâtel",
-            "Switzerland · Nidwalden",
-            "Switzerland · Obwalden",
-            "Switzerland · Schwyz",
-            "Switzerland · Solothurn",
-            "Switzerland · Ticino",
-            "Switzerland · Uri",
-            "Switzerland · Valais",
-            "Switzerland · Zug"
-          ],
-          "regionCount": 14,
-          "totalRegionCount": 14
-        }
-      ]
-    },
-    {
-      "key": "DE::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "DE",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Germany · Baden-Württemberg",
-            "Germany · Bavaria",
-            "Germany · Hesse",
-            "Germany · North Rhine-Westphalia",
-            "Germany · Rhineland-Palatinate",
-            "Germany · Saarland"
-          ],
-          "regionCount": 6,
-          "totalRegionCount": 6
-        }
-      ]
-    },
-    {
-      "key": "ES::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Castilla-La Mancha"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "HR::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "HR",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Croatia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "LI::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "LI",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Liechtenstein"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "MC::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "MC",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Monaco"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PL::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "PL",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Poland"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Aveiro"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "SM::corpus christi::public::openholidays-api::2026-06-04::2026-06-04::",
-      "country": "SM",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-04",
-      "endDate": "2026-06-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "San Marino"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::non-teaching day::school::openholidays-api::2026-06-05::2026-06-05::",
-      "country": "ES",
-      "holidayType": "school",
-      "name": "Non-teaching day",
-      "startDate": "2026-06-05",
-      "endDate": "2026-06-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Spain · Andalusia"
-          ],
-          "regionCount": 1,
-          "countLabel": "communities",
-          "totalRegionCount": 2
-        }
-      ]
-    },
-    {
-      "key": "LI::no lessons::school::openholidays-api::2026-06-05::2026-06-05::",
-      "country": "LI",
-      "holidayType": "school",
-      "name": "No lessons",
-      "startDate": "2026-06-05",
-      "endDate": "2026-06-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Liechtenstein"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-05::2026-06-05::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-05",
-      "endDate": "2026-06-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Azores"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "IT::end of lessons::school::openholidays-api::2026-06-06::2026-06-06::",
-      "country": "IT",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-06",
-      "endDate": "2026-06-06",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Italy · Campania",
-            "Italy · Emilia-Romagna",
-            "Italy · Marche",
-            "Italy · Veneto"
-          ],
-          "regionCount": 4,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
       "key": "PT::summer holidays::school::openholidays-api::2026-06-06::2026-09-10::",
       "country": "PT",
       "holidayType": "school",
@@ -42222,316 +40911,6 @@
           "displayMode": "national",
           "regionLabels": [
             "Portugal"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "SE::national day::public::openholidays-api::2026-06-06::2026-06-06::",
-      "country": "SE",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-06-06",
-      "endDate": "2026-06-06",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Sweden"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "MT::​sette giugno::public::openholidays-api::2026-06-07::2026-06-07::",
-      "country": "MT",
-      "holidayType": "public",
-      "name": "​Sette Giugno",
-      "startDate": "2026-06-07",
-      "endDate": "2026-06-07",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Malta"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-07::2026-06-07::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-07",
-      "endDate": "2026-06-07",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Lisbon"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "ES::non-teaching day::school::openholidays-api::2026-06-08::2026-06-08::",
-      "country": "ES",
-      "holidayType": "school",
-      "name": "Non-teaching day",
-      "startDate": "2026-06-08",
-      "endDate": "2026-06-08",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Spain · La Rioja"
-          ],
-          "regionCount": 1,
-          "countLabel": "communities",
-          "totalRegionCount": 2
-        }
-      ]
-    },
-    {
-      "key": "IT::end of lessons::school::openholidays-api::2026-06-08::2026-06-08::",
-      "country": "IT",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-08",
-      "endDate": "2026-06-08",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Italy · Calabria",
-            "Italy · Lazio",
-            "Italy · Lombardy",
-            "Italy · Sardinia"
-          ],
-          "regionCount": 4,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "ES::regional holiday in la rioja ::public::openholidays-api::2026-06-09::2026-06-09::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Regional Holiday in La Rioja ",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · La Rioja"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::regional holiday in murcia::public::openholidays-api::2026-06-09::2026-06-09::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Regional Holiday in Murcia",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Region of Murcia"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "IT::end of lessons::school::openholidays-api::2026-06-09::2026-06-09::",
-      "country": "IT",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Italy · Abruzzo",
-            "Italy · Apulia",
-            "Italy · Friuli Venezia Giulia",
-            "Italy · Molise",
-            "Italy · Sicily",
-            "Italy · Umbria"
-          ],
-          "regionCount": 6,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-09::2026-06-09::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-09",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Vila Real"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "FR::abolition of slavery::public::openholidays-api::2026-06-10::2026-06-10::",
-      "country": "FR",
-      "holidayType": "public",
-      "name": "Abolition of slavery",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "France · Guyana"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 7
-        }
-      ]
-    },
-    {
-      "key": "IT::end of lessons::school::openholidays-api::2026-06-10::2026-06-10::",
-      "country": "IT",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Italy · Aosta Valley",
-            "Italy · Basilicata",
-            "Italy · Piedmont",
-            "Italy · Trentino-Alto Adige",
-            "Italy · Tuscany"
-          ],
-          "regionCount": 5,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::portugal day::public::openholidays-api::2026-06-10::2026-06-10::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Portugal Day",
-      "startDate": "2026-06-10",
-      "endDate": "2026-06-10",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "IT::end of lessons::school::openholidays-api::2026-06-11::2026-06-11::",
-      "country": "IT",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-11",
-      "endDate": "2026-06-11",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Italy · Liguria"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "AL::end of lessons\"::school::openholidays-api::2026-06-13::2026-06-13::",
-      "country": "AL",
-      "holidayType": "school",
-      "name": "End of lessons\"",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Albania"
           ],
           "regionCount": 1
         }
@@ -42558,56 +40937,6 @@
       ]
     },
     {
-      "key": "ES::st anthony::public::openholidays-api::2026-06-13::2026-06-13::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "St Anthony",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Ceuta"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::st anthony's day::public::openholidays-api::2026-06-13::2026-06-13::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St Anthony's Day",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Aveiro",
-            "Portugal · Beja",
-            "Portugal · Braga",
-            "Portugal · Castelo Branco",
-            "Portugal · Évora",
-            "Portugal · Leiria",
-            "Portugal · Lisbon",
-            "Portugal · Santarém",
-            "Portugal · Vila Real"
-          ],
-          "regionCount": 9,
-          "totalRegionCount": 9
-        }
-      ]
-    },
-    {
       "key": "PT::summer holidays::school::openholidays-api::2026-06-13::2026-09-10::",
       "country": "PT",
       "holidayType": "school",
@@ -42624,28 +40953,6 @@
             "Portugal"
           ],
           "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-14::2026-06-14::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-14",
-      "endDate": "2026-06-14",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Santarém"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
         }
       ]
     },
@@ -42690,51 +40997,6 @@
       ]
     },
     {
-      "key": "IT::end of lessons::school::openholidays-api::2026-06-16::2026-06-16::",
-      "country": "IT",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-16",
-      "endDate": "2026-06-16",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Italy · Trentino-Alto Adige"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-16::2026-06-16::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-16",
-      "endDate": "2026-06-16",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Aveiro",
-            "Portugal · Faro"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
       "key": "EE::summer holidays::school::openholidays-api::2026-06-17::2026-08-31::",
       "country": "EE",
       "holidayType": "school",
@@ -42749,48 +41011,6 @@
           "displayMode": "national",
           "regionLabels": [
             "Estonia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::end of lessons::school::openholidays-api::2026-06-17::2026-06-17::",
-      "country": "ES",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-17",
-      "endDate": "2026-06-17",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Spain · Castilla-La Mancha"
-          ],
-          "regionCount": 1,
-          "countLabel": "communities",
-          "totalRegionCount": 19
-        }
-      ]
-    },
-    {
-      "key": "SM::end of lessons::school::openholidays-api::2026-06-17::2026-06-17::",
-      "country": "SM",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-17",
-      "endDate": "2026-06-17",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "San Marino"
           ],
           "regionCount": 1
         }
@@ -42819,59 +41039,6 @@
       ]
     },
     {
-      "key": "ES::corpus christi::public::openholidays-api::2026-06-19::2026-06-19::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Corpus Christi",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Castilla-La Mancha"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::end of lessons::school::openholidays-api::2026-06-19::2026-06-19::",
-      "country": "ES",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-19",
-      "endDate": "2026-06-19",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Spain · Aragon",
-            "Spain · Asturias",
-            "Spain · Balearic Islands",
-            "Spain · Basque Country",
-            "Spain · Canary Islands",
-            "Spain · Catalonia",
-            "Spain · Community of Madrid",
-            "Spain · Galicia",
-            "Spain · Melilla",
-            "Spain · Navarra",
-            "Spain · Valencian Community"
-          ],
-          "regionCount": 11,
-          "countLabel": "regions",
-          "totalRegionCount": 19
-        }
-      ]
-    },
-    {
       "key": "HU::summer holidays::school::openholidays-api::2026-06-20::2026-08-31::",
       "country": "HU",
       "holidayType": "school",
@@ -42888,29 +41055,6 @@
             "Hungary"
           ],
           "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-20::2026-06-20::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-20",
-      "endDate": "2026-06-20",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Azores",
-            "Portugal · Santarém"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
         }
       ]
     },
@@ -42935,93 +41079,6 @@
       ]
     },
     {
-      "key": "SE::midsummer day::public::openholidays-api::2026-06-20::2026-06-20::",
-      "country": "SE",
-      "holidayType": "public",
-      "name": "Midsummer Day",
-      "startDate": "2026-06-20",
-      "endDate": "2026-06-20",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Sweden"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::end of lessons::school::openholidays-api::2026-06-22::2026-06-22::",
-      "country": "ES",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Spain · Andalusia",
-            "Spain · Cantabria",
-            "Spain · La Rioja",
-            "Spain · Region of Murcia"
-          ],
-          "regionCount": 4,
-          "countLabel": "communities",
-          "totalRegionCount": 19
-        }
-      ]
-    },
-    {
-      "key": "HR::anti-fascist struggle day::public::openholidays-api::2026-06-22::2026-06-22::",
-      "country": "HR",
-      "holidayType": "public",
-      "name": "Anti-Fascist Struggle Day",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Croatia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-22::2026-06-22::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-22",
-      "endDate": "2026-06-22",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Vila Real"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
       "key": "RS::summer holidays::school::openholidays-api::2026-06-22::2026-08-31::",
       "country": "RS",
       "holidayType": "school",
@@ -43036,354 +41093,6 @@
           "displayMode": "national",
           "regionLabels": [
             "Serbia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "CH::celebration of independence::public::openholidays-api::2026-06-23::2026-06-23::",
-      "country": "CH",
-      "holidayType": "public",
-      "name": "Celebration of independence",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Switzerland · Jura"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "EE::victory day::public::openholidays-api::2026-06-23::2026-06-23::",
-      "country": "EE",
-      "holidayType": "public",
-      "name": "Victory Day",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Estonia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::end of lessons::school::openholidays-api::2026-06-23::2026-06-23::",
-      "country": "ES",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Spain · Andalusia",
-            "Spain · Ceuta"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 19
-        }
-      ]
-    },
-    {
-      "key": "LU::grand duke's birthday::public::openholidays-api::2026-06-23::2026-06-23::",
-      "country": "LU",
-      "holidayType": "public",
-      "name": "Grand Duke's Birthday",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Luxembourg"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "LV::midsummer's eve::public::openholidays-api::2026-06-23::2026-06-23::",
-      "country": "LV",
-      "holidayType": "public",
-      "name": "Midsummer's Eve",
-      "startDate": "2026-06-23",
-      "endDate": "2026-06-23",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Latvia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "EE::midsummer day::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "EE",
-      "holidayType": "public",
-      "name": "Midsummer Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Estonia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::end of lessons::school::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "ES",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Spain · Castile and León"
-          ],
-          "regionCount": 1,
-          "countLabel": "communities",
-          "totalRegionCount": 19
-        }
-      ]
-    },
-    {
-      "key": "ES::st john's day::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Catalonia",
-            "Spain · Galicia",
-            "Spain · Valencian Community"
-          ],
-          "regionCount": 3,
-          "totalRegionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "IT::st. john the baptist::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "IT",
-      "holidayType": "public",
-      "name": "St. John the Baptist",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Italy · Liguria",
-            "Italy · Piedmont",
-            "Italy · Tuscany"
-          ],
-          "regionCount": 3,
-          "totalRegionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "LT::midsummer day::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "LT",
-      "holidayType": "public",
-      "name": "Midsummer Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Lithuania"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "LV::midsummer day::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "LV",
-      "holidayType": "public",
-      "name": "Midsummer Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Latvia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::battle of são mamede::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Battle of São Mamede",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Braga"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Madeira"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::st day of nuno de santa maria::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St Day of Nuno de Santa Maria",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Castelo Branco"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::st john's day::public::openholidays-api::2026-06-24::2026-06-24::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St John's Day",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Aveiro",
-            "Portugal · Azores",
-            "Portugal · Beja",
-            "Portugal · Braga",
-            "Portugal · Coimbra",
-            "Portugal · Faro",
-            "Portugal · Leiria",
-            "Portugal · Lisbon",
-            "Portugal · Portalegre",
-            "Portugal · Porto",
-            "Portugal · Setúbal",
-            "Portugal · Viseu"
-          ],
-          "regionCount": 12,
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "SI::statehood day::public::openholidays-api::2026-06-25::2026-06-25::",
-      "country": "SI",
-      "holidayType": "public",
-      "name": "Statehood Day",
-      "startDate": "2026-06-25",
-      "endDate": "2026-06-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Slovenia"
           ],
           "regionCount": 1
         }
@@ -43556,49 +41265,6 @@
       ]
     },
     {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-28::2026-06-28::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-28",
-      "endDate": "2026-06-28",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Setúbal"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "CH::saints peter and paul::public::openholidays-api::2026-06-29::2026-06-29::",
-      "country": "CH",
-      "holidayType": "public",
-      "name": "Saints Peter and Paul",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Switzerland · Ticino"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
       "key": "CH::summer holidays::school::openholidays-api::2026-06-29::2026-08-16::",
       "country": "CH",
       "holidayType": "school",
@@ -43641,121 +41307,6 @@
           "regionCount": 3,
           "countLabel": "states",
           "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "IT::saints peter and paul::public::openholidays-api::2026-06-29::2026-06-29::",
-      "country": "IT",
-      "holidayType": "public",
-      "name": "Saints Peter and Paul",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Italy · Lazio"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "MT::​​​feast of st.peter and st.paul::public::openholidays-api::2026-06-29::2026-06-29::",
-      "country": "MT",
-      "holidayType": "public",
-      "name": "​​​Feast of St.Peter and St.Paul",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Malta"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-06-29::2026-06-29::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Azores"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::st peter's day::public::openholidays-api::2026-06-29::2026-06-29::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St Peter's Day",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Azores",
-            "Portugal · Beja",
-            "Portugal · Braga",
-            "Portugal · Bragança",
-            "Portugal · Évora",
-            "Portugal · Leiria",
-            "Portugal · Lisbon",
-            "Portugal · Madeira",
-            "Portugal · Porto",
-            "Portugal · Setúbal",
-            "Portugal · Viseu"
-          ],
-          "regionCount": 11,
-          "countLabel": "regions",
-          "totalRegionCount": 11
-        }
-      ]
-    },
-    {
-      "key": "VA::saints peter and paul::public::openholidays-api::2026-06-29::2026-06-29::",
-      "country": "VA",
-      "holidayType": "public",
-      "name": "Saints Peter and Paul",
-      "startDate": "2026-06-29",
-      "endDate": "2026-06-29",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Vatican City"
-          ],
-          "regionCount": 1
         }
       ]
     },
@@ -45175,14 +42726,13 @@
       "segments": [
         {
           "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
+          "normalizedScope": "national",
+          "displayMode": "national",
           "regionLabels": [
             "Spain · Extremadura"
           ],
           "regionCount": 1,
-          "countLabel": "communities",
-          "totalRegionCount": 19
+          "totalRegionCount": 1
         }
       ]
     },
@@ -80891,6 +78441,1206 @@
             "Portugal"
           ],
           "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AT::summer holidays::school::openholidays-api::2028-07-01::2028-09-03::",
+      "country": "AT",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Austria · Burgenland",
+            "Austria · Lower Austria",
+            "Austria · Vienna"
+          ],
+          "regionCount": 3,
+          "countLabel": "states",
+          "totalRegionCount": 9
+        }
+      ]
+    },
+    {
+      "key": "BE::summer holidays::school::openholidays-api::2028-07-01::2028-08-31::",
+      "country": "BE",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-08-31",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "geographic_group",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Belgium · Flemish community"
+          ],
+          "regionCount": 1,
+          "countLabel": "communities",
+          "totalRegionCount": 3
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-01::2028-08-13::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · Appenzell Innerrhoden",
+            "Switzerland · Basel-Landschaft",
+            "Switzerland · Basel-Stadt"
+          ],
+          "regionCount": 3,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        }
+      ]
+    },
+    {
+      "key": "CZ::summer holidays::school::openholidays-api::2028-07-01::2028-09-03::",
+      "country": "CZ",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Czechia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "DE::summer holidays::school::openholidays-api::2028-07-01::2028-08-12::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-01",
+      "endDate": "2028-08-12",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Germany · Berlin"
+          ],
+          "regionCount": 1,
+          "countLabel": "states",
+          "totalRegionCount": 16
+        }
+      ]
+    },
+    {
+      "key": "PT::madeira day::public::openholidays-api::2028-07-01::2028-07-01::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Madeira Day",
+      "startDate": "2028-07-01",
+      "endDate": "2028-07-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Madeira"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::battle of the côa::public::openholidays-api::2028-07-02::2028-07-02::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Battle of the Côa",
+      "startDate": "2028-07-02",
+      "endDate": "2028-07-02",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Guarda"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "BY::day of the republic::public::openholidays-api::2028-07-03::2028-07-03::",
+      "country": "BY",
+      "holidayType": "public",
+      "name": "Day of the Republic",
+      "startDate": "2028-07-03",
+      "endDate": "2028-07-03",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Belarus"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-03::2028-08-18::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-18",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · Jura"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-03::2028-08-23::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-23",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · Geneva"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        }
+      ]
+    },
+    {
+      "key": "DE::summer holidays::school::openholidays-api::2028-07-03::2028-08-11::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Germany · Hamburg",
+            "Germany · Hesse",
+            "Germany · Rhineland-Palatinate",
+            "Germany · Saarland"
+          ],
+          "regionCount": 4,
+          "countLabel": "states",
+          "totalRegionCount": 16
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-03::2028-07-03::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-03",
+      "endDate": "2028-07-03",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Guarda"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "SK::summer holidays::school::openholidays-api::2028-07-03::2028-09-01::",
+      "country": "SK",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-03",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Slovakia · Banská Bystrica Region",
+            "Slovakia · Bratislava Region",
+            "Slovakia · Košice Region",
+            "Slovakia · Nitra Region",
+            "Slovakia · Prešov Region",
+            "Slovakia · Trenčín Region",
+            "Slovakia · Trnava Region",
+            "Slovakia · Žilina Region"
+          ],
+          "regionCount": 8,
+          "totalRegionCount": 8
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-04::2028-07-04::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-04",
+      "endDate": "2028-07-04",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Coimbra",
+            "Portugal · Leiria"
+          ],
+          "regionCount": 2,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "CZ::st. cyril and methodius day::public::openholidays-api::2028-07-05::2028-07-05::",
+      "country": "CZ",
+      "holidayType": "public",
+      "name": "St. Cyril and Methodius Day",
+      "startDate": "2028-07-05",
+      "endDate": "2028-07-05",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Czechia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SK::st. cyril and methodius day::public::openholidays-api::2028-07-05::2028-07-05::",
+      "country": "SK",
+      "holidayType": "public",
+      "name": "St. Cyril and Methodius Day",
+      "startDate": "2028-07-05",
+      "endDate": "2028-07-05",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Slovakia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "CZ::day of the burning of jan hus::public::openholidays-api::2028-07-06::2028-07-06::",
+      "country": "CZ",
+      "holidayType": "public",
+      "name": "Day of the Burning of Jan Hus",
+      "startDate": "2028-07-06",
+      "endDate": "2028-07-06",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Czechia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LT::national day::public::openholidays-api::2028-07-06::2028-07-06::",
+      "country": "LT",
+      "holidayType": "public",
+      "name": "National Day",
+      "startDate": "2028-07-06",
+      "endDate": "2028-07-06",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Lithuania"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::battle of salgadela::public::openholidays-api::2028-07-07::2028-07-07::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Battle of Salgadela",
+      "startDate": "2028-07-07",
+      "endDate": "2028-07-07",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Guarda"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AT::summer holidays::school::openholidays-api::2028-07-08::2028-09-10::",
+      "country": "AT",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-09-10",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Austria · Carinthia",
+            "Austria · Salzburg",
+            "Austria · Styria",
+            "Austria · Tyrol",
+            "Austria · Upper Austria",
+            "Austria · Vorarlberg"
+          ],
+          "regionCount": 6,
+          "countLabel": "states",
+          "totalRegionCount": 9
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-08::2028-08-13::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · Appenzell Innerrhoden",
+            "Switzerland · Basel-Landschaft"
+          ],
+          "regionCount": 2,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-08::2028-08-20::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · Lucerne",
+            "Switzerland · Zug"
+          ],
+          "regionCount": 2,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        }
+      ]
+    },
+    {
+      "key": "NL::summer holidays::school::openholidays-api::2028-07-08::2028-08-20::",
+      "country": "NL",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-08",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "geographic_group",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Netherlands (the) · Central Region"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 3
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-08::2028-07-08::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-08",
+      "endDate": "2028-07-08",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Porto",
+            "Portugal · Vila Real"
+          ],
+          "regionCount": 2,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-09::2028-08-13::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-09",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · St. Gallen"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-10::2028-08-11::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-10",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · Appenzell Ausserrhoden",
+            "Switzerland · Solothurn"
+          ],
+          "regionCount": 2,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        },
+        {
+          "model": "school_type",
+          "normalizedScope": "regional",
+          "displayMode": "labels",
+          "regionLabels": [
+            "Switzerland · Primary Schools",
+            "Switzerland · Secondary Schools",
+            "Switzerland · Vocational Schools"
+          ],
+          "regionCount": 3
+        }
+      ]
+    },
+    {
+      "key": "DE::summer holidays::school::openholidays-api::2028-07-10::2028-08-22::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-10",
+      "endDate": "2028-08-22",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Germany · North Rhine-Westphalia"
+          ],
+          "regionCount": 1,
+          "countLabel": "states",
+          "totalRegionCount": 16
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-10::2028-07-10::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-10",
+      "endDate": "2028-07-10",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Bragança",
+            "Portugal · Porto",
+            "Portugal · Viana do Castelo"
+          ],
+          "regionCount": 3,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::day of benedict of nursia::public::openholidays-api::2028-07-11::2028-07-11::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Day of Benedict of Nursia",
+      "startDate": "2028-07-11",
+      "endDate": "2028-07-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Porto"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "FR::national day::public::openholidays-api::2028-07-14::2028-07-14::",
+      "country": "FR",
+      "holidayType": "public",
+      "name": "National Day",
+      "startDate": "2028-07-14",
+      "endDate": "2028-07-14",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "France"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "IT::saint rosalia::public::openholidays-api::2028-07-15::2028-07-15::",
+      "country": "IT",
+      "holidayType": "public",
+      "name": "Saint Rosalia",
+      "startDate": "2028-07-15",
+      "endDate": "2028-07-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Italy · Sicily"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "NL::summer holidays::school::openholidays-api::2028-07-15::2028-08-27::",
+      "country": "NL",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-15",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "geographic_group",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Netherlands (the) · North Region"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 3
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-17::2028-08-19::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-17",
+      "endDate": "2028-08-19",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · Zürich"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        },
+        {
+          "model": "school_type",
+          "normalizedScope": "regional",
+          "displayMode": "labels",
+          "regionLabels": [
+            "Switzerland · Primary Schools"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "DE::summer holidays::school::openholidays-api::2028-07-17::2028-09-02::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-17",
+      "endDate": "2028-09-02",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Germany · Mecklenburg-Western Pomerania"
+          ],
+          "regionCount": 1,
+          "countLabel": "states",
+          "totalRegionCount": 16
+        },
+        {
+          "model": "school_type",
+          "normalizedScope": "regional",
+          "displayMode": "labels",
+          "regionLabels": [
+            "Germany · Vocational Schools"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::birthday of antónio josé de almeid::public::openholidays-api::2028-07-17::2028-07-17::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Birthday of António José de Almeid",
+      "startDate": "2028-07-17",
+      "endDate": "2028-07-17",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Coimbra"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-17::2028-07-17::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-17",
+      "endDate": "2028-07-17",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Azores",
+            "Portugal · Porto",
+            "Portugal · Viseu"
+          ],
+          "regionCount": 3,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-18::2028-07-18::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-18",
+      "endDate": "2028-07-18",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Azores"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "DE::summer holidays::school::openholidays-api::2028-07-20::2028-08-30::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-20",
+      "endDate": "2028-08-30",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Germany · Bremen",
+            "Germany · Lower Saxony"
+          ],
+          "regionCount": 2,
+          "countLabel": "states",
+          "totalRegionCount": 16
+        }
+      ]
+    },
+    {
+      "key": "BE::national day::public::openholidays-api::2028-07-21::2028-07-21::",
+      "country": "BE",
+      "holidayType": "public",
+      "name": "National Day",
+      "startDate": "2028-07-21",
+      "endDate": "2028-07-21",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Belgium"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "DE::summer holidays::school::openholidays-api::2028-07-22::2028-09-01::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Germany · Saxony",
+            "Germany · Saxony-Anhalt",
+            "Germany · Thuringia"
+          ],
+          "regionCount": 3,
+          "countLabel": "states",
+          "totalRegionCount": 16
+        }
+      ]
+    },
+    {
+      "key": "NL::summer holidays::school::openholidays-api::2028-07-22::2028-09-03::",
+      "country": "NL",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-22",
+      "endDate": "2028-09-03",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "geographic_group",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Netherlands (the) · South Region"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 3
+        }
+      ]
+    },
+    {
+      "key": "PT::st mary magdalene's day::public::openholidays-api::2028-07-22::2028-07-22::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St Mary Magdalene's Day",
+      "startDate": "2028-07-22",
+      "endDate": "2028-07-22",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Azores",
+            "Portugal · Madeira"
+          ],
+          "regionCount": 2,
+          "totalRegionCount": 2
+        }
+      ]
+    },
+    {
+      "key": "CH::summer holidays::school::openholidays-api::2028-07-24::2028-08-11::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Summer holidays",
+      "startDate": "2028-07-24",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Switzerland · Aargau"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 13
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-24::2028-07-24::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-24",
+      "endDate": "2028-07-24",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Leiria"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::st christina's day::public::openholidays-api::2028-07-24::2028-07-24::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St Christina's Day",
+      "startDate": "2028-07-24",
+      "endDate": "2028-07-24",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Coimbra"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::day of st thomas of mira::public::openholidays-api::2028-07-25::2028-07-25::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Day of St Thomas of Mira",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Coimbra"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::st christopher's day::public::openholidays-api::2028-07-25::2028-07-25::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St Christopher's Day",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Aveiro"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::st james' day::public::openholidays-api::2028-07-25::2028-07-25::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St James' Day",
+      "startDate": "2028-07-25",
+      "endDate": "2028-07-25",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Braga",
+            "Portugal · Coimbra",
+            "Portugal · Setúbal",
+            "Portugal · Vila Real"
+          ],
+          "regionCount": 4,
+          "totalRegionCount": 4
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-26::2028-07-26::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-26",
+      "endDate": "2028-07-26",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Lisbon"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "DE::summer holidays::school::openholidays-api::2028-07-27::2028-09-09::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-27",
+      "endDate": "2028-09-09",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Germany · Baden-Württemberg"
+          ],
+          "regionCount": 1,
+          "countLabel": "states",
+          "totalRegionCount": 16
+        }
+      ]
+    },
+    {
+      "key": "SM::anniversary of the fall of fascism and day of freedom::public::openholidays-api::2028-07-28::2028-07-28::",
+      "country": "SM",
+      "holidayType": "public",
+      "name": "Anniversary of the Fall of Fascism and Day of Freedom",
+      "startDate": "2028-07-28",
+      "endDate": "2028-07-28",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "San Marino"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "DE::summer holidays::school::openholidays-api::2028-07-31::2028-09-11::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Summer Holidays",
+      "startDate": "2028-07-31",
+      "endDate": "2028-09-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Germany · Bavaria"
+          ],
+          "regionCount": 1,
+          "countLabel": "states",
+          "totalRegionCount": 16
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-07-31::2028-07-31::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-07-31",
+      "endDate": "2028-07-31",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Porto"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
         }
       ]
     }
