@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13",
+  "generatedAt": "2026-07-20",
   "windowStart": "2026-07-01",
   "windowEnd": "2028-07-31",
   "countries": [
@@ -3044,9 +3044,9 @@
       "sourceKind": "aggregated_open_data",
       "coverage": "Europe public holidays and school holidays",
       "snapshotPath": "data/snapshots/openholidays-europe.json",
-      "defaultLastChangedAt": "2026-07-13",
-      "lastCheckedAt": "2026-07-13",
-      "lastChangedAt": "2026-07-13"
+      "defaultLastChangedAt": "2026-07-20",
+      "lastCheckedAt": "2026-07-20",
+      "lastChangedAt": "2026-07-20"
     }
   ],
   "holidays": [
