@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27",
-  "windowStart": "2026-07-01",
-  "windowEnd": "2028-07-31",
+  "generatedAt": "2026-08-03",
+  "windowStart": "2026-08-01",
+  "windowEnd": "2028-08-31",
   "countries": [
     {
       "countryCode": "AD",
@@ -129798,6 +129798,21 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "b87ffc6c-48aa-4474-b77c-57a471fd7916",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "AL": [
@@ -130672,24 +130687,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "BE": [
+      },
       {
-        "id": "f28f2051-d438-4a0f-952e-656bce7d984f",
-        "startDate": "2026-07-21",
-        "endDate": "2026-07-21",
+        "id": "ec561351-67c1-4c7e-a8fe-1e9754f37ae6",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "National Day"
+            "text": "Assumption Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "BE": [
       {
         "id": "a13dcc3e-2f9a-4752-af93-f2ba4715e8a5",
         "startDate": "2026-08-15",
@@ -131044,6 +131059,21 @@
           {
             "language": "EN",
             "text": "National Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "7dd6cb21-5f10-4a9e-8dcd-ec5b14bf80ca",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
           }
         ],
         "regionalScope": "National",
@@ -131504,21 +131534,6 @@
       }
     ],
     "BY": [
-      {
-        "id": "883e602b-6d61-4ea9-9025-25106d6a1b28",
-        "startDate": "2026-07-03",
-        "endDate": "2026-07-03",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Day of the Republic"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "f3224269-33c3-4480-90b1-cf177bc384b3",
         "startDate": "2026-11-07",
@@ -136092,39 +136107,157 @@
             "shortName": "TI"
           }
         ]
+      },
+      {
+        "id": "1d3627b5-2350-4951-a860-b1b96dec1111",
+        "startDate": "2028-08-01",
+        "endDate": "2028-08-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Independence Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "6ad1748c-d1b2-448f-a600-d61155bb31f8",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-SO-DE",
+            "shortName": "SO-DE"
+          },
+          {
+            "code": "CH-LU",
+            "shortName": "LU"
+          },
+          {
+            "code": "CH-AI",
+            "shortName": "AI"
+          },
+          {
+            "code": "CH-VS",
+            "shortName": "VS"
+          },
+          {
+            "code": "CH-SO-LB",
+            "shortName": "SO-LB"
+          },
+          {
+            "code": "CH-SO-GA",
+            "shortName": "SO-GA"
+          },
+          {
+            "code": "CH-AG-RF-OB",
+            "shortName": "AG-RF-OB"
+          },
+          {
+            "code": "CH-AG-RF-SU",
+            "shortName": "AG-RF-SU"
+          },
+          {
+            "code": "CH-AG-RF-ST",
+            "shortName": "AG-RF-ST"
+          },
+          {
+            "code": "CH-SO-SO",
+            "shortName": "SO-SO"
+          },
+          {
+            "code": "CH-FR",
+            "shortName": "FR"
+          },
+          {
+            "code": "CH-SO-OL",
+            "shortName": "SO-OL"
+          },
+          {
+            "code": "CH-SZ",
+            "shortName": "SZ"
+          },
+          {
+            "code": "CH-NW",
+            "shortName": "NW"
+          },
+          {
+            "code": "CH-AG-MU",
+            "shortName": "AG-MU"
+          },
+          {
+            "code": "CH-ZG",
+            "shortName": "ZG"
+          },
+          {
+            "code": "CH-AG-RF-WE",
+            "shortName": "AG-RF-WE"
+          },
+          {
+            "code": "CH-AG-RF-MU",
+            "shortName": "AG-RF-MU"
+          },
+          {
+            "code": "CH-SO-WA",
+            "shortName": "SO-WA"
+          },
+          {
+            "code": "CH-OW",
+            "shortName": "OW"
+          },
+          {
+            "code": "CH-SO-TS",
+            "shortName": "SO-TS"
+          },
+          {
+            "code": "CH-AG-LA",
+            "shortName": "AG-LA"
+          },
+          {
+            "code": "CH-SO-TH",
+            "shortName": "SO-TH"
+          },
+          {
+            "code": "CH-AG-RF-HE",
+            "shortName": "AG-RF-HE"
+          },
+          {
+            "code": "CH-JU",
+            "shortName": "JU"
+          },
+          {
+            "code": "CH-UR",
+            "shortName": "UR"
+          },
+          {
+            "code": "CH-AG-BG",
+            "shortName": "AG-BG"
+          },
+          {
+            "code": "CH-SO-GG",
+            "shortName": "SO-GG"
+          },
+          {
+            "code": "CH-TI",
+            "shortName": "TI"
+          }
+        ]
       }
     ],
     "CZ": [
-      {
-        "id": "1f06ab44-fb7a-4fe1-b379-709eb429f4bd",
-        "startDate": "2026-07-05",
-        "endDate": "2026-07-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St. Cyril and Methodius Day"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
-        "id": "189e69d7-e2fa-4d05-9024-7b1f14697b70",
-        "startDate": "2026-07-06",
-        "endDate": "2026-07-06",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Day of the Burning of Jan Hus"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "80ad8fef-fd6a-4533-9481-ef7cea34dfd3",
         "startDate": "2026-09-28",
@@ -137470,6 +137603,52 @@
         "tags": [
           "OneTime"
         ]
+      },
+      {
+        "id": "2e67080b-cdc3-4b4b-ba64-c8959e7f9a8a",
+        "startDate": "2028-08-08",
+        "endDate": "2028-08-08",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "High Festival of Peace"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-BY-AU",
+            "shortName": "BY-AU"
+          }
+        ]
+      },
+      {
+        "id": "a31e1f51-5d92-4a9f-a2e8-d2112c813be8",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-SL",
+            "shortName": "SL"
+          },
+          {
+            "code": "DE-BY",
+            "shortName": "BY"
+          }
+        ]
       }
     ],
     "EE": [
@@ -137832,80 +138011,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "e59cbd7f-44ba-4c24-9093-184c5b8711a6",
+        "startDate": "2028-08-20",
+        "endDate": "2028-08-20",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day of Restoration of Independence"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "ES": [
-      {
-        "id": "357a3e39-ef44-4716-a558-90fc08a29791",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Saint James' Day"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-PV",
-            "shortName": "PV"
-          },
-          {
-            "code": "ES-NC",
-            "shortName": "NC"
-          },
-          {
-            "code": "ES-MD",
-            "shortName": "MD"
-          }
-        ]
-      },
-      {
-        "id": "3ca081b6-a36b-4ee7-a9ad-12660309a442",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "National Day of Galicia"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-GA",
-            "shortName": "GA"
-          }
-        ]
-      },
-      {
-        "id": "bfd1b0bf-62d6-4535-b9a5-c2bf61a51220",
-        "startDate": "2026-07-28",
-        "endDate": "2026-07-28",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Cantabrian Institutions Day"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CB",
-            "shortName": "CB"
-          }
-        ]
-      },
       {
         "id": "9c0c1415-439e-45b4-bf46-bdfd4f04dc19",
         "startDate": "2026-08-05",
@@ -138437,21 +138560,6 @@
       }
     ],
     "FR": [
-      {
-        "id": "3f4b1afa-67be-4c07-8203-21e03013584d",
-        "startDate": "2026-07-14",
-        "endDate": "2026-07-14",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "National Day"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "108706fb-87fc-47db-b187-44f324c30106",
         "startDate": "2026-08-15",
@@ -139157,6 +139265,21 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "9f3a6a32-683b-413d-a571-94c7f2cba30a",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "HR": [
@@ -139549,6 +139672,36 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "058b85ab-ddd4-474d-b3dc-b3dfc1943973",
+        "startDate": "2028-08-05",
+        "endDate": "2028-08-05",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Victory and Homeland Thanksgiving Day and the Day of Croatian Defenders"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "b1405b28-d5c5-4743-b63a-4fc75327318e",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "HU": [
@@ -139881,6 +140034,21 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "b9af8e8d-1bd6-4afa-a0fc-a93ca280c272",
+        "startDate": "2028-08-20",
+        "endDate": "2028-08-20",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "State Foundation Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "IE": [
@@ -140183,30 +140351,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "IT": [
+      },
       {
-        "id": "8716adac-bcf8-42bf-af08-7a7a74376824",
-        "startDate": "2026-07-15",
-        "endDate": "2026-07-15",
+        "id": "495b59f7-64bc-42f6-9f18-8619f1b6f38e",
+        "startDate": "2028-08-07",
+        "endDate": "2028-08-07",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Saint Rosalia"
+            "text": "August Holiday"
           }
         ],
-        "regionalScope": "Local",
+        "regionalScope": "National",
         "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-SI-PA",
-            "shortName": "SI-PA"
-          }
-        ]
-      },
+        "nationwide": true
+      }
+    ],
+    "IT": [
       {
         "id": "34c014c6-66a5-4bfb-8180-8f49eb9a9a07",
         "startDate": "2026-08-15",
@@ -141056,6 +141218,21 @@
             "shortName": "SI-PA"
           }
         ]
+      },
+      {
+        "id": "2641f15c-2a00-4b62-8c12-5ac5146cca32",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "LI": [
@@ -141448,24 +141625,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "LT": [
+      },
       {
-        "id": "2533feaf-df03-4ba6-8f7f-75780bd44277",
-        "startDate": "2026-07-06",
-        "endDate": "2026-07-06",
+        "id": "308742f7-7222-4ba9-959b-dfb79b255b6c",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "National Day"
+            "text": "National Day (Assumption)"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "LT": [
       {
         "id": "6b846276-70de-4c27-8462-f181406127f0",
         "startDate": "2026-08-15",
@@ -141885,6 +142062,21 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "fb077143-4f1e-48cf-96bc-948cc1c148e6",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "LU": [
@@ -142242,6 +142434,21 @@
           {
             "language": "EN",
             "text": "Grand Duke's Birthday"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "e99fc1a3-c4da-490d-a4df-c20a1274c249",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption"
           }
         ],
         "regionalScope": "National",
@@ -143061,6 +143268,21 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "2c193ceb-cfdb-4f8c-a97b-2801afbc8b03",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption's Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "MD": [
@@ -143448,6 +143670,36 @@
           {
             "language": "EN",
             "text": "Children's Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "694475cd-1431-47bd-a906-faa786c1789b",
+        "startDate": "2028-08-27",
+        "endDate": "2028-08-27",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Independence Day of the Republic of Moldova"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "712be907-42a4-4653-b0f2-083eae4263eb",
+        "startDate": "2028-08-31",
+        "endDate": "2028-08-31",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "National Language Day"
           }
         ],
         "regionalScope": "National",
@@ -143870,6 +144122,21 @@
           {
             "language": "EN",
             "text": "​​​Feast of St.Peter and St.Paul"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "c707d616-4545-4492-9079-177c86896945",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "​​​Feast of the Assumption"
           }
         ],
         "regionalScope": "National",
@@ -144629,465 +144896,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "PT": [
+      },
       {
-        "id": "cc20ad6d-b172-4f23-a03d-a2e516e8f054",
-        "startDate": "2026-07-01",
-        "endDate": "2026-07-01",
+        "id": "44e1b8c5-0390-4527-bf4a-dfd1d9c48f45",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Madeira Day"
+            "text": "Assumption Day"
           }
         ],
-        "regionalScope": "Regional",
+        "regionalScope": "National",
         "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-MA",
-            "shortName": "MA"
-          }
-        ]
-      },
-      {
-        "id": "0c5213af-6b90-452b-af88-93ce9f63e378",
-        "startDate": "2026-07-02",
-        "endDate": "2026-07-02",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Battle of the Côa"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-GU-AL",
-            "shortName": "GU-AL"
-          }
-        ]
-      },
-      {
-        "id": "5dd7d4b1-6ba7-4ef5-82f3-4ba71fe0a6ae",
-        "startDate": "2026-07-03",
-        "endDate": "2026-07-03",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-GU-SE",
-            "shortName": "GU-SE"
-          }
-        ]
-      },
-      {
-        "id": "31d6e225-de30-4390-a57e-de776c4b5928",
-        "startDate": "2026-07-04",
-        "endDate": "2026-07-04",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CO-CO",
-            "shortName": "CO-CO"
-          },
-          {
-            "code": "PT-LE-CP",
-            "shortName": "LE-CP"
-          }
-        ]
-      },
-      {
-        "id": "9055b573-3580-43b3-b234-c479e1b7e606",
-        "startDate": "2026-07-07",
-        "endDate": "2026-07-07",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Battle of Salgadela"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-GU-FC",
-            "shortName": "GU-FC"
-          }
-        ]
-      },
-      {
-        "id": "921a0492-6843-44a1-a36b-453337843d2b",
-        "startDate": "2026-07-08",
-        "endDate": "2026-07-08",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-PO-AM",
-            "shortName": "PO-AM"
-          },
-          {
-            "code": "PT-VR-CH",
-            "shortName": "VR-CH"
-          }
-        ]
-      },
-      {
-        "id": "6ba93976-f2f5-46e2-b472-8559c432146d",
-        "startDate": "2026-07-10",
-        "endDate": "2026-07-10",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-VC-AV",
-            "shortName": "VC-AV"
-          },
-          {
-            "code": "PT-BA-MD",
-            "shortName": "BA-MD"
-          }
-        ]
-      },
-      {
-        "id": "377ae993-92c1-4ab7-b13b-ef01f368a4c7",
-        "startDate": "2026-07-11",
-        "endDate": "2026-07-11",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Day of Benedict of Nursia"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-PO-ST",
-            "shortName": "PO-ST"
-          }
-        ]
-      },
-      {
-        "id": "7df1ab3f-f37c-4993-b7c2-8613ed6a78d3",
-        "startDate": "2026-07-13",
-        "endDate": "2026-07-13",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-PO-MI",
-            "shortName": "PO-MI"
-          }
-        ]
-      },
-      {
-        "id": "70e0189b-14df-4b57-86ef-983896ddbb3b",
-        "startDate": "2026-07-17",
-        "endDate": "2026-07-17",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Birthday of António José de Almeid"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CO-PC",
-            "shortName": "CO-PC"
-          }
-        ]
-      },
-      {
-        "id": "89b76ee3-06ff-4ccf-91dd-520424aa6458",
-        "startDate": "2026-07-18",
-        "endDate": "2026-07-18",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-AC-NO",
-            "shortName": "AC-NO"
-          }
-        ]
-      },
-      {
-        "id": "9cb27d93-ea07-4952-b444-1548427e0de1",
-        "startDate": "2026-07-20",
-        "endDate": "2026-07-20",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-PO-PA",
-            "shortName": "PO-PA"
-          },
-          {
-            "code": "PT-VI-CS",
-            "shortName": "VI-CS"
-          },
-          {
-            "code": "PT-AC-LF",
-            "shortName": "AC-LF"
-          }
-        ]
-      },
-      {
-        "id": "04755aba-79f8-48c3-8c48-96c24e7183a0",
-        "startDate": "2026-07-22",
-        "endDate": "2026-07-22",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St Mary Magdalene's Day"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-AC-MA",
-            "shortName": "AC-MA"
-          },
-          {
-            "code": "PT-MA-PM",
-            "shortName": "MA-PM"
-          }
-        ]
-      },
-      {
-        "id": "66ebb5a6-9c9f-48bb-ac60-d92d5930d3bf",
-        "startDate": "2026-07-24",
-        "endDate": "2026-07-24",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St Christina's Day"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CO-CN",
-            "shortName": "CO-CN"
-          }
-        ]
-      },
-      {
-        "id": "d506896b-fce4-4e64-9454-56e3f0e2144b",
-        "startDate": "2026-07-24",
-        "endDate": "2026-07-24",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-LE-PG",
-            "shortName": "LE-PG"
-          }
-        ]
-      },
-      {
-        "id": "7a2b6813-ba14-4269-9ca4-46d9cee26cee",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St Christopher's Day"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-AV-OV",
-            "shortName": "AV-OV"
-          }
-        ]
-      },
-      {
-        "id": "b57bd7ea-a796-4f48-96a9-d7bc63247c20",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St James' Day"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-BR-CL",
-            "shortName": "BR-CL"
-          },
-          {
-            "code": "PT-SE-SC",
-            "shortName": "SE-SC"
-          },
-          {
-            "code": "PT-VR-MB",
-            "shortName": "VR-MB"
-          },
-          {
-            "code": "PT-CO-CA",
-            "shortName": "CO-CA"
-          }
-        ]
-      },
-      {
-        "id": "dba02fd0-d2dc-4593-8e3e-57deba0f30f1",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Day of St Thomas of Mira"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CO-MI",
-            "shortName": "CO-MI"
-          }
-        ]
-      },
-      {
-        "id": "df4412a6-915d-49e4-83e4-0981066ac2cb",
-        "startDate": "2026-07-26",
-        "endDate": "2026-07-26",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-LI-LS",
-            "shortName": "LI-LS"
-          }
-        ]
-      },
-      {
-        "id": "42cf3e80-e188-4e1e-8b23-2acd98e73811",
-        "startDate": "2026-07-27",
-        "endDate": "2026-07-27",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-PO-LO",
-            "shortName": "PO-LO"
-          }
-        ]
-      },
+        "nationwide": true
+      }
+    ],
+    "PT": [
       {
         "id": "006cef0b-736b-489b-8bbd-d17b9ad17ab3",
         "startDate": "2026-08-06",
@@ -152856,6 +152682,455 @@
             "shortName": "PO-LO"
           }
         ]
+      },
+      {
+        "id": "85c592a1-c518-465a-8279-0e95f467fa2e",
+        "startDate": "2028-08-06",
+        "endDate": "2028-08-06",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-LE-PN",
+            "shortName": "LE-PN"
+          }
+        ]
+      },
+      {
+        "id": "9ae6a759-516c-4c4f-9173-4f8f6bec7ce4",
+        "startDate": "2028-08-10",
+        "endDate": "2028-08-10",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "St Lawrence's Day"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-VC-PC",
+            "shortName": "VC-PC"
+          },
+          {
+            "code": "PT-BA-VM",
+            "shortName": "BA-VM"
+          }
+        ]
+      },
+      {
+        "id": "fc18e437-aaac-4c96-9211-3457c5ca192a",
+        "startDate": "2028-08-11",
+        "endDate": "2028-08-11",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-AC-PV",
+            "shortName": "AC-PV"
+          }
+        ]
+      },
+      {
+        "id": "53eb3490-0347-4d2c-ab22-bd880abb8e13",
+        "startDate": "2028-08-13",
+        "endDate": "2028-08-13",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-CO-GO",
+            "shortName": "CO-GO"
+          }
+        ]
+      },
+      {
+        "id": "148c547e-ebb8-4c93-9079-8283b990e7e2",
+        "startDate": "2028-08-14",
+        "endDate": "2028-08-14",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-AV-OA",
+            "shortName": "AV-OA"
+          },
+          {
+            "code": "PT-GU-GO",
+            "shortName": "GU-GO"
+          },
+          {
+            "code": "PT-AC-SG",
+            "shortName": "AC-SG"
+          },
+          {
+            "code": "PT-CB-OL",
+            "shortName": "CB-OL"
+          },
+          {
+            "code": "PT-LE-BA",
+            "shortName": "LE-BA"
+          }
+        ]
+      },
+      {
+        "id": "a2db8556-e005-46ba-b80a-3e92dcc31c11",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "1a6afc81-dc0d-47f3-932a-7e76353c0505",
+        "startDate": "2028-08-16",
+        "endDate": "2028-08-16",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-VR-PR",
+            "shortName": "VR-PR"
+          },
+          {
+            "code": "PT-VR-RP",
+            "shortName": "VR-RP"
+          }
+        ]
+      },
+      {
+        "id": "5c65f224-08a2-4199-be18-0201df7876ee",
+        "startDate": "2028-08-16",
+        "endDate": "2028-08-16",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Birthday of Couto Jardim"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-EV-VV",
+            "shortName": "EV-VV"
+          }
+        ]
+      },
+      {
+        "id": "7bbbf5fa-c7e0-48f1-827c-5e233171ac3c",
+        "startDate": "2028-08-16",
+        "endDate": "2028-08-16",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "St Roch's Day"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-AC-SP",
+            "shortName": "AC-SP"
+          }
+        ]
+      },
+      {
+        "id": "574d2c88-f439-459a-b7bd-694a9a15aa32",
+        "startDate": "2028-08-17",
+        "endDate": "2028-08-17",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-SA-CR",
+            "shortName": "SA-CR"
+          }
+        ]
+      },
+      {
+        "id": "095fbf77-aabb-4a72-8511-bd71422395cd",
+        "startDate": "2028-08-19",
+        "endDate": "2028-08-19",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-BR-ES",
+            "shortName": "BR-ES"
+          }
+        ]
+      },
+      {
+        "id": "986ef01a-5608-44ac-a7fc-7a3ee5fe0041",
+        "startDate": "2028-08-20",
+        "endDate": "2028-08-20",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-VC-VC",
+            "shortName": "VC-VC"
+          },
+          {
+            "code": "PT-LE-AC",
+            "shortName": "LE-AC"
+          },
+          {
+            "code": "PT-FA-AB",
+            "shortName": "FA-AB"
+          }
+        ]
+      },
+      {
+        "id": "a1f136c1-8755-4e70-b14c-714ca80b5929",
+        "startDate": "2028-08-20",
+        "endDate": "2028-08-20",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day of St Bernard of Clairvaux"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-VI-ST",
+            "shortName": "VI-ST"
+          }
+        ]
+      },
+      {
+        "id": "c097554d-638a-4653-bdc3-224fc44f3ae6",
+        "startDate": "2028-08-21",
+        "endDate": "2028-08-21",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-AV-AL",
+            "shortName": "AV-AL"
+          },
+          {
+            "code": "PT-MA-FU",
+            "shortName": "MA-FU"
+          }
+        ]
+      },
+      {
+        "id": "05929d72-49c6-47aa-bf88-eaf6252cac5b",
+        "startDate": "2028-08-22",
+        "endDate": "2028-08-22",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-BA-BR",
+            "shortName": "BA-BR"
+          }
+        ]
+      },
+      {
+        "id": "f67e8a93-a377-4245-b6c5-c05a9f86a6dd",
+        "startDate": "2028-08-24",
+        "endDate": "2028-08-24",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "St Bartholomew's Day"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-PO-BA",
+            "shortName": "PO-BA"
+          },
+          {
+            "code": "PT-VC-PB",
+            "shortName": "VC-PB"
+          },
+          {
+            "code": "PT-BA-VF",
+            "shortName": "BA-VF"
+          }
+        ]
+      },
+      {
+        "id": "148f2c0c-a39b-4768-b070-e7c13b4ab75a",
+        "startDate": "2028-08-25",
+        "endDate": "2028-08-25",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-BA-CA",
+            "shortName": "BA-CA"
+          },
+          {
+            "code": "PT-VI-PC",
+            "shortName": "VI-PC"
+          },
+          {
+            "code": "PT-GU-PI",
+            "shortName": "GU-PI"
+          }
+        ]
+      },
+      {
+        "id": "f045bfb9-afcb-4b07-862d-744ccb361f3e",
+        "startDate": "2028-08-28",
+        "endDate": "2028-08-28",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-BE-BA",
+            "shortName": "BE-BA"
+          },
+          {
+            "code": "PT-CB-VV",
+            "shortName": "CB-VV"
+          }
+        ]
+      },
+      {
+        "id": "7c36d956-7502-4ad4-8d66-cb040803c14d",
+        "startDate": "2028-08-29",
+        "endDate": "2028-08-29",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-FA-AJ",
+            "shortName": "FA-AJ"
+          }
+        ]
       }
     ],
     "RO": [
@@ -153333,6 +153608,21 @@
           {
             "language": "EN",
             "text": "Orthodox Pentecost Monday"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "c184938e-cbe1-435e-a23f-4185568cd394",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
           }
         ],
         "regionalScope": "National",
@@ -154424,24 +154714,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "SK": [
+      },
       {
-        "id": "636fade1-4f71-46e4-8e0f-fb3e36430f29",
-        "startDate": "2026-07-05",
-        "endDate": "2026-07-05",
+        "id": "9a40cc37-cb14-45b5-b32f-19f41c9dc8ee",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "St. Cyril and Methodius Day"
+            "text": "Assumption Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "SK": [
       {
         "id": "afa16078-4a7e-44a4-bb25-2d99acee28fd",
         "startDate": "2026-08-29",
@@ -154861,24 +155151,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "SM": [
+      },
       {
-        "id": "5eaee80b-5849-4327-bcdb-08f57cb9c44a",
-        "startDate": "2026-07-28",
-        "endDate": "2026-07-28",
+        "id": "645b80e5-65fe-46f6-b6b7-87f87a22b37a",
+        "startDate": "2028-08-29",
+        "endDate": "2028-08-29",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Anniversary of the Fall of Fascism and Day of Freedom"
+            "text": "Slovak National Uprising anniversary"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "SM": [
       {
         "id": "03a2417c-5322-4225-9c36-082eccfc350d",
         "startDate": "2026-08-15",
@@ -155413,6 +155703,21 @@
           {
             "language": "EN",
             "text": "Anniversary of the Fall of Fascism and Day of Freedom"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "f7df8f03-c477-406c-aec7-16d5938672dc",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption of the Virgin Day"
           }
         ],
         "regionalScope": "National",
@@ -156195,6 +156500,51 @@
           {
             "language": "EN",
             "text": "Saints Peter and Paul"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "010c8241-660c-4631-b11a-875c902c07c3",
+        "startDate": "2028-08-14",
+        "endDate": "2028-08-14",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Vigil of the Assumption"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "183d1761-0383-44a9-9f4e-a3d8cb622139",
+        "startDate": "2028-08-15",
+        "endDate": "2028-08-15",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "a0285667-df28-461f-a166-4cd39e40caeb",
+        "startDate": "2028-08-16",
+        "endDate": "2028-08-16",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Saint Stephen of Hungary"
           }
         ],
         "regionalScope": "National",
@@ -163234,6 +163584,69 @@
             "shortName": "AG"
           }
         ]
+      },
+      {
+        "id": "1999e902-648e-4b50-b268-b5fdbaf9df85",
+        "startDate": "2028-08-14",
+        "endDate": "2028-08-14",
+        "type": "BackToSchool",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Start of the school year"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-GR-ML",
+            "shortName": "GR-ML"
+          },
+          {
+            "code": "CH-GR-EB",
+            "shortName": "GR-EB"
+          },
+          {
+            "code": "CH-GR-LQ",
+            "shortName": "GR-LQ"
+          },
+          {
+            "code": "CH-GR-SS",
+            "shortName": "GR-SS"
+          },
+          {
+            "code": "CH-GR-AB",
+            "shortName": "GR-AB"
+          },
+          {
+            "code": "CH-GR-BN",
+            "shortName": "GR-BN"
+          },
+          {
+            "code": "CH-GR-IB",
+            "shortName": "GR-IB"
+          },
+          {
+            "code": "CH-GR-PS",
+            "shortName": "GR-PS"
+          },
+          {
+            "code": "CH-GR-VM",
+            "shortName": "GR-VM"
+          },
+          {
+            "code": "CH-GR-PD",
+            "shortName": "GR-PD"
+          }
+        ],
+        "groups": [
+          {
+            "code": "CH-GR-VS",
+            "shortName": "GR-VS"
+          }
+        ]
       }
     ],
     "CZ": [
@@ -169493,29 +169906,7 @@
         "nationwide": true
       }
     ],
-    "ES": [
-      {
-        "id": "f5af1749-ac96-46f4-b037-7534e7f9abb7",
-        "startDate": "2026-07-23",
-        "endDate": "2026-07-23",
-        "type": "EndOfLessons",
-        "name": [
-          {
-            "language": "EN",
-            "text": "End of lessons"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-EX",
-            "shortName": "EX"
-          }
-        ]
-      }
-    ],
+    "ES": [],
     "FR": [
       {
         "id": "2849ed9e-7dec-4fa9-ab9c-5388c6447ceb",
@@ -169535,119 +169926,6 @@
           {
             "code": "FR-YT",
             "shortName": "YT"
-          }
-        ]
-      },
-      {
-        "id": "34846635-8546-4a59-be73-5b2592d692ec",
-        "startDate": "2026-07-04",
-        "endDate": "2026-07-04",
-        "type": "EndOfLessons",
-        "name": [
-          {
-            "language": "EN",
-            "text": "End of lessons"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-CO",
-            "shortName": "CO"
-          }
-        ]
-      },
-      {
-        "id": "3fd6d155-32ed-4130-9e8c-aed6a557789d",
-        "startDate": "2026-07-04",
-        "endDate": "2026-07-04",
-        "type": "EndOfLessons",
-        "name": [
-          {
-            "language": "EN",
-            "text": "End of lessons"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-MQ",
-            "shortName": "MQ"
-          }
-        ]
-      },
-      {
-        "id": "7bf2c413-c233-4103-8720-fdd4b8e29d7e",
-        "startDate": "2026-07-04",
-        "endDate": "2026-07-04",
-        "type": "EndOfLessons",
-        "name": [
-          {
-            "language": "EN",
-            "text": "End of lessons"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-MF",
-            "shortName": "MF"
-          },
-          {
-            "code": "FR-BL",
-            "shortName": "BL"
-          },
-          {
-            "code": "FR-GP",
-            "shortName": "GP"
-          }
-        ]
-      },
-      {
-        "id": "bf27aa8d-3acd-46e9-9d7d-413309472936",
-        "startDate": "2026-07-04",
-        "endDate": "2026-07-04",
-        "type": "EndOfLessons",
-        "name": [
-          {
-            "language": "EN",
-            "text": "End of lessons"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-GY",
-            "shortName": "GY"
-          }
-        ]
-      },
-      {
-        "id": "d83cefb2-7ba9-4498-8acd-d3924aea5b3b",
-        "startDate": "2026-07-04",
-        "endDate": "2026-07-04",
-        "type": "EndOfLessons",
-        "name": [
-          {
-            "language": "EN",
-            "text": "End of lessons"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-SP",
-            "shortName": "SP"
           }
         ]
       },
@@ -182765,5 +183043,5 @@
     "SM": [],
     "VA": []
   },
-  "lastCheckedAt": "2026-07-27"
+  "lastCheckedAt": "2026-08-03"
 }

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27",
-  "windowStart": "2026-07-01",
-  "windowEnd": "2028-07-31",
+  "generatedAt": "2026-08-03",
+  "windowStart": "2026-08-01",
+  "windowEnd": "2028-08-31",
   "countries": [
     {
       "countryCode": "AL",
@@ -3044,9 +3044,9 @@
       "sourceKind": "aggregated_open_data",
       "coverage": "Europe public holidays and school holidays",
       "snapshotPath": "data/snapshots/openholidays-europe.json",
-      "defaultLastChangedAt": "2026-07-27",
-      "lastCheckedAt": "2026-07-27",
-      "lastChangedAt": "2026-07-27"
+      "defaultLastChangedAt": "2026-08-03",
+      "lastCheckedAt": "2026-08-03",
+      "lastChangedAt": "2026-08-03"
     }
   ],
   "holidays": [
@@ -3627,18 +3627,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "pt-public-pt-ma-madeira-day-2026-07-01",
-      "country": "PT",
-      "regionId": "PT-MA",
-      "regionLabel": "Portugal · Madeira",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Madeira Day",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-01",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "pt-school-pt-nat-summer-holidays-2026-07-01",
       "country": "PT",
       "regionId": "PT-NAT",
@@ -3768,42 +3756,6 @@
       "name": "Summer Holidays",
       "startDate": "2026-07-02",
       "endDate": "2026-08-12",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-gu-battle-of-the-coa-2026-07-02",
-      "country": "PT",
-      "regionId": "PT-GU",
-      "regionLabel": "Portugal · Guarda",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Battle of the Côa",
-      "startDate": "2026-07-02",
-      "endDate": "2026-07-02",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "by-public-by-nat-day-of-the-republic-2026-07-03",
-      "country": "BY",
-      "regionId": "BY-NAT",
-      "regionLabel": "Belarus",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Day of the Republic",
-      "startDate": "2026-07-03",
-      "endDate": "2026-07-03",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-gu-municipal-holiday-2026-07-03",
-      "country": "PT",
-      "regionId": "PT-GU",
-      "regionLabel": "Portugal · Guarda",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-03",
-      "endDate": "2026-07-03",
       "sourceId": "openholidays-api"
     },
     {
@@ -4071,90 +4023,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "fr-school-fr-bl-end-of-lessons-2026-07-04",
-      "country": "FR",
-      "regionId": "FR-BL",
-      "regionLabel": "France · St. Barts",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-school-fr-co-end-of-lessons-2026-07-04",
-      "country": "FR",
-      "regionId": "FR-CO",
-      "regionLabel": "France · Corsica",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-school-fr-gp-end-of-lessons-2026-07-04",
-      "country": "FR",
-      "regionId": "FR-GP",
-      "regionLabel": "France · Guadeloupe",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-school-fr-gy-end-of-lessons-2026-07-04",
-      "country": "FR",
-      "regionId": "FR-GY",
-      "regionLabel": "France · Guyana",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-school-fr-mf-end-of-lessons-2026-07-04",
-      "country": "FR",
-      "regionId": "FR-MF",
-      "regionLabel": "France · Saint Martin",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-school-fr-mq-end-of-lessons-2026-07-04",
-      "country": "FR",
-      "regionId": "FR-MQ",
-      "regionLabel": "France · Martinique",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-school-fr-sp-end-of-lessons-2026-07-04",
-      "country": "FR",
-      "regionId": "FR-SP",
-      "regionLabel": "France · Saint Pierre and Miquelon",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "fr-school-fr-yt-end-of-lessons-2026-07-04",
       "country": "FR",
       "regionId": "FR-YT",
@@ -4287,30 +4155,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "pt-public-pt-co-municipal-holiday-2026-07-04",
-      "country": "PT",
-      "regionId": "PT-CO",
-      "regionLabel": "Portugal · Coimbra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-le-municipal-holiday-2026-07-04",
-      "country": "PT",
-      "regionId": "PT-LE",
-      "regionLabel": "Portugal · Leiria",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "ch-school-ch-sg-summer-holidays-2026-07-05",
       "country": "CH",
       "regionId": "CH-SG",
@@ -4320,18 +4164,6 @@
       "name": "Summer holidays",
       "startDate": "2026-07-05",
       "endDate": "2026-08-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "cz-public-cz-nat-st-cyril-and-methodius-day-2026-07-05",
-      "country": "CZ",
-      "regionId": "CZ-NAT",
-      "regionLabel": "Czechia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "St. Cyril and Methodius Day",
-      "startDate": "2026-07-05",
-      "endDate": "2026-07-05",
       "sourceId": "openholidays-api"
     },
     {
@@ -4527,18 +4359,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "sk-public-sk-nat-st-cyril-and-methodius-day-2026-07-05",
-      "country": "SK",
-      "regionId": "SK-NAT",
-      "regionLabel": "Slovakia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "St. Cyril and Methodius Day",
-      "startDate": "2026-07-05",
-      "endDate": "2026-07-05",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "ch-school-ch-ar-ch-ar-vs-summer-holidays-2026-07-06",
       "country": "CH",
       "regionId": "CH-AR::CH-AR-VS",
@@ -4599,66 +4419,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "cz-public-cz-nat-day-of-the-burning-of-jan-hus-2026-07-06",
-      "country": "CZ",
-      "regionId": "CZ-NAT",
-      "regionLabel": "Czechia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Day of the Burning of Jan Hus",
-      "startDate": "2026-07-06",
-      "endDate": "2026-07-06",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "lt-public-lt-nat-national-day-2026-07-06",
-      "country": "LT",
-      "regionId": "LT-NAT",
-      "regionLabel": "Lithuania",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-07-06",
-      "endDate": "2026-07-06",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-gu-battle-of-salgadela-2026-07-07",
-      "country": "PT",
-      "regionId": "PT-GU",
-      "regionLabel": "Portugal · Guarda",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Battle of Salgadela",
-      "startDate": "2026-07-07",
-      "endDate": "2026-07-07",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-po-municipal-holiday-2026-07-08",
-      "country": "PT",
-      "regionId": "PT-PO",
-      "regionLabel": "Portugal · Porto",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-08",
-      "endDate": "2026-07-08",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vr-municipal-holiday-2026-07-08",
-      "country": "PT",
-      "regionId": "PT-VR",
-      "regionLabel": "Portugal · Vila Real",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-08",
-      "endDate": "2026-07-08",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "de-school-de-bb-summer-holidays-2026-07-09",
       "country": "DE",
       "regionId": "DE-BB",
@@ -4692,30 +4452,6 @@
       "name": "Summer Holidays",
       "startDate": "2026-07-09",
       "endDate": "2026-08-19",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ba-municipal-holiday-2026-07-10",
-      "country": "PT",
-      "regionId": "PT-BA",
-      "regionLabel": "Portugal · Bragança",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-10",
-      "endDate": "2026-07-10",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vc-municipal-holiday-2026-07-10",
-      "country": "PT",
-      "regionId": "PT-VC",
-      "regionLabel": "Portugal · Viana do Castelo",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-10",
-      "endDate": "2026-07-10",
       "sourceId": "openholidays-api"
     },
     {
@@ -4863,18 +4599,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "pt-public-pt-po-day-of-benedict-of-nursia-2026-07-11",
-      "country": "PT",
-      "regionId": "PT-PO",
-      "regionLabel": "Portugal · Porto",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Day of Benedict of Nursia",
-      "startDate": "2026-07-11",
-      "endDate": "2026-07-11",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "ch-school-ch-zh-ch-zh-vs-summer-holidays-2026-07-13",
       "country": "CH",
       "regionId": "CH-ZH::CH-ZH-VS",
@@ -4911,42 +4635,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "pt-public-pt-po-municipal-holiday-2026-07-13",
-      "country": "PT",
-      "regionId": "PT-PO",
-      "regionLabel": "Portugal · Porto",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-13",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-public-fr-nat-national-day-2026-07-14",
-      "country": "FR",
-      "regionId": "FR-NAT",
-      "regionLabel": "France",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-07-14",
-      "endDate": "2026-07-14",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-public-it-si-saint-rosalia-2026-07-15",
-      "country": "IT",
-      "regionId": "IT-SI",
-      "regionLabel": "Italy · Sicily",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Saint Rosalia",
-      "startDate": "2026-07-15",
-      "endDate": "2026-07-15",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "lu-school-lu-nat-summer-holidays-2026-07-16",
       "country": "LU",
       "regionId": "LU-NAT",
@@ -4956,18 +4644,6 @@
       "name": "Summer Holidays",
       "startDate": "2026-07-16",
       "endDate": "2026-09-14",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-co-birthday-of-antonio-jose-de-almeid-2026-07-17",
-      "country": "PT",
-      "regionId": "PT-CO",
-      "regionLabel": "Portugal · Coimbra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Birthday of António José de Almeid",
-      "startDate": "2026-07-17",
-      "endDate": "2026-07-17",
       "sourceId": "openholidays-api"
     },
     {
@@ -5031,18 +4707,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "pt-public-pt-ac-municipal-holiday-2026-07-18",
-      "country": "PT",
-      "regionId": "PT-AC",
-      "regionLabel": "Portugal · Azores",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-18",
-      "endDate": "2026-07-18",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "ch-school-ch-ag-summer-holidays-2026-07-20",
       "country": "CH",
       "regionId": "CH-AG",
@@ -5064,282 +4728,6 @@
       "name": "Summer Holidays",
       "startDate": "2026-07-20",
       "endDate": "2026-09-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ac-municipal-holiday-2026-07-20",
-      "country": "PT",
-      "regionId": "PT-AC",
-      "regionLabel": "Portugal · Azores",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-20",
-      "endDate": "2026-07-20",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-po-municipal-holiday-2026-07-20",
-      "country": "PT",
-      "regionId": "PT-PO",
-      "regionLabel": "Portugal · Porto",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-20",
-      "endDate": "2026-07-20",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vi-municipal-holiday-2026-07-20",
-      "country": "PT",
-      "regionId": "PT-VI",
-      "regionLabel": "Portugal · Viseu",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-20",
-      "endDate": "2026-07-20",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "be-public-be-nat-national-day-2026-07-21",
-      "country": "BE",
-      "regionId": "BE-NAT",
-      "regionLabel": "Belgium",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-07-21",
-      "endDate": "2026-07-21",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ac-st-mary-magdalene-s-day-2026-07-22",
-      "country": "PT",
-      "regionId": "PT-AC",
-      "regionLabel": "Portugal · Azores",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Mary Magdalene's Day",
-      "startDate": "2026-07-22",
-      "endDate": "2026-07-22",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ma-st-mary-magdalene-s-day-2026-07-22",
-      "country": "PT",
-      "regionId": "PT-MA",
-      "regionLabel": "Portugal · Madeira",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Mary Magdalene's Day",
-      "startDate": "2026-07-22",
-      "endDate": "2026-07-22",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-school-es-ex-end-of-lessons-2026-07-23",
-      "country": "ES",
-      "regionId": "ES-EX",
-      "regionLabel": "Spain · Extremadura",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-23",
-      "endDate": "2026-07-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-co-st-christina-s-day-2026-07-24",
-      "country": "PT",
-      "regionId": "PT-CO",
-      "regionLabel": "Portugal · Coimbra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Christina's Day",
-      "startDate": "2026-07-24",
-      "endDate": "2026-07-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-le-municipal-holiday-2026-07-24",
-      "country": "PT",
-      "regionId": "PT-LE",
-      "regionLabel": "Portugal · Leiria",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-24",
-      "endDate": "2026-07-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-ga-national-day-of-galicia-2026-07-25",
-      "country": "ES",
-      "regionId": "ES-GA",
-      "regionLabel": "Spain · Galicia",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "National Day of Galicia",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-md-saint-james-day-2026-07-25",
-      "country": "ES",
-      "regionId": "ES-MD",
-      "regionLabel": "Spain · Community of Madrid",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Saint James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-nc-saint-james-day-2026-07-25",
-      "country": "ES",
-      "regionId": "ES-NC",
-      "regionLabel": "Spain · Navarra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Saint James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-pv-saint-james-day-2026-07-25",
-      "country": "ES",
-      "regionId": "ES-PV",
-      "regionLabel": "Spain · Basque Country",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Saint James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-av-st-christopher-s-day-2026-07-25",
-      "country": "PT",
-      "regionId": "PT-AV",
-      "regionLabel": "Portugal · Aveiro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Christopher's Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-br-st-james-day-2026-07-25",
-      "country": "PT",
-      "regionId": "PT-BR",
-      "regionLabel": "Portugal · Braga",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-co-day-of-st-thomas-of-mira-2026-07-25",
-      "country": "PT",
-      "regionId": "PT-CO",
-      "regionLabel": "Portugal · Coimbra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Day of St Thomas of Mira",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-co-st-james-day-2026-07-25",
-      "country": "PT",
-      "regionId": "PT-CO",
-      "regionLabel": "Portugal · Coimbra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-se-st-james-day-2026-07-25",
-      "country": "PT",
-      "regionId": "PT-SE",
-      "regionLabel": "Portugal · Setúbal",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vr-st-james-day-2026-07-25",
-      "country": "PT",
-      "regionId": "PT-VR",
-      "regionLabel": "Portugal · Vila Real",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-li-municipal-holiday-2026-07-26",
-      "country": "PT",
-      "regionId": "PT-LI",
-      "regionLabel": "Portugal · Lisbon",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-26",
-      "endDate": "2026-07-26",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-po-municipal-holiday-2026-07-27",
-      "country": "PT",
-      "regionId": "PT-PO",
-      "regionLabel": "Portugal · Porto",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-27",
-      "endDate": "2026-07-27",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-cb-cantabrian-institutions-day-2026-07-28",
-      "country": "ES",
-      "regionId": "ES-CB",
-      "regionLabel": "Spain · Cantabria",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Cantabrian Institutions Day",
-      "startDate": "2026-07-28",
-      "endDate": "2026-07-28",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sm-public-sm-nat-anniversary-of-the-fall-of-fascism-and-day-of-freedom-2026-07-28",
-      "country": "SM",
-      "regionId": "SM-NAT",
-      "regionLabel": "San Marino",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Anniversary of the Fall of Fascism and Day of Freedom",
-      "startDate": "2026-07-28",
-      "endDate": "2026-07-28",
       "sourceId": "openholidays-api"
     },
     {
@@ -40813,6 +40201,906 @@
       "startDate": "2028-07-31",
       "endDate": "2028-07-31",
       "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-nat-independence-day-2028-08-01",
+      "country": "CH",
+      "regionId": "CH-NAT",
+      "regionLabel": "Switzerland",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Independence Day",
+      "startDate": "2028-08-01",
+      "endDate": "2028-08-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "hr-public-hr-nat-victory-and-homeland-thanksgiving-day-and-the-day-of-croatian-defenders-2028-08-05",
+      "country": "HR",
+      "regionId": "HR-NAT",
+      "regionLabel": "Croatia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Victory and Homeland Thanksgiving Day and the Day of Croatian Defenders",
+      "startDate": "2028-08-05",
+      "endDate": "2028-08-05",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-le-municipal-holiday-2028-08-06",
+      "country": "PT",
+      "regionId": "PT-LE",
+      "regionLabel": "Portugal · Leiria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-06",
+      "endDate": "2028-08-06",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ie-public-ie-nat-august-holiday-2028-08-07",
+      "country": "IE",
+      "regionId": "IE-NAT",
+      "regionLabel": "Ireland",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "August Holiday",
+      "startDate": "2028-08-07",
+      "endDate": "2028-08-07",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-by-high-festival-of-peace-2028-08-08",
+      "country": "DE",
+      "regionId": "DE-BY",
+      "regionLabel": "Germany · Bavaria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "High Festival of Peace",
+      "startDate": "2028-08-08",
+      "endDate": "2028-08-08",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ba-st-lawrence-s-day-2028-08-10",
+      "country": "PT",
+      "regionId": "PT-BA",
+      "regionLabel": "Portugal · Bragança",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Lawrence's Day",
+      "startDate": "2028-08-10",
+      "endDate": "2028-08-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vc-st-lawrence-s-day-2028-08-10",
+      "country": "PT",
+      "regionId": "PT-VC",
+      "regionLabel": "Portugal · Viana do Castelo",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Lawrence's Day",
+      "startDate": "2028-08-10",
+      "endDate": "2028-08-10",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ac-municipal-holiday-2028-08-11",
+      "country": "PT",
+      "regionId": "PT-AC",
+      "regionLabel": "Portugal · Azores",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-11",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-co-municipal-holiday-2028-08-13",
+      "country": "PT",
+      "regionId": "PT-CO",
+      "regionLabel": "Portugal · Coimbra",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-13",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-school-ch-gr-ch-gr-vs-start-of-the-school-year-2028-08-14",
+      "country": "CH",
+      "regionId": "CH-GR::CH-GR-VS",
+      "regionLabel": "Switzerland · Grisons · Primary Schools",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Start of the school year",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ac-municipal-holiday-2028-08-14",
+      "country": "PT",
+      "regionId": "PT-AC",
+      "regionLabel": "Portugal · Azores",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-av-municipal-holiday-2028-08-14",
+      "country": "PT",
+      "regionId": "PT-AV",
+      "regionLabel": "Portugal · Aveiro",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-cb-municipal-holiday-2028-08-14",
+      "country": "PT",
+      "regionId": "PT-CB",
+      "regionLabel": "Portugal · Castelo Branco",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-gu-municipal-holiday-2028-08-14",
+      "country": "PT",
+      "regionId": "PT-GU",
+      "regionLabel": "Portugal · Guarda",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-le-municipal-holiday-2028-08-14",
+      "country": "PT",
+      "regionId": "PT-LE",
+      "regionLabel": "Portugal · Leiria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "va-public-va-nat-vigil-of-the-assumption-2028-08-14",
+      "country": "VA",
+      "regionId": "VA-NAT",
+      "regionLabel": "Vatican City",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Vigil of the Assumption",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ad-public-ad-nat-assumption-day-2028-08-15",
+      "country": "AD",
+      "regionId": "AD-NAT",
+      "regionLabel": "Andorra",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-public-at-nat-assumption-day-2028-08-15",
+      "country": "AT",
+      "regionId": "AT-NAT",
+      "regionLabel": "Austria",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "be-public-be-nat-assumption-day-2028-08-15",
+      "country": "BE",
+      "regionId": "BE-NAT",
+      "regionLabel": "Belgium",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ag-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-AG",
+      "regionLabel": "Switzerland · Aargau",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ai-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-AI",
+      "regionLabel": "Switzerland · Appenzell Innerrhoden",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-fr-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-FR",
+      "regionLabel": "Switzerland · Fribourg",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ju-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-JU",
+      "regionLabel": "Switzerland · Jura",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-lu-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-LU",
+      "regionLabel": "Switzerland · Lucerne",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-nw-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-NW",
+      "regionLabel": "Switzerland · Nidwalden",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ow-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-OW",
+      "regionLabel": "Switzerland · Obwalden",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-so-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-SO",
+      "regionLabel": "Switzerland · Solothurn",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-sz-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-SZ",
+      "regionLabel": "Switzerland · Schwyz",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ti-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-TI",
+      "regionLabel": "Switzerland · Ticino",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ur-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-UR",
+      "regionLabel": "Switzerland · Uri",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-vs-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-VS",
+      "regionLabel": "Switzerland · Valais",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-zg-assumption-day-2028-08-15",
+      "country": "CH",
+      "regionId": "CH-ZG",
+      "regionLabel": "Switzerland · Zug",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-by-assumption-day-2028-08-15",
+      "country": "DE",
+      "regionId": "DE-BY",
+      "regionLabel": "Germany · Bavaria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-sl-assumption-day-2028-08-15",
+      "country": "DE",
+      "regionId": "DE-SL",
+      "regionLabel": "Germany · Saarland",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "fr-public-fr-nat-assumption-day-2028-08-15",
+      "country": "FR",
+      "regionId": "FR-NAT",
+      "regionLabel": "France",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "hr-public-hr-nat-assumption-day-2028-08-15",
+      "country": "HR",
+      "regionId": "HR-NAT",
+      "regionLabel": "Croatia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "it-public-it-nat-assumption-day-2028-08-15",
+      "country": "IT",
+      "regionId": "IT-NAT",
+      "regionLabel": "Italy",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "li-public-li-nat-national-day-assumption-2028-08-15",
+      "country": "LI",
+      "regionId": "LI-NAT",
+      "regionLabel": "Liechtenstein",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "National Day (Assumption)",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "lt-public-lt-nat-assumption-day-2028-08-15",
+      "country": "LT",
+      "regionId": "LT-NAT",
+      "regionLabel": "Lithuania",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "lu-public-lu-nat-assumption-2028-08-15",
+      "country": "LU",
+      "regionId": "LU-NAT",
+      "regionLabel": "Luxembourg",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "mc-public-mc-nat-assumption-s-day-2028-08-15",
+      "country": "MC",
+      "regionId": "MC-NAT",
+      "regionLabel": "Monaco",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption's Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "mt-public-mt-nat-feast-of-the-assumption-2028-08-15",
+      "country": "MT",
+      "regionId": "MT-NAT",
+      "regionLabel": "Malta",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "​​​Feast of the Assumption",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pl-public-pl-nat-assumption-day-2028-08-15",
+      "country": "PL",
+      "regionId": "PL-NAT",
+      "regionLabel": "Poland",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-nat-assumption-day-2028-08-15",
+      "country": "PT",
+      "regionId": "PT-NAT",
+      "regionLabel": "Portugal",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ro-public-ro-nat-assumption-day-2028-08-15",
+      "country": "RO",
+      "regionId": "RO-NAT",
+      "regionLabel": "Romania",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "si-public-si-nat-assumption-day-2028-08-15",
+      "country": "SI",
+      "regionId": "SI-NAT",
+      "regionLabel": "Slovenia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sm-public-sm-nat-assumption-of-the-virgin-day-2028-08-15",
+      "country": "SM",
+      "regionId": "SM-NAT",
+      "regionLabel": "San Marino",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption of the Virgin Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "va-public-va-nat-assumption-day-2028-08-15",
+      "country": "VA",
+      "regionId": "VA-NAT",
+      "regionLabel": "Vatican City",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ac-st-roch-s-day-2028-08-16",
+      "country": "PT",
+      "regionId": "PT-AC",
+      "regionLabel": "Portugal · Azores",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Roch's Day",
+      "startDate": "2028-08-16",
+      "endDate": "2028-08-16",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ev-birthday-of-couto-jardim-2028-08-16",
+      "country": "PT",
+      "regionId": "PT-EV",
+      "regionLabel": "Portugal · Évora",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Birthday of Couto Jardim",
+      "startDate": "2028-08-16",
+      "endDate": "2028-08-16",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vr-municipal-holiday-2028-08-16",
+      "country": "PT",
+      "regionId": "PT-VR",
+      "regionLabel": "Portugal · Vila Real",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-16",
+      "endDate": "2028-08-16",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "va-public-va-nat-saint-stephen-of-hungary-2028-08-16",
+      "country": "VA",
+      "regionId": "VA-NAT",
+      "regionLabel": "Vatican City",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Saint Stephen of Hungary",
+      "startDate": "2028-08-16",
+      "endDate": "2028-08-16",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-sa-municipal-holiday-2028-08-17",
+      "country": "PT",
+      "regionId": "PT-SA",
+      "regionLabel": "Portugal · Santarém",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-17",
+      "endDate": "2028-08-17",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-br-municipal-holiday-2028-08-19",
+      "country": "PT",
+      "regionId": "PT-BR",
+      "regionLabel": "Portugal · Braga",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-19",
+      "endDate": "2028-08-19",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ee-public-ee-nat-day-of-restoration-of-independence-2028-08-20",
+      "country": "EE",
+      "regionId": "EE-NAT",
+      "regionLabel": "Estonia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Day of Restoration of Independence",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "hu-public-hu-nat-state-foundation-day-2028-08-20",
+      "country": "HU",
+      "regionId": "HU-NAT",
+      "regionLabel": "Hungary",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "State Foundation Day",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-fa-municipal-holiday-2028-08-20",
+      "country": "PT",
+      "regionId": "PT-FA",
+      "regionLabel": "Portugal · Faro",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-le-municipal-holiday-2028-08-20",
+      "country": "PT",
+      "regionId": "PT-LE",
+      "regionLabel": "Portugal · Leiria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vc-municipal-holiday-2028-08-20",
+      "country": "PT",
+      "regionId": "PT-VC",
+      "regionLabel": "Portugal · Viana do Castelo",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vi-day-of-st-bernard-of-clairvaux-2028-08-20",
+      "country": "PT",
+      "regionId": "PT-VI",
+      "regionLabel": "Portugal · Viseu",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Day of St Bernard of Clairvaux",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-av-municipal-holiday-2028-08-21",
+      "country": "PT",
+      "regionId": "PT-AV",
+      "regionLabel": "Portugal · Aveiro",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-21",
+      "endDate": "2028-08-21",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ma-municipal-holiday-2028-08-21",
+      "country": "PT",
+      "regionId": "PT-MA",
+      "regionLabel": "Portugal · Madeira",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-21",
+      "endDate": "2028-08-21",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ba-municipal-holiday-2028-08-22",
+      "country": "PT",
+      "regionId": "PT-BA",
+      "regionLabel": "Portugal · Bragança",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-22",
+      "endDate": "2028-08-22",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ba-st-bartholomew-s-day-2028-08-24",
+      "country": "PT",
+      "regionId": "PT-BA",
+      "regionLabel": "Portugal · Bragança",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Bartholomew's Day",
+      "startDate": "2028-08-24",
+      "endDate": "2028-08-24",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-po-st-bartholomew-s-day-2028-08-24",
+      "country": "PT",
+      "regionId": "PT-PO",
+      "regionLabel": "Portugal · Porto",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Bartholomew's Day",
+      "startDate": "2028-08-24",
+      "endDate": "2028-08-24",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vc-st-bartholomew-s-day-2028-08-24",
+      "country": "PT",
+      "regionId": "PT-VC",
+      "regionLabel": "Portugal · Viana do Castelo",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Bartholomew's Day",
+      "startDate": "2028-08-24",
+      "endDate": "2028-08-24",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-ba-municipal-holiday-2028-08-25",
+      "country": "PT",
+      "regionId": "PT-BA",
+      "regionLabel": "Portugal · Bragança",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-25",
+      "endDate": "2028-08-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-gu-municipal-holiday-2028-08-25",
+      "country": "PT",
+      "regionId": "PT-GU",
+      "regionLabel": "Portugal · Guarda",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-25",
+      "endDate": "2028-08-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vi-municipal-holiday-2028-08-25",
+      "country": "PT",
+      "regionId": "PT-VI",
+      "regionLabel": "Portugal · Viseu",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-25",
+      "endDate": "2028-08-25",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "md-public-md-nat-independence-day-of-the-republic-of-moldova-2028-08-27",
+      "country": "MD",
+      "regionId": "MD-NAT",
+      "regionLabel": "Moldova",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Independence Day of the Republic of Moldova",
+      "startDate": "2028-08-27",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-be-municipal-holiday-2028-08-28",
+      "country": "PT",
+      "regionId": "PT-BE",
+      "regionLabel": "Portugal · Beja",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-28",
+      "endDate": "2028-08-28",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-cb-municipal-holiday-2028-08-28",
+      "country": "PT",
+      "regionId": "PT-CB",
+      "regionLabel": "Portugal · Castelo Branco",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-28",
+      "endDate": "2028-08-28",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-fa-municipal-holiday-2028-08-29",
+      "country": "PT",
+      "regionId": "PT-FA",
+      "regionLabel": "Portugal · Faro",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-29",
+      "endDate": "2028-08-29",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-public-sk-nat-slovak-national-uprising-anniversary-2028-08-29",
+      "country": "SK",
+      "regionId": "SK-NAT",
+      "regionLabel": "Slovakia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Slovak National Uprising anniversary",
+      "startDate": "2028-08-29",
+      "endDate": "2028-08-29",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "md-public-md-nat-national-language-day-2028-08-31",
+      "country": "MD",
+      "regionId": "MD-NAT",
+      "regionLabel": "Moldova",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "National Language Day",
+      "startDate": "2028-08-31",
+      "endDate": "2028-08-31",
+      "sourceId": "openholidays-api"
     }
   ],
   "holidayCoverage": [
@@ -41416,27 +41704,6 @@
       ]
     },
     {
-      "key": "PT::madeira day::public::openholidays-api::2026-07-01::2026-07-01::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Madeira Day",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Madeira"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
       "key": "PT::summer holidays::school::openholidays-api::2026-07-01::2026-09-10::",
       "country": "PT",
       "holidayType": "school",
@@ -41504,69 +41771,6 @@
           "regionCount": 2,
           "countLabel": "states",
           "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "PT::battle of the côa::public::openholidays-api::2026-07-02::2026-07-02::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Battle of the Côa",
-      "startDate": "2026-07-02",
-      "endDate": "2026-07-02",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Guarda"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "BY::day of the republic::public::openholidays-api::2026-07-03::2026-07-03::",
-      "country": "BY",
-      "holidayType": "public",
-      "name": "Day of the Republic",
-      "startDate": "2026-07-03",
-      "endDate": "2026-07-03",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Belarus"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-03::2026-07-03::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-03",
-      "endDate": "2026-07-03",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Guarda"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
         }
       ]
     },
@@ -41850,35 +42054,7 @@
           ],
           "regionCount": 1,
           "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "FR::end of lessons::school::openholidays-api::2026-07-04::2026-07-04::",
-      "country": "FR",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "France · Corsica",
-            "France · Guadeloupe",
-            "France · Guyana",
-            "France · Martinique",
-            "France · Saint Martin",
-            "France · Saint Pierre and Miquelon",
-            "France · St. Barts"
-          ],
-          "regionCount": 7,
-          "countLabel": "regions",
-          "totalRegionCount": 20
+          "totalRegionCount": 13
         }
       ]
     },
@@ -41925,29 +42101,6 @@
       ]
     },
     {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-04::2026-07-04::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Coimbra",
-            "Portugal · Leiria"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
       "key": "CH::summer holidays::school::openholidays-api::2026-07-05::2026-08-09::",
       "country": "CH",
       "holidayType": "school",
@@ -41966,26 +42119,6 @@
           "regionCount": 1,
           "countLabel": "regions",
           "totalRegionCount": 13
-        }
-      ]
-    },
-    {
-      "key": "CZ::st. cyril and methodius day::public::openholidays-api::2026-07-05::2026-07-05::",
-      "country": "CZ",
-      "holidayType": "public",
-      "name": "St. Cyril and Methodius Day",
-      "startDate": "2026-07-05",
-      "endDate": "2026-07-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Czechia"
-          ],
-          "regionCount": 1
         }
       ]
     },
@@ -42031,26 +42164,6 @@
           "regionCount": 3,
           "countLabel": "zones",
           "totalRegionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "SK::st. cyril and methodius day::public::openholidays-api::2026-07-05::2026-07-05::",
-      "country": "SK",
-      "holidayType": "public",
-      "name": "St. Cyril and Methodius Day",
-      "startDate": "2026-07-05",
-      "endDate": "2026-07-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Slovakia"
-          ],
-          "regionCount": 1
         }
       ]
     },
@@ -42121,90 +42234,6 @@
       ]
     },
     {
-      "key": "CZ::day of the burning of jan hus::public::openholidays-api::2026-07-06::2026-07-06::",
-      "country": "CZ",
-      "holidayType": "public",
-      "name": "Day of the Burning of Jan Hus",
-      "startDate": "2026-07-06",
-      "endDate": "2026-07-06",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Czechia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "LT::national day::public::openholidays-api::2026-07-06::2026-07-06::",
-      "country": "LT",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-07-06",
-      "endDate": "2026-07-06",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Lithuania"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::battle of salgadela::public::openholidays-api::2026-07-07::2026-07-07::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Battle of Salgadela",
-      "startDate": "2026-07-07",
-      "endDate": "2026-07-07",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Guarda"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-08::2026-07-08::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-08",
-      "endDate": "2026-07-08",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Porto",
-            "Portugal · Vila Real"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
       "key": "DE::summer holidays::school::openholidays-api::2026-07-09::2026-08-19::",
       "country": "DE",
       "holidayType": "school",
@@ -42246,29 +42275,6 @@
           "regionCount": 2,
           "countLabel": "states",
           "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-10::2026-07-10::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-10",
-      "endDate": "2026-07-10",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Bragança",
-            "Portugal · Viana do Castelo"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
         }
       ]
     },
@@ -42340,27 +42346,6 @@
           "regionCount": 1,
           "countLabel": "regions",
           "totalRegionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "PT::day of benedict of nursia::public::openholidays-api::2026-07-11::2026-07-11::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Day of Benedict of Nursia",
-      "startDate": "2026-07-11",
-      "endDate": "2026-07-11",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Porto"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
         }
       ]
     },
@@ -42458,69 +42443,6 @@
       ]
     },
     {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-13::2026-07-13::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-13",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Porto"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "FR::national day::public::openholidays-api::2026-07-14::2026-07-14::",
-      "country": "FR",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-07-14",
-      "endDate": "2026-07-14",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "France"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "IT::saint rosalia::public::openholidays-api::2026-07-15::2026-07-15::",
-      "country": "IT",
-      "holidayType": "public",
-      "name": "Saint Rosalia",
-      "startDate": "2026-07-15",
-      "endDate": "2026-07-15",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Italy · Sicily"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
       "key": "LU::summer holidays::school::openholidays-api::2026-07-16::2026-09-14::",
       "country": "LU",
       "holidayType": "school",
@@ -42537,27 +42459,6 @@
             "Luxembourg"
           ],
           "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::birthday of antónio josé de almeid::public::openholidays-api::2026-07-17::2026-07-17::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Birthday of António José de Almeid",
-      "startDate": "2026-07-17",
-      "endDate": "2026-07-17",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Coimbra"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
         }
       ]
     },
@@ -42580,28 +42481,6 @@
           "regionCount": 1,
           "countLabel": "regions",
           "totalRegionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-18::2026-07-18::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-18",
-      "endDate": "2026-07-18",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Azores"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
         }
       ]
     },
@@ -42646,331 +42525,6 @@
           "regionCount": 1,
           "countLabel": "states",
           "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-20::2026-07-20::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-20",
-      "endDate": "2026-07-20",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Azores",
-            "Portugal · Porto",
-            "Portugal · Viseu"
-          ],
-          "regionCount": 3,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "BE::national day::public::openholidays-api::2026-07-21::2026-07-21::",
-      "country": "BE",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-07-21",
-      "endDate": "2026-07-21",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Belgium"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::st mary magdalene's day::public::openholidays-api::2026-07-22::2026-07-22::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St Mary Magdalene's Day",
-      "startDate": "2026-07-22",
-      "endDate": "2026-07-22",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Azores",
-            "Portugal · Madeira"
-          ],
-          "regionCount": 2,
-          "totalRegionCount": 2
-        }
-      ]
-    },
-    {
-      "key": "ES::end of lessons::school::openholidays-api::2026-07-23::2026-07-23::",
-      "country": "ES",
-      "holidayType": "school",
-      "name": "End of lessons",
-      "startDate": "2026-07-23",
-      "endDate": "2026-07-23",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Extremadura"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-24::2026-07-24::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-24",
-      "endDate": "2026-07-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Leiria"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::st christina's day::public::openholidays-api::2026-07-24::2026-07-24::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St Christina's Day",
-      "startDate": "2026-07-24",
-      "endDate": "2026-07-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Coimbra"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::national day of galicia::public::openholidays-api::2026-07-25::2026-07-25::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "National Day of Galicia",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Galicia"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "ES::saint james' day::public::openholidays-api::2026-07-25::2026-07-25::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Saint James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Basque Country",
-            "Spain · Community of Madrid",
-            "Spain · Navarra"
-          ],
-          "regionCount": 3,
-          "totalRegionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "PT::day of st thomas of mira::public::openholidays-api::2026-07-25::2026-07-25::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Day of St Thomas of Mira",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Coimbra"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::st christopher's day::public::openholidays-api::2026-07-25::2026-07-25::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St Christopher's Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Aveiro"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::st james' day::public::openholidays-api::2026-07-25::2026-07-25::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St James' Day",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Braga",
-            "Portugal · Coimbra",
-            "Portugal · Setúbal",
-            "Portugal · Vila Real"
-          ],
-          "regionCount": 4,
-          "totalRegionCount": 4
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-26::2026-07-26::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-26",
-      "endDate": "2026-07-26",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Lisbon"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-07-27::2026-07-27::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-07-27",
-      "endDate": "2026-07-27",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Porto"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "ES::cantabrian institutions day::public::openholidays-api::2026-07-28::2026-07-28::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Cantabrian Institutions Day",
-      "startDate": "2026-07-28",
-      "endDate": "2026-07-28",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Cantabria"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "SM::anniversary of the fall of fascism and day of freedom::public::openholidays-api::2026-07-28::2026-07-28::",
-      "country": "SM",
-      "holidayType": "public",
-      "name": "Anniversary of the Fall of Fascism and Day of Freedom",
-      "startDate": "2026-07-28",
-      "endDate": "2026-07-28",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "San Marino"
-          ],
-          "regionCount": 1
         }
       ]
     },
@@ -79641,6 +79195,1056 @@
           "regionCount": 1,
           "countLabel": "regions",
           "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "CH::independence day::public::openholidays-api::2028-08-01::2028-08-01::",
+      "country": "CH",
+      "holidayType": "public",
+      "name": "Independence Day",
+      "startDate": "2028-08-01",
+      "endDate": "2028-08-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Switzerland"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "HR::victory and homeland thanksgiving day and the day of croatian defenders::public::openholidays-api::2028-08-05::2028-08-05::",
+      "country": "HR",
+      "holidayType": "public",
+      "name": "Victory and Homeland Thanksgiving Day and the Day of Croatian Defenders",
+      "startDate": "2028-08-05",
+      "endDate": "2028-08-05",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Croatia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-06::2028-08-06::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-06",
+      "endDate": "2028-08-06",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Leiria"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "IE::august holiday::public::openholidays-api::2028-08-07::2028-08-07::",
+      "country": "IE",
+      "holidayType": "public",
+      "name": "August Holiday",
+      "startDate": "2028-08-07",
+      "endDate": "2028-08-07",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Ireland"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "DE::high festival of peace::public::openholidays-api::2028-08-08::2028-08-08::",
+      "country": "DE",
+      "holidayType": "public",
+      "name": "High Festival of Peace",
+      "startDate": "2028-08-08",
+      "endDate": "2028-08-08",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Germany · Bavaria"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::st lawrence's day::public::openholidays-api::2028-08-10::2028-08-10::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St Lawrence's Day",
+      "startDate": "2028-08-10",
+      "endDate": "2028-08-10",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Bragança",
+            "Portugal · Viana do Castelo"
+          ],
+          "regionCount": 2,
+          "totalRegionCount": 2
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-11::2028-08-11::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-11",
+      "endDate": "2028-08-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Azores"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-13::2028-08-13::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-13",
+      "endDate": "2028-08-13",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Coimbra"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "CH::start of the school year::school::openholidays-api::2028-08-14::2028-08-14::",
+      "country": "CH",
+      "holidayType": "school",
+      "name": "Start of the school year",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Switzerland · Grisons"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        },
+        {
+          "model": "school_type",
+          "normalizedScope": "regional",
+          "displayMode": "labels",
+          "regionLabels": [
+            "Switzerland · Primary Schools"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-14::2028-08-14::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Aveiro",
+            "Portugal · Azores",
+            "Portugal · Castelo Branco",
+            "Portugal · Guarda",
+            "Portugal · Leiria"
+          ],
+          "regionCount": 5,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "VA::vigil of the assumption::public::openholidays-api::2028-08-14::2028-08-14::",
+      "country": "VA",
+      "holidayType": "public",
+      "name": "Vigil of the Assumption",
+      "startDate": "2028-08-14",
+      "endDate": "2028-08-14",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Vatican City"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AD::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "AD",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Andorra"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AT::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "AT",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Austria"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "BE::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "BE",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Belgium"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "CH::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "CH",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Switzerland · Aargau",
+            "Switzerland · Appenzell Innerrhoden",
+            "Switzerland · Fribourg",
+            "Switzerland · Jura",
+            "Switzerland · Lucerne",
+            "Switzerland · Nidwalden",
+            "Switzerland · Obwalden",
+            "Switzerland · Schwyz",
+            "Switzerland · Solothurn",
+            "Switzerland · Ticino",
+            "Switzerland · Uri",
+            "Switzerland · Valais",
+            "Switzerland · Zug"
+          ],
+          "regionCount": 13,
+          "totalRegionCount": 13
+        }
+      ]
+    },
+    {
+      "key": "DE::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "DE",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Germany · Bavaria",
+            "Germany · Saarland"
+          ],
+          "regionCount": 2,
+          "totalRegionCount": 2
+        }
+      ]
+    },
+    {
+      "key": "FR::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "FR",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "France"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "HR::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "HR",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Croatia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "IT::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "IT",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Italy"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LI::national day (assumption)::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "LI",
+      "holidayType": "public",
+      "name": "National Day (Assumption)",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Liechtenstein"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LT::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "LT",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Lithuania"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LU::assumption::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "LU",
+      "holidayType": "public",
+      "name": "Assumption",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Luxembourg"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "MC::assumption's day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "MC",
+      "holidayType": "public",
+      "name": "Assumption's Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Monaco"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "MT::​​​feast of the assumption::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "MT",
+      "holidayType": "public",
+      "name": "​​​Feast of the Assumption",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Malta"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PL::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "PL",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Poland"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "RO::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "RO",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Romania"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SI::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "SI",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Slovenia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SM::assumption of the virgin day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "SM",
+      "holidayType": "public",
+      "name": "Assumption of the Virgin Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "San Marino"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "VA::assumption day::public::openholidays-api::2028-08-15::2028-08-15::",
+      "country": "VA",
+      "holidayType": "public",
+      "name": "Assumption Day",
+      "startDate": "2028-08-15",
+      "endDate": "2028-08-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Vatican City"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::birthday of couto jardim::public::openholidays-api::2028-08-16::2028-08-16::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Birthday of Couto Jardim",
+      "startDate": "2028-08-16",
+      "endDate": "2028-08-16",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Évora"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-16::2028-08-16::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-16",
+      "endDate": "2028-08-16",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Vila Real"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::st roch's day::public::openholidays-api::2028-08-16::2028-08-16::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St Roch's Day",
+      "startDate": "2028-08-16",
+      "endDate": "2028-08-16",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Azores"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "VA::saint stephen of hungary::public::openholidays-api::2028-08-16::2028-08-16::",
+      "country": "VA",
+      "holidayType": "public",
+      "name": "Saint Stephen of Hungary",
+      "startDate": "2028-08-16",
+      "endDate": "2028-08-16",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Vatican City"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-17::2028-08-17::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-17",
+      "endDate": "2028-08-17",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Santarém"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-19::2028-08-19::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-19",
+      "endDate": "2028-08-19",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Braga"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "EE::day of restoration of independence::public::openholidays-api::2028-08-20::2028-08-20::",
+      "country": "EE",
+      "holidayType": "public",
+      "name": "Day of Restoration of Independence",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Estonia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "HU::state foundation day::public::openholidays-api::2028-08-20::2028-08-20::",
+      "country": "HU",
+      "holidayType": "public",
+      "name": "State Foundation Day",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Hungary"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::day of st bernard of clairvaux::public::openholidays-api::2028-08-20::2028-08-20::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Day of St Bernard of Clairvaux",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Viseu"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-20::2028-08-20::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-20",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Faro",
+            "Portugal · Leiria",
+            "Portugal · Viana do Castelo"
+          ],
+          "regionCount": 3,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-21::2028-08-21::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-21",
+      "endDate": "2028-08-21",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Aveiro",
+            "Portugal · Madeira"
+          ],
+          "regionCount": 2,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-22::2028-08-22::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-22",
+      "endDate": "2028-08-22",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Bragança"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::st bartholomew's day::public::openholidays-api::2028-08-24::2028-08-24::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St Bartholomew's Day",
+      "startDate": "2028-08-24",
+      "endDate": "2028-08-24",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Bragança",
+            "Portugal · Porto",
+            "Portugal · Viana do Castelo"
+          ],
+          "regionCount": 3,
+          "totalRegionCount": 3
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-25::2028-08-25::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-25",
+      "endDate": "2028-08-25",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Bragança",
+            "Portugal · Guarda",
+            "Portugal · Viseu"
+          ],
+          "regionCount": 3,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "MD::independence day of the republic of moldova::public::openholidays-api::2028-08-27::2028-08-27::",
+      "country": "MD",
+      "holidayType": "public",
+      "name": "Independence Day of the Republic of Moldova",
+      "startDate": "2028-08-27",
+      "endDate": "2028-08-27",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Moldova"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-28::2028-08-28::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-28",
+      "endDate": "2028-08-28",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Beja",
+            "Portugal · Castelo Branco"
+          ],
+          "regionCount": 2,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-08-29::2028-08-29::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-08-29",
+      "endDate": "2028-08-29",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Faro"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "SK::slovak national uprising anniversary::public::openholidays-api::2028-08-29::2028-08-29::",
+      "country": "SK",
+      "holidayType": "public",
+      "name": "Slovak National Uprising anniversary",
+      "startDate": "2028-08-29",
+      "endDate": "2028-08-29",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Slovakia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "MD::national language day::public::openholidays-api::2028-08-31::2028-08-31::",
+      "country": "MD",
+      "holidayType": "public",
+      "name": "National Language Day",
+      "startDate": "2028-08-31",
+      "endDate": "2028-08-31",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Moldova"
+          ],
+          "regionCount": 1
         }
       ]
     }
