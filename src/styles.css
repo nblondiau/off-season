@@ -107,6 +107,7 @@ input {
   color: #fff;
   padding: 0.7rem 1rem;
   border-radius: 999px;
+  width: 5.5rem;
   transition: background-color 140ms ease, color 140ms ease, opacity 140ms ease;
 }
 

@@ -298,14 +298,24 @@ export default function App() {
             <div className="calendar-heading">
               <h2>{formatMonthLabel(year, month)}</h2>
               <div className="calendar-nav">
-                <button type="button" onClick={() => stepMonth(-1)} disabled={!canStepBackward}>
-                  Previous
+                <button
+                  type="button"
+                  onClick={() => stepMonth(-1)}
+                  disabled={!canStepBackward}
+                  aria-label="Previous"
+                >
+                  <span aria-hidden="true">⏮</span>
                 </button>
                 <button type="button" onClick={resetToCurrentMonth} disabled={!canResetToday}>
                   Today
                 </button>
-                <button type="button" onClick={() => stepMonth(1)} disabled={!canStepForward}>
-                  Next
+                <button
+                  type="button"
+                  onClick={() => stepMonth(1)}
+                  disabled={!canStepForward}
+                  aria-label="Next"
+                >
+                  <span aria-hidden="true">⏭</span>
                 </button>
               </div>
             </div>
