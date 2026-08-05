@@ -15,12 +15,6 @@ function fromIsoDate(value) {
   return new Date(`${value}T00:00:00Z`);
 }
 
-function addDays(value, days) {
-  const date = fromIsoDate(value);
-  date.setUTCDate(date.getUTCDate() + days);
-  return toIsoDate(date);
-}
-
 export function getRollingHolidayWindow(buildDate) {
   const date = fromIsoDate(buildDate);
   const windowStart = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), 1));
@@ -42,35 +36,6 @@ function slugify(value) {
 
 function buildHolidayId(countryCode, regionId, holidayType, name, startDate) {
   return `${countryCode.toLowerCase()}-${holidayType}-${slugify(regionId)}-${slugify(name)}-${startDate}`;
-}
-
-function buildOffSeasonDays(windowStart, windowEnd, holidays) {
-  const holidayIdsByDay = new Map();
-  let cursor = windowStart;
-
-  for (const holiday of holidays) {
-    let current = holiday.startDate;
-    while (current <= holiday.endDate) {
-      if (current >= windowStart && current <= windowEnd) {
-        const ids = holidayIdsByDay.get(current) ?? [];
-        ids.push(holiday.id);
-        holidayIdsByDay.set(current, ids);
-      }
-      current = addDays(current, 1);
-    }
-  }
-
-  const days = [];
-  while (cursor <= windowEnd) {
-    days.push({
-      date: cursor,
-      offSeason: !holidayIdsByDay.has(cursor),
-      holidayIds: holidayIdsByDay.get(cursor) ?? []
-    });
-    cursor = addDays(cursor, 1);
-  }
-
-  return days;
 }
 
 function pickLocalizedText(values, preferredLanguage = "EN") {

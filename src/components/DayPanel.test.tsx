@@ -36,8 +36,7 @@ const DATASET: DatasetBundle = {
     lastChangedAt: SPRING_DATE
   }],
   holidays: [],
-  holidayCoverage: [],
-  offSeasonDays: []
+  holidayCoverage: []
 };
 
 function makeHoliday(overrides: Partial<HolidayOnDay> = {}): HolidayOnDay {

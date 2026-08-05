@@ -157,11 +157,6 @@ input {
   line-height: 1.3;
 }
 
-.country-filter-search-label {
-  font-size: 0.92rem;
-  color: #5c6a76;
-}
-
 .country-filter-trigger {
   width: 18rem;
   max-width: 100%;
