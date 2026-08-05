@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { DatasetBundle } from "./types";
 import { buildHolidayDayMap, getHolidaysForDay, type FilterState } from "./lib/dataset";
 import { formatMonthLabel, listMonthGrid, localToday } from "./lib/date";
+import { buildQueryString, parseCountryCodesParam, parseMonthParam } from "./lib/query";
 import { DEFAULT_COUNTRY_CODES, STORAGE_KEY } from "./config";
 import { Filters } from "./components/Filters";
 import { CalendarGrid } from "./components/CalendarGrid";
@@ -107,8 +108,30 @@ export default function App() {
         }
 
         setDataset(nextDataset);
-        setFilters({ countryCodes: getSavedCountryCodes(nextDataset) ?? getDefaultCountryCodes(nextDataset) });
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlMonth = parseMonthParam(urlParams.get("month"));
+        const urlCountryCodes = parseCountryCodesParam(urlParams.get("countries"));
+        const availableCountryCodes = new Set(nextDataset.countries.map((country) => country.countryCode));
+
+        // A countries param present in the URL takes precedence over the saved selection.
+        const initialCountryCodes = urlCountryCodes !== null
+          ? urlCountryCodes.filter((code) => availableCountryCodes.has(code))
+          : getSavedCountryCodes(nextDataset) ?? getDefaultCountryCodes(nextDataset);
+
+        // A valid month param inside the dataset window takes precedence over today.
         const initial = getInitialMonth(nextDataset);
+        if (urlMonth) {
+          const candidate = new Date(Date.UTC(urlMonth.year, urlMonth.month, 1));
+          const earliestMonth = getMonthStart(nextDataset.windowStart);
+          const latestMonth = getMonthStart(nextDataset.windowEnd);
+          if (candidate >= earliestMonth && candidate <= latestMonth) {
+            initial.year = urlMonth.year;
+            initial.month = urlMonth.month;
+          }
+        }
+
+        setFilters({ countryCodes: initialCountryCodes });
         setYear(initial.year);
         setMonth(initial.month);
         setSelectedDate(initial.date);
@@ -182,6 +205,7 @@ export default function App() {
     label: country.label
   })), [dataset]);
   const days = useMemo(() => listMonthGrid(year, month), [year, month]);
+  const todayReset = useMemo(() => (dataset ? getInitialMonth(dataset) : null), [dataset]);
 
   const holidaysByDate = useMemo(() => {
     if (!dataset) {
@@ -202,6 +226,18 @@ export default function App() {
       saveCountryCodes(filters.countryCodes);
     }
   }, [dataset, filters.countryCodes]);
+
+  useEffect(() => {
+    if (!dataset) {
+      return;
+    }
+    try {
+      const query = buildQueryString(year, month, filters.countryCodes);
+      window.history.replaceState(null, "", `?${query}`);
+    } catch {
+      // Ignore environments where the history API is unavailable.
+    }
+  }, [dataset, year, month, filters.countryCodes]);
 
   if (loadError) {
     return <div className="app-shell">Failed to load dataset: {loadError}</div>;
@@ -228,6 +264,19 @@ export default function App() {
     setMonth(next.getUTCMonth());
   }
 
+  const canResetToday =
+    todayReset !== null &&
+    (year !== todayReset.year || month !== todayReset.month || selectedDate !== todayReset.date);
+
+  function resetToCurrentMonth() {
+    if (!todayReset) {
+      return;
+    }
+    setYear(todayReset.year);
+    setMonth(todayReset.month);
+    setSelectedDate(todayReset.date);
+  }
+
   return (
     <div className="app-shell">
       <header className="hero">
@@ -251,6 +300,9 @@ export default function App() {
               <div className="calendar-nav">
                 <button type="button" onClick={() => stepMonth(-1)} disabled={!canStepBackward}>
                   Previous
+                </button>
+                <button type="button" onClick={resetToCurrentMonth} disabled={!canResetToday}>
+                  Today
                 </button>
                 <button type="button" onClick={() => stepMonth(1)} disabled={!canStepForward}>
                   Next

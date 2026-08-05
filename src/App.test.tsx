@@ -1,7 +1,7 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
-import { DEFAULT_COUNTRY_CODES } from "./config";
+import { DEFAULT_COUNTRY_CODES, STORAGE_KEY } from "./config";
 import datasetJson from "./generated/dataset.json";
 import type { DatasetBundle } from "./types";
 import { formatMonthLabel, listMonthGrid, localToday } from "./lib/date";
@@ -26,6 +26,7 @@ function getMonthLabelForDate(date: string): string {
 
 describe("App", () => {
   beforeEach(() => {
+    window.history.replaceState(null, "", "/");
     globalThis.localStorage?.clear?.();
     vi.stubGlobal("matchMedia", vi.fn().mockImplementation(() => ({
       matches: false,
@@ -235,5 +236,114 @@ describe("App", () => {
     });
 
     expect(screen.getByText(formatMonthLabel(nextMonth.getUTCFullYear(), nextMonth.getUTCMonth()))).toBeInTheDocument();
+  });
+
+  it("resets to the current month and day via the Today button", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    const initialMonth = new Date(`${getExpectedToday(dataset)}T00:00:00Z`);
+
+    await user.click(screen.getByRole("button", { name: "Next" }));
+    const nextMonth = new Date(Date.UTC(initialMonth.getUTCFullYear(), initialMonth.getUTCMonth() + 1, 1));
+    expect(
+      screen.getByText(formatMonthLabel(nextMonth.getUTCFullYear(), nextMonth.getUTCMonth()))
+    ).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: "Today" }));
+
+    expect(
+      screen.getByText(formatMonthLabel(initialMonth.getUTCFullYear(), initialMonth.getUTCMonth()))
+    ).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: getExpectedToday(dataset) })).toBeInTheDocument();
+  });
+
+  it("reflects the displayed month and selected countries in the URL", async () => {
+    render(<App />);
+
+    const expectedDate = getExpectedToday(dataset);
+    const initialMonth = new Date(`${expectedDate}T00:00:00Z`);
+    const expectedMonthParam = `${initialMonth.getUTCFullYear()}-${String(initialMonth.getUTCMonth() + 1).padStart(2, "0")}`;
+    const expectedCountries = DEFAULT_COUNTRY_CODES.filter((code) =>
+      dataset.countries.some((country) => country.countryCode === code)
+    );
+
+    await screen.findByText(getMonthLabelForDate(expectedDate));
+
+    await waitFor(() => {
+      const params = new URLSearchParams(window.location.search);
+      expect(params.get("month")).toBe(expectedMonthParam);
+      expect(params.get("countries")).toBe(expectedCountries.join(","));
+    });
+  });
+
+  it("updates the URL when the month changes", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    await user.click(screen.getByRole("button", { name: "Next" }));
+
+    const initialDate = getExpectedToday(dataset);
+    const initialMonth = new Date(`${initialDate}T00:00:00Z`);
+    const nextMonth = new Date(Date.UTC(initialMonth.getUTCFullYear(), initialMonth.getUTCMonth() + 1, 1));
+    const expectedMonthParam = `${nextMonth.getUTCFullYear()}-${String(nextMonth.getUTCMonth() + 1).padStart(2, "0")}`;
+
+    const params = new URLSearchParams(window.location.search);
+    expect(params.get("month")).toBe(expectedMonthParam);
+  });
+
+  it("updates the URL when the country selection changes", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    await user.click(screen.getByRole("button", { name: /countries selected|All countries/i }));
+    await user.click(screen.getByLabelText(/France/i));
+
+    const defaultCountries = DEFAULT_COUNTRY_CODES.filter((code) =>
+      dataset.countries.some((country) => country.countryCode === code)
+    );
+    const params = new URLSearchParams(window.location.search);
+    expect(params.get("countries")).toBe(defaultCountries.filter((code) => code !== "FR").join(","));
+  });
+
+  it("opens on the month from the URL param", async () => {
+    window.history.replaceState(null, "", "/?month=2027-01");
+    render(<App />);
+
+    await screen.findByText(formatMonthLabel(2027, 0));
+    expect(screen.getByRole("heading", { name: "January 2027" })).toBeInTheDocument();
+  });
+
+  it("uses URL countries over the saved localStorage selection", async () => {
+    vi.stubGlobal("localStorage", {
+      getItem: vi.fn((key: string) => {
+        if (key === STORAGE_KEY) return JSON.stringify(["DE"]);
+        return null;
+      }),
+      setItem: vi.fn(),
+      removeItem: vi.fn(),
+      clear: vi.fn()
+    });
+    window.history.replaceState(null, "", "/?countries=ES,PT");
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+
+    await waitFor(() => {
+      const params = new URLSearchParams(window.location.search);
+      expect(params.get("countries")).toBe("ES,PT");
+    });
+    expect(screen.getByRole("button", { name: /2 countries selected/i })).toBeInTheDocument();
+  });
+
+  it("ignores an out-of-window month URL param and falls back to the default month", async () => {
+    window.history.replaceState(null, "", "/?month=2030-05");
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    expect(screen.getByRole("heading", { name: getMonthLabelForDate(getExpectedToday(dataset)) })).toBeInTheDocument();
   });
 });
