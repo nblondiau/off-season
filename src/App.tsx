@@ -343,7 +343,7 @@ export default function App() {
         Holidays window {dataset.windowStart} to {dataset.windowEnd}
         {sourceSummary ? (
           <>
-            {" · source "}
+            {" · data source "}
             <a href="https://www.openholidaysapi.org" target="_blank" rel="noreferrer">
               {sourceSummary.sourceName}
             </a>
