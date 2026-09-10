@@ -4,7 +4,7 @@ import App from "./App";
 import { DEFAULT_COUNTRY_CODES, STORAGE_KEY } from "./config";
 import datasetJson from "./generated/dataset.json";
 import type { DatasetBundle } from "./types";
-import { formatMonthLabel, listMonthGrid, localToday } from "./lib/date";
+import { formatMonthLabel, localToday } from "./lib/date";
 import { findDateWithHolidays } from "./test/dataset-helpers";
 
 const dataset = datasetJson as DatasetBundle;
@@ -62,23 +62,38 @@ describe("App", () => {
 
   it("filters holidays by selected countries", async () => {
     const user = userEvent.setup();
-    const expectedDate = getExpectedToday(dataset);
-    const initialDate = new Date(`${expectedDate}T00:00:00Z`);
-    const visibleDays = listMonthGrid(initialDate.getUTCFullYear(), initialDate.getUTCMonth());
-    const visibleSet = new Set(visibleDays);
-    const { date } = findDateWithHolidays(dataset, ["BE", "FR"], (visibleHolidays, _date) => {
+
+    // Find a day anywhere in the dataset where both Belgium and France have holidays,
+    // then open the app on that day's month. This keeps the test independent of the
+    // current date and the rolling dataset window.
+    const { date } = findDateWithHolidays(dataset, ["BE", "FR"], (visibleHolidays, day) => {
+      if (day < dataset.windowStart || day > dataset.windowEnd) {
+        return false;
+      }
       const countries = new Set(visibleHolidays.map((holiday) => holiday.country));
-      return visibleSet.has(_date) && countries.has("BE") && countries.has("FR");
+      return countries.has("BE") && countries.has("FR");
     });
+    const targetMonth = new Date(`${date}T00:00:00Z`);
+    const monthParam = `${targetMonth.getUTCFullYear()}-${String(targetMonth.getUTCMonth() + 1).padStart(2, "0")}`;
+    window.history.replaceState(null, "", `/?month=${monthParam}`);
 
     render(<App />);
 
-    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    await screen.findByText(getMonthLabelForDate(date));
+    await user.click(screen.getByRole("button", { name: date }));
+
+    // Positive control: both countries are visible before filtering.
+    expect(await screen.findByRole("heading", { name: /Belgium/i })).toBeInTheDocument();
+    expect(await screen.findByRole("heading", { name: /France/i })).toBeInTheDocument();
+
+    // Deselect France and confirm only its holidays disappear from the day panel.
     await user.click(screen.getByRole("button", { name: /countries selected|All countries/i }));
     await user.click(screen.getByLabelText(/France/i));
-    await user.click(screen.getByRole("button", { name: date }));
-    expect(screen.getByRole("heading", { name: /Belgium/i })).toBeInTheDocument();
-    expect(screen.queryByRole("heading", { name: /France/i })).not.toBeInTheDocument();
+
+    expect(await screen.findByRole("heading", { name: /Belgium/i })).toBeInTheDocument();
+    await waitFor(() => {
+      expect(screen.queryByRole("heading", { name: /France/i })).not.toBeInTheDocument();
+    });
   });
 
   it("keeps the full country list hidden until the selector is opened", async () => {
