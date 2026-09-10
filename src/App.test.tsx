@@ -325,11 +325,18 @@ describe("App", () => {
   });
 
   it("opens on the month from the URL param", async () => {
-    window.history.replaceState(null, "", "/?month=2027-01");
+    // Derive an in-window month from the dataset so the test survives the rolling window.
+    // The final month of the window is always valid and distinct from the default month.
+    const windowEnd = new Date(`${dataset.windowEnd}T00:00:00Z`);
+    const targetYear = windowEnd.getUTCFullYear();
+    const targetMonthIndex = windowEnd.getUTCMonth();
+    const monthParam = `${targetYear}-${String(targetMonthIndex + 1).padStart(2, "0")}`;
+    window.history.replaceState(null, "", `/?month=${monthParam}`);
     render(<App />);
 
-    await screen.findByText(formatMonthLabel(2027, 0));
-    expect(screen.getByRole("heading", { name: "January 2027" })).toBeInTheDocument();
+    const expectedLabel = formatMonthLabel(targetYear, targetMonthIndex);
+    await screen.findByText(expectedLabel);
+    expect(screen.getByRole("heading", { name: expectedLabel })).toBeInTheDocument();
   });
 
   it("uses URL countries over the saved localStorage selection", async () => {
@@ -355,10 +362,15 @@ describe("App", () => {
   });
 
   it("ignores an out-of-window month URL param and falls back to the default month", async () => {
-    window.history.replaceState(null, "", "/?month=2030-05");
+    // One month past the window end is always out of range, regardless of the build date.
+    const windowEnd = new Date(`${dataset.windowEnd}T00:00:00Z`);
+    const outOfWindow = new Date(Date.UTC(windowEnd.getUTCFullYear(), windowEnd.getUTCMonth() + 1, 1));
+    const monthParam = `${outOfWindow.getUTCFullYear()}-${String(outOfWindow.getUTCMonth() + 1).padStart(2, "0")}`;
+    window.history.replaceState(null, "", `/?month=${monthParam}`);
     render(<App />);
 
-    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
-    expect(screen.getByRole("heading", { name: getMonthLabelForDate(getExpectedToday(dataset)) })).toBeInTheDocument();
+    const defaultLabel = getMonthLabelForDate(getExpectedToday(dataset));
+    await screen.findByText(defaultLabel);
+    expect(screen.getByRole("heading", { name: defaultLabel })).toBeInTheDocument();
   });
 });
