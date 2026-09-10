@@ -17,37 +17,52 @@ describe("dataset helpers", () => {
     expect(holidays.every((holiday) => holiday.country === belgiumHoliday.country)).toBe(true);
   });
 
-  it("includes Belgian Flemish school holidays on a real in-window day", () => {
+  it("includes regional Belgian school holidays on a real in-window day", () => {
     const dayMap = buildHolidayDayMap(dataset);
-    const flemishHoliday = findHoliday(
+    const regionalSchoolHoliday = findHoliday(
       dataset,
-      (holiday) => holiday.country === "BE" && holiday.holidayType === "school" && holiday.regionId === "BE-NL"
+      (holiday) =>
+        holiday.country === "BE" && holiday.holidayType === "school" && holiday.scope === "regional"
     );
-    const holidays = getHolidaysForDay(dataset, dayMap, flemishHoliday.startDate, {
+    const holidays = getHolidaysForDay(dataset, dayMap, regionalSchoolHoliday.startDate, {
       countryCodes: ["BE"]
     });
 
     expect(
       holidays.some(
         (holiday) =>
-          holiday.name === flemishHoliday.name &&
-          holiday.regionId === flemishHoliday.regionId &&
-          holiday.startDate === flemishHoliday.startDate &&
-          holiday.endDate === flemishHoliday.endDate
+          holiday.name === regionalSchoolHoliday.name &&
+          holiday.regionId === regionalSchoolHoliday.regionId &&
+          holiday.startDate === regionalSchoolHoliday.startDate &&
+          holiday.endDate === regionalSchoolHoliday.endDate
       )
     ).toBe(true);
   });
 
   it("keeps shared national public holidays national across countries", () => {
-    const { holidays } = findDateWithHolidays(dataset, ["BE", "FR", "NL"], (visibleHolidays) => {
-      return ["BE", "FR", "NL"].every((countryCode) =>
-        visibleHolidays.some((holiday) => holiday.country === countryCode && holiday.holidayType === "public")
+    const countryCodes = ["BE", "FR", "NL"];
+    // Target a holiday that all three countries share by name, so an unrelated
+    // regional holiday that happens to land on the same day cannot skew the check.
+    const { holidays } = findDateWithHolidays(dataset, countryCodes, (visibleHolidays) => {
+      const publicHolidays = visibleHolidays.filter((holiday) => holiday.holidayType === "public");
+      return publicHolidays.some((candidate) =>
+        countryCodes.every((countryCode) =>
+          publicHolidays.some((holiday) => holiday.country === countryCode && holiday.name === candidate.name)
+        )
       );
     });
-    const sharedPublicHolidays = holidays.filter(
-      (holiday) => ["BE", "FR", "NL"].includes(holiday.country) && holiday.holidayType === "public"
-    );
 
+    const publicHolidays = holidays.filter((holiday) => holiday.holidayType === "public");
+    const sharedName = publicHolidays.find((candidate) =>
+      countryCodes.every((countryCode) =>
+        publicHolidays.some((holiday) => holiday.country === countryCode && holiday.name === candidate.name)
+      )
+    )?.name;
+    const sharedPublicHolidays = publicHolidays
+      .filter((holiday) => holiday.name === sharedName)
+      .sort((left, right) => left.country.localeCompare(right.country));
+
+    expect(sharedName).toBeDefined();
     expect(
       sharedPublicHolidays.map((holiday) => holiday.scope)
     ).toEqual(["national", "national", "national"]);

@@ -63,13 +63,10 @@ describe("App", () => {
   it("filters holidays by selected countries", async () => {
     const user = userEvent.setup();
 
-    // Find a day anywhere in the dataset where both Belgium and France have holidays,
-    // then open the app on that day's month. This keeps the test independent of the
-    // current date and the rolling dataset window.
-    const { date } = findDateWithHolidays(dataset, ["BE", "FR"], (visibleHolidays, day) => {
-      if (day < dataset.windowStart || day > dataset.windowEnd) {
-        return false;
-      }
+    // Find an in-window day where both Belgium and France have holidays, then open
+    // the app on that day's month. This keeps the test independent of the current
+    // date and the rolling dataset window.
+    const { date } = findDateWithHolidays(dataset, ["BE", "FR"], (visibleHolidays) => {
       const countries = new Set(visibleHolidays.map((holiday) => holiday.country));
       return countries.has("BE") && countries.has("FR");
     });

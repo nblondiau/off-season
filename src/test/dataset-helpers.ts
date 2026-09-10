@@ -26,7 +26,11 @@ export function findDateWithHolidays(
   predicate: (holidays: HolidayOnDay[], date: string) => boolean
 ): { date: string; holidays: HolidayOnDay[] } {
   const dayMap = buildHolidayDayMap(dataset);
-  const dates = Array.from(dayMap.keys()).sort((left, right) => left.localeCompare(right));
+  // Only consider dates inside the dataset window. Overlapping holiday ranges can
+  // otherwise surface days before windowStart that the app never displays.
+  const dates = Array.from(dayMap.keys())
+    .filter((date) => date >= dataset.windowStart && date <= dataset.windowEnd)
+    .sort((left, right) => left.localeCompare(right));
 
   for (const date of dates) {
     const holidays = getHolidaysForDay(dataset, dayMap, date, { countryCodes });
