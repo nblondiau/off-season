@@ -347,7 +347,7 @@ export default function App() {
             <a href="https://www.openholidaysapi.org" target="_blank" rel="noreferrer">
               {sourceSummary.sourceName}
             </a>
-            {` · last checked ${sourceSummary.lastCheckedAt}`}
+            {` · data as of ${sourceSummary.lastCheckedAt}`}
           </>
         ) : null}
       </footer>
