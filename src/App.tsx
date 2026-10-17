@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { DatasetBundle } from "./types";
-import { buildHolidayDayMap, getHolidaysForDay, type FilterState } from "./lib/dataset";
+import { buildHolidayDayMap, getCountriesMissingSchoolHolidays, getHolidaysForDay, type FilterState } from "./lib/dataset";
 import { formatMonthLabel, listMonthGrid, localToday } from "./lib/date";
 import { buildQueryString, parseCountryCodesParam, parseMonthParam } from "./lib/query";
 import { DEFAULT_COUNTRY_CODES, STORAGE_KEY } from "./config";
@@ -49,6 +49,20 @@ function getInitialMonth(dataset: DatasetBundle): { year: number; month: number;
 function getMonthStart(value: string): Date {
   const date = new Date(`${value}T00:00:00Z`);
   return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), 1));
+}
+
+const MAX_NOTICE_COUNTRY_LABELS = 5;
+
+function formatCountryList(labels: string[]): string {
+  const visible = labels.slice(0, MAX_NOTICE_COUNTRY_LABELS);
+  const remaining = labels.length - visible.length;
+  if (visible.length === 1) {
+    return remaining > 0 ? `${visible[0]} and ${remaining} more` : visible[0];
+  }
+  if (visible.length === 2 && remaining === 0) {
+    return `${visible[0]} and ${visible[1]}`;
+  }
+  return remaining > 0 ? `${visible.join(", ")} and ${remaining} more` : visible.join(", ");
 }
 
 function useIsMobile(maxWidth = 720) {
@@ -204,6 +218,20 @@ export default function App() {
     value: country.countryCode,
     label: country.label
   })), [dataset]);
+  const missingSchoolHolidayCountries = useMemo(
+    () => (dataset ? new Set(getCountriesMissingSchoolHolidays(dataset)) : new Set<string>()),
+    [dataset]
+  );
+  const selectedCountriesMissingSchoolHolidays = useMemo(() => {
+    if (!dataset) {
+      return [];
+    }
+    const labelByCode = new Map(dataset.countries.map((country) => [country.countryCode, country.label]));
+    return filters.countryCodes
+      .filter((countryCode) => missingSchoolHolidayCountries.has(countryCode))
+      .map((countryCode) => labelByCode.get(countryCode) ?? countryCode)
+      .sort((left, right) => left.localeCompare(right));
+  }, [dataset, filters.countryCodes, missingSchoolHolidayCountries]);
   const days = useMemo(() => listMonthGrid(year, month), [year, month]);
   const todayReset = useMemo(() => (dataset ? getInitialMonth(dataset) : null), [dataset]);
 
@@ -324,6 +352,13 @@ export default function App() {
               <Filters countryOptions={countryOptions} filters={filters} mode="desktop" onChange={setFilters} />
             ) : null}
           </div>
+
+          {selectedCountriesMissingSchoolHolidays.length > 0 ? (
+            <p className="calendar-notice" role="status">
+              School holidays not yet published by the source for{" "}
+              {formatCountryList(selectedCountriesMissingSchoolHolidays)}.
+            </p>
+          ) : null}
 
           <CalendarGrid
             activeDate={selectedDate}

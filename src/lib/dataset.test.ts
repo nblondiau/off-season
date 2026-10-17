@@ -1,6 +1,6 @@
 import datasetJson from "../generated/dataset.json";
-import type { DatasetBundle } from "../types";
-import { buildHolidayDayMap, getHolidaysForDay } from "./dataset";
+import type { DatasetBundle, HolidayRecord } from "../types";
+import { buildHolidayDayMap, getCountriesMissingSchoolHolidays, getHolidaysForDay } from "./dataset";
 import { findCoverage, findDateWithHolidays, findHoliday } from "../test/dataset-helpers";
 
 const dataset = datasetJson as DatasetBundle;
@@ -15,6 +15,43 @@ describe("dataset helpers", () => {
 
     expect(holidays).not.toHaveLength(0);
     expect(holidays.every((holiday) => holiday.country === belgiumHoliday.country)).toBe(true);
+  });
+
+  it("reports exactly the countries without school holidays in the dataset window", () => {
+    const missing = new Set(getCountriesMissingSchoolHolidays(dataset));
+    const countriesWithSchoolHolidays = new Set(
+      dataset.holidays
+        .filter((holiday) => holiday.holidayType === "school")
+        .map((holiday) => holiday.country)
+    );
+
+    // Assert the relationship rather than specific countries so the test survives
+    // the data changing (e.g. a country's school holidays being published later).
+    for (const country of dataset.countries) {
+      expect(missing.has(country.countryCode)).toBe(!countriesWithSchoolHolidays.has(country.countryCode));
+    }
+  });
+
+  it("stops reporting a country once school holidays appear in the window", () => {
+    const spanishSchoolHoliday: HolidayRecord = {
+      id: "es-school-test",
+      country: "ES",
+      regionId: "ES-NAT",
+      regionLabel: "Spain",
+      scope: "national",
+      holidayType: "school",
+      name: "Test school holiday",
+      startDate: dataset.windowStart,
+      endDate: dataset.windowStart,
+      sourceId: dataset.sources[0].sourceId
+    };
+    const datasetWithSpanishSchool: DatasetBundle = {
+      ...dataset,
+      holidays: [...dataset.holidays, spanishSchoolHoliday]
+    };
+
+    expect(getCountriesMissingSchoolHolidays(dataset)).toContain("ES");
+    expect(getCountriesMissingSchoolHolidays(datasetWithSpanishSchool)).not.toContain("ES");
   });
 
   it("includes regional Belgian school holidays on a real in-window day", () => {

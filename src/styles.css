@@ -327,6 +327,15 @@ input {
   margin: 0;
 }
 
+.calendar-notice {
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  background: var(--holiday-school-soft);
+  color: #6b5200;
+  font-size: 0.92rem;
+}
+
 .day-cell {
   border: 0;
 }

@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 import App from "./App";
 import { DEFAULT_COUNTRY_CODES, STORAGE_KEY } from "./config";
 import datasetJson from "./generated/dataset.json";
-import type { DatasetBundle } from "./types";
+import type { DatasetBundle, HolidayRecord } from "./types";
 import { formatMonthLabel, localToday } from "./lib/date";
 import { findDateWithHolidays } from "./test/dataset-helpers";
 
@@ -22,6 +22,37 @@ function getDefaultSelectionCount(dataset: DatasetBundle): number {
 function getMonthLabelForDate(date: string): string {
   const value = new Date(`${date}T00:00:00Z`);
   return formatMonthLabel(value.getUTCFullYear(), value.getUTCMonth());
+}
+
+// A synthetic school holiday lets the notice tests control school-data presence
+// explicitly instead of depending on what the upstream source publishes today.
+function withSchoolHoliday(base: DatasetBundle, countryCode: string): DatasetBundle {
+  const holiday: HolidayRecord = {
+    id: `test-school-${countryCode}`,
+    country: countryCode,
+    regionId: `${countryCode}-NAT`,
+    regionLabel: countryCode,
+    scope: "national",
+    holidayType: "school",
+    name: "Test school holiday",
+    startDate: base.windowStart,
+    endDate: base.windowStart,
+    sourceId: base.sources[0].sourceId
+  };
+  return { ...base, holidays: [...base.holidays, holiday] };
+}
+
+function withoutSchoolHolidays(base: DatasetBundle, countryCode: string): DatasetBundle {
+  return {
+    ...base,
+    holidays: base.holidays.filter(
+      (holiday) => !(holiday.country === countryCode && holiday.holidayType === "school")
+    )
+  };
+}
+
+function stubDataset(next: DatasetBundle) {
+  vi.stubGlobal("fetch", vi.fn().mockResolvedValue({ ok: true, json: async () => next }));
 }
 
 describe("App", () => {
@@ -123,6 +154,24 @@ describe("App", () => {
     expect(
       await screen.findByRole("button", { name: new RegExp(`${getDefaultSelectionCount(dataset)} countries selected`, "i") })
     ).toBeInTheDocument();
+  });
+
+  it("shows a notice when selected countries have no school holiday data", async () => {
+    stubDataset(withoutSchoolHolidays(dataset, "DE"));
+    window.history.replaceState(null, "", "/?countries=DE");
+    render(<App />);
+
+    const notice = await screen.findByRole("status");
+    expect(notice).toHaveTextContent("School holidays not yet published by the source for Germany.");
+  });
+
+  it("hides the school data notice when selected countries have school holidays", async () => {
+    stubDataset(withSchoolHoliday(dataset, "DE"));
+    window.history.replaceState(null, "", "/?countries=DE");
+    render(<App />);
+
+    await screen.findByText(getMonthLabelForDate(getExpectedToday(dataset)));
+    expect(screen.queryByRole("status")).not.toBeInTheDocument();
   });
 
   it("shows dataset source metadata in the footer", async () => {

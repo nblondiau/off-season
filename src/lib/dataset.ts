@@ -39,6 +39,19 @@ export function buildHolidayDayMap(dataset: DatasetBundle): Map<string, HolidayR
   return dayMap;
 }
 
+export function getCountriesMissingSchoolHolidays(dataset: DatasetBundle): string[] {
+  const countriesWithSchoolHolidays = new Set<string>();
+  for (const holiday of dataset.holidays) {
+    if (holiday.holidayType === "school") {
+      countriesWithSchoolHolidays.add(holiday.country);
+    }
+  }
+
+  return dataset.countries
+    .map((country) => country.countryCode)
+    .filter((countryCode) => !countriesWithSchoolHolidays.has(countryCode));
+}
+
 export function getHolidaysForDay(
   dataset: DatasetBundle,
   dayMap: Map<string, HolidayRecord[]>,
