@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-26",
-  "windowStart": "2026-10-01",
-  "windowEnd": "2028-10-31",
+  "generatedAt": "2026-11-02",
+  "windowStart": "2026-11-01",
+  "windowEnd": "2028-11-30",
   "countries": [
     {
       "countryCode": "AD",
@@ -129798,24 +129798,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "AL": [
+      },
       {
-        "id": "571403b0-1743-4488-80f7-fa03811577ab",
-        "startDate": "2026-10-19",
-        "endDate": "2026-10-19",
+        "id": "3170ab95-5564-4dac-bb24-b3e8b14ba8e9",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Mother Teresa Day"
+            "text": "All Saints' Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "AL": [
       {
         "id": "77166fe3-a1ff-46a7-af42-13ebb75d7e72",
         "startDate": "2026-11-30",
@@ -130295,24 +130295,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "AT": [
+      },
       {
-        "id": "51bc60e0-0af3-4472-8914-b91e523f2fde",
-        "startDate": "2026-10-26",
-        "endDate": "2026-10-26",
+        "id": "9308ddc8-6c04-4f0b-b271-1b46461472e8",
+        "startDate": "2028-11-28",
+        "endDate": "2028-11-28",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "National Day"
+            "text": "Flag and Independence Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "a56e6f4e-6b66-43f3-8661-1705bb1d4bd1",
+        "startDate": "2028-11-29",
+        "endDate": "2028-11-29",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Liberation Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      }
+    ],
+    "AT": [
       {
         "id": "7ac1b0bc-b055-4ab2-8475-bb7372df3209",
         "startDate": "2026-11-01",
@@ -130702,6 +130717,21 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "539a9088-16f5-4e41-b6b1-56030cf542c1",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints' Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "BE": [
@@ -131059,6 +131089,36 @@
           {
             "language": "EN",
             "text": "Assumption Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "010e0c06-0646-4303-96f6-26015d31cee9",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "199bdb30-7b97-444e-b894-80b578c8cf9c",
+        "startDate": "2028-11-11",
+        "endDate": "2028-11-11",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Armistice Day"
           }
         ],
         "regionalScope": "National",
@@ -131773,30 +131833,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "CH": [
+      },
       {
-        "id": "f31af9c3-760a-420b-b88b-e54ef7dae304",
-        "startDate": "2026-10-16",
-        "endDate": "2026-10-16",
+        "id": "da396ad9-8e2b-4396-bac1-714801420a79",
+        "startDate": "2028-11-07",
+        "endDate": "2028-11-07",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "St Gallus' Day"
+            "text": "October Revolution Day"
           }
         ],
-        "regionalScope": "Local",
+        "regionalScope": "National",
         "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-SZ-SZ-MO",
-            "shortName": "SZ-SZ-MO"
-          }
-        ]
-      },
+        "nationwide": true
+      }
+    ],
+    "CH": [
       {
         "id": "0b931338-edf1-4ead-b60a-cc43cf322372",
         "startDate": "2026-11-01",
@@ -136098,24 +136152,159 @@
             "shortName": "SZ-SZ-MO"
           }
         ]
-      }
-    ],
-    "CZ": [
+      },
       {
-        "id": "a6389fb6-20b8-4643-a76c-15a0665b582b",
-        "startDate": "2026-10-28",
-        "endDate": "2026-10-28",
+        "id": "d0ba71ee-856b-47c1-999e-bf6ea4a4a973",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Independence Day"
+            "text": "All Saints' Day"
           }
         ],
-        "regionalScope": "National",
+        "regionalScope": "Regional",
         "temporalScope": "FullDay",
-        "nationwide": true
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-SO-DE",
+            "shortName": "SO-DE"
+          },
+          {
+            "code": "CH-LU",
+            "shortName": "LU"
+          },
+          {
+            "code": "CH-AI",
+            "shortName": "AI"
+          },
+          {
+            "code": "CH-VS",
+            "shortName": "VS"
+          },
+          {
+            "code": "CH-SO-LB",
+            "shortName": "SO-LB"
+          },
+          {
+            "code": "CH-AG-ZZ",
+            "shortName": "AG-ZZ"
+          },
+          {
+            "code": "CH-SO-GA",
+            "shortName": "SO-GA"
+          },
+          {
+            "code": "CH-GR",
+            "shortName": "GR"
+          },
+          {
+            "code": "CH-SO-SO",
+            "shortName": "SO-SO"
+          },
+          {
+            "code": "CH-FR",
+            "shortName": "FR"
+          },
+          {
+            "code": "CH-SO-OL",
+            "shortName": "SO-OL"
+          },
+          {
+            "code": "CH-SZ",
+            "shortName": "SZ"
+          },
+          {
+            "code": "CH-NW",
+            "shortName": "NW"
+          },
+          {
+            "code": "CH-GL",
+            "shortName": "GL"
+          },
+          {
+            "code": "CH-AG-MU",
+            "shortName": "AG-MU"
+          },
+          {
+            "code": "CH-AG-RF",
+            "shortName": "AG-RF"
+          },
+          {
+            "code": "CH-ZG",
+            "shortName": "ZG"
+          },
+          {
+            "code": "CH-SO-WA",
+            "shortName": "SO-WA"
+          },
+          {
+            "code": "CH-OW",
+            "shortName": "OW"
+          },
+          {
+            "code": "CH-SO-TS",
+            "shortName": "SO-TS"
+          },
+          {
+            "code": "CH-AG-LA",
+            "shortName": "AG-LA"
+          },
+          {
+            "code": "CH-SO-TH",
+            "shortName": "SO-TH"
+          },
+          {
+            "code": "CH-SG",
+            "shortName": "SG"
+          },
+          {
+            "code": "CH-JU",
+            "shortName": "JU"
+          },
+          {
+            "code": "CH-UR",
+            "shortName": "UR"
+          },
+          {
+            "code": "CH-AG-BG",
+            "shortName": "AG-BG"
+          },
+          {
+            "code": "CH-SO-GG",
+            "shortName": "SO-GG"
+          },
+          {
+            "code": "CH-TI",
+            "shortName": "TI"
+          }
+        ]
       },
+      {
+        "id": "6192b21c-08da-49eb-b63f-f28da5ec7b20",
+        "startDate": "2028-11-11",
+        "endDate": "2028-11-11",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "St Martin's Day"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "CH-SZ-SZ-SZ",
+            "shortName": "SZ-SZ-SZ"
+          }
+        ]
+      }
+    ],
+    "CZ": [
       {
         "id": "aef6f2c9-704b-4e99-891d-af611417ac0a",
         "startDate": "2026-11-17",
@@ -136535,77 +136724,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "DE": [
+      },
       {
-        "id": "555eaa64-b8f6-44ce-850b-6af0d75555e9",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-03",
+        "id": "ee31e6e3-6087-48f1-9f83-3f0653e1a6a2",
+        "startDate": "2028-11-17",
+        "endDate": "2028-11-17",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Day of German Unity"
+            "text": "Day of Struggle for Freedom and Democracy"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
-      {
-        "id": "6febea3c-594a-42ff-9e77-eb5e53c4aadd",
-        "startDate": "2026-10-31",
-        "endDate": "2026-10-31",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Reformation Day"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-SH",
-            "shortName": "SH"
-          },
-          {
-            "code": "DE-ST",
-            "shortName": "ST"
-          },
-          {
-            "code": "DE-HH",
-            "shortName": "HH"
-          },
-          {
-            "code": "DE-HB",
-            "shortName": "HB"
-          },
-          {
-            "code": "DE-TH",
-            "shortName": "TH"
-          },
-          {
-            "code": "DE-MV",
-            "shortName": "MV"
-          },
-          {
-            "code": "DE-SN",
-            "shortName": "SN"
-          },
-          {
-            "code": "DE-NI",
-            "shortName": "NI"
-          },
-          {
-            "code": "DE-BB",
-            "shortName": "BB"
-          }
-        ]
-      },
+      }
+    ],
+    "DE": [
       {
         "id": "c359d742-f458-4962-8bf1-44e5d504f6d0",
         "startDate": "2026-11-01",
@@ -137529,6 +137665,64 @@
             "shortName": "BB"
           }
         ]
+      },
+      {
+        "id": "b7bc09ad-b1c9-4cb8-a4f3-28e0e75ea260",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints' Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-SL",
+            "shortName": "SL"
+          },
+          {
+            "code": "DE-NW",
+            "shortName": "NW"
+          },
+          {
+            "code": "DE-BW",
+            "shortName": "BW"
+          },
+          {
+            "code": "DE-RP",
+            "shortName": "RP"
+          },
+          {
+            "code": "DE-BY",
+            "shortName": "BY"
+          }
+        ]
+      },
+      {
+        "id": "e4f66ba9-ad80-4a86-893a-3591b8bd0848",
+        "startDate": "2028-11-22",
+        "endDate": "2028-11-22",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Repentance Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-SN",
+            "shortName": "SN"
+          }
+        ]
       }
     ],
     "EE": [
@@ -137895,63 +138089,6 @@
     ],
     "ES": [
       {
-        "id": "856a3336-4a3f-43db-8b6d-510976aa6d21",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-05",
-        "type": "Public",
-        "name": [
-          {
-            "language": "ES",
-            "text": "Nuestra Señora de Guadalupe"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-CN-SC-LG",
-            "shortName": "CN-SC-LG"
-          }
-        ]
-      },
-      {
-        "id": "89a81e1c-05b8-49f2-ac91-7ad823ee1b6e",
-        "startDate": "2026-10-09",
-        "endDate": "2026-10-09",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Regional Holiday in Valencia"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "ES-VC",
-            "shortName": "VC"
-          }
-        ]
-      },
-      {
-        "id": "25ad34a1-a60e-4bed-b8a2-283ea892e1df",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-12",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Spanish National Day"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "434cddcd-af59-435f-8183-f271c47f0b45",
         "startDate": "2026-11-01",
         "endDate": "2026-11-01",
@@ -138137,27 +138274,6 @@
       }
     ],
     "FR": [
-      {
-        "id": "b3d8f616-2e48-4679-866c-dcfbabfde2dd",
-        "startDate": "2026-10-09",
-        "endDate": "2026-10-09",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Abolition of slavery"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-BL",
-            "shortName": "BL"
-          }
-        ]
-      },
       {
         "id": "4671b54a-31a7-4f37-a77c-6ce7eae1aa5c",
         "startDate": "2026-11-01",
@@ -138863,6 +138979,36 @@
             "shortName": "BL"
           }
         ]
+      },
+      {
+        "id": "f4112ca2-e4c0-49e7-a7ab-2fe6c640b764",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "898bfcb9-663e-40ae-84ae-f899f6b60dc9",
+        "startDate": "2028-11-11",
+        "endDate": "2028-11-11",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Armistice Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "HR": [
@@ -139255,24 +139401,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "HU": [
+      },
       {
-        "id": "fb064528-2870-4934-ad6f-c5ee5464d9bd",
-        "startDate": "2026-10-23",
-        "endDate": "2026-10-23",
+        "id": "7e4de20b-e4dc-40a4-86dd-e594b397215b",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "National Day"
+            "text": "All Saints' Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "104beded-422d-4386-aff5-001557d5e455",
+        "startDate": "2028-11-18",
+        "endDate": "2028-11-18",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Remembrance Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      }
+    ],
+    "HU": [
       {
         "id": "a14c99df-7d7d-42d3-9e3a-9dbf27c8ad7b",
         "startDate": "2026-11-01",
@@ -139602,24 +139763,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "IE": [
+      },
       {
-        "id": "c5dca3fa-7aa5-41a0-bd17-616bb512c9f1",
-        "startDate": "2026-10-26",
-        "endDate": "2026-10-26",
+        "id": "79304405-f546-4b12-b894-dde6520c0eb7",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "October Holiday"
+            "text": "All Saints' Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "IE": [
       {
         "id": "c5bbcfd2-cc3f-4592-b684-15968257152c",
         "startDate": "2026-12-25",
@@ -139922,48 +140083,6 @@
       }
     ],
     "IT": [
-      {
-        "id": "d11fd0c6-6a8b-4609-bf9c-a9e7945d8b02",
-        "startDate": "2026-10-04",
-        "endDate": "2026-10-04",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St. Petronius"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-ER-BO",
-            "shortName": "ER-BO"
-          }
-        ]
-      },
-      {
-        "id": "7fba0a5a-77f9-44bd-ac6c-62d411bb200c",
-        "startDate": "2026-10-30",
-        "endDate": "2026-10-30",
-        "type": "Public",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St. Saturninus"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "IT-SA-CA",
-            "shortName": "SA-CA"
-          }
-        ]
-      },
       {
         "id": "a018e103-9ab6-4b0f-a512-765eb7040119",
         "startDate": "2026-11-01",
@@ -140813,6 +140932,42 @@
             "shortName": "SA-CA"
           }
         ]
+      },
+      {
+        "id": "e3c30fb1-a8e4-44a4-ad45-6491db3c5f99",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints' Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "fcc500b4-bf59-4b1c-9134-50829e6c0e29",
+        "startDate": "2028-11-03",
+        "endDate": "2028-11-03",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "St. Justus"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "IT-FV-TS",
+            "shortName": "FV-TS"
+          }
+        ]
       }
     ],
     "LI": [
@@ -141200,6 +141355,21 @@
           {
             "language": "EN",
             "text": "Nativity of Mary"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "1f27f126-7da7-4b51-837b-51f4238a69ef",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints' Day"
           }
         ],
         "regionalScope": "National",
@@ -141627,6 +141797,36 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "a53e94a4-1c43-4ec8-a4d1-b8d65e3fa76c",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints' Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "16c3c6bf-4a5d-47d8-90ec-f865f8e5be67",
+        "startDate": "2028-11-02",
+        "endDate": "2028-11-02",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Souls' Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "LU": [
@@ -141984,6 +142184,21 @@
           {
             "language": "EN",
             "text": "Assumption"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "552fcf87-f007-4638-af24-75d9c95c1f87",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints"
           }
         ],
         "regionalScope": "National",
@@ -142441,6 +142656,21 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "274fce7b-b9bd-4975-b0fe-1bc4df258754",
+        "startDate": "2028-11-18",
+        "endDate": "2028-11-18",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day of the Proclamation of the Republic of Latvia"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "MC": [
@@ -142798,6 +143028,36 @@
           {
             "language": "EN",
             "text": "Assumption's Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "9681785e-29b8-4f77-9b90-b135d3ed0da5",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints' Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "2c5e2ec0-6afa-49de-a64c-c751332a4b62",
+        "startDate": "2028-11-20",
+        "endDate": "2028-11-20",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Prince's Day"
           }
         ],
         "regionalScope": "National",
@@ -144371,64 +144631,16 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "PT": [
-      {
-        "id": "5ccf89ab-99d6-4687-816b-24048b1d0e09",
-        "startDate": "2026-10-01",
-        "endDate": "2026-10-01",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-VC-VN",
-            "shortName": "VC-VN"
-          }
-        ]
       },
       {
-        "id": "16622350-2d5f-4a5d-a4da-774f1a270561",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-05",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-BR-VM",
-            "shortName": "BR-VM"
-          },
-          {
-            "code": "PT-PO-GO",
-            "shortName": "PO-GO"
-          }
-        ]
-      },
-      {
-        "id": "da1960fa-83a9-4299-8a74-fbd8cde79cb1",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-05",
+        "id": "6c843412-de2c-4528-899d-78c001b22c4a",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Republic Day"
+            "text": "All Saints' Day"
           }
         ],
         "regionalScope": "National",
@@ -144436,202 +144648,22 @@
         "nationwide": true
       },
       {
-        "id": "7370095a-907d-4c8e-9fc4-eab78d788464",
-        "startDate": "2026-10-07",
-        "endDate": "2026-10-07",
-        "type": "Optional",
+        "id": "6ea5e190-22a1-4e00-b004-ed336bee1100",
+        "startDate": "2028-11-11",
+        "endDate": "2028-11-11",
+        "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Municipal holiday"
+            "text": "Independence Day"
           }
         ],
-        "regionalScope": "Local",
+        "regionalScope": "National",
         "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CO-OH",
-            "shortName": "CO-OH"
-          },
-          {
-            "code": "PT-VI-OF",
-            "shortName": "VI-OF"
-          }
-        ]
-      },
-      {
-        "id": "079b1184-2cc6-4412-b9f6-a4ea41cd7744",
-        "startDate": "2026-10-09",
-        "endDate": "2026-10-09",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-MA-MA",
-            "shortName": "MA-MA"
-          }
-        ]
-      },
-      {
-        "id": "53932fb4-8598-4510-b231-d810f927f20e",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-11",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-AV-SJ",
-            "shortName": "AV-SJ"
-          }
-        ]
-      },
-      {
-        "id": "f35867c7-c330-49c5-a2ea-467a16bfa6e1",
-        "startDate": "2026-10-15",
-        "endDate": "2026-10-15",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-BA-MO",
-            "shortName": "BA-MO"
-          }
-        ]
-      },
-      {
-        "id": "a068cfce-141f-47ba-a343-a49205ce6b80",
-        "startDate": "2026-10-16",
-        "endDate": "2026-10-16",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-MA-CL",
-            "shortName": "MA-CL"
-          }
-        ]
-      },
-      {
-        "id": "0fc132a6-3f19-48ef-a578-823c632b262e",
-        "startDate": "2026-10-20",
-        "endDate": "2026-10-20",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-CB-CO",
-            "shortName": "CB-CO"
-          },
-          {
-            "code": "PT-BR-TB",
-            "shortName": "BR-TB"
-          }
-        ]
-      },
-      {
-        "id": "b516163d-b4de-4e64-a014-c4853d07515e",
-        "startDate": "2026-10-22",
-        "endDate": "2026-10-22",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-SE-GR",
-            "shortName": "SE-GR"
-          }
-        ]
-      },
-      {
-        "id": "8ddb655f-62cb-413a-a445-e37f97d576d8",
-        "startDate": "2026-10-25",
-        "endDate": "2026-10-25",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "St Catherine's Day"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-MA-CT",
-            "shortName": "MA-CT"
-          }
-        ]
-      },
-      {
-        "id": "9e1a514b-8ac9-426b-bf6f-a2b78b8a6c2d",
-        "startDate": "2026-10-27",
-        "endDate": "2026-10-27",
-        "type": "Optional",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Municipal holiday"
-          }
-        ],
-        "regionalScope": "Local",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "PT-FA-LS",
-            "shortName": "FA-LS"
-          }
-        ]
-      },
+        "nationwide": true
+      }
+    ],
+    "PT": [
       {
         "id": "94af43a6-3d3a-46bf-9442-07b2069bb5cf",
         "startDate": "2026-11-01",
@@ -152366,6 +152398,204 @@
             "shortName": "FA-LS"
           }
         ]
+      },
+      {
+        "id": "b3e6c322-008e-43ba-b326-a0bdc8886e24",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints' Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "4e827d54-c275-4631-b17c-df8d8fd4ee2f",
+        "startDate": "2028-11-06",
+        "endDate": "2028-11-06",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-PO-PF",
+            "shortName": "PO-PF"
+          },
+          {
+            "code": "PT-VR-BO",
+            "shortName": "VR-BO"
+          },
+          {
+            "code": "PT-VR-VA",
+            "shortName": "VR-VA"
+          },
+          {
+            "code": "PT-SA-RM",
+            "shortName": "SA-RM"
+          }
+        ]
+      },
+      {
+        "id": "a961fe5a-d65c-4f3c-985d-f722aa78809c",
+        "startDate": "2028-11-11",
+        "endDate": "2028-11-11",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "St Martin's Day"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-PO-TR",
+            "shortName": "PO-TR"
+          },
+          {
+            "code": "PT-LI-TV",
+            "shortName": "LI-TV"
+          },
+          {
+            "code": "PT-PO-PE",
+            "shortName": "PO-PE"
+          },
+          {
+            "code": "PT-LE-PB",
+            "shortName": "LE-PB"
+          },
+          {
+            "code": "PT-GU-ME",
+            "shortName": "GU-ME"
+          },
+          {
+            "code": "PT-VR-AL",
+            "shortName": "VR-AL"
+          }
+        ]
+      },
+      {
+        "id": "746e087a-3e5e-4335-b3bb-661c7c5049f7",
+        "startDate": "2028-11-19",
+        "endDate": "2028-11-19",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-LI-OD",
+            "shortName": "LI-OD"
+          }
+        ]
+      },
+      {
+        "id": "d8723228-26f4-4953-bfbc-dd4fb39ac684",
+        "startDate": "2028-11-23",
+        "endDate": "2028-11-23",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-PA-GA",
+            "shortName": "PA-GA"
+          }
+        ]
+      },
+      {
+        "id": "2b0cffc9-48e4-455f-a52d-4411188810a0",
+        "startDate": "2028-11-24",
+        "endDate": "2028-11-24",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-SA-EN",
+            "shortName": "SA-EN"
+          },
+          {
+            "code": "PT-SE-SI",
+            "shortName": "SE-SI"
+          }
+        ]
+      },
+      {
+        "id": "ce43455a-46ee-4b6d-9ca2-123dcc3b1b0d",
+        "startDate": "2028-11-27",
+        "endDate": "2028-11-27",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Municipal holiday"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-GU-GU",
+            "shortName": "GU-GU"
+          }
+        ]
+      },
+      {
+        "id": "43b42325-1a48-41e7-b44c-989f58b829dc",
+        "startDate": "2028-11-30",
+        "endDate": "2028-11-30",
+        "type": "Optional",
+        "name": [
+          {
+            "language": "EN",
+            "text": "St Andrew's Day"
+          }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "PT-VR-MF",
+            "shortName": "VR-MF"
+          }
+        ]
       }
     ],
     "RO": [
@@ -152848,6 +153078,21 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "40320303-0f7b-42a2-97bb-00026b9b7573",
+        "startDate": "2028-11-30",
+        "endDate": "2028-11-30",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Saint Andrew's Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
       }
     ],
     "RS": [
@@ -153120,24 +153365,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "SE": [
+      },
       {
-        "id": "36d76fab-9828-415c-b273-5d4a61f69c7d",
-        "startDate": "2026-10-31",
-        "endDate": "2026-10-31",
+        "id": "fea0f875-bb9c-4a49-ad57-9d2a97783bf9",
+        "startDate": "2028-11-11",
+        "endDate": "2028-11-11",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "All Saints' Day"
+            "text": "Armistice Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "SE": [
       {
         "id": "c01c27f5-b7f8-4b33-8d51-04a580dcbbd8",
         "startDate": "2026-12-25",
@@ -153512,24 +153757,24 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "SI": [
+      },
       {
-        "id": "35867343-6261-4ff8-bfbf-459561a3f909",
-        "startDate": "2026-10-31",
-        "endDate": "2026-10-31",
+        "id": "1b31fed9-f1c0-47a6-8e52-bb47935b2f65",
+        "startDate": "2028-11-04",
+        "endDate": "2028-11-04",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Reformation Day"
+            "text": "All Saints' Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      },
+      }
+    ],
+    "SI": [
       {
         "id": "d0f7fc7c-0570-4850-b88a-2fd8804bab97",
         "startDate": "2026-11-01",
@@ -153944,6 +154189,21 @@
           {
             "language": "EN",
             "text": "Reformation Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "be963c55-a921-4e3c-b170-205986d894e8",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day of Remembrance for the Dead"
           }
         ],
         "regionalScope": "National",
@@ -154371,24 +154631,39 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ],
-    "SM": [
+      },
       {
-        "id": "d2b08ddf-4c18-4e78-8c5b-026eb9496825",
-        "startDate": "2026-10-01",
-        "endDate": "2026-10-01",
+        "id": "034d8f00-ac8e-4b26-8567-66ec49c798a0",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
         "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "Investiture of the Captains Regent (Heads of State)"
+            "text": "All Saints’ Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "2f822aaf-7e34-4c48-af24-b34e657bbcdb",
+        "startDate": "2028-11-17",
+        "endDate": "2028-11-17",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Day of Struggle for Freedom and Democracy"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      }
+    ],
+    "SM": [
       {
         "id": "e09ed457-bb66-4ff7-b18e-e54a4d43f0a0",
         "startDate": "2026-11-01",
@@ -154923,6 +155198,36 @@
           {
             "language": "EN",
             "text": "Investiture of the Captains Regent (Heads of State)"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "8b3bd130-858d-4690-b3d4-5cf2f585d20a",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Saints' Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "8af5422c-2198-49f9-b1a5-1575a68c6132",
+        "startDate": "2028-11-02",
+        "endDate": "2028-11-02",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Souls' Day"
           }
         ],
         "regionalScope": "National",
@@ -155710,26 +156015,41 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
-      }
-    ]
-  },
-  "schoolHolidaysByCountry": {
-    "AD": [
+      },
       {
-        "id": "de45d36e-b7f6-4584-a340-35124257ea1e",
-        "startDate": "2026-10-26",
-        "endDate": "2026-10-30",
-        "type": "School",
+        "id": "325783d8-590f-4167-965a-8468d73de5ff",
+        "startDate": "2028-11-01",
+        "endDate": "2028-11-01",
+        "type": "Public",
         "name": [
           {
             "language": "EN",
-            "text": "All Saints Holidays"
+            "text": "All Saints’ Day"
           }
         ],
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
       },
+      {
+        "id": "f7a75069-f729-4bcd-ad30-fc43ab02cb56",
+        "startDate": "2028-11-02",
+        "endDate": "2028-11-02",
+        "type": "Public",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Souls’ Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      }
+    ]
+  },
+  "schoolHolidaysByCountry": {
+    "AD": [
       {
         "id": "41c298af-f3b6-4a5c-897f-dc8c8d87c851",
         "startDate": "2026-12-23",
@@ -155808,21 +156128,6 @@
     ],
     "AL": [],
     "AT": [
-      {
-        "id": "e4a58f13-ebe2-4b16-b09d-8c2cb5c487b7",
-        "startDate": "2026-10-27",
-        "endDate": "2026-10-31",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
       {
         "id": "36ab14ad-27be-45f6-9f5e-ec47a76b04f6",
         "startDate": "2026-11-02",
@@ -156479,6 +156784,67 @@
         "regionalScope": "National",
         "temporalScope": "FullDay",
         "nationwide": true
+      },
+      {
+        "id": "d7ee5342-67fb-46aa-84fe-81bc2a1a6069",
+        "startDate": "2028-11-02",
+        "endDate": "2028-11-02",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "All Souls' Day"
+          }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+      },
+      {
+        "id": "496f9a94-07a6-471d-baf0-cd8d9cc1f891",
+        "startDate": "2028-11-11",
+        "endDate": "2028-11-11",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Saint Martin's Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "AT-BL",
+            "shortName": "BL"
+          }
+        ]
+      },
+      {
+        "id": "ca4f9ad2-e756-4876-a0d6-588f822085a6",
+        "startDate": "2028-11-15",
+        "endDate": "2028-11-15",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Saint Leopold's Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "AT-NÖ",
+            "shortName": "NÖ"
+          },
+          {
+            "code": "AT-WI",
+            "shortName": "WI"
+          }
+        ]
       }
     ],
     "BE": [
@@ -156822,854 +157188,6 @@
     "BG": [],
     "BY": [],
     "CH": [
-      {
-        "id": "1983c070-8fbb-4d4e-b4cb-4efc76ab6b8c",
-        "startDate": "2026-09-19",
-        "endDate": "2026-10-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BE",
-            "shortName": "BE"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-BE-VS",
-            "shortName": "BE-VS"
-          }
-        ]
-      },
-      {
-        "id": "8a9aa84e-acc1-4bb5-b521-9eb82465ce4d",
-        "startDate": "2026-09-25",
-        "endDate": "2026-10-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-OW",
-            "shortName": "OW"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Alle Schulen ausser Engelberg"
-          }
-        ]
-      },
-      {
-        "id": "417edf11-8124-486a-a06e-3bc9ddb46406",
-        "startDate": "2026-09-26",
-        "endDate": "2026-10-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-NW",
-            "shortName": "NW"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Volksschulen und Mittelschulen"
-          }
-        ]
-      },
-      {
-        "id": "55397222-5285-44e4-b6d5-cc4839db5039",
-        "startDate": "2026-09-26",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-AI-OB",
-            "shortName": "AI-OB"
-          }
-        ]
-      },
-      {
-        "id": "6da75269-6693-4d81-8143-1ab9a7695f2c",
-        "startDate": "2026-09-26",
-        "endDate": "2026-10-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BL",
-            "shortName": "BL"
-          }
-        ]
-      },
-      {
-        "id": "a1178819-bc37-4d86-9c2c-02aac6da6b6c",
-        "startDate": "2026-09-26",
-        "endDate": "2026-10-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-LU",
-            "shortName": "LU"
-          }
-        ]
-      },
-      {
-        "id": "ba2d93ab-afe2-4bf0-b14e-ec443aaa751a",
-        "startDate": "2026-09-26",
-        "endDate": "2026-10-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-SZ",
-            "shortName": "SZ"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Volksschulen"
-          }
-        ]
-      },
-      {
-        "id": "e785d05a-2c47-420c-8b8b-c4a883b59895",
-        "startDate": "2026-09-26",
-        "endDate": "2026-10-28",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BL",
-            "shortName": "BL"
-          }
-        ],
-        "comment": [
-          {
-            "language": "EN",
-            "text": "Exception for the Gym. Laufental-Thierstein"
-          }
-        ],
-        "tags": [
-          "Exception"
-        ]
-      },
-      {
-        "id": "e9ac5abb-466c-4530-ad63-604475012a32",
-        "startDate": "2026-09-26",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-SH",
-            "shortName": "SH"
-          }
-        ]
-      },
-      {
-        "id": "f0a004e2-f9e1-4466-865a-fee98cbc3c39",
-        "startDate": "2026-09-26",
-        "endDate": "2026-10-11",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BS",
-            "shortName": "BS"
-          }
-        ]
-      },
-      {
-        "id": "4d6cb071-c819-4d56-a4eb-ee78a8444e15",
-        "startDate": "2026-09-27",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-SG",
-            "shortName": "SG"
-          }
-        ]
-      },
-      {
-        "id": "b4069583-c222-4745-92ca-fdbb70a7a120",
-        "startDate": "2026-09-28",
-        "endDate": "2026-10-16",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-SO",
-            "shortName": "SO"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-SO-BS",
-            "shortName": "SO-BS"
-          },
-          {
-            "code": "CH-SO-MS",
-            "shortName": "SO-MS"
-          }
-        ]
-      },
-      {
-        "id": "bcc050dc-4838-4263-85b8-f0a14a09e7dc",
-        "startDate": "2026-09-28",
-        "endDate": "2026-10-09",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-AG",
-            "shortName": "AG"
-          }
-        ]
-      },
-      {
-        "id": "1115e2a4-46e0-466b-a6dc-07510a8ec1d5",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-ZG",
-            "shortName": "ZG"
-          }
-        ]
-      },
-      {
-        "id": "16044b77-d8f6-4e50-8a54-b8d791da9f4a",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-GL",
-            "shortName": "GL"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Alle Schulen"
-          }
-        ]
-      },
-      {
-        "id": "460daea5-721f-4491-b1b3-9364afc0ca42",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-UR",
-            "shortName": "UR"
-          }
-        ]
-      },
-      {
-        "id": "4b91a1e0-996a-46cb-8635-90b32aa491fc",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-TG",
-            "shortName": "TG"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Volksschulen"
-          }
-        ]
-      },
-      {
-        "id": "ce728d25-e09f-45da-be4e-c684cd25d0fc",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-25",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-OW",
-            "shortName": "OW"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Ausnahmeregelung für Gemeinde Engelberg"
-          }
-        ]
-      },
-      {
-        "id": "d28e171a-95cd-40c0-a61c-411c5ad4ae31",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-NE",
-            "shortName": "NE"
-          }
-        ],
-        "comment": [
-          {
-            "language": "FR",
-            "text": "École obligatoire"
-          }
-        ]
-      },
-      {
-        "id": "e5c74129-3da9-4825-b088-86a36d8aea9e",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-AI-AP",
-            "shortName": "AI-AP"
-          },
-          {
-            "code": "CH-AI-SH",
-            "shortName": "AI-SH"
-          },
-          {
-            "code": "CH-AI-GO",
-            "shortName": "AI-GO"
-          },
-          {
-            "code": "CH-AI-SR",
-            "shortName": "AI-SR"
-          }
-        ]
-      },
-      {
-        "id": "0822bb06-c50b-473e-952c-abc354794527",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-16",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-BE",
-            "shortName": "BE"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-BE-EO",
-            "shortName": "BE-EO"
-          }
-        ]
-      },
-      {
-        "id": "414df9a9-d0fb-4b11-9d1c-221747b0c876",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-16",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-AR",
-            "shortName": "AR"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-AR-VS",
-            "shortName": "AR-VS"
-          }
-        ]
-      },
-      {
-        "id": "78fec4c7-55a8-4b55-befb-1dda4c5a454a",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-ZH",
-            "shortName": "ZH"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-ZH-VS",
-            "shortName": "ZH-VS"
-          }
-        ],
-        "tags": [
-          "Recommended"
-        ]
-      },
-      {
-        "id": "d605cc69-78d0-4eea-9f1c-a44fa4b901c4",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-16",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-JU",
-            "shortName": "JU"
-          }
-        ]
-      },
-      {
-        "id": "e4a7d68f-5995-4faf-8b56-372f8790e57b",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-ZH",
-            "shortName": "ZH"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-ZH-BS",
-            "shortName": "ZH-BS"
-          },
-          {
-            "code": "CH-ZH-MS",
-            "shortName": "ZH-MS"
-          }
-        ]
-      },
-      {
-        "id": "349193b0-f8a1-401a-8361-2b3bccc16959",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-25",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-VS",
-            "shortName": "VS"
-          }
-        ],
-        "comment": [
-          {
-            "language": "EN",
-            "text": "German-speaking"
-          }
-        ]
-      },
-      {
-        "id": "43936b40-6f78-4f45-96a2-41eb0cf621f9",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-25",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-GR-ML",
-            "shortName": "GR-ML"
-          },
-          {
-            "code": "CH-GR-EB",
-            "shortName": "GR-EB"
-          },
-          {
-            "code": "CH-GR-LQ",
-            "shortName": "GR-LQ"
-          },
-          {
-            "code": "CH-GR-SS",
-            "shortName": "GR-SS"
-          },
-          {
-            "code": "CH-GR-AB",
-            "shortName": "GR-AB"
-          },
-          {
-            "code": "CH-GR-BN",
-            "shortName": "GR-BN"
-          },
-          {
-            "code": "CH-GR-IB",
-            "shortName": "GR-IB"
-          },
-          {
-            "code": "CH-GR-PS",
-            "shortName": "GR-PS"
-          },
-          {
-            "code": "CH-GR-VM",
-            "shortName": "GR-VM"
-          },
-          {
-            "code": "CH-GR-PD",
-            "shortName": "GR-PD"
-          }
-        ],
-        "groups": [
-          {
-            "code": "CH-GR-VS",
-            "shortName": "GR-VS"
-          }
-        ]
-      },
-      {
-        "id": "c0bb9c6b-9e94-4325-9a70-118b268e8dd6",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-25",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-VD",
-            "shortName": "VD"
-          }
-        ]
-      },
-      {
-        "id": "d881bd2d-ab0c-48ab-a365-62deca82db20",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-25",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-VS",
-            "shortName": "VS"
-          }
-        ],
-        "comment": [
-          {
-            "language": "DE",
-            "text": "Tourismusgemeinden Oberwallis"
-          }
-        ]
-      },
-      {
-        "id": "e3489777-4737-4801-9e17-8bef71491211",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-25",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-FR",
-            "shortName": "FR"
-          }
-        ],
-        "comment": [
-          {
-            "language": "FR",
-            "text": "Écoles primaires (ville), Écoles sec. II"
-          }
-        ]
-      },
-      {
-        "id": "fc2d8db0-18b1-4499-a214-835c0c15409e",
-        "startDate": "2026-10-15",
-        "endDate": "2026-10-25",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-VS",
-            "shortName": "VS"
-          }
-        ],
-        "comment": [
-          {
-            "language": "EN",
-            "text": "French-speaking"
-          }
-        ]
-      },
-      {
-        "id": "7bb6e766-0c67-423c-b568-0f3c7752aa46",
-        "startDate": "2026-10-19",
-        "endDate": "2026-10-23",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "CH-GE",
-            "shortName": "GE"
-          }
-        ]
-      },
       {
         "id": "531c5aac-8a8a-4626-ab1a-a621c2c1d4c7",
         "startDate": "2026-10-31",
@@ -162017,21 +161535,6 @@
     ],
     "CZ": [
       {
-        "id": "c5fdea9b-36b4-4474-a592-106bf508f6f3",
-        "startDate": "2026-10-29",
-        "endDate": "2026-10-30",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "83b3d8b1-d770-40b0-bf76-639d83ca2bed",
         "startDate": "2026-12-23",
         "endDate": "2027-01-03",
@@ -163088,405 +162591,6 @@
       }
     ],
     "DE": [
-      {
-        "id": "877d1257-6502-49ad-a495-7ae2c919ba79",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-17",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-HE",
-            "shortName": "HE"
-          }
-        ]
-      },
-      {
-        "id": "e3d21746-7a9c-4ae6-93c1-2f20aa59e25f",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-SH",
-            "shortName": "SH"
-          }
-        ],
-        "comment": [
-          {
-            "language": "EN",
-            "text": "Islands Sylt, Föhr, Amrum, Helgoland and the Halligen"
-          }
-        ],
-        "tags": [
-          "Exception"
-        ]
-      },
-      {
-        "id": "ef3eb812-9222-4008-8aff-4b9d9c0deb77",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-16",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-RP",
-            "shortName": "RP"
-          }
-        ]
-      },
-      {
-        "id": "fc737103-609f-4764-af68-d93cfefe3ac8",
-        "startDate": "2026-10-05",
-        "endDate": "2026-10-16",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-SL",
-            "shortName": "SL"
-          }
-        ]
-      },
-      {
-        "id": "54724cdc-13ac-4164-8103-34c2c2ccb5cc",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-SN",
-            "shortName": "SN"
-          }
-        ]
-      },
-      {
-        "id": "84a4da5f-d71a-4fa2-9333-625b6fd50300",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-SH",
-            "shortName": "SH"
-          }
-        ]
-      },
-      {
-        "id": "a6dee455-36a5-4052-95cc-9718def865a4",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-NI",
-            "shortName": "NI"
-          }
-        ]
-      },
-      {
-        "id": "dd933683-1b2b-49e6-9933-4b565cef0d37",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-TH",
-            "shortName": "TH"
-          }
-        ]
-      },
-      {
-        "id": "e2e44a25-b1b0-42f7-bead-8011c5192621",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-HB",
-            "shortName": "HB"
-          }
-        ]
-      },
-      {
-        "id": "afcf89fd-5efc-458a-99fe-361fbd6e7af4",
-        "startDate": "2026-10-15",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-MV",
-            "shortName": "MV"
-          }
-        ],
-        "groups": [
-          {
-            "code": "DE-MV-ABS",
-            "shortName": "MV-ABS"
-          }
-        ]
-      },
-      {
-        "id": "8ed1f201-881e-4ea9-b7b7-5769d7bb0ec2",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-31",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-NW",
-            "shortName": "NW"
-          }
-        ]
-      },
-      {
-        "id": "1fa16795-e96d-4215-8a8d-7632bdaa5285",
-        "startDate": "2026-10-19",
-        "endDate": "2026-10-31",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BE",
-            "shortName": "BE"
-          }
-        ]
-      },
-      {
-        "id": "2bfb99ac-3ca2-4d7f-8402-75e1f449ba0a",
-        "startDate": "2026-10-19",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-MV",
-            "shortName": "MV"
-          }
-        ],
-        "groups": [
-          {
-            "code": "DE-MV-BBS",
-            "shortName": "MV-BBS"
-          }
-        ]
-      },
-      {
-        "id": "37b0ebd1-bccb-46c8-ada9-2d71899503dd",
-        "startDate": "2026-10-19",
-        "endDate": "2026-10-30",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BB",
-            "shortName": "BB"
-          }
-        ]
-      },
-      {
-        "id": "e5d6d426-f4bf-4141-8cf0-9ceb75e0b8ac",
-        "startDate": "2026-10-19",
-        "endDate": "2026-10-30",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-HH",
-            "shortName": "HH"
-          }
-        ]
-      },
-      {
-        "id": "e6704c4f-6d59-4c8f-9118-be95ef4248ce",
-        "startDate": "2026-10-19",
-        "endDate": "2026-10-30",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-ST",
-            "shortName": "ST"
-          }
-        ]
-      },
-      {
-        "id": "9e0c1393-b319-4b4a-a9d6-16f18668bce4",
-        "startDate": "2026-10-26",
-        "endDate": "2026-10-30",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BW",
-            "shortName": "BW"
-          }
-        ]
-      },
-      {
-        "id": "eed82e54-2da6-42c8-a6fc-e8a393d74f93",
-        "startDate": "2026-10-31",
-        "endDate": "2026-10-31",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Reformation Day"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "DE-BW",
-            "shortName": "BW"
-          }
-        ]
-      },
       {
         "id": "b5045dcf-6618-41e7-b649-c3d6d135a611",
         "startDate": "2026-11-02",
@@ -168330,6 +167434,27 @@
             "shortName": "BW"
           }
         ]
+      },
+      {
+        "id": "794ad275-b88e-46b1-9b16-eb9c3e1b4ee0",
+        "startDate": "2028-11-22",
+        "endDate": "2028-11-22",
+        "type": "School",
+        "name": [
+          {
+            "language": "EN",
+            "text": "Repentance Day"
+          }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+          {
+            "code": "DE-BY",
+            "shortName": "BY"
+          }
+        ]
       }
     ],
     "EE": [
@@ -168411,27 +167536,6 @@
     ],
     "ES": [],
     "FR": [
-      {
-        "id": "fe0139e3-dcc2-4a80-b0aa-025acbb97122",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-24",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Holidays after first period"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "FR-RU",
-            "shortName": "RU"
-          }
-        ]
-      },
       {
         "id": "1eab9f70-49bf-47b9-89bd-2f428712b771",
         "startDate": "2026-10-18",
@@ -169049,21 +168153,6 @@
     "IT": [],
     "LI": [
       {
-        "id": "a3caba01-e3cc-4bfc-9f0c-2cc0ce6c7564",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "National",
-        "temporalScope": "FullDay",
-        "nationwide": true
-      },
-      {
         "id": "cc5280b3-c921-481e-9574-73a01c211060",
         "startDate": "2026-12-24",
         "endDate": "2027-01-06",
@@ -169280,1008 +168369,6 @@
     "MD": [],
     "MT": [],
     "NL": [
-      {
-        "id": "a7d177bf-abc5-43e5-aa5e-5fb91ed2432a",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-18",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "NL-GR-PE",
-            "shortName": "GR-PE"
-          },
-          {
-            "code": "NL-OV-SW",
-            "shortName": "OV-SW"
-          },
-          {
-            "code": "NL-OV-ZW",
-            "shortName": "OV-ZW"
-          },
-          {
-            "code": "NL-FR-DF",
-            "shortName": "FR-DF"
-          },
-          {
-            "code": "NL-NH-HU",
-            "shortName": "NH-HU"
-          },
-          {
-            "code": "NL-NH-WO",
-            "shortName": "NH-WO"
-          },
-          {
-            "code": "NL-NH-DW",
-            "shortName": "NH-DW"
-          },
-          {
-            "code": "NL-OV-RI",
-            "shortName": "OV-RI"
-          },
-          {
-            "code": "NL-FL-NO",
-            "shortName": "FL-NO"
-          },
-          {
-            "code": "NL-NH-HI",
-            "shortName": "NH-HI"
-          },
-          {
-            "code": "NL-DR-TY",
-            "shortName": "DR-TY"
-          },
-          {
-            "code": "NL-GR-OL",
-            "shortName": "GR-OL"
-          },
-          {
-            "code": "NL-OV-HN",
-            "shortName": "OV-HN"
-          },
-          {
-            "code": "NL-ZH",
-            "shortName": "ZH"
-          },
-          {
-            "code": "NL-OV-TU",
-            "shortName": "OV-TU"
-          },
-          {
-            "code": "NL-DR-ME",
-            "shortName": "DR-ME"
-          },
-          {
-            "code": "NL-NH-HL",
-            "shortName": "NH-HL"
-          },
-          {
-            "code": "NL-GR-GR",
-            "shortName": "GR-GR"
-          },
-          {
-            "code": "NL-OV-DI",
-            "shortName": "OV-DI"
-          },
-          {
-            "code": "NL-OV-AL",
-            "shortName": "OV-AL"
-          },
-          {
-            "code": "NL-OV-OZ",
-            "shortName": "OV-OZ"
-          },
-          {
-            "code": "NL-GR-WK",
-            "shortName": "GR-WK"
-          },
-          {
-            "code": "NL-OV-TW",
-            "shortName": "OV-TW"
-          },
-          {
-            "code": "NL-GR-MG",
-            "shortName": "GR-MG"
-          },
-          {
-            "code": "NL-OV-HT",
-            "shortName": "OV-HT"
-          },
-          {
-            "code": "NL-DR-AS",
-            "shortName": "DR-AS"
-          },
-          {
-            "code": "NL-NH-LM",
-            "shortName": "NH-LM"
-          },
-          {
-            "code": "NL-UT",
-            "shortName": "UT"
-          },
-          {
-            "code": "NL-NH-LR",
-            "shortName": "NH-LR"
-          },
-          {
-            "code": "NL-DR",
-            "shortName": "DR"
-          },
-          {
-            "code": "NL-NH-OA",
-            "shortName": "NH-OA"
-          },
-          {
-            "code": "NL-NH-PU",
-            "shortName": "NH-PU"
-          },
-          {
-            "code": "NL-OV-LO",
-            "shortName": "OV-LO"
-          },
-          {
-            "code": "NL-GR-WV",
-            "shortName": "GR-WV"
-          },
-          {
-            "code": "NL-OV-DV",
-            "shortName": "OV-DV"
-          },
-          {
-            "code": "NL-FR-AM",
-            "shortName": "FR-AM"
-          },
-          {
-            "code": "NL-FR-SM",
-            "shortName": "FR-SM"
-          },
-          {
-            "code": "NL-NH-AV",
-            "shortName": "NH-AV"
-          },
-          {
-            "code": "NL-OV-WI",
-            "shortName": "OV-WI"
-          },
-          {
-            "code": "NL-DR-WE",
-            "shortName": "DR-WE"
-          },
-          {
-            "code": "NL-DR-AH",
-            "shortName": "DR-AH"
-          },
-          {
-            "code": "NL-GR-ST",
-            "shortName": "GR-ST"
-          },
-          {
-            "code": "NL-FR-HA",
-            "shortName": "FR-HA"
-          },
-          {
-            "code": "NL-OV-HK",
-            "shortName": "OV-HK"
-          },
-          {
-            "code": "NL-OV-HD",
-            "shortName": "OV-HD"
-          },
-          {
-            "code": "NL-NH-HK",
-            "shortName": "NH-HK"
-          },
-          {
-            "code": "NL-NH-HA",
-            "shortName": "NH-HA"
-          },
-          {
-            "code": "NL-OV-EN",
-            "shortName": "OV-EN"
-          },
-          {
-            "code": "NL-NH-UG",
-            "shortName": "NH-UG"
-          },
-          {
-            "code": "NL-NH-DR",
-            "shortName": "NH-DR"
-          },
-          {
-            "code": "NL-GR-VE",
-            "shortName": "GR-VE"
-          },
-          {
-            "code": "NL-FR-HE",
-            "shortName": "FR-HE"
-          },
-          {
-            "code": "NL-FR-AC",
-            "shortName": "FR-AC"
-          },
-          {
-            "code": "NL-FR-VL",
-            "shortName": "FR-VL"
-          },
-          {
-            "code": "NL-DR-EM",
-            "shortName": "DR-EM"
-          },
-          {
-            "code": "NL-FR-TI",
-            "shortName": "FR-TI"
-          },
-          {
-            "code": "NL-NH-WI",
-            "shortName": "NH-WI"
-          },
-          {
-            "code": "NL-NH",
-            "shortName": "NH"
-          },
-          {
-            "code": "NL-OV-HL",
-            "shortName": "OV-HL"
-          },
-          {
-            "code": "NL-NH-DI",
-            "shortName": "NH-DI"
-          },
-          {
-            "code": "NL-NH-CA",
-            "shortName": "NH-CA"
-          },
-          {
-            "code": "NL-GR-EE",
-            "shortName": "GR-EE"
-          },
-          {
-            "code": "NL-OV-RA",
-            "shortName": "OV-RA"
-          },
-          {
-            "code": "NL-GR",
-            "shortName": "GR"
-          },
-          {
-            "code": "NL-GE",
-            "shortName": "GE"
-          },
-          {
-            "code": "NL-NH-VL",
-            "shortName": "NH-VL"
-          },
-          {
-            "code": "NL-FL-LE",
-            "shortName": "FL-LE"
-          },
-          {
-            "code": "NL-FL-UR",
-            "shortName": "FL-UR"
-          },
-          {
-            "code": "NL-OV-DA",
-            "shortName": "OV-DA"
-          },
-          {
-            "code": "NL-NH-BC",
-            "shortName": "NH-BC"
-          },
-          {
-            "code": "NL-NH-ME",
-            "shortName": "NH-ME"
-          },
-          {
-            "code": "NL-OV-KA",
-            "shortName": "OV-KA"
-          },
-          {
-            "code": "NL-UT-EE",
-            "shortName": "UT-EE"
-          },
-          {
-            "code": "NL-OV",
-            "shortName": "OV"
-          },
-          {
-            "code": "NL-FR-SF",
-            "shortName": "FR-SF"
-          },
-          {
-            "code": "NL-OV-ZL",
-            "shortName": "OV-ZL"
-          },
-          {
-            "code": "NL-NH-UH",
-            "shortName": "NH-UH"
-          },
-          {
-            "code": "NL-FR-NF",
-            "shortName": "FR-NF"
-          },
-          {
-            "code": "NL-FR-OP",
-            "shortName": "FR-OP"
-          },
-          {
-            "code": "NL-DR-DW",
-            "shortName": "DR-DW"
-          },
-          {
-            "code": "NL-NH-HS",
-            "shortName": "NH-HS"
-          },
-          {
-            "code": "NL-DR-HO",
-            "shortName": "DR-HO"
-          },
-          {
-            "code": "NL-FR-SC",
-            "shortName": "FR-SC"
-          },
-          {
-            "code": "NL-NH-EN",
-            "shortName": "NH-EN"
-          },
-          {
-            "code": "NL-OV-OT",
-            "shortName": "OV-OT"
-          },
-          {
-            "code": "NL-FR-DA",
-            "shortName": "FR-DA"
-          },
-          {
-            "code": "NL-DR-MD",
-            "shortName": "DR-MD"
-          },
-          {
-            "code": "NL-NH-AA",
-            "shortName": "NH-AA"
-          },
-          {
-            "code": "NL-FR-WA",
-            "shortName": "FR-WA"
-          },
-          {
-            "code": "NL-NH-TE",
-            "shortName": "NH-TE"
-          },
-          {
-            "code": "NL-UT-DV",
-            "shortName": "UT-DV"
-          },
-          {
-            "code": "NL-NH-SB",
-            "shortName": "NH-SB"
-          },
-          {
-            "code": "NL-NH-DH",
-            "shortName": "NH-DH"
-          },
-          {
-            "code": "NL-FL",
-            "shortName": "FL"
-          },
-          {
-            "code": "NL-FL-DR",
-            "shortName": "FL-DR"
-          },
-          {
-            "code": "NL-NH-EV",
-            "shortName": "NH-EV"
-          },
-          {
-            "code": "NL-NH-HT",
-            "shortName": "NH-HT"
-          },
-          {
-            "code": "NL-NH-ZD",
-            "shortName": "NH-ZD"
-          },
-          {
-            "code": "NL-NH-SN",
-            "shortName": "NH-SN"
-          },
-          {
-            "code": "NL-ZH-AK",
-            "shortName": "ZH-AK"
-          },
-          {
-            "code": "NL-DR-CO",
-            "shortName": "DR-CO"
-          },
-          {
-            "code": "NL-FR-OO",
-            "shortName": "FR-OO"
-          },
-          {
-            "code": "NL-FR-LW",
-            "shortName": "FR-LW"
-          },
-          {
-            "code": "NL-FR-TE",
-            "shortName": "FR-TE"
-          },
-          {
-            "code": "NL-DR-BO",
-            "shortName": "DR-BO"
-          },
-          {
-            "code": "NL-NH-BV",
-            "shortName": "NH-BV"
-          },
-          {
-            "code": "NL-NH-OO",
-            "shortName": "NH-OO"
-          },
-          {
-            "code": "NL-NH-HE",
-            "shortName": "NH-HE"
-          },
-          {
-            "code": "NL-NH-WA",
-            "shortName": "NH-WA"
-          },
-          {
-            "code": "NL-FL-AL",
-            "shortName": "FL-AL"
-          },
-          {
-            "code": "NL-GE-HT",
-            "shortName": "GE-HT"
-          },
-          {
-            "code": "NL-GR-HH",
-            "shortName": "GR-HH"
-          },
-          {
-            "code": "NL-DR-NO",
-            "shortName": "DR-NO"
-          },
-          {
-            "code": "NL-NH-ZS",
-            "shortName": "NH-ZS"
-          },
-          {
-            "code": "NL-NH-BL",
-            "shortName": "NH-BL"
-          },
-          {
-            "code": "NL-NH-HO",
-            "shortName": "NH-HO"
-          },
-          {
-            "code": "NL-NH-AD",
-            "shortName": "NH-AD"
-          },
-          {
-            "code": "NL-OV-SH",
-            "shortName": "OV-SH"
-          },
-          {
-            "code": "NL-NH-GO",
-            "shortName": "NH-GO"
-          },
-          {
-            "code": "NL-NH-BG",
-            "shortName": "NH-BG"
-          },
-          {
-            "code": "NL-NH-OP",
-            "shortName": "NH-OP"
-          },
-          {
-            "code": "NL-OV-BO",
-            "shortName": "OV-BO"
-          },
-          {
-            "code": "NL-OV-OM",
-            "shortName": "OV-OM"
-          },
-          {
-            "code": "NL-NH-KO",
-            "shortName": "NH-KO"
-          },
-          {
-            "code": "NL-FR",
-            "shortName": "FR"
-          },
-          {
-            "code": "NL-FR-WE",
-            "shortName": "FR-WE"
-          }
-        ],
-        "groups": [
-          {
-            "code": "NL-NO",
-            "shortName": "NO"
-          }
-        ]
-      },
-      {
-        "id": "9ddc891b-084e-42cc-a88c-985b2433fa0e",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-25",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn Holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "NL-ZH-BA",
-            "shortName": "ZH-BA"
-          },
-          {
-            "code": "NL-UT-NI",
-            "shortName": "UT-NI"
-          },
-          {
-            "code": "NL-NB-AL",
-            "shortName": "NB-AL"
-          },
-          {
-            "code": "NL-GE-LO",
-            "shortName": "GE-LO"
-          },
-          {
-            "code": "NL-UT-VI",
-            "shortName": "UT-VI"
-          },
-          {
-            "code": "NL-ZH-HL",
-            "shortName": "ZH-HL"
-          },
-          {
-            "code": "NL-ZH-GO",
-            "shortName": "ZH-GO"
-          },
-          {
-            "code": "NL-ZH-GC",
-            "shortName": "ZH-GC"
-          },
-          {
-            "code": "NL-ZH-SL",
-            "shortName": "ZH-SL"
-          },
-          {
-            "code": "NL-GE-HR",
-            "shortName": "GE-HR"
-          },
-          {
-            "code": "NL-UT-UT",
-            "shortName": "UT-UT"
-          },
-          {
-            "code": "NL-ZH-LE",
-            "shortName": "ZH-LE"
-          },
-          {
-            "code": "NL-ZH-MO",
-            "shortName": "ZH-MO"
-          },
-          {
-            "code": "NL-GE-ZU",
-            "shortName": "GE-ZU"
-          },
-          {
-            "code": "NL-UT-LP",
-            "shortName": "UT-LP"
-          },
-          {
-            "code": "NL-ZH-LS",
-            "shortName": "ZH-LS"
-          },
-          {
-            "code": "NL-ZH-VZ",
-            "shortName": "ZH-VZ"
-          },
-          {
-            "code": "NL-ZH-MS",
-            "shortName": "ZH-MS"
-          },
-          {
-            "code": "NL-ZH",
-            "shortName": "ZH"
-          },
-          {
-            "code": "NL-GE-NU",
-            "shortName": "GE-NU"
-          },
-          {
-            "code": "NL-GE-ER",
-            "shortName": "GE-ER"
-          },
-          {
-            "code": "NL-NB",
-            "shortName": "NB"
-          },
-          {
-            "code": "NL-ZH-NI",
-            "shortName": "ZH-NI"
-          },
-          {
-            "code": "NL-UT-OU",
-            "shortName": "UT-OU"
-          },
-          {
-            "code": "NL-UT-ZE",
-            "shortName": "UT-ZE"
-          },
-          {
-            "code": "NL-GE-MO",
-            "shortName": "GE-MO"
-          },
-          {
-            "code": "NL-ZH-RJ",
-            "shortName": "ZH-RJ"
-          },
-          {
-            "code": "NL-ZH-ZD",
-            "shortName": "ZH-ZD"
-          },
-          {
-            "code": "NL-ZH-AS",
-            "shortName": "ZH-AS"
-          },
-          {
-            "code": "NL-ZH-AW",
-            "shortName": "ZH-AW"
-          },
-          {
-            "code": "NL-UT-SV",
-            "shortName": "UT-SV"
-          },
-          {
-            "code": "NL-ZH-RT",
-            "shortName": "ZH-RT"
-          },
-          {
-            "code": "NL-UT-WB",
-            "shortName": "UT-WB"
-          },
-          {
-            "code": "NL-UT",
-            "shortName": "UT"
-          },
-          {
-            "code": "NL-ZH-HW",
-            "shortName": "ZH-HW"
-          },
-          {
-            "code": "NL-GE-BH",
-            "shortName": "GE-BH"
-          },
-          {
-            "code": "NL-ZH-LA",
-            "shortName": "ZH-LA"
-          },
-          {
-            "code": "NL-UT-AF",
-            "shortName": "UT-AF"
-          },
-          {
-            "code": "NL-UT-LD",
-            "shortName": "UT-LD"
-          },
-          {
-            "code": "NL-GE-CU",
-            "shortName": "GE-CU"
-          },
-          {
-            "code": "NL-ZH-NW",
-            "shortName": "ZH-NW"
-          },
-          {
-            "code": "NL-ZH-DO",
-            "shortName": "ZH-DO"
-          },
-          {
-            "code": "NL-GE-BL",
-            "shortName": "GE-BL"
-          },
-          {
-            "code": "NL-ZH-AR",
-            "shortName": "ZH-AR"
-          },
-          {
-            "code": "NL-GE-ED",
-            "shortName": "GE-ED"
-          },
-          {
-            "code": "NL-ZH-VD",
-            "shortName": "ZH-VD"
-          },
-          {
-            "code": "NL-GE-VS",
-            "shortName": "GE-VS"
-          },
-          {
-            "code": "NL-ZH-LD",
-            "shortName": "ZH-LD"
-          },
-          {
-            "code": "NL-GE-EP",
-            "shortName": "GE-EP"
-          },
-          {
-            "code": "NL-ZH-DE",
-            "shortName": "ZH-DE"
-          },
-          {
-            "code": "NL-GE-WW",
-            "shortName": "GE-WW"
-          },
-          {
-            "code": "NL-GE-AP",
-            "shortName": "GE-AP"
-          },
-          {
-            "code": "NL-ZH-GR",
-            "shortName": "ZH-GR"
-          },
-          {
-            "code": "NL-ZH-NK",
-            "shortName": "ZH-NK"
-          },
-          {
-            "code": "NL-GE-AA",
-            "shortName": "GE-AA"
-          },
-          {
-            "code": "NL-GE-SC",
-            "shortName": "GE-SC"
-          },
-          {
-            "code": "NL-UT-HO",
-            "shortName": "UT-HO"
-          },
-          {
-            "code": "NL-GE-NB",
-            "shortName": "GE-NB"
-          },
-          {
-            "code": "NL-GE",
-            "shortName": "GE"
-          },
-          {
-            "code": "NL-ZH-VS",
-            "shortName": "ZH-VS"
-          },
-          {
-            "code": "NL-FL-ZE",
-            "shortName": "FL-ZE"
-          },
-          {
-            "code": "NL-UT-RE",
-            "shortName": "UT-RE"
-          },
-          {
-            "code": "NL-UT-VE",
-            "shortName": "UT-VE"
-          },
-          {
-            "code": "NL-UT-UH",
-            "shortName": "UT-UH"
-          },
-          {
-            "code": "NL-ZH-OE",
-            "shortName": "ZH-OE"
-          },
-          {
-            "code": "NL-ZH-WE",
-            "shortName": "ZH-WE"
-          },
-          {
-            "code": "NL-ZH-LP",
-            "shortName": "ZH-LP"
-          },
-          {
-            "code": "NL-GE-BU",
-            "shortName": "GE-BU"
-          },
-          {
-            "code": "NL-ZH-ZR",
-            "shortName": "ZH-ZR"
-          },
-          {
-            "code": "NL-UT-RH",
-            "shortName": "UT-RH"
-          },
-          {
-            "code": "NL-ZH-ZU",
-            "shortName": "ZH-ZU"
-          },
-          {
-            "code": "NL-UT-BS",
-            "shortName": "UT-BS"
-          },
-          {
-            "code": "NL-GE-NI",
-            "shortName": "GE-NI"
-          },
-          {
-            "code": "NL-ZE-OO",
-            "shortName": "ZE-OO"
-          },
-          {
-            "code": "NL-UT-SO",
-            "shortName": "UT-SO"
-          },
-          {
-            "code": "NL-ZH-WS",
-            "shortName": "ZH-WS"
-          },
-          {
-            "code": "NL-UT-IJ",
-            "shortName": "UT-IJ"
-          },
-          {
-            "code": "NL-GE-OI",
-            "shortName": "GE-OI"
-          },
-          {
-            "code": "NL-UT-DV",
-            "shortName": "UT-DV"
-          },
-          {
-            "code": "NL-ZH-ZW",
-            "shortName": "ZH-ZW"
-          },
-          {
-            "code": "NL-GE-PU",
-            "shortName": "GE-PU"
-          },
-          {
-            "code": "NL-UT-BA",
-            "shortName": "UT-BA"
-          },
-          {
-            "code": "NL-FL",
-            "shortName": "FL"
-          },
-          {
-            "code": "NL-UT-BK",
-            "shortName": "UT-BK"
-          },
-          {
-            "code": "NL-GE-WG",
-            "shortName": "GE-WG"
-          },
-          {
-            "code": "NL-ZH-KB",
-            "shortName": "ZH-KB"
-          },
-          {
-            "code": "NL-ZH-DH",
-            "shortName": "ZH-DH"
-          },
-          {
-            "code": "NL-GE-BR",
-            "shortName": "GE-BR"
-          },
-          {
-            "code": "NL-ZH-MD",
-            "shortName": "ZH-MD"
-          },
-          {
-            "code": "NL-ZH-PA",
-            "shortName": "ZH-PA"
-          },
-          {
-            "code": "NL-UT-WD",
-            "shortName": "UT-WD"
-          },
-          {
-            "code": "NL-ZH-CI",
-            "shortName": "ZH-CI"
-          },
-          {
-            "code": "NL-ZH-KR",
-            "shortName": "ZH-KR"
-          },
-          {
-            "code": "NL-ZH-SM",
-            "shortName": "ZH-SM"
-          },
-          {
-            "code": "NL-ZH-TE",
-            "shortName": "ZH-TE"
-          },
-          {
-            "code": "NL-ZH-KA",
-            "shortName": "ZH-KA"
-          },
-          {
-            "code": "NL-ZH-RK",
-            "shortName": "ZH-RK"
-          },
-          {
-            "code": "NL-UT-DB",
-            "shortName": "UT-DB"
-          },
-          {
-            "code": "NL-UT-MO",
-            "shortName": "UT-MO"
-          },
-          {
-            "code": "NL-ZH-BG",
-            "shortName": "ZH-BG"
-          },
-          {
-            "code": "NL-GE-HW",
-            "shortName": "GE-HW"
-          },
-          {
-            "code": "NL-GE-EL",
-            "shortName": "GE-EL"
-          },
-          {
-            "code": "NL-ZH-KI",
-            "shortName": "ZH-KI"
-          },
-          {
-            "code": "NL-UT-WR",
-            "shortName": "UT-WR"
-          },
-          {
-            "code": "NL-ZH-HG",
-            "shortName": "ZH-HG"
-          },
-          {
-            "code": "NL-GE-OL",
-            "shortName": "GE-OL"
-          },
-          {
-            "code": "NL-ZH-HI",
-            "shortName": "ZH-HI"
-          },
-          {
-            "code": "NL-GE-DT",
-            "shortName": "GE-DT"
-          },
-          {
-            "code": "NL-ZH-PI",
-            "shortName": "ZH-PI"
-          },
-          {
-            "code": "NL-GE-WB",
-            "shortName": "GE-WB"
-          },
-          {
-            "code": "NL-ZH-WX",
-            "shortName": "ZH-WX"
-          },
-          {
-            "code": "NL-GE-BA",
-            "shortName": "GE-BA"
-          }
-        ],
-        "groups": [
-          {
-            "code": "NL-MI",
-            "shortName": "MI"
-          },
-          {
-            "code": "NL-ZU",
-            "shortName": "ZU"
-          }
-        ]
-      },
       {
         "id": "c06080db-2609-4e78-9d86-5658dfc6d405",
         "startDate": "2026-12-19",
@@ -180006,55 +178093,6 @@
     "SI": [],
     "SK": [
       {
-        "id": "bc02aaf5-bda0-4234-b042-d949db9ef597",
-        "startDate": "2026-10-29",
-        "endDate": "2026-10-30",
-        "type": "School",
-        "name": [
-          {
-            "language": "EN",
-            "text": "Autumn holidays"
-          }
-        ],
-        "regionalScope": "Regional",
-        "temporalScope": "FullDay",
-        "nationwide": false,
-        "subdivisions": [
-          {
-            "code": "SK-KI",
-            "shortName": "KI"
-          },
-          {
-            "code": "SK-TA",
-            "shortName": "TA"
-          },
-          {
-            "code": "SK-ZI",
-            "shortName": "ZI"
-          },
-          {
-            "code": "SK-BC",
-            "shortName": "BC"
-          },
-          {
-            "code": "SK-NI",
-            "shortName": "NI"
-          },
-          {
-            "code": "SK-PV",
-            "shortName": "PV"
-          },
-          {
-            "code": "SK-TC",
-            "shortName": "TC"
-          },
-          {
-            "code": "SK-BL",
-            "shortName": "BL"
-          }
-        ]
-      },
-      {
         "id": "e0be6e23-01d6-4ba8-8139-c6510e726e6e",
         "startDate": "2026-12-23",
         "endDate": "2027-01-07",
@@ -180567,5 +178605,5 @@
     "SM": [],
     "VA": []
   },
-  "lastCheckedAt": "2026-10-26"
+  "lastCheckedAt": "2026-11-02"
 }

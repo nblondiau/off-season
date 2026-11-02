@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-26",
-  "windowStart": "2026-10-01",
-  "windowEnd": "2028-10-31",
+  "generatedAt": "2026-11-02",
+  "windowStart": "2026-11-01",
+  "windowEnd": "2028-11-30",
   "countries": [
     {
       "countryCode": "AL",
@@ -3062,984 +3062,12 @@
       "sourceKind": "aggregated_open_data",
       "coverage": "Europe public holidays and school holidays",
       "snapshotPath": "data/snapshots/openholidays-europe.json",
-      "defaultLastChangedAt": "2026-10-26",
-      "lastCheckedAt": "2026-10-26",
-      "lastChangedAt": "2026-10-26"
+      "defaultLastChangedAt": "2026-11-02",
+      "lastCheckedAt": "2026-11-02",
+      "lastChangedAt": "2026-11-02"
     }
   ],
   "holidays": [
-    {
-      "id": "ch-school-ch-be-ch-be-vs-autumn-holidays-2026-09-19",
-      "country": "CH",
-      "regionId": "CH-BE::CH-BE-VS",
-      "regionLabel": "Switzerland · Bern · Primary Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-19",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ow-autumn-2026-09-25",
-      "country": "CH",
-      "regionId": "CH-OW",
-      "regionLabel": "Switzerland · Obwalden",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ai-autumn-holidays-2026-09-26",
-      "country": "CH",
-      "regionId": "CH-AI",
-      "regionLabel": "Switzerland · Appenzell Innerrhoden",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-bl-autumn-holidays-2026-09-26",
-      "country": "CH",
-      "regionId": "CH-BL",
-      "regionLabel": "Switzerland · Basel-Landschaft",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-28",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-bs-autumn-holidays-2026-09-26",
-      "country": "CH",
-      "regionId": "CH-BS",
-      "regionLabel": "Switzerland · Basel-Stadt",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-lu-autumn-holidays-2026-09-26",
-      "country": "CH",
-      "regionId": "CH-LU",
-      "regionLabel": "Switzerland · Lucerne",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-nw-autumn-2026-09-26",
-      "country": "CH",
-      "regionId": "CH-NW",
-      "regionLabel": "Switzerland · Nidwalden",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-sh-autumn-2026-09-26",
-      "country": "CH",
-      "regionId": "CH-SH",
-      "regionLabel": "Switzerland · Schaffhausen",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-sz-autumn-2026-09-26",
-      "country": "CH",
-      "regionId": "CH-SZ",
-      "regionLabel": "Switzerland · Schwyz",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-sg-autumn-holidays-2026-09-27",
-      "country": "CH",
-      "regionId": "CH-SG",
-      "regionLabel": "Switzerland · St. Gallen",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-27",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ag-autumn-holidays-2026-09-28",
-      "country": "CH",
-      "regionId": "CH-AG",
-      "regionLabel": "Switzerland · Aargau",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-so-ch-so-bs-autumn-holidays-2026-09-28",
-      "country": "CH",
-      "regionId": "CH-SO::CH-SO-BS",
-      "regionLabel": "Switzerland · Solothurn · Vocational Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-so-ch-so-ms-autumn-holidays-2026-09-28",
-      "country": "CH",
-      "regionId": "CH-SO::CH-SO-MS",
-      "regionLabel": "Switzerland · Solothurn · Secondary Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vc-municipal-holiday-2026-10-01",
-      "country": "PT",
-      "regionId": "PT-VC",
-      "regionLabel": "Portugal · Viana do Castelo",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sm-public-sm-nat-investiture-of-the-captains-regent-heads-of-state-2026-10-01",
-      "country": "SM",
-      "regionId": "SM-NAT",
-      "regionLabel": "San Marino",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Investiture of the Captains Regent (Heads of State)",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ai-autumn-holidays-2026-10-03",
-      "country": "CH",
-      "regionId": "CH-AI",
-      "regionLabel": "Switzerland · Appenzell Innerrhoden",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-gl-autumn-2026-10-03",
-      "country": "CH",
-      "regionId": "CH-GL",
-      "regionLabel": "Switzerland · Glarus",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ne-autumn-2026-10-03",
-      "country": "CH",
-      "regionId": "CH-NE",
-      "regionLabel": "Switzerland · Neuchâtel",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ow-autumn-2026-10-03",
-      "country": "CH",
-      "regionId": "CH-OW",
-      "regionLabel": "Switzerland · Obwalden",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-tg-autumn-2026-10-03",
-      "country": "CH",
-      "regionId": "CH-TG",
-      "regionLabel": "Switzerland · Thurgau",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ur-autumn-2026-10-03",
-      "country": "CH",
-      "regionId": "CH-UR",
-      "regionLabel": "Switzerland · Uri",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-zg-autumn-holidays-2026-10-03",
-      "country": "CH",
-      "regionId": "CH-ZG",
-      "regionLabel": "Switzerland · Zug",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-nat-day-of-german-unity-2026-10-03",
-      "country": "DE",
-      "regionId": "DE-NAT",
-      "regionLabel": "Germany",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Day of German Unity",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-03",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "li-school-li-nat-autumn-holidays-2026-10-03",
-      "country": "LI",
-      "regionId": "LI-NAT",
-      "regionLabel": "Liechtenstein",
-      "scope": "national",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-public-it-er-st-petronius-2026-10-04",
-      "country": "IT",
-      "regionId": "IT-ER",
-      "regionLabel": "Italy · Emilia-Romagna",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St. Petronius",
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-04",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ar-ch-ar-vs-autumn-holidays-2026-10-05",
-      "country": "CH",
-      "regionId": "CH-AR::CH-AR-VS",
-      "regionLabel": "Switzerland · Appenzell Ausserrhoden · Primary Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-be-ch-be-eo-autumn-holidays-2026-10-05",
-      "country": "CH",
-      "regionId": "CH-BE::CH-BE-EO",
-      "regionLabel": "Switzerland · Bern · Compulsory schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-ju-autumn-holidays-2026-10-05",
-      "country": "CH",
-      "regionId": "CH-JU",
-      "regionLabel": "Switzerland · Jura",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-zh-ch-zh-bs-autumn-holidays-2026-10-05",
-      "country": "CH",
-      "regionId": "CH-ZH::CH-ZH-BS",
-      "regionLabel": "Switzerland · Zürich · Vocational Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-17",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-zh-ch-zh-ms-autumn-holidays-2026-10-05",
-      "country": "CH",
-      "regionId": "CH-ZH::CH-ZH-MS",
-      "regionLabel": "Switzerland · Zürich · Secondary Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-17",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-zh-ch-zh-vs-autumn-holidays-2026-10-05",
-      "country": "CH",
-      "regionId": "CH-ZH::CH-ZH-VS",
-      "regionLabel": "Switzerland · Zürich · Primary Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-17",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-he-autumn-holidays-2026-10-05",
-      "country": "DE",
-      "regionId": "DE-HE",
-      "regionLabel": "Germany · Hesse",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-17",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-rp-autumn-holidays-2026-10-05",
-      "country": "DE",
-      "regionId": "DE-RP",
-      "regionLabel": "Germany · Rhineland-Palatinate",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-sh-autumn-holidays-2026-10-05",
-      "country": "DE",
-      "regionId": "DE-SH",
-      "regionLabel": "Germany · Schleswig-Holstein",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-sl-autumn-holidays-2026-10-05",
-      "country": "DE",
-      "regionId": "DE-SL",
-      "regionLabel": "Germany · Saarland",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-cn-nuestra-senora-de-guadalupe-2026-10-05",
-      "country": "ES",
-      "regionId": "ES-CN",
-      "regionLabel": "Spain · Canary Islands",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Nuestra Señora de Guadalupe",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-05",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-br-municipal-holiday-2026-10-05",
-      "country": "PT",
-      "regionId": "PT-BR",
-      "regionLabel": "Portugal · Braga",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-05",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-nat-republic-day-2026-10-05",
-      "country": "PT",
-      "regionId": "PT-NAT",
-      "regionLabel": "Portugal",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Republic Day",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-05",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-po-municipal-holiday-2026-10-05",
-      "country": "PT",
-      "regionId": "PT-PO",
-      "regionLabel": "Portugal · Porto",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-05",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-co-municipal-holiday-2026-10-07",
-      "country": "PT",
-      "regionId": "PT-CO",
-      "regionLabel": "Portugal · Coimbra",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-07",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-vi-municipal-holiday-2026-10-07",
-      "country": "PT",
-      "regionId": "PT-VI",
-      "regionLabel": "Portugal · Viseu",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-07",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-vc-regional-holiday-in-valencia-2026-10-09",
-      "country": "ES",
-      "regionId": "ES-VC",
-      "regionLabel": "Spain · Valencian Community",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Regional Holiday in Valencia",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-public-fr-bl-abolition-of-slavery-2026-10-09",
-      "country": "FR",
-      "regionId": "FR-BL",
-      "regionLabel": "France · St. Barts",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Abolition of slavery",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ma-municipal-holiday-2026-10-09",
-      "country": "PT",
-      "regionId": "PT-MA",
-      "regionLabel": "Portugal · Madeira",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-fr-autumn-2026-10-10",
-      "country": "CH",
-      "regionId": "CH-FR",
-      "regionLabel": "Switzerland · Fribourg",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-gr-ch-gr-vs-autumn-holidays-2026-10-10",
-      "country": "CH",
-      "regionId": "CH-GR::CH-GR-VS",
-      "regionLabel": "Switzerland · Grisons · Primary Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-vd-autumn-2026-10-10",
-      "country": "CH",
-      "regionId": "CH-VD",
-      "regionLabel": "Switzerland · Vaud",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-vs-autumn-2026-10-10",
-      "country": "CH",
-      "regionId": "CH-VS",
-      "regionLabel": "Switzerland · Valais",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-dr-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-DR::NL-NO",
-      "regionLabel": "Netherlands (the) · Drenthe · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-fl-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-FL::NL-NO",
-      "regionLabel": "Netherlands (the) · Flevoland · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-fr-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-FR::NL-NO",
-      "regionLabel": "Netherlands (the) · Friesland · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-ge-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-GE::NL-NO",
-      "regionLabel": "Netherlands (the) · Gelderland · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-gr-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-GR::NL-NO",
-      "regionLabel": "Netherlands (the) · Groningen · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-nh-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-NH::NL-NO",
-      "regionLabel": "Netherlands (the) · North Holland · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-ov-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-OV::NL-NO",
-      "regionLabel": "Netherlands (the) · Overijssel · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-ut-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-UT::NL-NO",
-      "regionLabel": "Netherlands (the) · Utrecht · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-zh-nl-no-autumn-holidays-2026-10-10",
-      "country": "NL",
-      "regionId": "NL-ZH::NL-NO",
-      "regionLabel": "Netherlands (the) · South Holland · North Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "fr-school-fr-ru-holidays-after-first-period-2026-10-11",
-      "country": "FR",
-      "regionId": "FR-RU",
-      "regionLabel": "France · Reunion",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Holidays after first period",
-      "startDate": "2026-10-11",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-av-municipal-holiday-2026-10-11",
-      "country": "PT",
-      "regionId": "PT-AV",
-      "regionLabel": "Portugal · Aveiro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-11",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-hb-autumn-holidays-2026-10-12",
-      "country": "DE",
-      "regionId": "DE-HB",
-      "regionLabel": "Germany · Bremen",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-ni-autumn-holidays-2026-10-12",
-      "country": "DE",
-      "regionId": "DE-NI",
-      "regionLabel": "Germany · Lower Saxony",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-sh-autumn-holidays-2026-10-12",
-      "country": "DE",
-      "regionId": "DE-SH",
-      "regionLabel": "Germany · Schleswig-Holstein",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-sn-autumn-holidays-2026-10-12",
-      "country": "DE",
-      "regionId": "DE-SN",
-      "regionLabel": "Germany · Saxony",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-th-autumn-holidays-2026-10-12",
-      "country": "DE",
-      "regionId": "DE-TH",
-      "regionLabel": "Germany · Thuringia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "es-public-es-nat-spanish-national-day-2026-10-12",
-      "country": "ES",
-      "regionId": "ES-NAT",
-      "regionLabel": "Spain",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Spanish National Day",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-12",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-school-ch-vs-autumn-2026-10-15",
-      "country": "CH",
-      "regionId": "CH-VS",
-      "regionLabel": "Switzerland · Valais",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-mv-de-mv-abs-autumn-holidays-2026-10-15",
-      "country": "DE",
-      "regionId": "DE-MV::DE-MV-ABS",
-      "regionLabel": "Germany · Mecklenburg-Western Pomerania · General Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ba-municipal-holiday-2026-10-15",
-      "country": "PT",
-      "regionId": "PT-BA",
-      "regionLabel": "Portugal · Bragança",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-15",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ch-public-ch-sz-st-gallus-day-2026-10-16",
-      "country": "CH",
-      "regionId": "CH-SZ",
-      "regionLabel": "Switzerland · Schwyz",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Gallus' Day",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ma-municipal-holiday-2026-10-16",
-      "country": "PT",
-      "regionId": "PT-MA",
-      "regionLabel": "Portugal · Madeira",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-nw-autumn-holidays-2026-10-17",
-      "country": "DE",
-      "regionId": "DE-NW",
-      "regionLabel": "Germany · North Rhine-Westphalia",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-fl-nl-mi-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-FL::NL-MI",
-      "regionLabel": "Netherlands (the) · Flevoland · Central Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-fl-nl-zu-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-FL::NL-ZU",
-      "regionLabel": "Netherlands (the) · Flevoland · South Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-ge-nl-mi-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-GE::NL-MI",
-      "regionLabel": "Netherlands (the) · Gelderland · Central Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-ge-nl-zu-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-GE::NL-ZU",
-      "regionLabel": "Netherlands (the) · Gelderland · South Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-nb-nl-mi-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-NB::NL-MI",
-      "regionLabel": "Netherlands (the) · North Brabant · Central Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-nb-nl-zu-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-NB::NL-ZU",
-      "regionLabel": "Netherlands (the) · North Brabant · South Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-ut-nl-mi-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-UT::NL-MI",
-      "regionLabel": "Netherlands (the) · Utrecht · Central Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-ut-nl-zu-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-UT::NL-ZU",
-      "regionLabel": "Netherlands (the) · Utrecht · South Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-zh-nl-mi-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-ZH::NL-MI",
-      "regionLabel": "Netherlands (the) · South Holland · Central Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "nl-school-nl-zh-nl-zu-autumn-holidays-2026-10-17",
-      "country": "NL",
-      "regionId": "NL-ZH::NL-ZU",
-      "regionLabel": "Netherlands (the) · South Holland · South Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
     {
       "id": "fr-school-fr-ar-all-saints-holidays-2026-10-18",
       "country": "FR",
@@ -4221,18 +3249,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "al-public-al-nat-mother-teresa-day-2026-10-19",
-      "country": "AL",
-      "regionId": "AL-NAT",
-      "regionLabel": "Albania",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Mother Teresa Day",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-19",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "be-school-be-fr-all-saints-holidays-2026-10-19",
       "country": "BE",
       "regionId": "BE-FR",
@@ -4245,174 +3261,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "ch-school-ch-ge-autumn-holidays-2026-10-19",
-      "country": "CH",
-      "regionId": "CH-GE",
-      "regionLabel": "Switzerland · Geneva",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-bb-autumn-holidays-2026-10-19",
-      "country": "DE",
-      "regionId": "DE-BB",
-      "regionLabel": "Germany · Brandenburg",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-be-autumn-holidays-2026-10-19",
-      "country": "DE",
-      "regionId": "DE-BE",
-      "regionLabel": "Germany · Berlin",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-hh-autumn-holidays-2026-10-19",
-      "country": "DE",
-      "regionId": "DE-HH",
-      "regionLabel": "Germany · Hamburg",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-mv-de-mv-bbs-autumn-holidays-2026-10-19",
-      "country": "DE",
-      "regionId": "DE-MV::DE-MV-BBS",
-      "regionLabel": "Germany · Mecklenburg-Western Pomerania · Vocational Schools",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-st-autumn-holidays-2026-10-19",
-      "country": "DE",
-      "regionId": "DE-ST",
-      "regionLabel": "Germany · Saxony-Anhalt",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-br-municipal-holiday-2026-10-20",
-      "country": "PT",
-      "regionId": "PT-BR",
-      "regionLabel": "Portugal · Braga",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-20",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-cb-municipal-holiday-2026-10-20",
-      "country": "PT",
-      "regionId": "PT-CB",
-      "regionLabel": "Portugal · Castelo Branco",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-20",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-se-municipal-holiday-2026-10-22",
-      "country": "PT",
-      "regionId": "PT-SE",
-      "regionLabel": "Portugal · Setúbal",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-22",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "hu-public-hu-nat-national-day-2026-10-23",
-      "country": "HU",
-      "regionId": "HU-NAT",
-      "regionLabel": "Hungary",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-10-23",
-      "endDate": "2026-10-23",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-ma-st-catherine-s-day-2026-10-25",
-      "country": "PT",
-      "regionId": "PT-MA",
-      "regionLabel": "Portugal · Madeira",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St Catherine's Day",
-      "startDate": "2026-10-25",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ad-school-ad-nat-all-saints-holidays-2026-10-26",
-      "country": "AD",
-      "regionId": "AD-NAT",
-      "regionLabel": "Andorra",
-      "scope": "national",
-      "holidayType": "school",
-      "name": "All Saints Holidays",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "at-public-at-nat-national-day-2026-10-26",
-      "country": "AT",
-      "regionId": "AT-NAT",
-      "regionLabel": "Austria",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-26",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-bw-autumn-holidays-2026-10-26",
-      "country": "DE",
-      "regionId": "DE-BW",
-      "regionLabel": "Germany · Baden-Württemberg",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "ee-school-ee-nat-autumn-holidays-2026-10-26",
       "country": "EE",
       "regionId": "EE-NAT",
@@ -4422,174 +3270,6 @@
       "name": "Autumn Holidays",
       "startDate": "2026-10-26",
       "endDate": "2026-11-01",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "ie-public-ie-nat-october-holiday-2026-10-26",
-      "country": "IE",
-      "regionId": "IE-NAT",
-      "regionLabel": "Ireland",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "October Holiday",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-26",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "at-school-at-nat-autumn-holidays-2026-10-27",
-      "country": "AT",
-      "regionId": "AT-NAT",
-      "regionLabel": "Austria",
-      "scope": "national",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-27",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "pt-public-pt-fa-municipal-holiday-2026-10-27",
-      "country": "PT",
-      "regionId": "PT-FA",
-      "regionLabel": "Portugal · Faro",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-27",
-      "endDate": "2026-10-27",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "cz-public-cz-nat-independence-day-2026-10-28",
-      "country": "CZ",
-      "regionId": "CZ-NAT",
-      "regionLabel": "Czechia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Independence Day",
-      "startDate": "2026-10-28",
-      "endDate": "2026-10-28",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "cz-school-cz-nat-autumn-holidays-2026-10-29",
-      "country": "CZ",
-      "regionId": "CZ-NAT",
-      "regionLabel": "Czechia",
-      "scope": "national",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sk-school-sk-bc-autumn-holidays-2026-10-29",
-      "country": "SK",
-      "regionId": "SK-BC",
-      "regionLabel": "Slovakia · Banská Bystrica Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sk-school-sk-bl-autumn-holidays-2026-10-29",
-      "country": "SK",
-      "regionId": "SK-BL",
-      "regionLabel": "Slovakia · Bratislava Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sk-school-sk-ki-autumn-holidays-2026-10-29",
-      "country": "SK",
-      "regionId": "SK-KI",
-      "regionLabel": "Slovakia · Košice Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sk-school-sk-ni-autumn-holidays-2026-10-29",
-      "country": "SK",
-      "regionId": "SK-NI",
-      "regionLabel": "Slovakia · Nitra Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sk-school-sk-pv-autumn-holidays-2026-10-29",
-      "country": "SK",
-      "regionId": "SK-PV",
-      "regionLabel": "Slovakia · Prešov Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sk-school-sk-ta-autumn-holidays-2026-10-29",
-      "country": "SK",
-      "regionId": "SK-TA",
-      "regionLabel": "Slovakia · Trnava Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sk-school-sk-tc-autumn-holidays-2026-10-29",
-      "country": "SK",
-      "regionId": "SK-TC",
-      "regionLabel": "Slovakia · Trenčín Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "sk-school-sk-zi-autumn-holidays-2026-10-29",
-      "country": "SK",
-      "regionId": "SK-ZI",
-      "regionLabel": "Slovakia · Žilina Region",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "it-public-it-sa-st-saturninus-2026-10-30",
-      "country": "IT",
-      "regionId": "IT-SA",
-      "regionLabel": "Italy · Sardinia",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "St. Saturninus",
-      "startDate": "2026-10-30",
-      "endDate": "2026-10-30",
       "sourceId": "openholidays-api"
     },
     {
@@ -4617,126 +3297,6 @@
       "sourceId": "openholidays-api"
     },
     {
-      "id": "de-public-de-bb-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-BB",
-      "regionLabel": "Germany · Brandenburg",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-school-de-bw-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-BW",
-      "regionLabel": "Germany · Baden-Württemberg",
-      "scope": "regional",
-      "holidayType": "school",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-hb-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-HB",
-      "regionLabel": "Germany · Bremen",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-hh-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-HH",
-      "regionLabel": "Germany · Hamburg",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-mv-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-MV",
-      "regionLabel": "Germany · Mecklenburg-Western Pomerania",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-ni-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-NI",
-      "regionLabel": "Germany · Lower Saxony",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-sh-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-SH",
-      "regionLabel": "Germany · Schleswig-Holstein",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-sn-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-SN",
-      "regionLabel": "Germany · Saxony",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-st-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-ST",
-      "regionLabel": "Germany · Saxony-Anhalt",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "de-public-de-th-reformation-day-2026-10-31",
-      "country": "DE",
-      "regionId": "DE-TH",
-      "regionLabel": "Germany · Thuringia",
-      "scope": "regional",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
       "id": "lu-school-lu-nat-all-saints-day-holidays-2026-10-31",
       "country": "LU",
       "regionId": "LU-NAT",
@@ -4746,30 +3306,6 @@
       "name": "All Saints Day Holidays",
       "startDate": "2026-10-31",
       "endDate": "2026-11-08",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "se-public-se-nat-all-saints-day-2026-10-31",
-      "country": "SE",
-      "regionId": "SE-NAT",
-      "regionLabel": "Sweden",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "All Saints' Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api"
-    },
-    {
-      "id": "si-public-si-nat-reformation-day-2026-10-31",
-      "country": "SI",
-      "regionId": "SI-NAT",
-      "regionLabel": "Slovenia",
-      "scope": "national",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
       "sourceId": "openholidays-api"
     },
     {
@@ -39475,1039 +38011,933 @@
       "startDate": "2028-10-31",
       "endDate": "2028-10-31",
       "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ad-public-ad-nat-all-saints-day-2028-11-01",
+      "country": "AD",
+      "regionId": "AD-NAT",
+      "regionLabel": "Andorra",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-public-at-nat-all-saints-day-2028-11-01",
+      "country": "AT",
+      "regionId": "AT-NAT",
+      "regionLabel": "Austria",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "be-public-be-nat-all-saints-day-2028-11-01",
+      "country": "BE",
+      "regionId": "BE-NAT",
+      "regionLabel": "Belgium",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ag-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-AG",
+      "regionLabel": "Switzerland · Aargau",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ai-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-AI",
+      "regionLabel": "Switzerland · Appenzell Innerrhoden",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-fr-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-FR",
+      "regionLabel": "Switzerland · Fribourg",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-gl-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-GL",
+      "regionLabel": "Switzerland · Glarus",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-gr-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-GR",
+      "regionLabel": "Switzerland · Grisons",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ju-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-JU",
+      "regionLabel": "Switzerland · Jura",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-lu-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-LU",
+      "regionLabel": "Switzerland · Lucerne",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-nw-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-NW",
+      "regionLabel": "Switzerland · Nidwalden",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ow-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-OW",
+      "regionLabel": "Switzerland · Obwalden",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-sg-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-SG",
+      "regionLabel": "Switzerland · St. Gallen",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-so-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-SO",
+      "regionLabel": "Switzerland · Solothurn",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-sz-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-SZ",
+      "regionLabel": "Switzerland · Schwyz",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ti-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-TI",
+      "regionLabel": "Switzerland · Ticino",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-ur-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-UR",
+      "regionLabel": "Switzerland · Uri",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-vs-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-VS",
+      "regionLabel": "Switzerland · Valais",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-zg-all-saints-day-2028-11-01",
+      "country": "CH",
+      "regionId": "CH-ZG",
+      "regionLabel": "Switzerland · Zug",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-bw-all-saints-day-2028-11-01",
+      "country": "DE",
+      "regionId": "DE-BW",
+      "regionLabel": "Germany · Baden-Württemberg",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-by-all-saints-day-2028-11-01",
+      "country": "DE",
+      "regionId": "DE-BY",
+      "regionLabel": "Germany · Bavaria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-nw-all-saints-day-2028-11-01",
+      "country": "DE",
+      "regionId": "DE-NW",
+      "regionLabel": "Germany · North Rhine-Westphalia",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-rp-all-saints-day-2028-11-01",
+      "country": "DE",
+      "regionId": "DE-RP",
+      "regionLabel": "Germany · Rhineland-Palatinate",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-sl-all-saints-day-2028-11-01",
+      "country": "DE",
+      "regionId": "DE-SL",
+      "regionLabel": "Germany · Saarland",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "fr-public-fr-nat-all-saints-day-2028-11-01",
+      "country": "FR",
+      "regionId": "FR-NAT",
+      "regionLabel": "France",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "hr-public-hr-nat-all-saints-day-2028-11-01",
+      "country": "HR",
+      "regionId": "HR-NAT",
+      "regionLabel": "Croatia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "hu-public-hu-nat-all-saints-day-2028-11-01",
+      "country": "HU",
+      "regionId": "HU-NAT",
+      "regionLabel": "Hungary",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "it-public-it-nat-all-saints-day-2028-11-01",
+      "country": "IT",
+      "regionId": "IT-NAT",
+      "regionLabel": "Italy",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "li-public-li-nat-all-saints-day-2028-11-01",
+      "country": "LI",
+      "regionId": "LI-NAT",
+      "regionLabel": "Liechtenstein",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "lt-public-lt-nat-all-saints-day-2028-11-01",
+      "country": "LT",
+      "regionId": "LT-NAT",
+      "regionLabel": "Lithuania",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "lu-public-lu-nat-all-saints-2028-11-01",
+      "country": "LU",
+      "regionId": "LU-NAT",
+      "regionLabel": "Luxembourg",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "mc-public-mc-nat-all-saints-day-2028-11-01",
+      "country": "MC",
+      "regionId": "MC-NAT",
+      "regionLabel": "Monaco",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pl-public-pl-nat-all-saints-day-2028-11-01",
+      "country": "PL",
+      "regionId": "PL-NAT",
+      "regionLabel": "Poland",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-nat-all-saints-day-2028-11-01",
+      "country": "PT",
+      "regionId": "PT-NAT",
+      "regionLabel": "Portugal",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "si-public-si-nat-day-of-remembrance-for-the-dead-2028-11-01",
+      "country": "SI",
+      "regionId": "SI-NAT",
+      "regionLabel": "Slovenia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Day of Remembrance for the Dead",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-public-sk-nat-all-saints-day-2028-11-01",
+      "country": "SK",
+      "regionId": "SK-NAT",
+      "regionLabel": "Slovakia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints’ Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sm-public-sm-nat-all-saints-day-2028-11-01",
+      "country": "SM",
+      "regionId": "SM-NAT",
+      "regionLabel": "San Marino",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "va-public-va-nat-all-saints-day-2028-11-01",
+      "country": "VA",
+      "regionId": "VA-NAT",
+      "regionLabel": "Vatican City",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints’ Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-nat-all-souls-day-2028-11-02",
+      "country": "AT",
+      "regionId": "AT-NAT",
+      "regionLabel": "Austria",
+      "scope": "national",
+      "holidayType": "school",
+      "name": "All Souls' Day",
+      "startDate": "2028-11-02",
+      "endDate": "2028-11-02",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "lt-public-lt-nat-all-souls-day-2028-11-02",
+      "country": "LT",
+      "regionId": "LT-NAT",
+      "regionLabel": "Lithuania",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Souls' Day",
+      "startDate": "2028-11-02",
+      "endDate": "2028-11-02",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sm-public-sm-nat-all-souls-day-2028-11-02",
+      "country": "SM",
+      "regionId": "SM-NAT",
+      "regionLabel": "San Marino",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Souls' Day",
+      "startDate": "2028-11-02",
+      "endDate": "2028-11-02",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "va-public-va-nat-all-souls-day-2028-11-02",
+      "country": "VA",
+      "regionId": "VA-NAT",
+      "regionLabel": "Vatican City",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Souls’ Day",
+      "startDate": "2028-11-02",
+      "endDate": "2028-11-02",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "it-public-it-fv-st-justus-2028-11-03",
+      "country": "IT",
+      "regionId": "IT-FV",
+      "regionLabel": "Italy · Friuli Venezia Giulia",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St. Justus",
+      "startDate": "2028-11-03",
+      "endDate": "2028-11-03",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "se-public-se-nat-all-saints-day-2028-11-04",
+      "country": "SE",
+      "regionId": "SE-NAT",
+      "regionLabel": "Sweden",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-04",
+      "endDate": "2028-11-04",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-po-municipal-holiday-2028-11-06",
+      "country": "PT",
+      "regionId": "PT-PO",
+      "regionLabel": "Portugal · Porto",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-06",
+      "endDate": "2028-11-06",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-sa-municipal-holiday-2028-11-06",
+      "country": "PT",
+      "regionId": "PT-SA",
+      "regionLabel": "Portugal · Santarém",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-06",
+      "endDate": "2028-11-06",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vr-municipal-holiday-2028-11-06",
+      "country": "PT",
+      "regionId": "PT-VR",
+      "regionLabel": "Portugal · Vila Real",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-06",
+      "endDate": "2028-11-06",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "by-public-by-nat-october-revolution-day-2028-11-07",
+      "country": "BY",
+      "regionId": "BY-NAT",
+      "regionLabel": "Belarus",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "October Revolution Day",
+      "startDate": "2028-11-07",
+      "endDate": "2028-11-07",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-bl-saint-martin-s-day-2028-11-11",
+      "country": "AT",
+      "regionId": "AT-BL",
+      "regionLabel": "Austria · Burgenland",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Saint Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "be-public-be-nat-armistice-day-2028-11-11",
+      "country": "BE",
+      "regionId": "BE-NAT",
+      "regionLabel": "Belgium",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Armistice Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ch-public-ch-sz-st-martin-s-day-2028-11-11",
+      "country": "CH",
+      "regionId": "CH-SZ",
+      "regionLabel": "Switzerland · Schwyz",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "fr-public-fr-nat-armistice-day-2028-11-11",
+      "country": "FR",
+      "regionId": "FR-NAT",
+      "regionLabel": "France",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Armistice Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pl-public-pl-nat-independence-day-2028-11-11",
+      "country": "PL",
+      "regionId": "PL-NAT",
+      "regionLabel": "Poland",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Independence Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-gu-st-martin-s-day-2028-11-11",
+      "country": "PT",
+      "regionId": "PT-GU",
+      "regionLabel": "Portugal · Guarda",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-le-st-martin-s-day-2028-11-11",
+      "country": "PT",
+      "regionId": "PT-LE",
+      "regionLabel": "Portugal · Leiria",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-li-st-martin-s-day-2028-11-11",
+      "country": "PT",
+      "regionId": "PT-LI",
+      "regionLabel": "Portugal · Lisbon",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-po-st-martin-s-day-2028-11-11",
+      "country": "PT",
+      "regionId": "PT-PO",
+      "regionLabel": "Portugal · Porto",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vr-st-martin-s-day-2028-11-11",
+      "country": "PT",
+      "regionId": "PT-VR",
+      "regionLabel": "Portugal · Vila Real",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "rs-public-rs-nat-armistice-day-2028-11-11",
+      "country": "RS",
+      "regionId": "RS-NAT",
+      "regionLabel": "Serbia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Armistice Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-no-saint-leopold-s-day-2028-11-15",
+      "country": "AT",
+      "regionId": "AT-NÖ",
+      "regionLabel": "Austria · Lower Austria",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Saint Leopold's Day",
+      "startDate": "2028-11-15",
+      "endDate": "2028-11-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "at-school-at-wi-saint-leopold-s-day-2028-11-15",
+      "country": "AT",
+      "regionId": "AT-WI",
+      "regionLabel": "Austria · Vienna",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Saint Leopold's Day",
+      "startDate": "2028-11-15",
+      "endDate": "2028-11-15",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "cz-public-cz-nat-day-of-struggle-for-freedom-and-democracy-2028-11-17",
+      "country": "CZ",
+      "regionId": "CZ-NAT",
+      "regionLabel": "Czechia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Day of Struggle for Freedom and Democracy",
+      "startDate": "2028-11-17",
+      "endDate": "2028-11-17",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "sk-public-sk-nat-day-of-struggle-for-freedom-and-democracy-2028-11-17",
+      "country": "SK",
+      "regionId": "SK-NAT",
+      "regionLabel": "Slovakia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Day of Struggle for Freedom and Democracy",
+      "startDate": "2028-11-17",
+      "endDate": "2028-11-17",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "hr-public-hr-nat-remembrance-day-2028-11-18",
+      "country": "HR",
+      "regionId": "HR-NAT",
+      "regionLabel": "Croatia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Remembrance Day",
+      "startDate": "2028-11-18",
+      "endDate": "2028-11-18",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "lv-public-lv-nat-day-of-the-proclamation-of-the-republic-of-latvia-2028-11-18",
+      "country": "LV",
+      "regionId": "LV-NAT",
+      "regionLabel": "Latvia",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Day of the Proclamation of the Republic of Latvia",
+      "startDate": "2028-11-18",
+      "endDate": "2028-11-18",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-li-municipal-holiday-2028-11-19",
+      "country": "PT",
+      "regionId": "PT-LI",
+      "regionLabel": "Portugal · Lisbon",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-19",
+      "endDate": "2028-11-19",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "mc-public-mc-nat-prince-s-day-2028-11-20",
+      "country": "MC",
+      "regionId": "MC-NAT",
+      "regionLabel": "Monaco",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Prince's Day",
+      "startDate": "2028-11-20",
+      "endDate": "2028-11-20",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-school-de-by-repentance-day-2028-11-22",
+      "country": "DE",
+      "regionId": "DE-BY",
+      "regionLabel": "Germany · Bavaria",
+      "scope": "regional",
+      "holidayType": "school",
+      "name": "Repentance Day",
+      "startDate": "2028-11-22",
+      "endDate": "2028-11-22",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "de-public-de-sn-repentance-day-2028-11-22",
+      "country": "DE",
+      "regionId": "DE-SN",
+      "regionLabel": "Germany · Saxony",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Repentance Day",
+      "startDate": "2028-11-22",
+      "endDate": "2028-11-22",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-pa-municipal-holiday-2028-11-23",
+      "country": "PT",
+      "regionId": "PT-PA",
+      "regionLabel": "Portugal · Portalegre",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-23",
+      "endDate": "2028-11-23",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-sa-municipal-holiday-2028-11-24",
+      "country": "PT",
+      "regionId": "PT-SA",
+      "regionLabel": "Portugal · Santarém",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-24",
+      "endDate": "2028-11-24",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-se-municipal-holiday-2028-11-24",
+      "country": "PT",
+      "regionId": "PT-SE",
+      "regionLabel": "Portugal · Setúbal",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-24",
+      "endDate": "2028-11-24",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-gu-municipal-holiday-2028-11-27",
+      "country": "PT",
+      "regionId": "PT-GU",
+      "regionLabel": "Portugal · Guarda",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-27",
+      "endDate": "2028-11-27",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "al-public-al-nat-flag-and-independence-day-2028-11-28",
+      "country": "AL",
+      "regionId": "AL-NAT",
+      "regionLabel": "Albania",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Flag and Independence Day",
+      "startDate": "2028-11-28",
+      "endDate": "2028-11-28",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "al-public-al-nat-liberation-day-2028-11-29",
+      "country": "AL",
+      "regionId": "AL-NAT",
+      "regionLabel": "Albania",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Liberation Day",
+      "startDate": "2028-11-29",
+      "endDate": "2028-11-29",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "pt-public-pt-vr-st-andrew-s-day-2028-11-30",
+      "country": "PT",
+      "regionId": "PT-VR",
+      "regionLabel": "Portugal · Vila Real",
+      "scope": "regional",
+      "holidayType": "public",
+      "name": "St Andrew's Day",
+      "startDate": "2028-11-30",
+      "endDate": "2028-11-30",
+      "sourceId": "openholidays-api"
+    },
+    {
+      "id": "ro-public-ro-nat-saint-andrew-s-day-2028-11-30",
+      "country": "RO",
+      "regionId": "RO-NAT",
+      "regionLabel": "Romania",
+      "scope": "national",
+      "holidayType": "public",
+      "name": "Saint Andrew's Day",
+      "startDate": "2028-11-30",
+      "endDate": "2028-11-30",
+      "sourceId": "openholidays-api"
     }
   ],
   "holidayCoverage": [
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-09-19::2026-10-11::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-19",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Bern"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        },
-        {
-          "model": "school_type",
-          "normalizedScope": "regional",
-          "displayMode": "labels",
-          "regionLabels": [
-            "Switzerland · Primary Schools"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn::school::openholidays-api::2026-09-25::2026-10-11::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Obwalden"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn::school::openholidays-api::2026-09-26::2026-10-11::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Nidwalden",
-            "Switzerland · Schwyz"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn::school::openholidays-api::2026-09-26::2026-10-18::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Schaffhausen"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-09-26::2026-10-18::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Appenzell Innerrhoden"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-09-26::2026-10-11::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Basel-Landschaft",
-            "Switzerland · Basel-Stadt",
-            "Switzerland · Lucerne"
-          ],
-          "regionCount": 3,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-09-26::2026-10-28::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-26",
-      "endDate": "2026-10-28",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Basel-Landschaft"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-09-27::2026-10-18::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-27",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · St. Gallen"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-09-28::2026-10-16::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Solothurn"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        },
-        {
-          "model": "school_type",
-          "normalizedScope": "regional",
-          "displayMode": "labels",
-          "regionLabels": [
-            "Switzerland · Secondary Schools",
-            "Switzerland · Vocational Schools"
-          ],
-          "regionCount": 2
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-09-28::2026-10-09::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-09",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Aargau"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-01::2026-10-01::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Viana do Castelo"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "SM::investiture of the captains regent (heads of state)::public::openholidays-api::2026-10-01::2026-10-01::",
-      "country": "SM",
-      "holidayType": "public",
-      "name": "Investiture of the Captains Regent (Heads of State)",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-01",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "San Marino"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn::school::openholidays-api::2026-10-03::2026-10-18::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Glarus",
-            "Switzerland · Neuchâtel",
-            "Switzerland · Thurgau",
-            "Switzerland · Uri"
-          ],
-          "regionCount": 4,
-          "countLabel": "regions",
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn::school::openholidays-api::2026-10-03::2026-10-25::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Obwalden"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-10-03::2026-10-18::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Appenzell Innerrhoden",
-            "Switzerland · Zug"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        }
-      ]
-    },
-    {
-      "key": "DE::day of german unity::public::openholidays-api::2026-10-03::2026-10-03::",
-      "country": "DE",
-      "holidayType": "public",
-      "name": "Day of German Unity",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-03",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Germany"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "LI::autumn holidays::school::openholidays-api::2026-10-03::2026-10-18::",
-      "country": "LI",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Liechtenstein"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "IT::st. petronius::public::openholidays-api::2026-10-04::2026-10-04::",
-      "country": "IT",
-      "holidayType": "public",
-      "name": "St. Petronius",
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-04",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Italy · Emilia-Romagna"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-10-05::2026-10-16::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Appenzell Ausserrhoden",
-            "Switzerland · Bern",
-            "Switzerland · Jura"
-          ],
-          "regionCount": 3,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        },
-        {
-          "model": "school_type",
-          "normalizedScope": "regional",
-          "displayMode": "labels",
-          "regionLabels": [
-            "Switzerland · Compulsory schools",
-            "Switzerland · Primary Schools"
-          ],
-          "regionCount": 2
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-10-05::2026-10-17::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-17",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Zürich"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        },
-        {
-          "model": "school_type",
-          "normalizedScope": "regional",
-          "displayMode": "labels",
-          "regionLabels": [
-            "Switzerland · Primary Schools",
-            "Switzerland · Secondary Schools",
-            "Switzerland · Vocational Schools"
-          ],
-          "regionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-05::2026-10-17::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-17",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Hesse"
-          ],
-          "regionCount": 1,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-05::2026-10-24::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Schleswig-Holstein"
-          ],
-          "regionCount": 1,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-05::2026-10-16::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Rhineland-Palatinate",
-            "Germany · Saarland"
-          ],
-          "regionCount": 2,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "ES::nuestra señora de guadalupe::public::openholidays-api::2026-10-05::2026-10-05::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Nuestra Señora de Guadalupe",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Canary Islands"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-05::2026-10-05::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Braga",
-            "Portugal · Porto"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::republic day::public::openholidays-api::2026-10-05::2026-10-05::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Republic Day",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-05",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-07::2026-10-07::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-07",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Coimbra",
-            "Portugal · Viseu"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "ES::regional holiday in valencia::public::openholidays-api::2026-10-09::2026-10-09::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Regional Holiday in Valencia",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain · Valencian Community"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "FR::abolition of slavery::public::openholidays-api::2026-10-09::2026-10-09::",
-      "country": "FR",
-      "holidayType": "public",
-      "name": "Abolition of slavery",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "France · St. Barts"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 7
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-09::2026-10-09::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Madeira"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn::school::openholidays-api::2026-10-10::2026-10-25::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Fribourg",
-            "Switzerland · Valais",
-            "Switzerland · Vaud"
-          ],
-          "regionCount": 3,
-          "countLabel": "regions",
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-10-10::2026-10-25::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Grisons"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        },
-        {
-          "model": "school_type",
-          "normalizedScope": "regional",
-          "displayMode": "labels",
-          "regionLabels": [
-            "Switzerland · Primary Schools"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "NL::autumn holidays::school::openholidays-api::2026-10-10::2026-10-18::",
-      "country": "NL",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-18",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "geographic_group",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Netherlands (the) · North Region"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "FR::holidays after first period::school::openholidays-api::2026-10-11::2026-10-24::",
-      "country": "FR",
-      "holidayType": "school",
-      "name": "Holidays after first period",
-      "startDate": "2026-10-11",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "France · Reunion"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-11::2026-10-11::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-11",
-      "endDate": "2026-10-11",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Aveiro"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-12::2026-10-24::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Bremen",
-            "Germany · Lower Saxony",
-            "Germany · Saxony",
-            "Germany · Schleswig-Holstein",
-            "Germany · Thuringia"
-          ],
-          "regionCount": 5,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "ES::spanish national day::public::openholidays-api::2026-10-12::2026-10-12::",
-      "country": "ES",
-      "holidayType": "public",
-      "name": "Spanish National Day",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-12",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Spain"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "CH::autumn::school::openholidays-api::2026-10-15::2026-10-25::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Valais"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 12
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-15::2026-10-24::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Mecklenburg-Western Pomerania"
-          ],
-          "regionCount": 1,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        },
-        {
-          "model": "school_type",
-          "normalizedScope": "regional",
-          "displayMode": "labels",
-          "regionLabels": [
-            "Germany · General Schools"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-15::2026-10-15::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-15",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Bragança"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "CH::st gallus' day::public::openholidays-api::2026-10-16::2026-10-16::",
-      "country": "CH",
-      "holidayType": "public",
-      "name": "St Gallus' Day",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Switzerland · Schwyz"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-16::2026-10-16::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-16",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Madeira"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-17::2026-10-31::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · North Rhine-Westphalia"
-          ],
-          "regionCount": 1,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "NL::autumn holidays::school::openholidays-api::2026-10-17::2026-10-25::",
-      "country": "NL",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "geographic_group",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Netherlands (the) · Central Region",
-            "Netherlands (the) · South Region"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 3
-        }
-      ]
-    },
     {
       "key": "FR::all saints holidays::school::openholidays-api::2026-10-18::2026-11-01::",
       "country": "FR",
@@ -40529,26 +38959,6 @@
           "regionCount": 3,
           "countLabel": "zones",
           "totalRegionCount": 3
-        }
-      ]
-    },
-    {
-      "key": "AL::mother teresa day::public::openholidays-api::2026-10-19::2026-10-19::",
-      "country": "AL",
-      "holidayType": "public",
-      "name": "Mother Teresa Day",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-19",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Albania"
-          ],
-          "regionCount": 1
         }
       ]
     },
@@ -40575,253 +38985,6 @@
       ]
     },
     {
-      "key": "CH::autumn holidays::school::openholidays-api::2026-10-19::2026-10-23::",
-      "country": "CH",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-23",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Switzerland · Geneva"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 14
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-19::2026-10-24::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-24",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Mecklenburg-Western Pomerania"
-          ],
-          "regionCount": 1,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        },
-        {
-          "model": "school_type",
-          "normalizedScope": "regional",
-          "displayMode": "labels",
-          "regionLabels": [
-            "Germany · Vocational Schools"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-19::2026-10-31::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Berlin"
-          ],
-          "regionCount": 1,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-19::2026-10-30::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Brandenburg",
-            "Germany · Hamburg",
-            "Germany · Saxony-Anhalt"
-          ],
-          "regionCount": 3,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-20::2026-10-20::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-20",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Braga",
-            "Portugal · Castelo Branco"
-          ],
-          "regionCount": 2,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-22::2026-10-22::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-22",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Setúbal"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "HU::national day::public::openholidays-api::2026-10-23::2026-10-23::",
-      "country": "HU",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-10-23",
-      "endDate": "2026-10-23",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Hungary"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::st catherine's day::public::openholidays-api::2026-10-25::2026-10-25::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "St Catherine's Day",
-      "startDate": "2026-10-25",
-      "endDate": "2026-10-25",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Portugal · Madeira"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "AD::all saints holidays::school::openholidays-api::2026-10-26::2026-10-30::",
-      "country": "AD",
-      "holidayType": "school",
-      "name": "All Saints Holidays",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Andorra"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "AT::national day::public::openholidays-api::2026-10-26::2026-10-26::",
-      "country": "AT",
-      "holidayType": "public",
-      "name": "National Day",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-26",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Austria"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "DE::autumn holidays::school::openholidays-api::2026-10-26::2026-10-30::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Germany · Baden-Württemberg"
-          ],
-          "regionCount": 1,
-          "countLabel": "states",
-          "totalRegionCount": 16
-        }
-      ]
-    },
-    {
       "key": "EE::autumn holidays::school::openholidays-api::2026-10-26::2026-11-01::",
       "country": "EE",
       "holidayType": "school",
@@ -40842,157 +39005,6 @@
       ]
     },
     {
-      "key": "IE::october holiday::public::openholidays-api::2026-10-26::2026-10-26::",
-      "country": "IE",
-      "holidayType": "public",
-      "name": "October Holiday",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-26",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Ireland"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "AT::autumn holidays::school::openholidays-api::2026-10-27::2026-10-31::",
-      "country": "AT",
-      "holidayType": "school",
-      "name": "Autumn Holidays",
-      "startDate": "2026-10-27",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Austria"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "PT::municipal holiday::public::openholidays-api::2026-10-27::2026-10-27::",
-      "country": "PT",
-      "holidayType": "public",
-      "name": "Municipal holiday",
-      "startDate": "2026-10-27",
-      "endDate": "2026-10-27",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
-          "regionLabels": [
-            "Portugal · Faro"
-          ],
-          "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 20
-        }
-      ]
-    },
-    {
-      "key": "CZ::independence day::public::openholidays-api::2026-10-28::2026-10-28::",
-      "country": "CZ",
-      "holidayType": "public",
-      "name": "Independence Day",
-      "startDate": "2026-10-28",
-      "endDate": "2026-10-28",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Czechia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "CZ::autumn holidays::school::openholidays-api::2026-10-29::2026-10-30::",
-      "country": "CZ",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Czechia"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "SK::autumn holidays::school::openholidays-api::2026-10-29::2026-10-30::",
-      "country": "SK",
-      "holidayType": "school",
-      "name": "Autumn holidays",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Slovakia · Banská Bystrica Region",
-            "Slovakia · Bratislava Region",
-            "Slovakia · Košice Region",
-            "Slovakia · Nitra Region",
-            "Slovakia · Prešov Region",
-            "Slovakia · Trenčín Region",
-            "Slovakia · Trnava Region",
-            "Slovakia · Žilina Region"
-          ],
-          "regionCount": 8,
-          "totalRegionCount": 8
-        }
-      ]
-    },
-    {
-      "key": "IT::st. saturninus::public::openholidays-api::2026-10-30::2026-10-30::",
-      "country": "IT",
-      "holidayType": "public",
-      "name": "St. Saturninus",
-      "startDate": "2026-10-30",
-      "endDate": "2026-10-30",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Italy · Sardinia"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
       "key": "CH::autumn::school::openholidays-api::2026-10-31::2026-11-08::",
       "country": "CH",
       "holidayType": "school",
@@ -41003,14 +39015,13 @@
       "segments": [
         {
           "model": "administrative",
-          "normalizedScope": "regional",
-          "displayMode": "count",
+          "normalizedScope": "national",
+          "displayMode": "national",
           "regionLabels": [
             "Switzerland · Ticino"
           ],
           "regionCount": 1,
-          "countLabel": "regions",
-          "totalRegionCount": 12
+          "totalRegionCount": 1
         }
       ]
     },
@@ -41046,56 +39057,6 @@
       ]
     },
     {
-      "key": "DE::reformation day::public::openholidays-api::2026-10-31::2026-10-31::",
-      "country": "DE",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Germany · Brandenburg",
-            "Germany · Bremen",
-            "Germany · Hamburg",
-            "Germany · Lower Saxony",
-            "Germany · Mecklenburg-Western Pomerania",
-            "Germany · Saxony",
-            "Germany · Saxony-Anhalt",
-            "Germany · Schleswig-Holstein",
-            "Germany · Thuringia"
-          ],
-          "regionCount": 9,
-          "totalRegionCount": 9
-        }
-      ]
-    },
-    {
-      "key": "DE::reformation day::school::openholidays-api::2026-10-31::2026-10-31::",
-      "country": "DE",
-      "holidayType": "school",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "administrative",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Germany · Baden-Württemberg"
-          ],
-          "regionCount": 1,
-          "totalRegionCount": 1
-        }
-      ]
-    },
-    {
       "key": "LU::all saints day holidays::school::openholidays-api::2026-10-31::2026-11-08::",
       "country": "LU",
       "holidayType": "school",
@@ -41110,46 +39071,6 @@
           "displayMode": "national",
           "regionLabels": [
             "Luxembourg"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "SE::all saints' day::public::openholidays-api::2026-10-31::2026-10-31::",
-      "country": "SE",
-      "holidayType": "public",
-      "name": "All Saints' Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Sweden"
-          ],
-          "regionCount": 1
-        }
-      ]
-    },
-    {
-      "key": "SI::reformation day::public::openholidays-api::2026-10-31::2026-10-31::",
-      "country": "SI",
-      "holidayType": "public",
-      "name": "Reformation Day",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "sourceId": "openholidays-api",
-      "segments": [
-        {
-          "model": "national",
-          "normalizedScope": "national",
-          "displayMode": "national",
-          "regionLabels": [
-            "Slovenia"
           ],
           "regionCount": 1
         }
@@ -76910,6 +74831,1053 @@
           "displayMode": "national",
           "regionLabels": [
             "Slovenia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AD::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "AD",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Andorra"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AT::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "AT",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Austria"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "BE::all saints day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "BE",
+      "holidayType": "public",
+      "name": "All Saints Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Belgium"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "CH::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "CH",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Switzerland · Aargau",
+            "Switzerland · Appenzell Innerrhoden",
+            "Switzerland · Fribourg",
+            "Switzerland · Glarus",
+            "Switzerland · Grisons",
+            "Switzerland · Jura",
+            "Switzerland · Lucerne",
+            "Switzerland · Nidwalden",
+            "Switzerland · Obwalden",
+            "Switzerland · Schwyz",
+            "Switzerland · Solothurn",
+            "Switzerland · St. Gallen",
+            "Switzerland · Ticino",
+            "Switzerland · Uri",
+            "Switzerland · Valais",
+            "Switzerland · Zug"
+          ],
+          "regionCount": 16,
+          "totalRegionCount": 16
+        }
+      ]
+    },
+    {
+      "key": "DE::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "DE",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Germany · Baden-Württemberg",
+            "Germany · Bavaria",
+            "Germany · North Rhine-Westphalia",
+            "Germany · Rhineland-Palatinate",
+            "Germany · Saarland"
+          ],
+          "regionCount": 5,
+          "totalRegionCount": 5
+        }
+      ]
+    },
+    {
+      "key": "FR::all saints day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "FR",
+      "holidayType": "public",
+      "name": "All Saints Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "France"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "HR::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "HR",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Croatia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "HU::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "HU",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Hungary"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "IT::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "IT",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Italy"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LI::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "LI",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Liechtenstein"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LT::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "LT",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Lithuania"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LU::all saints::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "LU",
+      "holidayType": "public",
+      "name": "All Saints",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Luxembourg"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "MC::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "MC",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Monaco"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PL::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "PL",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Poland"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SI::day of remembrance for the dead::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "SI",
+      "holidayType": "public",
+      "name": "Day of Remembrance for the Dead",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Slovenia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SK::all saints’ day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "SK",
+      "holidayType": "public",
+      "name": "All Saints’ Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Slovakia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SM::all saints' day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "SM",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "San Marino"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "VA::all saints’ day::public::openholidays-api::2028-11-01::2028-11-01::",
+      "country": "VA",
+      "holidayType": "public",
+      "name": "All Saints’ Day",
+      "startDate": "2028-11-01",
+      "endDate": "2028-11-01",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Vatican City"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AT::all souls' day::school::openholidays-api::2028-11-02::2028-11-02::",
+      "country": "AT",
+      "holidayType": "school",
+      "name": "All Souls' Day",
+      "startDate": "2028-11-02",
+      "endDate": "2028-11-02",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Austria"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LT::all souls' day::public::openholidays-api::2028-11-02::2028-11-02::",
+      "country": "LT",
+      "holidayType": "public",
+      "name": "All Souls' Day",
+      "startDate": "2028-11-02",
+      "endDate": "2028-11-02",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Lithuania"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SM::all souls' day::public::openholidays-api::2028-11-02::2028-11-02::",
+      "country": "SM",
+      "holidayType": "public",
+      "name": "All Souls' Day",
+      "startDate": "2028-11-02",
+      "endDate": "2028-11-02",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "San Marino"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "VA::all souls’ day::public::openholidays-api::2028-11-02::2028-11-02::",
+      "country": "VA",
+      "holidayType": "public",
+      "name": "All Souls’ Day",
+      "startDate": "2028-11-02",
+      "endDate": "2028-11-02",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Vatican City"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "IT::st. justus::public::openholidays-api::2028-11-03::2028-11-03::",
+      "country": "IT",
+      "holidayType": "public",
+      "name": "St. Justus",
+      "startDate": "2028-11-03",
+      "endDate": "2028-11-03",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Italy · Friuli Venezia Giulia"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SE::all saints' day::public::openholidays-api::2028-11-04::2028-11-04::",
+      "country": "SE",
+      "holidayType": "public",
+      "name": "All Saints' Day",
+      "startDate": "2028-11-04",
+      "endDate": "2028-11-04",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Sweden"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-11-06::2028-11-06::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-06",
+      "endDate": "2028-11-06",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Porto",
+            "Portugal · Santarém",
+            "Portugal · Vila Real"
+          ],
+          "regionCount": 3,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "BY::october revolution day::public::openholidays-api::2028-11-07::2028-11-07::",
+      "country": "BY",
+      "holidayType": "public",
+      "name": "October Revolution Day",
+      "startDate": "2028-11-07",
+      "endDate": "2028-11-07",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Belarus"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AT::saint martin's day::school::openholidays-api::2028-11-11::2028-11-11::",
+      "country": "AT",
+      "holidayType": "school",
+      "name": "Saint Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Austria · Burgenland"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "BE::armistice day::public::openholidays-api::2028-11-11::2028-11-11::",
+      "country": "BE",
+      "holidayType": "public",
+      "name": "Armistice Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Belgium"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "CH::st martin's day::public::openholidays-api::2028-11-11::2028-11-11::",
+      "country": "CH",
+      "holidayType": "public",
+      "name": "St Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Switzerland · Schwyz"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "FR::armistice day::public::openholidays-api::2028-11-11::2028-11-11::",
+      "country": "FR",
+      "holidayType": "public",
+      "name": "Armistice Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "France"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PL::independence day::public::openholidays-api::2028-11-11::2028-11-11::",
+      "country": "PL",
+      "holidayType": "public",
+      "name": "Independence Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Poland"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::st martin's day::public::openholidays-api::2028-11-11::2028-11-11::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St Martin's Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Guarda",
+            "Portugal · Leiria",
+            "Portugal · Lisbon",
+            "Portugal · Porto",
+            "Portugal · Vila Real"
+          ],
+          "regionCount": 5,
+          "totalRegionCount": 5
+        }
+      ]
+    },
+    {
+      "key": "RS::armistice day::public::openholidays-api::2028-11-11::2028-11-11::",
+      "country": "RS",
+      "holidayType": "public",
+      "name": "Armistice Day",
+      "startDate": "2028-11-11",
+      "endDate": "2028-11-11",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Serbia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AT::saint leopold's day::school::openholidays-api::2028-11-15::2028-11-15::",
+      "country": "AT",
+      "holidayType": "school",
+      "name": "Saint Leopold's Day",
+      "startDate": "2028-11-15",
+      "endDate": "2028-11-15",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Austria · Lower Austria",
+            "Austria · Vienna"
+          ],
+          "regionCount": 2,
+          "totalRegionCount": 2
+        }
+      ]
+    },
+    {
+      "key": "CZ::day of struggle for freedom and democracy::public::openholidays-api::2028-11-17::2028-11-17::",
+      "country": "CZ",
+      "holidayType": "public",
+      "name": "Day of Struggle for Freedom and Democracy",
+      "startDate": "2028-11-17",
+      "endDate": "2028-11-17",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Czechia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "SK::day of struggle for freedom and democracy::public::openholidays-api::2028-11-17::2028-11-17::",
+      "country": "SK",
+      "holidayType": "public",
+      "name": "Day of Struggle for Freedom and Democracy",
+      "startDate": "2028-11-17",
+      "endDate": "2028-11-17",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Slovakia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "HR::remembrance day::public::openholidays-api::2028-11-18::2028-11-18::",
+      "country": "HR",
+      "holidayType": "public",
+      "name": "Remembrance Day",
+      "startDate": "2028-11-18",
+      "endDate": "2028-11-18",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Croatia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "LV::day of the proclamation of the republic of latvia::public::openholidays-api::2028-11-18::2028-11-18::",
+      "country": "LV",
+      "holidayType": "public",
+      "name": "Day of the Proclamation of the Republic of Latvia",
+      "startDate": "2028-11-18",
+      "endDate": "2028-11-18",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Latvia"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-11-19::2028-11-19::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-19",
+      "endDate": "2028-11-19",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Lisbon"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "MC::prince's day::public::openholidays-api::2028-11-20::2028-11-20::",
+      "country": "MC",
+      "holidayType": "public",
+      "name": "Prince's Day",
+      "startDate": "2028-11-20",
+      "endDate": "2028-11-20",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Monaco"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "DE::repentance day::public::openholidays-api::2028-11-22::2028-11-22::",
+      "country": "DE",
+      "holidayType": "public",
+      "name": "Repentance Day",
+      "startDate": "2028-11-22",
+      "endDate": "2028-11-22",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Germany · Saxony"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "DE::repentance day::school::openholidays-api::2028-11-22::2028-11-22::",
+      "country": "DE",
+      "holidayType": "school",
+      "name": "Repentance Day",
+      "startDate": "2028-11-22",
+      "endDate": "2028-11-22",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Germany · Bavaria"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-11-23::2028-11-23::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-23",
+      "endDate": "2028-11-23",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Portalegre"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-11-24::2028-11-24::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-24",
+      "endDate": "2028-11-24",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Santarém",
+            "Portugal · Setúbal"
+          ],
+          "regionCount": 2,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "PT::municipal holiday::public::openholidays-api::2028-11-27::2028-11-27::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "Municipal holiday",
+      "startDate": "2028-11-27",
+      "endDate": "2028-11-27",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "regional",
+          "displayMode": "count",
+          "regionLabels": [
+            "Portugal · Guarda"
+          ],
+          "regionCount": 1,
+          "countLabel": "regions",
+          "totalRegionCount": 20
+        }
+      ]
+    },
+    {
+      "key": "AL::flag and independence day::public::openholidays-api::2028-11-28::2028-11-28::",
+      "country": "AL",
+      "holidayType": "public",
+      "name": "Flag and Independence Day",
+      "startDate": "2028-11-28",
+      "endDate": "2028-11-28",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Albania"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "AL::liberation day::public::openholidays-api::2028-11-29::2028-11-29::",
+      "country": "AL",
+      "holidayType": "public",
+      "name": "Liberation Day",
+      "startDate": "2028-11-29",
+      "endDate": "2028-11-29",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Albania"
+          ],
+          "regionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "PT::st andrew's day::public::openholidays-api::2028-11-30::2028-11-30::",
+      "country": "PT",
+      "holidayType": "public",
+      "name": "St Andrew's Day",
+      "startDate": "2028-11-30",
+      "endDate": "2028-11-30",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "administrative",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Portugal · Vila Real"
+          ],
+          "regionCount": 1,
+          "totalRegionCount": 1
+        }
+      ]
+    },
+    {
+      "key": "RO::saint andrew's day::public::openholidays-api::2028-11-30::2028-11-30::",
+      "country": "RO",
+      "holidayType": "public",
+      "name": "Saint Andrew's Day",
+      "startDate": "2028-11-30",
+      "endDate": "2028-11-30",
+      "sourceId": "openholidays-api",
+      "segments": [
+        {
+          "model": "national",
+          "normalizedScope": "national",
+          "displayMode": "national",
+          "regionLabels": [
+            "Romania"
           ],
           "regionCount": 1
         }
