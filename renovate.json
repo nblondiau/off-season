@@ -10,6 +10,8 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "platformAutomerge": false,
       "labels": ["major"]
     },
     {
