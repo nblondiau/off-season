@@ -18,6 +18,7 @@ This repository builds the Off Season web app: a static React application that s
 - Run the dev server: `npm run dev`
 - Refresh data: `npm run build:data`
 - Run tests: `npm test`
+- Type check: `npm run typecheck`
 - Build production assets: `npm run build`
 
 ## Data refresh expectations
