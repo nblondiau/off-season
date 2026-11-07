@@ -9,13 +9,20 @@
   "rebaseWhen": "conflicted",
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchUpdateTypes": ["major"],
+      "labels": ["major"]
+    },
+    {
+      "matchUpdateTypes": ["minor"],
       "automerge": false,
       "platformAutomerge": false,
-      "labels": ["renovate/minor-patch"]
+      "labels": ["minor"]
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "automerge": false,
+      "platformAutomerge": false,
+      "labels": ["patch"]
     }
   ]
 }
