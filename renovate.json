@@ -16,13 +16,13 @@
     },
     {
       "matchUpdateTypes": ["minor"],
-      "automerge": false,
+      "automerge": true,
       "platformAutomerge": false,
       "labels": ["minor"]
     },
     {
       "matchUpdateTypes": ["patch"],
-      "automerge": false,
+      "automerge": true,
       "platformAutomerge": false,
       "labels": ["patch"]
     }
